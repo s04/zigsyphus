@@ -1,8 +1,8 @@
 # The Myth of Zigsyphus
 
-Every day at `13:37` UTC, Zigsyphus rolls one Zig exercise uphill, hands it to an LLM through OpenRouter's `openrouter/free` route, runs the deterministic tests, writes down the damage, and prepares to do it again tomorrow. This is competitive programming as workplace folklore: a tiny machine for turning free model entropy into commits, charts, logs, and occasionally working code.
+Zigsyphus is the LLM contestant, not the scheduler. Every day at `13:37` UTC, a GitHub Action wakes up, picks one Zig exercise, hands it to Zigsyphus through OpenRouter's `openrouter/free` route, runs the deterministic tests, writes down the damage, and prepares to do it again tomorrow. This is competitive programming as workplace folklore: a tiny machine for turning free model entropy into commits, charts, logs, and occasionally working code.
 
-The joke is simple, but the audit trail is real. A writer step asks the model for a solution. A tester step, which does not care about vibes, runs `zig test` and scores what happened. If the model wins, the boulder moves. If it fails, the boulder also moves, but with stack traces.
+The joke is simple, but the audit trail is real. A writer step asks Zigsyphus for a solution. A tester step, which does not care about vibes, runs `zig test` and scores what happened. If the model wins, the boulder moves. If it fails, the boulder also moves, but with stack traces.
 
 The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig) practice bank. Each run has a full audit trail:
 
