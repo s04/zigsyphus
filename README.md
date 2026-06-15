@@ -1,8 +1,8 @@
 # The Myth of Zigsyphus
 
-Zigsyphus is the LLM contestant, not the scheduler. Every day at `13:37` UTC, a GitHub Action wakes up, picks one Zig exercise, hands it to Zigsyphus through OpenRouter's `openrouter/free` route, runs the deterministic tests, writes down the damage, and prepares to do it again tomorrow. This is competitive programming as workplace folklore: a tiny machine for turning free model entropy into commits, charts, logs, and occasionally working code.
+Zigsyphus is the LLM contestant, not the plumbing around it. At `13:37` UTC each day, a GitHub Action selects one Exercism Zig exercise and sends it through OpenRouter's `openrouter/free` route. Whatever model appears behind that route answers as Zigsyphus. The repository then performs the impolite part: it runs the tests and commits the evidence.
 
-The joke is simple, but the audit trail is real. A writer step asks Zigsyphus for a solution. A tester step, which does not care about vibes, runs `zig test` and scores what happened. If the model wins, the boulder moves. If it fails, the boulder also moves, but with stack traces.
+There are two steps, mostly to keep the myth from touching the measurement. The writer asks Zigsyphus for one replacement source file. The tester copies that file into the exercise and runs `zig test`. A pass is recorded. A failure is also recorded, which is considerate of the expected case.
 
 The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig) practice bank. Each run has a full audit trail:
 
@@ -10,7 +10,7 @@ The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig
 - `data/silver/attempts/`: submitted `solution.zig`, attempt metadata, and deterministic test result.
 - `data/gold/`: `runs.csv`, `summary.json`, and dashboard-ready scoring history.
 
-The deliberately melodramatic prompt lives in the GitHub Actions workflow at `.github/workflows/daily.yml` under `ZIGSYPHUS_SYSTEM_PROMPT`, because hiding the incantation would ruin the bit. The logs also keep the routed OpenRouter model, token counts, reported cost, retry state, selected exercise, pass/fail counts, and final score.
+The prompt lives in the GitHub Actions workflow at `.github/workflows/daily.yml` under `ZIGSYPHUS_SYSTEM_PROMPT`. It is visible because the instructions are part of the exhibit. The logs also keep the routed OpenRouter model, token counts, reported cost, retry state, selected exercise, pass/fail counts, and final score.
 
 ## Local Runs
 
