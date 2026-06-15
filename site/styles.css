@@ -1,0 +1,43 @@
+body {
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.shell {
+  display: grid;
+  gap: 1rem;
+  width: min(1280px, 100%);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.chart {
+  min-height: 240px;
+  overflow: auto;
+}
+
+.table-wrap {
+  overflow: auto;
+  max-height: 640px;
+  border: 1px solid color-mix(in oklab, currentColor 14%, transparent);
+  border-radius: 0.75rem;
+}
+
+.num {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 780px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}

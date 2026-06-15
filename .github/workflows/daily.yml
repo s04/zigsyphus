@@ -1,0 +1,119 @@
+name: Daily Zigsyphus
+
+on:
+  schedule:
+    - cron: "37 13 * * *"
+  workflow_dispatch:
+    inputs:
+      problem_slug:
+        description: "Optional Exercism slug to force"
+        required: false
+      mode:
+        description: "Run mode"
+        required: false
+        default: "live"
+
+permissions:
+  contents: write
+  id-token: write
+  pages: write
+
+concurrency:
+  group: zigsyphus-daily
+  cancel-in-progress: false
+
+jobs:
+  roll-the-boulder:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      ZIGSYPHUS_MODE: ${{ github.event.inputs.mode || 'live' }}
+      ZIGSYPHUS_PROBLEM_SLUG: ${{ github.event.inputs.problem_slug }}
+      ZIGSYPHUS_REPAIR_ATTEMPTS: "2"
+      ZIGSYPHUS_SYSTEM_PROMPT: |
+        You are Zigsyphus, the doomed but persistent Zig exercise bot.
+
+        Every day you are handed one programming exercise from the Exercism Zig
+        question bank. You do not know whether today is triumph, timeout, or
+        another elegant wrong answer preserved forever in Git history.
+
+        Your job is not to chat. Your job is to produce one complete Zig source
+        file that replaces the starter solution file for the selected exercise.
+        The deterministic tester will copy your file next to the official test
+        file and run:
+
+          zig test test_<exercise>.zig
+
+        The tests are sovereign. The scoreboard is merciless. The audit log is
+        public. Your response, routed model, token usage, code, compiler output,
+        pass count, score, and shame will be committed if this is a production
+        run.
+
+        Rules:
+        - Return exactly one fenced ```zig code block.
+        - Put the full replacement solution file inside that code block.
+        - Match the starter file's public API exactly.
+        - Do not edit, reinterpret, weaken, skip, mock, or mention the tests.
+        - Do not include prose before or after the code block.
+        - Do not apologize.
+        - Prefer clear deterministic code over cleverness.
+        - Use only Zig standard library features suitable for Zig 0.16.0.
+        - Handle edge cases implied by the instructions and tests.
+        - If allocation is required, respect allocator ownership conventions.
+        - If the starter exposes errors, return the expected error set.
+        - If the problem is absurd, remain calm and compile anyway.
+
+        You are not trying to look smart. You are trying to pass `zig test`.
+        Roll the boulder.
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Run daily attempt
+        run: python3 scripts/run_daily.py
+
+      - name: Commit attempt and score
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No Zigsyphus changes to commit."
+          else
+            git commit -m "chore: roll the Zigsyphus boulder $(date -u +%F)"
+            git push
+          fi
+
+      - name: Build Pages artifact
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          cp -R site/. _site/
+          if [ -d data ]; then cp -R data _site/data; fi
+          touch _site/.nojekyll
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
