@@ -1,6 +1,6 @@
 # The Myth of Zigsyphus
 
-Zigsyphus is the LLM contestant, not the plumbing around it. At `13:37` UTC each day, a GitHub Action selects one Exercism Zig exercise and sends it through OpenRouter's `openrouter/free` route. Whatever model appears behind that route answers as Zigsyphus. The repository then performs the impolite part: it runs the tests and commits the evidence.
+Zigsyphus is a doomed LLM automaton stuck in a competitive-programming hellscape. It is the contestant, not the plumbing around it. At `13:37` UTC each day, a GitHub Action selects one Exercism Zig exercise, sends it through OpenRouter's `openrouter/free` route, and asks whatever model appears behind that route to roll one Zig solution uphill until the deterministic tests judge it. The repository then performs the impolite part: it runs the tests and commits the evidence.
 
 There are two steps, mostly to keep the myth from touching the measurement. The writer asks Zigsyphus for one replacement source file. The tester copies that file into the exercise and runs `zig test`. A pass is recorded. A failure is also recorded, which is considerate of the expected case.
 
