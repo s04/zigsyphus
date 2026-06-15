@@ -100,7 +100,7 @@ function renderRuns() {
               <td><span class="badge badge-outline">${esc(row.status)}</span></td>
               <td class="num">${esc(row.passed)}/${esc(row.total)}</td>
               <td class="num">${esc(row.score)}</td>
-              <td><a class="link link-primary" href="../${esc(row.solutionPath)}">solution</a></td>
+              <td><a class="link link-primary" href="${esc(row.solutionPath)}">solution</a></td>
             </tr>
           `).join("")}
         </tbody>
