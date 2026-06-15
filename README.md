@@ -66,5 +66,6 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-15 | Zebra Puzzle (`zebra-puzzle`) | 9 | `openrouter/free` | pass/compiled | 2/2 | 100 | [211650Z-r00-zebra-puzzle](data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig) |
 
 <!-- zigsyphus-results:end -->

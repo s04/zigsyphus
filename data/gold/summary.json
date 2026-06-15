@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-06-15T21:17:45Z",
+  "latest": {
+    "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
+    "compileStatus": "compiled",
+    "date": "2026-06-15",
+    "difficulty": 9,
+    "mode": "live",
+    "model": "openrouter/free",
+    "name": "Zebra Puzzle",
+    "passed": 2,
+    "resultPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json",
+    "runAt": "2026-06-15T21:17:45Z",
+    "score": 100,
+    "slug": "zebra-puzzle",
+    "solutionPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig",
+    "status": "pass",
+    "total": 2,
+    "zigVersion": "0.16.0"
+  },
+  "recentRuns": [
+    {
+      "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
+      "compileStatus": "compiled",
+      "date": "2026-06-15",
+      "difficulty": "9",
+      "mode": "live",
+      "model": "openrouter/free",
+      "name": "Zebra Puzzle",
+      "passed": "2",
+      "resultPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json",
+      "runAt": "2026-06-15T21:17:45Z",
+      "score": "100",
+      "slug": "zebra-puzzle",
+      "solutionPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig",
+      "status": "pass",
+      "total": "2",
+      "zigVersion": "0.16.0"
+    }
+  ],
+  "runCount": 1,
+  "schemaVersion": 1,
+  "scores": [
+    {
+      "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
+      "date": "2026-06-15",
+      "score": 100,
+      "slug": "zebra-puzzle"
+    }
+  ]
+}

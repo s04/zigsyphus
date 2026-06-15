@@ -1,0 +1,44 @@
+{
+  "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
+  "controls": {
+    "badFixture": {
+      "expected": "fail",
+      "ok": true,
+      "problem": "leap",
+      "status": "fail"
+    },
+    "goodFixture": {
+      "expected": "pass",
+      "ok": true,
+      "problem": "zebra-puzzle",
+      "status": "pass"
+    }
+  },
+  "date": "2026-06-15",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {
+    "difficulty": 9,
+    "name": "Zebra Puzzle",
+    "slug": "zebra-puzzle",
+    "tags": [],
+    "uuid": "da95c704-4565-4673-8e2b-463969709e49"
+  },
+  "resultPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig",
+  "test": {
+    "compileStatus": "compiled",
+    "durationSeconds": 4.0,
+    "failed": 0,
+    "outputExcerpt": "1/2 test_zebra_puzzle.test.resident who drinks water...OK\n2/2 test_zebra_puzzle.test.resident who owns zebra...OK\nAll 2 tests passed.",
+    "passed": 2,
+    "returnCode": 0,
+    "skipped": 0,
+    "status": "pass",
+    "total": 2
+  },
+  "testedAt": "2026-06-15T21:17:45Z",
+  "zigVersion": "0.16.0"
+}

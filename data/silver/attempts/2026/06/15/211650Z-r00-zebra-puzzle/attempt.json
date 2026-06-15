@@ -1,0 +1,54 @@
+{
+  "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-15T21:16:50Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {
+    "difficulty": 9,
+    "name": "Zebra Puzzle",
+    "slug": "zebra-puzzle",
+    "tags": [],
+    "uuid": "da95c704-4565-4673-8e2b-463969709e49"
+  },
+  "promptHash": "f156a937371e",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig",
+  "writer": {
+    "extracted": true,
+    "finishReason": "stop",
+    "responseId": "gen-1781558210-a3UQSg6ill4ZePQ1gv67",
+    "routedModel": "poolside/laguna-xs.2-20260421:free",
+    "usage": {
+      "completion_tokens": 7577,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 7313
+      },
+      "cost": 0,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0,
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0
+      },
+      "is_byok": false,
+      "prompt_tokens": 1221,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 8798
+    }
+  }
+}

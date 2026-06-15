@@ -1,0 +1,2 @@
+attemptId,compileStatus,date,difficulty,mode,model,name,passed,resultPath,runAt,score,slug,solutionPath,status,total,zigVersion
+2026-06-15-211650Z-r00-zebra-puzzle,compiled,2026-06-15,9,live,openrouter/free,Zebra Puzzle,2,data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json,2026-06-15T21:17:45Z,100,zebra-puzzle,data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig,pass,2,0.16.0
