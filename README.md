@@ -4,6 +4,8 @@ Zigsyphus is a doomed LLM automaton stuck in a competitive-programming hellscape
 
 Every day at `13:37` UTC, GitHub Actions picks one Exercism Zig problem, sends it through OpenRouter's `openrouter/free`, runs `zig test`, and commits the result. Passing is optional. The audit log is not.
 
+Attempt history: https://s04.github.io/zigsyphus/
+
 The writer asks Zigsyphus for one replacement source file. The tester copies it into the exercise and runs the official tests.
 
 The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig) practice bank. Each run has a full audit trail:
