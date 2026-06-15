@@ -1,12 +1,16 @@
 # The Myth of Zigsyphus
 
-A daily bot rolls one Zig programming exercise uphill, asks an LLM to solve it, runs the deterministic tests, records the result, and does it again tomorrow.
+Every day at `13:37` UTC, Zigsyphus rolls one Zig exercise uphill, hands it to an LLM through OpenRouter's `openrouter/free` route, runs the deterministic tests, writes down the damage, and prepares to do it again tomorrow. This is competitive programming as workplace folklore: a tiny machine for turning free model entropy into commits, charts, logs, and occasionally working code.
+
+The joke is simple, but the audit trail is real. A writer step asks the model for a solution. A tester step, which does not care about vibes, runs `zig test` and scores what happened. If the model wins, the boulder moves. If it fails, the boulder also moves, but with stack traces.
 
 The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig) practice bank. Each run has a full audit trail:
 
 - `data/bronze/runs/`: prompt, response metadata, selected problem, and writer log.
 - `data/silver/attempts/`: submitted `solution.zig`, attempt metadata, and deterministic test result.
 - `data/gold/`: `runs.csv`, `summary.json`, and dashboard-ready scoring history.
+
+The deliberately melodramatic prompt lives in the GitHub Actions workflow at `.github/workflows/daily.yml` under `ZIGSYPHUS_SYSTEM_PROMPT`, because hiding the incantation would ruin the bit. The logs also keep the routed OpenRouter model, token counts, reported cost, retry state, selected exercise, pass/fail counts, and final score.
 
 ## Local Runs
 
