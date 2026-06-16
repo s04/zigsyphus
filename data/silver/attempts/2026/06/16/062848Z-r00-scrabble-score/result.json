@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-16-062848Z-r00-scrabble-score",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"scrabble-score","status":"pass"}},
+  "date": "2026-06-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Scrabble Score","slug":"scrabble-score","tags":["games","strings"],"uuid":"75372668-762c-4c5e-98c4-1093e3a92a88"},
+  "resultPath": "data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":11,"outputExcerpt":"\nscrabble_score.zig:2:9: error: expected ';' after statement\n    let mut total = 0;\n        ^~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":11},
+  "testedAt": "2026-06-16T06:29:30Z",
+  "zigVersion": "0.16.0"
+}

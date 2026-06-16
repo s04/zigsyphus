@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-16-062540Z-r02-reverse-string",
+  "attemptId": "2026-06-16-062848Z-r02-scrabble-score",
   "currentDifficulty": 1,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 1,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-16T06:26:19Z"
+  "updatedAt": "2026-06-16T06:30:20Z"
 }

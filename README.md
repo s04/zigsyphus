@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | pass/compiled | 11/11 | 100 | [062848Z-r02-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/solution.zig) |
+| 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062848Z-r01-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r01-scrabble-score/solution.zig) |
+| 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062848Z-r00-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/solution.zig) |
 | 2026-06-16 | Reverse String (`reverse-string`) | 1 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [062540Z-r02-reverse-string](data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig) |
 | 2026-06-16 | Pangram (`pangram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062540Z-r01-pangram](data/silver/attempts/2026/06/16/062540Z-r01-pangram/solution.zig) |
 | 2026-06-16 | Space Age (`space-age`) | 1 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [062540Z-r00-space-age](data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig) |

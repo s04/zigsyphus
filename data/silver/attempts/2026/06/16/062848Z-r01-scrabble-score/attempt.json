@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-16-062848Z-r01-scrabble-score",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-16T06:28:48Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Scrabble Score","slug":"scrabble-score","tags":["games","strings"],"uuid":"75372668-762c-4c5e-98c4-1093e3a92a88"},
+  "promptHash": "898f78215a6e650a",
+  "repairFrom": "data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/16/062848Z-r01-scrabble-score/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1781591370-JrJESco7ZtD1qWOwb5pN",
+    "routedModel": "liquid/lfm-2.5-1.2b-thinking-20260120:free",
+    "usage": {
+  "prompt_tokens": 1587,
+  "completion_tokens": 2374,
+  "total_tokens": 3961,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 2194,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
