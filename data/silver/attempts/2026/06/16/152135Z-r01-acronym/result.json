@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-16-152135Z-r01-acronym",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"acronym","status":"pass"}},
+  "date": "2026-06-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Acronym","slug":"acronym","tags":["allocators","conditionals","control-flow","error-sets","functions","slices"],"uuid":"0590d6df-afbe-4983-92d4-8fe6797ad5fa"},
+  "resultPath": "data/silver/attempts/2026/06/16/152135Z-r01-acronym/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/16/152135Z-r01-acronym/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":9,"outputExcerpt":"\nacronym.zig:2:9: error: expected ',' after initializer\n    let s = testing.allocator();\n        ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":9},
+  "testedAt": "2026-06-16T15:22:11Z",
+  "zigVersion": "0.16.0"
+}

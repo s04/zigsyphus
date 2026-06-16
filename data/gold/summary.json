@@ -1,16 +1,16 @@
 {
   "difficulty": {
-    "attemptId": "2026-06-16-062848Z-r02-scrabble-score",
-    "currentDifficulty": 1,
-    "lastScore": 100,
-    "lastStatus": "pass",
-    "nextDifficulty": 2,
+    "attemptId": "2026-06-16-152135Z-r02-acronym",
+    "currentDifficulty": 2,
+    "lastScore": 10,
+    "lastStatus": "compile_error",
+    "nextDifficulty": 1,
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T06:30:20Z"
+    "updatedAt": "2026-06-16T15:22:39Z"
   },
-  "generatedAt": "2026-06-16T06:30:20Z",
-  "latest": {"attemptId":"2026-06-16-062848Z-r02-scrabble-score","compileStatus":"compiled","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Scrabble Score","passed":"11","resultPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/result.json","runAt":"2026-06-16T06:30:20Z","score":"100","slug":"scrabble-score","solutionPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/solution.zig","status":"pass","total":"11","zigVersion":"0.16.0"},
-  "nextDifficulty": 2,
+  "generatedAt": "2026-06-16T15:22:39Z",
+  "latest": {"attemptId":"2026-06-16-152135Z-r02-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/result.json","runAt":"2026-06-16T15:22:39Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
+  "nextDifficulty": 1,
   "recentRuns": [
     {"attemptId":"2026-06-15-211650Z-r00-zebra-puzzle","compileStatus":"compiled","date":"2026-06-15","difficulty":"9","mode":"live","model":"openrouter/free","name":"Zebra Puzzle","passed":"2","resultPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json","runAt":"2026-06-15T21:17:45Z","score":"100","slug":"zebra-puzzle","solutionPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig","status":"pass","total":"2","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-16-062540Z-r00-space-age","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Space Age","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/result.json","runAt":"2026-06-16T06:25:48Z","score":"10","slug":"space-age","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
@@ -18,9 +18,12 @@
     {"attemptId":"2026-06-16-062540Z-r02-reverse-string","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Reverse String","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/result.json","runAt":"2026-06-16T06:26:19Z","score":"10","slug":"reverse-string","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-16-062848Z-r00-scrabble-score","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Scrabble Score","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/result.json","runAt":"2026-06-16T06:29:30Z","score":"10","slug":"scrabble-score","solutionPath":"data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-16-062848Z-r01-scrabble-score","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Scrabble Score","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062848Z-r01-scrabble-score/result.json","runAt":"2026-06-16T06:30:05Z","score":"10","slug":"scrabble-score","solutionPath":"data/silver/attempts/2026/06/16/062848Z-r01-scrabble-score/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
-    {"attemptId":"2026-06-16-062848Z-r02-scrabble-score","compileStatus":"compiled","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Scrabble Score","passed":"11","resultPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/result.json","runAt":"2026-06-16T06:30:20Z","score":"100","slug":"scrabble-score","solutionPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/solution.zig","status":"pass","total":"11","zigVersion":"0.16.0"}
+    {"attemptId":"2026-06-16-062848Z-r02-scrabble-score","compileStatus":"compiled","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Scrabble Score","passed":"11","resultPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/result.json","runAt":"2026-06-16T06:30:20Z","score":"100","slug":"scrabble-score","solutionPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/solution.zig","status":"pass","total":"11","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-16-152135Z-r00-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r00-acronym/result.json","runAt":"2026-06-16T15:22:10Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r00-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-16-152135Z-r01-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r01-acronym/result.json","runAt":"2026-06-16T15:22:11Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r01-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-16-152135Z-r02-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/result.json","runAt":"2026-06-16T15:22:39Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"}
   ],
-  "runCount": 7,
+  "runCount": 10,
   "schemaVersion": 1,
   "scores": [
     {"attemptId": "2026-06-15-211650Z-r00-zebra-puzzle", "date": "2026-06-15", "score": 100, "slug": "zebra-puzzle"},
@@ -29,6 +32,9 @@
     {"attemptId": "2026-06-16-062540Z-r02-reverse-string", "date": "2026-06-16", "score": 10, "slug": "reverse-string"},
     {"attemptId": "2026-06-16-062848Z-r00-scrabble-score", "date": "2026-06-16", "score": 10, "slug": "scrabble-score"},
     {"attemptId": "2026-06-16-062848Z-r01-scrabble-score", "date": "2026-06-16", "score": 10, "slug": "scrabble-score"},
-    {"attemptId": "2026-06-16-062848Z-r02-scrabble-score", "date": "2026-06-16", "score": 100, "slug": "scrabble-score"}
+    {"attemptId": "2026-06-16-062848Z-r02-scrabble-score", "date": "2026-06-16", "score": 100, "slug": "scrabble-score"},
+    {"attemptId": "2026-06-16-152135Z-r00-acronym", "date": "2026-06-16", "score": 10, "slug": "acronym"},
+    {"attemptId": "2026-06-16-152135Z-r01-acronym", "date": "2026-06-16", "score": 10, "slug": "acronym"},
+    {"attemptId": "2026-06-16-152135Z-r02-acronym", "date": "2026-06-16", "score": 10, "slug": "acronym"}
   ]
 }

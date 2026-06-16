@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-16 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [152135Z-r02-acronym](data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig) |
+| 2026-06-16 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [152135Z-r01-acronym](data/silver/attempts/2026/06/16/152135Z-r01-acronym/solution.zig) |
+| 2026-06-16 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [152135Z-r00-acronym](data/silver/attempts/2026/06/16/152135Z-r00-acronym/solution.zig) |
 | 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | pass/compiled | 11/11 | 100 | [062848Z-r02-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/solution.zig) |
 | 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062848Z-r01-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r01-scrabble-score/solution.zig) |
 | 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062848Z-r00-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/solution.zig) |
