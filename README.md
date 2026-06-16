@@ -18,7 +18,7 @@
 
 # The Myth of Zigsyphus
 
-Every day at `13:37` UTC, GitHub Actions picks one Exercism Zig problem, sends it through OpenRouter's `openrouter/free`, runs `zig test`, and commits the result. Passing is optional. The audit log is not.
+Every day at `13:37` UTC, GitHub Actions picks one Exercism Zig problem, sends it through OpenRouter's `openrouter/free` model router, runs `zig test`, and commits the result. Pass/fail is logged here and published on this website.
 
 Attempt history: https://s04.github.io/zigsyphus/
 
