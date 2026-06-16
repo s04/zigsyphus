@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-16-062540Z-r00-space-age",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"space-age","status":"pass"}},
+  "date": "2026-06-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Space Age","slug":"space-age","tags":["builtin-functions","control-flow","enums","functions","methods","structs"],"uuid":"280bd414-898d-4ab9-8a7c-f9c0d1e382f6"},
+  "resultPath": "data/silver/attempts/2026/06/16/062540Z-r00-space-age/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\nspace_age.zig:13:24: error: invalid builtin function: '@f64FromInt'\n        const s: f64 = @f64FromInt(seconds);\n                       ^~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-06-16T06:25:48Z",
+  "zigVersion": "0.16.0"
+}

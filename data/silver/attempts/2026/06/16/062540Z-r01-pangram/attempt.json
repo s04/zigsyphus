@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-16-062540Z-r01-pangram",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-16T06:25:40Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Pangram","slug":"pangram","tags":["bitwise-operations","builtin-functions","conditionals","control-flow","importing","slices","type-coercion"],"uuid":"8f48a213-9a28-4a7e-93f9-f2b1fbe46e58"},
+  "promptHash": "bbd6ccbcd451bf6a",
+  "repairFrom": "data/silver/attempts/2026/06/16/062540Z-r00-space-age/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/16/062540Z-r01-pangram/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1781591149-d8CmWxcOuQlbDymW7jql",
+    "routedModel": "liquid/lfm-2.5-1.2b-instruct-20260120:free",
+    "usage": {
+  "prompt_tokens": 1457,
+  "completion_tokens": 209,
+  "total_tokens": 1666,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

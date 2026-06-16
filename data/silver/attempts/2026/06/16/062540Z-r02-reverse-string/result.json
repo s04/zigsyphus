@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-16-062540Z-r02-reverse-string",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"reverse-string","status":"pass"}},
+  "date": "2026-06-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Reverse String","slug":"reverse-string","tags":["slices","strings"],"uuid":"c4f19b16-4da3-4c81-bbf6-babde6ace276"},
+  "resultPath": "data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":6,"outputExcerpt":"\nreverse_string.zig:2:9: error: expected ',' after field\n    let mut seen = [true; 26];\n        ^~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":6},
+  "testedAt": "2026-06-16T06:26:19Z",
+  "zigVersion": "0.16.0"
+}

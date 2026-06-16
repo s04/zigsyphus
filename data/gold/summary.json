@@ -1,51 +1,28 @@
 {
-  "generatedAt": "2026-06-15T21:17:45Z",
-  "latest": {
-    "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
-    "compileStatus": "compiled",
-    "date": "2026-06-15",
-    "difficulty": 9,
-    "mode": "live",
-    "model": "openrouter/free",
-    "name": "Zebra Puzzle",
-    "passed": 2,
-    "resultPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json",
-    "runAt": "2026-06-15T21:17:45Z",
-    "score": 100,
-    "slug": "zebra-puzzle",
-    "solutionPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig",
-    "status": "pass",
-    "total": 2,
-    "zigVersion": "0.16.0"
+  "difficulty": {
+    "attemptId": "2026-06-16-062540Z-r02-reverse-string",
+    "currentDifficulty": 1,
+    "lastScore": 10,
+    "lastStatus": "compile_error",
+    "nextDifficulty": 1,
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-16T06:26:19Z"
   },
+  "generatedAt": "2026-06-16T06:26:19Z",
+  "latest": {"attemptId":"2026-06-16-062540Z-r02-reverse-string","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Reverse String","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/result.json","runAt":"2026-06-16T06:26:19Z","score":"10","slug":"reverse-string","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
+  "nextDifficulty": 1,
   "recentRuns": [
-    {
-      "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
-      "compileStatus": "compiled",
-      "date": "2026-06-15",
-      "difficulty": "9",
-      "mode": "live",
-      "model": "openrouter/free",
-      "name": "Zebra Puzzle",
-      "passed": "2",
-      "resultPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json",
-      "runAt": "2026-06-15T21:17:45Z",
-      "score": "100",
-      "slug": "zebra-puzzle",
-      "solutionPath": "data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig",
-      "status": "pass",
-      "total": "2",
-      "zigVersion": "0.16.0"
-    }
+    {"attemptId":"2026-06-15-211650Z-r00-zebra-puzzle","compileStatus":"compiled","date":"2026-06-15","difficulty":"9","mode":"live","model":"openrouter/free","name":"Zebra Puzzle","passed":"2","resultPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json","runAt":"2026-06-15T21:17:45Z","score":"100","slug":"zebra-puzzle","solutionPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig","status":"pass","total":"2","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-16-062540Z-r00-space-age","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Space Age","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/result.json","runAt":"2026-06-16T06:25:48Z","score":"10","slug":"space-age","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-16-062540Z-r01-pangram","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Pangram","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r01-pangram/result.json","runAt":"2026-06-16T06:25:52Z","score":"10","slug":"pangram","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r01-pangram/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-16-062540Z-r02-reverse-string","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Reverse String","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/result.json","runAt":"2026-06-16T06:26:19Z","score":"10","slug":"reverse-string","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"}
   ],
-  "runCount": 1,
+  "runCount": 4,
   "schemaVersion": 1,
   "scores": [
-    {
-      "attemptId": "2026-06-15-211650Z-r00-zebra-puzzle",
-      "date": "2026-06-15",
-      "score": 100,
-      "slug": "zebra-puzzle"
-    }
+    {"attemptId": "2026-06-15-211650Z-r00-zebra-puzzle", "date": "2026-06-15", "score": 100, "slug": "zebra-puzzle"},
+    {"attemptId": "2026-06-16-062540Z-r00-space-age", "date": "2026-06-16", "score": 10, "slug": "space-age"},
+    {"attemptId": "2026-06-16-062540Z-r01-pangram", "date": "2026-06-16", "score": 10, "slug": "pangram"},
+    {"attemptId": "2026-06-16-062540Z-r02-reverse-string", "date": "2026-06-16", "score": 10, "slug": "reverse-string"}
   ]
 }

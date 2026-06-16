@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-16-062540Z-r02-reverse-string",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-16T06:25:40Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Reverse String","slug":"reverse-string","tags":["slices","strings"],"uuid":"c4f19b16-4da3-4c81-bbf6-babde6ace276"},
+  "promptHash": "81968c0e6d3931ae",
+  "repairFrom": "data/silver/attempts/2026/06/16/062540Z-r01-pangram/result.json",
+  "roundIndex": 2,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1781591152-6svxsw3Jjp2fE5jTGRFb",
+    "routedModel": "liquid/lfm-2.5-1.2b-thinking-20260120:free",
+    "usage": {
+  "prompt_tokens": 1157,
+  "completion_tokens": 2660,
+  "total_tokens": 3817,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 2808,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

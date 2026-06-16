@@ -1,0 +1,91 @@
+{
+  "attempt": {
+  "attemptId": "2026-06-16-062540Z-r00-space-age",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-16T06:25:40Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Space Age","slug":"space-age","tags":["builtin-functions","control-flow","enums","functions","methods","structs"],"uuid":"280bd414-898d-4ab9-8a7c-f9c0d1e382f6"},
+  "promptHash": "efca7bd752a730bc",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1781591140-3nr4sGTlEi9b7Xipy9kn",
+    "routedModel": "nvidia/nemotron-3-super-120b-a12b-20230311:free",
+    "usage": {
+  "prompt_tokens": 1301,
+  "completion_tokens": 596,
+  "total_tokens": 1897,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 283,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Space Age (space-age)\nDifficulty: 1/9\n\nInstructions:\n# Instructions\n\nGiven an age in seconds, calculate how old someone would be on a planet in our Solar System.\n\nOne Earth year equals 365.25 Earth days, or 31,557,600 seconds.\nIf you were told someone was 1,000,000,000 seconds old, their age would be 31.69 Earth-years.\n\nFor the other planets, you have to account for their orbital period in Earth Years:\n\n| Planet  | Orbital period in Earth Years |\n| ------- | ----------------------------- |\n| Mercury | 0.2408467                     |\n| Venus   | 0.61519726                    |\n| Earth   | 1.0                           |\n| Mars    | 1.8808158                     |\n| Jupiter | 11.862615                     |\n| Saturn  | 29.447498                     |\n| Uranus  | 84.016846                     |\n| Neptune | 164.79132                     |\n\n~~~~exercism/note\nThe actual length of one complete orbit of the Earth around the sun is closer to 365.256 days (1 sidereal year).\nThe Gregorian calendar has, on average, 365.2425 days.\nWhile not entirely accurate, 365.25 is the value used in this exercise.\nSee [Year on Wikipedia][year] for more ways to measure a year.\n\n[year]: https://en.wikipedia.org/wiki/Year#Summary\n~~~~\n\n\nStarter file:\n```zig\npub const Planet = enum {\n    mercury,\n\n    pub fn age(self: Planet, seconds: usize) f64 {\n        _ = self;\n        _ = seconds;\n        @compileError(\"please implement the age method\");\n    }\n};\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst expectApproxEqAbs = std.testing.expectApproxEqAbs;\n\nconst space_age = @import(\"space_age.zig\");\nconst Planet = space_age.Planet;\n\nfn testAge(planet: Planet, seconds: usize, expected_age_in_earth_years: f64) !void {\n    const tolerance = 0.01;\n    const actual = planet.age(seconds);\n    try expectApproxEqAbs(expected_age_in_earth_years, actual, tolerance);\n}\n\ntest \"age on earth\" {\n    try testAge(Planet.earth, 1_000_000_000, 31.69);\n}\n\ntest \"age on mercury\" {\n    try testAge(Planet.mercury, 2_134_835_688, 280.88);\n}\n\ntest \"age on venus\" {\n    try testAge(Planet.venus, 189_839_836, 9.78);\n}\n\ntest \"age on mars\" {\n    try testAge(Planet.mars, 2_129_871_239, 35.88);\n}\n\ntest \"age on jupiter\" {\n    try testAge(Planet.jupiter, 901_876_382, 2.41);\n}\n\ntest \"age on saturn\" {\n    try testAge(Planet.saturn, 2_000_000_000, 2.15);\n}\n\ntest \"age on uranus\" {\n    try testAge(Planet.uranus, 1_210_123_456, 0.46);\n}\n\ntest \"age on neptune\" {\n    try testAge(Planet.neptune, 1_821_023_456, 0.35);\n}\n\n```\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1781591140-3nr4sGTlEi9b7Xipy9kn","object":"chat.completion","created":1781591140,"model":"nvidia/nemotron-3-super-120b-a12b-20230311:free","provider":"Nvidia","system_fingerprint":"vllm-0.22.1-tp4-ecb7cc45","service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\npub const Planet = enum {\n    mercury,\n    venus,\n    earth,\n    mars,\n    jupiter,\n    saturn,\n    uranus,\n    neptune,\n\n    pub fn age(self: Planet, seconds: usize) f64 {\n        const earth_year_seconds: f64 = 31_557_600.0;\n        const s: f64 = @f64FromInt(seconds);\n        return switch (self) {\n            .mercury => s / (earth_year_seconds * 0.2408467),\n            .venus   => s / (earth_year_seconds * 0.61519726),\n            .earth   => s / earth_year_seconds,\n            .mars    => s / (earth_year_seconds * 1.8808158),\n            .jupiter => s / (earth_year_seconds * 11.862615),\n            .saturn  => s / (earth_year_seconds * 29.447498),\n            .uranus  => s / (earth_year_seconds * 84.016846),\n            .neptune => s / (earth_year_seconds * 164.79132),\n        };\n    }\n};\n```","refusal":null,"reasoning":"We need to implement Planet enum with age method. The starter file defines enum with variants: mercury, venus, earth, mars, jupiter, saturn, uranus, neptune? Actually only mercury is shown; we need to add all planets. The enum must be public. The age method takes self: Planet, seconds: usize returns f64. Compute age in Earth years = seconds / EARTH_YEAR_IN_SECONDS / orbitalPeriod? Actually given orbital period in Earth years: age on planet = seconds / (EARTH_YEAR_SECONDS * orbitalPeriod). Because one Earth year = 31557600 seconds. So age on planet = seconds / (seconds_per_earth_year * orbital_period_in_earth_years). Equivalent: seconds / (EARTH_YEAR_SECONDS * orbitalPeriod). Let's compute.\n\nDefine const EARTH_YEAR_SECONDS: f64 = 31_557_600.0; Then for each planet, we have orbital period factor.\n\nImplementation: switch (self) { .mercury => return @f64FromInt(seconds) / (EARTH_YEAR_SECONDS * 0.2408467); ... }.\n\nReturn f64.\n\nMake sure to use f64 constants.\n\nEdge cases: seconds as usize may be large; conversion to f64 fine.\n\nWrite full file.\n\nLet's produce code block.\n\n","reasoning_details":[{"type":"reasoning.text","text":"We need to implement Planet enum with age method. The starter file defines enum with variants: mercury, venus, earth, mars, jupiter, saturn, uranus, neptune? Actually only mercury is shown; we need to add all planets. The enum must be public. The age method takes self: Planet, seconds: usize returns f64. Compute age in Earth years = seconds / EARTH_YEAR_IN_SECONDS / orbitalPeriod? Actually given orbital period in Earth years: age on planet = seconds / (EARTH_YEAR_SECONDS * orbitalPeriod). Because one Earth year = 31557600 seconds. So age on planet = seconds / (seconds_per_earth_year * orbital_period_in_earth_years). Equivalent: seconds / (EARTH_YEAR_SECONDS * orbitalPeriod). Let's compute.\n\nDefine const EARTH_YEAR_SECONDS: f64 = 31_557_600.0; Then for each planet, we have orbital period factor.\n\nImplementation: switch (self) { .mercury => return @f64FromInt(seconds) / (EARTH_YEAR_SECONDS * 0.2408467); ... }.\n\nReturn f64.\n\nMake sure to use f64 constants.\n\nEdge cases: seconds as usize may be large; conversion to f64 fine.\n\nWrite full file.\n\nLet's produce code block.\n\n","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":1301,"completion_tokens":596,"total_tokens":1897,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":283,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

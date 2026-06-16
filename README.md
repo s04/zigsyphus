@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-16 | Reverse String (`reverse-string`) | 1 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [062540Z-r02-reverse-string](data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig) |
+| 2026-06-16 | Pangram (`pangram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062540Z-r01-pangram](data/silver/attempts/2026/06/16/062540Z-r01-pangram/solution.zig) |
+| 2026-06-16 | Space Age (`space-age`) | 1 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [062540Z-r00-space-age](data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig) |
 | 2026-06-15 | Zebra Puzzle (`zebra-puzzle`) | 9 | `openrouter/free` | pass/compiled | 2/2 | 100 | [211650Z-r00-zebra-puzzle](data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig) |
 
 <!-- zigsyphus-results:end -->
