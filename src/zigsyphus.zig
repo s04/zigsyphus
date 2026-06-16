@@ -212,20 +212,21 @@ fn daily(allocator: Allocator, args: []const []const u8) !void {
     }
     if (opts.min_difficulty.? > opts.max_difficulty.?) fatal("--min-difficulty cannot be greater than --max-difficulty", .{});
 
-    var writer = try writeAttempt(allocator, opts, 0, null);
+    const exercises = try loadExercises(allocator, opts.min_difficulty.?, opts.max_difficulty.?);
+    const exercise = try chooseExercise(allocator, exercises, opts.problem_slug, opts.run_at[0..10]);
+
+    var writer = try writeAttempt(allocator, opts, exercise, 0, null);
     var result = try testAttempt(allocator, writer, opts);
     var round_index: u8 = 1;
     while (opts.mode == .live and result.score < 100 and round_index <= opts.repair_attempts) : (round_index += 1) {
-        writer = try writeAttempt(allocator, opts, round_index, result.result_path);
+        writer = try writeAttempt(allocator, opts, exercise, round_index, result.result_path);
         result = try testAttempt(allocator, writer, opts);
     }
     if (!opts.skip_readme) try updateReadme(allocator);
     try stdoutPrint("{s}\n", .{result.result_path});
 }
 
-fn writeAttempt(allocator: Allocator, opts: Options, round_index: u8, repair_from: ?[]const u8) !WriterResult {
-    const exercises = try loadExercises(allocator, opts.min_difficulty.?, opts.max_difficulty.?);
-    const exercise = try chooseExercise(allocator, exercises, opts.problem_slug, opts.run_at[0..10]);
+fn writeAttempt(allocator: Allocator, opts: Options, exercise: Exercise, round_index: u8, repair_from: ?[]const u8) !WriterResult {
     const paths = try attemptPaths(allocator, opts.run_at, exercise, round_index);
     const messages = if (repair_from) |path|
         try buildRepairMessages(allocator, exercise, path)
