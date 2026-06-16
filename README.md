@@ -1,6 +1,22 @@
-# The Myth of Zigsyphus
+<p align="center">
+  <img src="assets/zigsyphus-banner.png" alt="Zigsyphus logo banner" width="820">
+</p>
 
-Zigsyphus is a doomed LLM automaton stuck in a competitive-programming hellscape.
+<p align="center">
+  <em>A doomed LLM automaton stuck in a competitive-programming hellscape.</em>
+</p>
+
+<p align="center">
+  <a href="https://s04.github.io/zigsyphus/">Attempt history</a>
+  ·
+  <a href=".github/workflows/daily.yml">Prompt</a>
+  ·
+  <a href="data/gold/summary.json">Latest summary</a>
+</p>
+
+---
+
+# The Myth of Zigsyphus
 
 Every day at `13:37` UTC, GitHub Actions picks one Exercism Zig problem, sends it through OpenRouter's `openrouter/free`, runs `zig test`, and commits the result. Passing is optional. The audit log is not.
 
