@@ -25,6 +25,9 @@ SILVER = DATA_ROOT / "silver"
 GOLD = DATA_ROOT / "gold"
 README_START = "<!-- zigsyphus-results:start -->"
 README_END = "<!-- zigsyphus-results:end -->"
+MIN_DIFFICULTY = 1
+MAX_DIFFICULTY = 9
+DIFFICULTY_STATE = GOLD / "difficulty.json"
 
 
 def utc_now() -> datetime:
@@ -131,6 +134,37 @@ def read_runs() -> list[dict[str, str]]:
         return []
     with path.open("r", encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle))
+
+
+def clamp_difficulty(value: int) -> int:
+    return max(MIN_DIFFICULTY, min(MAX_DIFFICULTY, value))
+
+
+def adaptive_difficulty_target() -> int:
+    if not DIFFICULTY_STATE.exists():
+        return MIN_DIFFICULTY
+    try:
+        state = read_json(DIFFICULTY_STATE)
+        return clamp_difficulty(int(state.get("nextDifficulty", MIN_DIFFICULTY)))
+    except (OSError, TypeError, ValueError, json.JSONDecodeError):
+        return MIN_DIFFICULTY
+
+
+def update_difficulty_state(result: dict[str, Any]) -> dict[str, Any]:
+    current = clamp_difficulty(int(result["problem"]["difficulty"]))
+    status = result["test"]["status"]
+    next_difficulty = clamp_difficulty(current + (1 if status == "pass" else -1))
+    state = {
+        "attemptId": result["attemptId"],
+        "currentDifficulty": current,
+        "lastScore": result["score"],
+        "lastStatus": status,
+        "nextDifficulty": next_difficulty,
+        "schemaVersion": 1,
+        "updatedAt": result["testedAt"],
+    }
+    write_json(DIFFICULTY_STATE, state)
+    return state
 
 
 def choose_exercise(

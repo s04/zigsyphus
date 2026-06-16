@@ -24,11 +24,13 @@ Attempt history: https://s04.github.io/zigsyphus/
 
 The writer asks Zigsyphus for one replacement source file. The tester copies it into the exercise and runs the official tests.
 
-The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig) practice bank. Each run has a full audit trail:
+The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig) practice bank. Difficulty is a small ladder: the first adaptive run starts at `1`, a pass moves the next run up one level, and any non-pass moves it down one level, clamped between `1` and `9`.
+
+Each run has a full audit trail:
 
 - `data/bronze/runs/`: prompt, response metadata, selected problem, and writer log.
 - `data/silver/attempts/`: submitted `solution.zig`, attempt metadata, and deterministic test result.
-- `data/gold/`: `runs.csv`, `summary.json`, and dashboard-ready scoring history.
+- `data/gold/`: `runs.csv`, `summary.json`, `difficulty.json`, and dashboard-ready scoring history.
 
 The prompt lives in `.github/workflows/daily.yml` under `ZIGSYPHUS_SYSTEM_PROMPT`. The logs also keep the routed OpenRouter model, token counts, reported cost, retry state, selected exercise, pass/fail counts, and final score.
 
@@ -72,7 +74,7 @@ OPENROUTER_API_KEY=... python3 scripts/run_daily.py --mode live
 
 ## Automation
 
-The daily workflow runs at `13:37` UTC and can also be started manually. It writes one attempt, tests it, updates this README table, commits the audit log, and deploys the Pages dashboard.
+The daily workflow runs at `13:37` UTC and can also be started manually. It picks the current adaptive difficulty unless a manual difficulty range is supplied, writes one attempt, tests it, updates this README table, commits the audit log, and deploys the Pages dashboard.
 
 Required GitHub secret:
 

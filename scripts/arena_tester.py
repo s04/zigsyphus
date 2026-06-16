@@ -13,6 +13,7 @@ from arena_common import (
     REPO_ROOT,
     SILVER,
     append_or_replace_csv,
+    adaptive_difficulty_target,
     display_path,
     exercise_paths,
     iso_z,
@@ -20,6 +21,7 @@ from arena_common import (
     read_text,
     run_zig_test,
     score_result,
+    update_difficulty_state,
     utc_now,
     write_json,
     zig_version,
@@ -51,6 +53,7 @@ def controls(slug: str, timeout_seconds: int) -> dict[str, Any]:
 
 
 def update_gold(result: dict[str, Any]) -> None:
+    difficulty_state = update_difficulty_state(result)
     row = {
         "attemptId": result["attemptId"],
         "compileStatus": result["test"]["compileStatus"],
@@ -75,8 +78,10 @@ def update_gold(result: dict[str, Any]) -> None:
         with (GOLD / "runs.csv").open("r", encoding="utf-8", newline="") as handle:
             runs = list(csv.DictReader(handle))
     summary = {
+        "difficulty": difficulty_state,
         "generatedAt": result["testedAt"],
         "latest": row,
+        "nextDifficulty": adaptive_difficulty_target(),
         "recentRuns": runs[-20:],
         "runCount": len(runs),
         "schemaVersion": 1,

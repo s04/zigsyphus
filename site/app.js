@@ -46,7 +46,7 @@ function renderStats() {
     stat("Runs", fmt.format(state.summary.runCount || 0), "committed attempts"),
     stat("Latest score", latest.score ?? "-", latest.slug || "no run yet"),
     stat("Tests", `${latest.passed ?? 0}/${latest.total ?? 0}`, latest.status || "unknown"),
-    stat("Zig", latest.zigVersion || "-", latest.model || "-"),
+    stat("Next diff", state.summary.nextDifficulty ?? "-", latest.model || "-"),
   ].join("");
 }
 
