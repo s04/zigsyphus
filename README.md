@@ -22,7 +22,7 @@ Every day at `13:37` UTC, GitHub Actions picks one Exercism Zig problem, sends i
 
 Attempt history: https://s04.github.io/zigsyphus/
 
-The writer asks Zigsyphus for one replacement source file. The tester copies it into the exercise and runs the official tests.
+The runner is a small Zig CLI. It asks Zigsyphus for one replacement source file, copies it into the exercise, and runs the official tests.
 
 The project uses the MIT-licensed [Exercism Zig](https://github.com/exercism/zig) practice bank. Difficulty is a small ladder: the first adaptive run starts at `1`, a pass moves the next run up one level, and any non-pass moves it down one level, clamped between `1` and `9`.
 
@@ -56,20 +56,20 @@ Fixture good run:
 
 ```bash
 ZIGSYPHUS_DATA_ROOT=/tmp/zigsyphus-good \
-python3 scripts/run_daily.py --mode fixture-good --problem-slug leap --min-difficulty 1 --max-difficulty 9 --repair-attempts 0 --skip-readme
+./.tools/zig-0.16.0/zig build run -- daily --mode fixture-good --problem-slug leap --min-difficulty 1 --max-difficulty 9 --repair-attempts 0 --skip-readme
 ```
 
 Fixture bad run:
 
 ```bash
 ZIGSYPHUS_DATA_ROOT=/tmp/zigsyphus-bad \
-python3 scripts/run_daily.py --mode fixture-bad --problem-slug leap --min-difficulty 1 --max-difficulty 9 --repair-attempts 0 --skip-readme
+./.tools/zig-0.16.0/zig build run -- daily --mode fixture-bad --problem-slug leap --min-difficulty 1 --max-difficulty 9 --repair-attempts 0 --skip-readme
 ```
 
 Live OpenRouter run:
 
 ```bash
-OPENROUTER_API_KEY=... python3 scripts/run_daily.py --mode live
+OPENROUTER_API_KEY=... ./.tools/zig-0.16.0/zig build run -- daily --mode live
 ```
 
 ## Automation
