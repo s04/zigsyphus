@@ -1,16 +1,16 @@
 {
   "difficulty": {
-    "attemptId": "2026-06-16-152135Z-r02-acronym",
-    "currentDifficulty": 2,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 1,
+    "attemptId": "2026-06-17-143903Z-r01-raindrops",
+    "currentDifficulty": 1,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 2,
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T15:22:39Z"
+    "updatedAt": "2026-06-17T14:41:29Z"
   },
-  "generatedAt": "2026-06-16T15:22:39Z",
-  "latest": {"attemptId":"2026-06-16-152135Z-r02-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/result.json","runAt":"2026-06-16T15:22:39Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
-  "nextDifficulty": 1,
+  "generatedAt": "2026-06-17T14:41:29Z",
+  "latest": {"attemptId":"2026-06-17-143903Z-r01-raindrops","compileStatus":"compiled","date":"2026-06-17","difficulty":"1","mode":"live","model":"openrouter/free","name":"Raindrops","passed":"18","resultPath":"data/silver/attempts/2026/06/17/143903Z-r01-raindrops/result.json","runAt":"2026-06-17T14:41:29Z","score":"100","slug":"raindrops","solutionPath":"data/silver/attempts/2026/06/17/143903Z-r01-raindrops/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"},
+  "nextDifficulty": 2,
   "recentRuns": [
     {"attemptId":"2026-06-15-211650Z-r00-zebra-puzzle","compileStatus":"compiled","date":"2026-06-15","difficulty":"9","mode":"live","model":"openrouter/free","name":"Zebra Puzzle","passed":"2","resultPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json","runAt":"2026-06-15T21:17:45Z","score":"100","slug":"zebra-puzzle","solutionPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig","status":"pass","total":"2","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-16-062540Z-r00-space-age","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Space Age","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/result.json","runAt":"2026-06-16T06:25:48Z","score":"10","slug":"space-age","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
@@ -21,9 +21,11 @@
     {"attemptId":"2026-06-16-062848Z-r02-scrabble-score","compileStatus":"compiled","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Scrabble Score","passed":"11","resultPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/result.json","runAt":"2026-06-16T06:30:20Z","score":"100","slug":"scrabble-score","solutionPath":"data/silver/attempts/2026/06/16/062848Z-r02-scrabble-score/solution.zig","status":"pass","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-16-152135Z-r00-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r00-acronym/result.json","runAt":"2026-06-16T15:22:10Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r00-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-16-152135Z-r01-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r01-acronym/result.json","runAt":"2026-06-16T15:22:11Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r01-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
-    {"attemptId":"2026-06-16-152135Z-r02-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/result.json","runAt":"2026-06-16T15:22:39Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"}
+    {"attemptId":"2026-06-16-152135Z-r02-acronym","compileStatus":"compile_error","date":"2026-06-16","difficulty":"2","mode":"live","model":"openrouter/free","name":"Acronym","passed":"0","resultPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/result.json","runAt":"2026-06-16T15:22:39Z","score":"10","slug":"acronym","solutionPath":"data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-17-143903Z-r00-raindrops","compileStatus":"compile_error","date":"2026-06-17","difficulty":"1","mode":"live","model":"openrouter/free","name":"Raindrops","passed":"0","resultPath":"data/silver/attempts/2026/06/17/143903Z-r00-raindrops/result.json","runAt":"2026-06-17T14:39:33Z","score":"10","slug":"raindrops","solutionPath":"data/silver/attempts/2026/06/17/143903Z-r00-raindrops/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-17-143903Z-r01-raindrops","compileStatus":"compiled","date":"2026-06-17","difficulty":"1","mode":"live","model":"openrouter/free","name":"Raindrops","passed":"18","resultPath":"data/silver/attempts/2026/06/17/143903Z-r01-raindrops/result.json","runAt":"2026-06-17T14:41:29Z","score":"100","slug":"raindrops","solutionPath":"data/silver/attempts/2026/06/17/143903Z-r01-raindrops/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"}
   ],
-  "runCount": 10,
+  "runCount": 12,
   "schemaVersion": 1,
   "scores": [
     {"attemptId": "2026-06-15-211650Z-r00-zebra-puzzle", "date": "2026-06-15", "score": 100, "slug": "zebra-puzzle"},
@@ -35,6 +37,8 @@
     {"attemptId": "2026-06-16-062848Z-r02-scrabble-score", "date": "2026-06-16", "score": 100, "slug": "scrabble-score"},
     {"attemptId": "2026-06-16-152135Z-r00-acronym", "date": "2026-06-16", "score": 10, "slug": "acronym"},
     {"attemptId": "2026-06-16-152135Z-r01-acronym", "date": "2026-06-16", "score": 10, "slug": "acronym"},
-    {"attemptId": "2026-06-16-152135Z-r02-acronym", "date": "2026-06-16", "score": 10, "slug": "acronym"}
+    {"attemptId": "2026-06-16-152135Z-r02-acronym", "date": "2026-06-16", "score": 10, "slug": "acronym"},
+    {"attemptId": "2026-06-17-143903Z-r00-raindrops", "date": "2026-06-17", "score": 10, "slug": "raindrops"},
+    {"attemptId": "2026-06-17-143903Z-r01-raindrops", "date": "2026-06-17", "score": 100, "slug": "raindrops"}
   ]
 }

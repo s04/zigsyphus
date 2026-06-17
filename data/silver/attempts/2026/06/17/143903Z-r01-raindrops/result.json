@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-17-143903Z-r01-raindrops",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"raindrops","status":"pass"}},
+  "date": "2026-06-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Raindrops","slug":"raindrops","tags":["integers","math","slices","strings"],"uuid":"3342ce3f-5569-4a11-944b-ef7c7e678fa2"},
+  "resultPath": "data/silver/attempts/2026/06/17/143903Z-r01-raindrops/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/06/17/143903Z-r01-raindrops/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/18 test_raindrops.test.the sound for 1 is 1...OK\n2/18 test_raindrops.test.the sound for 3 is Pling...OK\n3/18 test_raindrops.test.the sound for 5 is Plang...OK\n4/18 test_raindrops.test.the sound for 7 is Plong...OK\n5/18 test_raindrops.test.the sound for 6 is Pling as it has a factor 3...OK\n6/18 test_raindrops.test.2 to the power 3 does not make a raindrop sound as 3 is the exponent not the base...OK\n7/18 test_raindrops.test.the sound for 9 is Pling as it has a factor 3...OK\n8/18 test_raindrops.test.the sound for 10 is Plang as it has a factor 5...OK\n9/18 test_raindrops.test.the sound for 14 is Plong as it has a factor of 7...OK\n10/18 test_raindrops.test.the sound for 15 is PlingPlang as it has factors 3 and 5...OK\n11/18 test_raindrops.test.the sound for 21 is PlingPlong as it has factors 3 and 7...OK\n12/18 test_raindrops.test.the sound for 25 is Plang as it has a factor 5...OK\n13/18 test_raindrops.test.the sound for 27 is Pling as it has a factor 3...OK\n14/18 test_raindrops.test.the sound for 35 is PlangPlong as it has factors 5 and 7...OK\n15/18 test_raindrops.test.the sound for 49 is Plong as it has a factor 7...OK\n16/18 test_raindrops.test.the sound for 52 is 52...OK\n17/18 test_raindrops.test.the sound for 105 is PlingPlangPlong as it has factors 3, 5 and 7...OK\n18/18 test_raindrops.test.the sound for 3125 is Plang as it has a factor 5...OK\nAll 18 tests passed.\n","passed":18,"returnCode":0,"skipped":0,"status":"pass","total":18},
+  "testedAt": "2026-06-17T14:41:29Z",
+  "zigVersion": "0.16.0"
+}

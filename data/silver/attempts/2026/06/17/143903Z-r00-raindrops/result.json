@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-17-143903Z-r00-raindrops",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"raindrops","status":"pass"}},
+  "date": "2026-06-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Raindrops","slug":"raindrops","tags":["integers","math","slices","strings"],"uuid":"3342ce3f-5569-4a11-944b-ef7c7e678fa2"},
+  "resultPath": "data/silver/attempts/2026/06/17/143903Z-r00-raindrops/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/17/143903Z-r00-raindrops/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\nraindrops.zig:31:32: error: root source file struct 'fmt' has no member named 'format'\n        const written = std.fmt.format(buffer[0..], \"{}\", .{n}) catch unreachable;\n                        ~~~~~~~^~~~~~~\n/home/runner/work/_temp/977ddd4d-bd7a-4816-ab52-51253f7a69e8/zig-x86_64-linux-0.16.0/lib/std/fmt.zig:1:1: note: struct declared here\n//! String formatting and parsing.\n^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nreferenced by:\n    testConvert__anon_43626: test_raindrops.zig:9:37\n    test.the sound for 1 is 1: test_raindrops.zig:14:20\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-06-17T14:39:33Z",
+  "zigVersion": "0.16.0"
+}
