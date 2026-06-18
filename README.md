@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r02-square-root](data/silver/attempts/2026/06/18/143427Z-r02-square-root/solution.zig) |
+| 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r01-square-root](data/silver/attempts/2026/06/18/143427Z-r01-square-root/solution.zig) |
+| 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r00-square-root](data/silver/attempts/2026/06/18/143427Z-r00-square-root/solution.zig) |
 | 2026-06-17 | Raindrops (`raindrops`) | 1 | `openrouter/free` | pass/compiled | 18/18 | 100 | [143903Z-r01-raindrops](data/silver/attempts/2026/06/17/143903Z-r01-raindrops/solution.zig) |
 | 2026-06-17 | Raindrops (`raindrops`) | 1 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143903Z-r00-raindrops](data/silver/attempts/2026/06/17/143903Z-r00-raindrops/solution.zig) |
 | 2026-06-16 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [152135Z-r02-acronym](data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig) |

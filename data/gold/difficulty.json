@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-17-143903Z-r01-raindrops",
-  "currentDifficulty": 1,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 2,
+  "attemptId": "2026-06-18-143427Z-r02-square-root",
+  "currentDifficulty": 2,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 1,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-17T14:41:29Z"
+  "updatedAt": "2026-06-18T14:35:39Z"
 }
