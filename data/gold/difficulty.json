@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-18-143427Z-r02-square-root",
-  "currentDifficulty": 2,
+  "attemptId": "2026-06-19-143056Z-r02-sum-of-multiples",
+  "currentDifficulty": 1,
   "lastScore": 10,
   "lastStatus": "compile_error",
   "nextDifficulty": 1,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-18T14:35:39Z"
+  "updatedAt": "2026-06-19T14:35:36Z"
 }

@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-19-143056Z-r01-sum-of-multiples",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-19T14:30:56Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Sum of Multiples","slug":"sum-of-multiples","tags":["allocators","integers","math"],"uuid":"a9ba66ae-85d1-490e-a421-e2e35f90231e"},
+  "promptHash": "9cc519dda18dcda8",
+  "repairFrom": "data/silver/attempts/2026/06/19/143056Z-r00-sum-of-multiples/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1781879700-GKCDJzO3xGY4oq8HDkr0",
+    "routedModel": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428:free",
+    "usage": {
+  "prompt_tokens": 2543,
+  "completion_tokens": 4333,
+  "total_tokens": 6876,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 3470,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-19-143056Z-r01-sum-of-multiples",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"sum-of-multiples","status":"pass"}},
+  "date": "2026-06-19",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Sum of Multiples","slug":"sum-of-multiples","tags":["allocators","integers","math"],"uuid":"a9ba66ae-85d1-490e-a421-e2e35f90231e"},
+  "resultPath": "data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\nsum_of_multiples.zig:11:14: error: expected ')', found ':'\n    for (mask: usize = 1; mask < (1 <<< n); mask += 1) {\n             ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-06-19T14:35:18Z",
+  "zigVersion": "0.16.0"
+}

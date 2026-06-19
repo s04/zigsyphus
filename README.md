@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r02-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/solution.zig) |
+| 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r01-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/solution.zig) |
+| 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r00-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r00-sum-of-multiples/solution.zig) |
 | 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r02-square-root](data/silver/attempts/2026/06/18/143427Z-r02-square-root/solution.zig) |
 | 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r01-square-root](data/silver/attempts/2026/06/18/143427Z-r01-square-root/solution.zig) |
 | 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r00-square-root](data/silver/attempts/2026/06/18/143427Z-r00-square-root/solution.zig) |

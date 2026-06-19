@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-19-143056Z-r00-sum-of-multiples",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-19T14:30:56Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Sum of Multiples","slug":"sum-of-multiples","tags":["allocators","integers","math"],"uuid":"a9ba66ae-85d1-490e-a421-e2e35f90231e"},
+  "promptHash": "fde33679e7d626b3",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/19/143056Z-r00-sum-of-multiples/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1781879576-0z6hHYPaYPPK6Snrjmis",
+    "routedModel": "liquid/lfm-2.5-1.2b-instruct-20260120:free",
+    "usage": {
+  "prompt_tokens": 2270,
+  "completion_tokens": 294,
+  "total_tokens": 2564,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
