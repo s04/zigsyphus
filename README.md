@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-20 | Triangle (`triangle`) | 1 | `openrouter/free` | pass/compiled | 21/21 | 100 | [142331Z-r00-triangle](data/silver/attempts/2026/06/20/142331Z-r00-triangle/solution.zig) |
 | 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r02-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/solution.zig) |
 | 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r01-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/solution.zig) |
 | 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r00-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r00-sum-of-multiples/solution.zig) |

@@ -1,16 +1,16 @@
 {
   "difficulty": {
-    "attemptId": "2026-06-19-143056Z-r02-sum-of-multiples",
+    "attemptId": "2026-06-20-142331Z-r00-triangle",
     "currentDifficulty": 1,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 1,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 2,
     "schemaVersion": 1,
-    "updatedAt": "2026-06-19T14:35:36Z"
+    "updatedAt": "2026-06-20T14:23:42Z"
   },
-  "generatedAt": "2026-06-19T14:35:36Z",
-  "latest": {"attemptId":"2026-06-19-143056Z-r02-sum-of-multiples","compileStatus":"compile_error","date":"2026-06-19","difficulty":"1","mode":"live","model":"openrouter/free","name":"Sum of Multiples","passed":"0","resultPath":"data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/result.json","runAt":"2026-06-19T14:35:36Z","score":"10","slug":"sum-of-multiples","solutionPath":"data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
-  "nextDifficulty": 1,
+  "generatedAt": "2026-06-20T14:23:42Z",
+  "latest": {"attemptId":"2026-06-20-142331Z-r00-triangle","compileStatus":"compiled","date":"2026-06-20","difficulty":"1","mode":"live","model":"openrouter/free","name":"Triangle","passed":"21","resultPath":"data/silver/attempts/2026/06/20/142331Z-r00-triangle/result.json","runAt":"2026-06-20T14:23:42Z","score":"100","slug":"triangle","solutionPath":"data/silver/attempts/2026/06/20/142331Z-r00-triangle/solution.zig","status":"pass","total":"21","zigVersion":"0.16.0"},
+  "nextDifficulty": 2,
   "recentRuns": [
     {"attemptId":"2026-06-15-211650Z-r00-zebra-puzzle","compileStatus":"compiled","date":"2026-06-15","difficulty":"9","mode":"live","model":"openrouter/free","name":"Zebra Puzzle","passed":"2","resultPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/result.json","runAt":"2026-06-15T21:17:45Z","score":"100","slug":"zebra-puzzle","solutionPath":"data/silver/attempts/2026/06/15/211650Z-r00-zebra-puzzle/solution.zig","status":"pass","total":"2","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-16-062540Z-r00-space-age","compileStatus":"compile_error","date":"2026-06-16","difficulty":"1","mode":"live","model":"openrouter/free","name":"Space Age","passed":"0","resultPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/result.json","runAt":"2026-06-16T06:25:48Z","score":"10","slug":"space-age","solutionPath":"data/silver/attempts/2026/06/16/062540Z-r00-space-age/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
@@ -29,9 +29,10 @@
     {"attemptId":"2026-06-18-143427Z-r02-square-root","compileStatus":"compile_error","date":"2026-06-18","difficulty":"2","mode":"live","model":"openrouter/free","name":"Square Root","passed":"0","resultPath":"data/silver/attempts/2026/06/18/143427Z-r02-square-root/result.json","runAt":"2026-06-18T14:35:39Z","score":"10","slug":"square-root","solutionPath":"data/silver/attempts/2026/06/18/143427Z-r02-square-root/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-19-143056Z-r00-sum-of-multiples","compileStatus":"compile_error","date":"2026-06-19","difficulty":"1","mode":"live","model":"openrouter/free","name":"Sum of Multiples","passed":"0","resultPath":"data/silver/attempts/2026/06/19/143056Z-r00-sum-of-multiples/result.json","runAt":"2026-06-19T14:33:00Z","score":"10","slug":"sum-of-multiples","solutionPath":"data/silver/attempts/2026/06/19/143056Z-r00-sum-of-multiples/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-19-143056Z-r01-sum-of-multiples","compileStatus":"compile_error","date":"2026-06-19","difficulty":"1","mode":"live","model":"openrouter/free","name":"Sum of Multiples","passed":"0","resultPath":"data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/result.json","runAt":"2026-06-19T14:35:18Z","score":"10","slug":"sum-of-multiples","solutionPath":"data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
-    {"attemptId":"2026-06-19-143056Z-r02-sum-of-multiples","compileStatus":"compile_error","date":"2026-06-19","difficulty":"1","mode":"live","model":"openrouter/free","name":"Sum of Multiples","passed":"0","resultPath":"data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/result.json","runAt":"2026-06-19T14:35:36Z","score":"10","slug":"sum-of-multiples","solutionPath":"data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"}
+    {"attemptId":"2026-06-19-143056Z-r02-sum-of-multiples","compileStatus":"compile_error","date":"2026-06-19","difficulty":"1","mode":"live","model":"openrouter/free","name":"Sum of Multiples","passed":"0","resultPath":"data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/result.json","runAt":"2026-06-19T14:35:36Z","score":"10","slug":"sum-of-multiples","solutionPath":"data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-06-20-142331Z-r00-triangle","compileStatus":"compiled","date":"2026-06-20","difficulty":"1","mode":"live","model":"openrouter/free","name":"Triangle","passed":"21","resultPath":"data/silver/attempts/2026/06/20/142331Z-r00-triangle/result.json","runAt":"2026-06-20T14:23:42Z","score":"100","slug":"triangle","solutionPath":"data/silver/attempts/2026/06/20/142331Z-r00-triangle/solution.zig","status":"pass","total":"21","zigVersion":"0.16.0"}
   ],
-  "runCount": 18,
+  "runCount": 19,
   "schemaVersion": 1,
   "scores": [
     {"attemptId": "2026-06-15-211650Z-r00-zebra-puzzle", "date": "2026-06-15", "score": 100, "slug": "zebra-puzzle"},
@@ -51,6 +52,7 @@
     {"attemptId": "2026-06-18-143427Z-r02-square-root", "date": "2026-06-18", "score": 10, "slug": "square-root"},
     {"attemptId": "2026-06-19-143056Z-r00-sum-of-multiples", "date": "2026-06-19", "score": 10, "slug": "sum-of-multiples"},
     {"attemptId": "2026-06-19-143056Z-r01-sum-of-multiples", "date": "2026-06-19", "score": 10, "slug": "sum-of-multiples"},
-    {"attemptId": "2026-06-19-143056Z-r02-sum-of-multiples", "date": "2026-06-19", "score": 10, "slug": "sum-of-multiples"}
+    {"attemptId": "2026-06-19-143056Z-r02-sum-of-multiples", "date": "2026-06-19", "score": 10, "slug": "sum-of-multiples"},
+    {"attemptId": "2026-06-20-142331Z-r00-triangle", "date": "2026-06-20", "score": 100, "slug": "triangle"}
   ]
 }

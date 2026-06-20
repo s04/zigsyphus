@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-19-143056Z-r02-sum-of-multiples",
+  "attemptId": "2026-06-20-142331Z-r00-triangle",
   "currentDifficulty": 1,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 1,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T14:35:36Z"
+  "updatedAt": "2026-06-20T14:23:42Z"
 }

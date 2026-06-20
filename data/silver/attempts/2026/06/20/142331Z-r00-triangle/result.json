@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-20-142331Z-r00-triangle",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"triangle","status":"pass"}},
+  "date": "2026-06-20",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Triangle","slug":"triangle","tags":["bitwise-operations","conditionals","error-sets","functions","methods","structs"],"uuid":"d36abb68-78cc-4c99-8693-00e02eb9011e"},
+  "resultPath": "data/silver/attempts/2026/06/20/142331Z-r00-triangle/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/06/20/142331Z-r00-triangle/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/21 test_triangle.test.equilateral all sides are equal...OK\n2/21 test_triangle.test.equilateral any side is unequal...OK\n3/21 test_triangle.test.equilateral no sides are equal...OK\n4/21 test_triangle.test.equilateral all zero sides is not a triangle...OK\n5/21 test_triangle.test.equilateral sides may be floats...OK\n6/21 test_triangle.test.isosceles last two sides are equal...OK\n7/21 test_triangle.test.isosceles first two sides are equal...OK\n8/21 test_triangle.test.isosceles first and last sides are equal...OK\n9/21 test_triangle.test.equilateral triangles are also isosceles...OK\n10/21 test_triangle.test.isosceles no sides are equal...OK\n11/21 test_triangle.test.isosceles first triangle inequality violation...OK\n12/21 test_triangle.test.isosceles second triangle inequality violation...OK\n13/21 test_triangle.test.isosceles third triangle inequality violation...OK\n14/21 test_triangle.test.isosceles sides may be floats...OK\n15/21 test_triangle.test.scalene no sides are equal...OK\n16/21 test_triangle.test.scalene all sides are equal...OK\n17/21 test_triangle.test.scalene first and second sides are equal...OK\n18/21 test_triangle.test.scalene first and third sides are equal...OK\n19/21 test_triangle.test.scalene second and third sides are equal...OK\n20/21 test_triangle.test.scalene may not violate triangle inequality...OK\n21/21 test_triangle.test.scalene sides may be floats...OK\nAll 21 tests passed.\n","passed":21,"returnCode":0,"skipped":0,"status":"pass","total":21},
+  "testedAt": "2026-06-20T14:23:42Z",
+  "zigVersion": "0.16.0"
+}
