@@ -1,0 +1,55 @@
+{
+  "attempt": {
+  "attemptId": "2026-06-21-142354Z-r00-difference-of-squares",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-21T14:23:54Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Difference of Squares","slug":"difference-of-squares","tags":["builtin-functions","functions"],"uuid":"7f1ae5db-82f6-44b0-a5b4-a206f29c4bb0"},
+  "promptHash": "30e3370437d97b94",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/21/142354Z-r00-difference-of-squares/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1782051834-Fx4BnlxvX7ubMaz3gqd7",
+    "routedModel": "liquid/lfm-2.5-1.2b-instruct-20260120:free",
+    "usage": {
+  "prompt_tokens": 1301,
+  "completion_tokens": 62,
+  "total_tokens": 1363,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Difference of Squares (difference-of-squares)\nDifficulty: 2/9\n\nInstructions:\n# Instructions\n\nFind the difference between the square of the sum and the sum of the squares of the first N natural numbers.\n\nThe square of the sum of the first ten natural numbers is\n(1 + 2 + ... + 10)² = 55² = 3025.\n\nThe sum of the squares of the first ten natural numbers is\n1² + 2² + ... + 10² = 385.\n\nHence the difference between the square of the sum of the first ten natural numbers and the sum of the squares of the first ten natural numbers is 3025 - 385 = 2640.\n\nYou are not expected to discover an efficient solution to this yourself from first principles; research is allowed, indeed, encouraged.\nFinding the best algorithm for the problem is a key skill in software engineering.\n\n\nStarter file:\n```zig\npub fn squareOfSum(number: usize) usize {\n    _ = number;\n    @compileError(\"compute the sum of i from 0 to n then square it\");\n}\n\npub fn sumOfSquares(number: usize) usize {\n    _ = number;\n    @compileError(\"compute the sum of i^2 from 0 to n\");\n}\n\npub fn differenceOfSquares(number: usize) usize {\n    _ = number;\n    @compileError(\"compute the difference between the square of sum and sum of squares\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst difference_of_squares = @import(\"difference_of_squares.zig\");\n\ntest \"square of sum up to 1\" {\n    const expected: usize = 1;\n    const actual = difference_of_squares.squareOfSum(1);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"square of sum up to 5\" {\n    const expected: usize = 225;\n    const actual = difference_of_squares.squareOfSum(5);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"square of sum up to 100\" {\n    const expected: usize = 25_502_500;\n    const actual = difference_of_squares.squareOfSum(100);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"sum of squares up to 1\" {\n    const expected: usize = 1;\n    const actual = difference_of_squares.sumOfSquares(1);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"sum of squares up to 5\" {\n    const expected: usize = 55;\n    const actual = difference_of_squares.sumOfSquares(5);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"sum of squares up to 100\" {\n    const expected: usize = 338_350;\n    const actual = difference_of_squares.sumOfSquares(100);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"difference of squares up to 1\" {\n    const expected: usize = 0;\n    const actual = difference_of_squares.differenceOfSquares(1);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"difference of squares up to 5\" {\n    const expected: usize = 170;\n    const actual = difference_of_squares.differenceOfSquares(5);\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"difference of squares up to 100\" {\n    const expected: usize = 25_164_150;\n    const actual = difference_of_squares.differenceOfSquares(100);\n    try testing.expectEqual(expected, actual);\n}\n\n```\n"}],
+  "response": 
+         
+{"id":"gen-1782051834-Fx4BnlxvX7ubMaz3gqd7","object":"chat.completion","created":1782051834,"model":"liquid/lfm-2.5-1.2b-instruct-20260120:free","provider":"Liquid","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\npub fn differenceOfSquares(number: usize) usize {\n    const sumOfSquares = sumOfSquares(number);\n    const squareOfSum = squareOfSum(number);\n    return squareOfSum - sumOfSquares;\n}\n```","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1301,"completion_tokens":62,"total_tokens":1363,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-21-142354Z-r01-difference-of-squares",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"difference-of-squares","status":"pass"}},
+  "date": "2026-06-21",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Difference of Squares","slug":"difference-of-squares","tags":["builtin-functions","functions"],"uuid":"7f1ae5db-82f6-44b0-a5b4-a206f29c4bb0"},
+  "resultPath": "data/silver/attempts/2026/06/21/142354Z-r01-difference-of-squares/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/21/142354Z-r01-difference-of-squares/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":9,"outputExcerpt":"\ndifference_of_squares.zig:3:9: error: expected '(', found 'an identifier'\n    for i in 0..number {\n        ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":9},
+  "testedAt": "2026-06-21T14:24:30Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-20-142331Z-r00-triangle",
-  "currentDifficulty": 1,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 2,
+  "attemptId": "2026-06-21-142354Z-r02-difference-of-squares",
+  "currentDifficulty": 2,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 1,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-20T14:23:42Z"
+  "updatedAt": "2026-06-21T14:25:10Z"
 }
