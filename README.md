@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-22 | Nucleotide Count (`nucleotide-count`) | 1 | `openrouter/free` | pass/compiled | 5/5 | 100 | [152514Z-r00-nucleotide-count](data/silver/attempts/2026/06/22/152514Z-r00-nucleotide-count/solution.zig) |
 | 2026-06-21 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [142354Z-r02-difference-of-squares](data/silver/attempts/2026/06/21/142354Z-r02-difference-of-squares/solution.zig) |
 | 2026-06-21 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [142354Z-r01-difference-of-squares](data/silver/attempts/2026/06/21/142354Z-r01-difference-of-squares/solution.zig) |
 | 2026-06-21 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [142354Z-r00-difference-of-squares](data/silver/attempts/2026/06/21/142354Z-r00-difference-of-squares/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062848Z-r01-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r01-scrabble-score/solution.zig) |
 | 2026-06-16 | Scrabble Score (`scrabble-score`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062848Z-r00-scrabble-score](data/silver/attempts/2026/06/16/062848Z-r00-scrabble-score/solution.zig) |
 | 2026-06-16 | Reverse String (`reverse-string`) | 1 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [062540Z-r02-reverse-string](data/silver/attempts/2026/06/16/062540Z-r02-reverse-string/solution.zig) |
-| 2026-06-16 | Pangram (`pangram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [062540Z-r01-pangram](data/silver/attempts/2026/06/16/062540Z-r01-pangram/solution.zig) |
 
 <!-- zigsyphus-results:end -->

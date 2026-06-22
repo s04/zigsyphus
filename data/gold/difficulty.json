@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-21-142354Z-r02-difference-of-squares",
-  "currentDifficulty": 2,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 1,
+  "attemptId": "2026-06-22-152514Z-r00-nucleotide-count",
+  "currentDifficulty": 1,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-21T14:25:10Z"
+  "updatedAt": "2026-06-22T15:25:22Z"
 }
