@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-22-152514Z-r00-nucleotide-count",
-  "currentDifficulty": 1,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 2,
+  "attemptId": "2026-06-24-142836Z-r02-grains",
+  "currentDifficulty": 2,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 1,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-22T15:25:22Z"
+  "updatedAt": "2026-06-24T14:30:49Z"
 }
