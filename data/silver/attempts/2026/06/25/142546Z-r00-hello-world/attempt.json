@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-25-142546Z-r00-hello-world",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-25T14:25:46Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Hello World","slug":"hello-world","tags":["functions","slices","type-coercion"],"uuid":"25a0331e-612f-48c1-8a3f-9b0e9601a2fa"},
+  "promptHash": "e6e42eac65864bc5",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/25/142546Z-r00-hello-world/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1782397546-w62wF2z53PObxK5oVFbv",
+    "routedModel": "openai/gpt-oss-20b:free",
+    "usage": {
+  "prompt_tokens": 715,
+  "completion_tokens": 184,
+  "total_tokens": 899,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.0000232475,
+    "upstream_inference_prompt_cost": 0.0000103675,
+    "upstream_inference_completions_cost": 0.00001288
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 154,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

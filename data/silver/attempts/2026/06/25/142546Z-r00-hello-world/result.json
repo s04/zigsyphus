@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-25-142546Z-r00-hello-world",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"hello-world","status":"pass"}},
+  "date": "2026-06-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Hello World","slug":"hello-world","tags":["functions","slices","type-coercion"],"uuid":"25a0331e-612f-48c1-8a3f-9b0e9601a2fa"},
+  "resultPath": "data/silver/attempts/2026/06/25/142546Z-r00-hello-world/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/06/25/142546Z-r00-hello-world/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/1 test_hello_world.test.say hi!...OK\nAll 1 tests passed.\n","passed":1,"returnCode":0,"skipped":0,"status":"pass","total":1},
+  "testedAt": "2026-06-25T14:25:50Z",
+  "zigVersion": "0.16.0"
+}

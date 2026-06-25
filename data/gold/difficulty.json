@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-24-142836Z-r02-grains",
-  "currentDifficulty": 2,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 1,
+  "attemptId": "2026-06-25-142546Z-r00-hello-world",
+  "currentDifficulty": 1,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-24T14:30:49Z"
+  "updatedAt": "2026-06-25T14:25:50Z"
 }
