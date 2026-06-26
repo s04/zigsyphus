@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-26-142458Z-r00-collatz-conjecture",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-26T14:24:58Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Collatz Conjecture","slug":"collatz-conjecture","tags":["builtin-functions","control-flow","functions"],"uuid":"3c5268f9-d8d7-46b4-a751-a4ff3774a3e1"},
+  "promptHash": "ad114adad4db37fc",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/26/142458Z-r00-collatz-conjecture/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1782483899-teL7hLcgZHHzN2GnAveB",
+    "routedModel": "poolside/laguna-xs.2-20260421:free",
+    "usage": {
+  "prompt_tokens": 855,
+  "completion_tokens": 692,
+  "total_tokens": 1547,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 524,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

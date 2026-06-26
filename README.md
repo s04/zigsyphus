@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-26 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142458Z-r02-collatz-conjecture](data/silver/attempts/2026/06/26/142458Z-r02-collatz-conjecture/solution.zig) |
+| 2026-06-26 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142458Z-r01-collatz-conjecture](data/silver/attempts/2026/06/26/142458Z-r01-collatz-conjecture/solution.zig) |
+| 2026-06-26 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142458Z-r00-collatz-conjecture](data/silver/attempts/2026/06/26/142458Z-r00-collatz-conjecture/solution.zig) |
 | 2026-06-25 | Hello World (`hello-world`) | 1 | `openrouter/free` | pass/compiled | 1/1 | 100 | [142546Z-r00-hello-world](data/silver/attempts/2026/06/25/142546Z-r00-hello-world/solution.zig) |
 | 2026-06-24 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [142836Z-r02-grains](data/silver/attempts/2026/06/24/142836Z-r02-grains/solution.zig) |
 | 2026-06-24 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [142836Z-r01-grains](data/silver/attempts/2026/06/24/142836Z-r01-grains/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r00-square-root](data/silver/attempts/2026/06/18/143427Z-r00-square-root/solution.zig) |
 | 2026-06-17 | Raindrops (`raindrops`) | 1 | `openrouter/free` | pass/compiled | 18/18 | 100 | [143903Z-r01-raindrops](data/silver/attempts/2026/06/17/143903Z-r01-raindrops/solution.zig) |
 | 2026-06-17 | Raindrops (`raindrops`) | 1 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143903Z-r00-raindrops](data/silver/attempts/2026/06/17/143903Z-r00-raindrops/solution.zig) |
-| 2026-06-16 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [152135Z-r02-acronym](data/silver/attempts/2026/06/16/152135Z-r02-acronym/solution.zig) |
-| 2026-06-16 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [152135Z-r01-acronym](data/silver/attempts/2026/06/16/152135Z-r01-acronym/solution.zig) |
-| 2026-06-16 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [152135Z-r00-acronym](data/silver/attempts/2026/06/16/152135Z-r00-acronym/solution.zig) |
 
 <!-- zigsyphus-results:end -->

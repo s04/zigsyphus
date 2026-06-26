@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-25-142546Z-r00-hello-world",
-  "currentDifficulty": 1,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 2,
+  "attemptId": "2026-06-26-142458Z-r02-collatz-conjecture",
+  "currentDifficulty": 2,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 1,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-25T14:25:50Z"
+  "updatedAt": "2026-06-26T14:28:15Z"
 }

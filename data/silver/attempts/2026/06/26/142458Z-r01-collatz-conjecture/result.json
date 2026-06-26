@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-26-142458Z-r01-collatz-conjecture",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"collatz-conjecture","status":"pass"}},
+  "date": "2026-06-26",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Collatz Conjecture","slug":"collatz-conjecture","tags":["builtin-functions","control-flow","functions"],"uuid":"3c5268f9-d8d7-46b4-a751-a4ff3774a3e1"},
+  "resultPath": "data/silver/attempts/2026/06/26/142458Z-r01-collatz-conjecture/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/26/142458Z-r01-collatz-conjecture/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":5,"outputExcerpt":"\ncollatz_conjecture.zig:3:40: error: expected type expression, found '{'\nconst ComputationError = error{usize}! {\n                                       ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":5},
+  "testedAt": "2026-06-26T14:27:58Z",
+  "zigVersion": "0.16.0"
+}
