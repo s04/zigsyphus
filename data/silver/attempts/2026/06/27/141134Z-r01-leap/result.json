@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-27-141134Z-r01-leap",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"leap","status":"pass"}},
+  "date": "2026-06-27",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Leap","slug":"leap","tags":["conditionals","functions"],"uuid":"5e8e92f6-e8c7-49f1-8ebf-a93f73998d47"},
+  "resultPath": "data/silver/attempts/2026/06/27/141134Z-r01-leap/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/06/27/141134Z-r01-leap/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/9 test_leap.test.year not divisible by 4 in common year...OK\n2/9 test_leap.test.year divisible by 2, not divisible by 4 in common year...OK\n3/9 test_leap.test.year divisible by 4, not divisible by 100 in leap year...OK\n4/9 test_leap.test.year divisible by 4 and 5 is still a leap year...OK\n5/9 test_leap.test.year divisible by 100, not divisible by 400 in common year...OK\n6/9 test_leap.test.year divisible by 100 but not by 3 is still not a leap year...OK\n7/9 test_leap.test.year divisible by 400 is leap year...OK\n8/9 test_leap.test.year divisible by 400 but not by 125 is still a leap year...OK\n9/9 test_leap.test.year divisible by 200, not divisible by 400 in common year...OK\nAll 9 tests passed.\n","passed":9,"returnCode":0,"skipped":0,"status":"pass","total":9},
+  "testedAt": "2026-06-27T14:11:42Z",
+  "zigVersion": "0.16.0"
+}

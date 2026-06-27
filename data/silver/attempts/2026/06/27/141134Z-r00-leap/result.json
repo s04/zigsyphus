@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-27-141134Z-r00-leap",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"leap","status":"pass"}},
+  "date": "2026-06-27",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Leap","slug":"leap","tags":["conditionals","functions"],"uuid":"5e8e92f6-e8c7-49f1-8ebf-a93f73998d47"},
+  "resultPath": "data/silver/attempts/2026/06/27/141134Z-r00-leap/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/27/141134Z-r00-leap/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":9,"outputExcerpt":"\nleap.zig:2:8: error: expected '(', found 'an identifier'\n    if year % 400 == 0 {\n       ^~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":9},
+  "testedAt": "2026-06-27T14:11:35Z",
+  "zigVersion": "0.16.0"
+}
