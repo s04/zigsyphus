@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-06-28-141649Z-r00-resistor-color",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-28T14:16:49Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color","slug":"resistor-color","tags":["arrays","builtin-functions","enums","functions","pointers","slices","type-coercion"],"uuid":"f49a0baa-a309-4814-a123-f41a2d770bdd"},
+  "promptHash": "7fa20ef47055ed14",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/28/141649Z-r00-resistor-color/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1782656209-yBXJS6Snb0Hgrdad7Akk",
+    "routedModel": "openai/gpt-oss-20b:free",
+    "usage": {
+  "prompt_tokens": 1114,
+  "completion_tokens": 360,
+  "total_tokens": 1474,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.000041353,
+    "upstream_inference_prompt_cost": 0.000016153,
+    "upstream_inference_completions_cost": 0.0000252
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 228,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

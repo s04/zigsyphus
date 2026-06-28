@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-28 | Resistor Color (`resistor-color`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [141649Z-r00-resistor-color](data/silver/attempts/2026/06/28/141649Z-r00-resistor-color/solution.zig) |
 | 2026-06-27 | Leap (`leap`) | 1 | `openrouter/free` | pass/compiled | 9/9 | 100 | [141134Z-r01-leap](data/silver/attempts/2026/06/27/141134Z-r01-leap/solution.zig) |
 | 2026-06-27 | Leap (`leap`) | 1 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [141134Z-r00-leap](data/silver/attempts/2026/06/27/141134Z-r00-leap/solution.zig) |
 | 2026-06-26 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142458Z-r02-collatz-conjecture](data/silver/attempts/2026/06/26/142458Z-r02-collatz-conjecture/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r00-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r00-sum-of-multiples/solution.zig) |
 | 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r02-square-root](data/silver/attempts/2026/06/18/143427Z-r02-square-root/solution.zig) |
 | 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r01-square-root](data/silver/attempts/2026/06/18/143427Z-r01-square-root/solution.zig) |
-| 2026-06-18 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [143427Z-r00-square-root](data/silver/attempts/2026/06/18/143427Z-r00-square-root/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-27-141134Z-r01-leap",
-  "currentDifficulty": 1,
+  "attemptId": "2026-06-28-141649Z-r00-resistor-color",
+  "currentDifficulty": 2,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 2,
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-27T14:11:42Z"
+  "updatedAt": "2026-06-28T14:17:07Z"
 }

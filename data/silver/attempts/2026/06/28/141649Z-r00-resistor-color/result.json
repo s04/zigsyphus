@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-28-141649Z-r00-resistor-color",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"resistor-color","status":"pass"}},
+  "date": "2026-06-28",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color","slug":"resistor-color","tags":["arrays","builtin-functions","enums","functions","pointers","slices","type-coercion"],"uuid":"f49a0baa-a309-4814-a123-f41a2d770bdd"},
+  "resultPath": "data/silver/attempts/2026/06/28/141649Z-r00-resistor-color/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/06/28/141649Z-r00-resistor-color/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/4 test_resistor_color.test.black...OK\n2/4 test_resistor_color.test.white...OK\n3/4 test_resistor_color.test.orange...OK\n4/4 test_resistor_color.test.colors...OK\nAll 4 tests passed.\n","passed":4,"returnCode":0,"skipped":0,"status":"pass","total":4},
+  "testedAt": "2026-06-28T14:17:07Z",
+  "zigVersion": "0.16.0"
+}
