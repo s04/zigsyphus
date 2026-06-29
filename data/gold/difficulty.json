@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-06-28-141649Z-r00-resistor-color",
-  "currentDifficulty": 2,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "attemptId": "2026-06-29-145210Z-r02-binary-search",
+  "currentDifficulty": 3,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-06-28T14:17:07Z"
+  "updatedAt": "2026-06-29T14:56:55Z"
 }

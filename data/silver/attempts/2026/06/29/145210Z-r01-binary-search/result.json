@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-29-145210Z-r01-binary-search",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"binary-search","status":"pass"}},
+  "date": "2026-06-29",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Binary Search","slug":"binary-search","tags":["control-flow","generics","functions","optionals","type-coercion"],"uuid":"f47bbe16-dd61-4542-8634-30ea14cc4f56"},
+  "resultPath": "data/silver/attempts/2026/06/29/145210Z-r01-binary-search/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/29/145210Z-r01-binary-search/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":11,"outputExcerpt":"\nbinary_search.zig:1:8: error: expected ',' after field\nimport std.algorithm;\n       ^~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":11},
+  "testedAt": "2026-06-29T14:55:27Z",
+  "zigVersion": "0.16.0"
+}
