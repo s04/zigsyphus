@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-30-142450Z-r01-darts",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"darts","status":"pass"}},
+  "date": "2026-06-30",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Darts","slug":"darts","tags":["conditionals","functions","importing","methods","structs"],"uuid":"3819c81e-db22-4aac-b745-5eec450b7b4d"},
+  "resultPath": "data/silver/attempts/2026/06/30/142450Z-r01-darts/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/06/30/142450Z-r01-darts/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/13 test_darts.test.missed target...OK\n2/13 test_darts.test.on the outer circle...OK\n3/13 test_darts.test.on the middle circle...OK\n4/13 test_darts.test.on the inner circle...OK\n5/13 test_darts.test.exactly on center...OK\n6/13 test_darts.test.near the center...OK\n7/13 test_darts.test.just within the inner circle...OK\n8/13 test_darts.test.just outside the inner circle...OK\n9/13 test_darts.test.just within the middle circle...OK\n10/13 test_darts.test.just outside the middle circle...OK\n11/13 test_darts.test.just within the outer circle...OK\n12/13 test_darts.test.just outside the outer circle...OK\n13/13 test_darts.test.asymmetric position between the inner and middle circles...OK\nAll 13 tests passed.\n","passed":13,"returnCode":0,"skipped":0,"status":"pass","total":13},
+  "testedAt": "2026-06-30T14:27:08Z",
+  "zigVersion": "0.16.0"
+}

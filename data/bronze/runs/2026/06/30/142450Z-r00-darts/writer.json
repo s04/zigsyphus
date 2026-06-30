@@ -1,0 +1,71 @@
+{
+  "attempt": {
+  "attemptId": "2026-06-30-142450Z-r00-darts",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-06-30T14:24:50Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Darts","slug":"darts","tags":["conditionals","functions","importing","methods","structs"],"uuid":"3819c81e-db22-4aac-b745-5eec450b7b4d"},
+  "promptHash": "9056352601b6d426",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/06/30/142450Z-r00-darts/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1782829610-a1uVV1LxZ8OrBE9VjX6x",
+    "routedModel": "nvidia/nemotron-nano-12b-v2-vl:free",
+    "usage": {
+  "prompt_tokens": 1712,
+  "completion_tokens": 166,
+  "total_tokens": 1878,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Darts (darts)\nDifficulty: 2/9\n\nInstructions:\n# Instructions\n\nCalculate the points scored in a single toss of a Darts game.\n\n[Darts][darts] is a game where players throw darts at a [target][darts-target].\n\nIn our particular instance of the game, the target rewards 4 different amounts of points, depending on where the dart lands:\n\n![Our dart scoreboard with values from a complete miss to a bullseye](https://assets.exercism.org/images/exercises/darts/darts-scoreboard.svg)\n\n- If the dart lands outside the target, player earns no points (0 points).\n- If the dart lands in the outer circle of the target, player earns 1 point.\n- If the dart lands in the middle circle of the target, player earns 5 points.\n- If the dart lands in the inner circle of the target, player earns 10 points.\n\nThe outer circle has a radius of 10 units (this is equivalent to the total radius for the entire target), the middle circle a radius of 5 units, and the inner circle a radius of 1.\nOf course, they are all centered at the same point — that is, the circles are [concentric][] defined by the coordinates (0, 0).\n\nGiven a point in the target (defined by its [Cartesian coordinates][cartesian-coordinates] `x` and `y`, where `x` and `y` are [real][real-numbers]), calculate the correct score earned by a dart landing at that point.\n\n## Credit\n\nThe scoreboard image was created by [habere-et-dispertire][habere-et-dispertire] using [Inkscape][inkscape].\n\n[darts]: https://en.wikipedia.org/wiki/Darts\n[darts-target]: https://en.wikipedia.org/wiki/Darts#/media/File:Darts_in_a_dartboard.jpg\n[concentric]: https://mathworld.wolfram.com/ConcentricCircles.html\n[cartesian-coordinates]: https://www.mathsisfun.com/data/cartesian-coordinates.html\n[real-numbers]: https://www.mathsisfun.com/numbers/real-numbers.html\n[habere-et-dispertire]: https://exercism.org/profiles/habere-et-dispertire\n[inkscape]: https://en.wikipedia.org/wiki/Inkscape\n\n\nStarter file:\n```zig\npub const Coordinate = struct {\n    // This struct, as well as its fields and methods, needs to be implemented.\n\n    pub fn init(x_coord: f32, y_coord: f32) Coordinate {\n        _ = x_coord;\n        _ = y_coord;\n        @compileError(\"please implement the init method\");\n    }\n    pub fn score(self: Coordinate) usize {\n        _ = self;\n        @compileError(\"please implement the score method\");\n    }\n};\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst darts = @import(\"darts.zig\");\n\ntest \"missed target\" {\n    const expected: usize = 0;\n    const coordinate = darts.Coordinate.init(-9.0, 9.0);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"on the outer circle\" {\n    const expected: usize = 1;\n    const coordinate = darts.Coordinate.init(0.0, 10.0);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"on the middle circle\" {\n    const expected: usize = 5;\n    const coordinate = darts.Coordinate.init(-5.0, 0.0);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"on the inner circle\" {\n    const expected: usize = 10;\n    const coordinate = darts.Coordinate.init(0.0, -1.0);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"exactly on center\" {\n    const expected: usize = 10;\n    const coordinate = darts.Coordinate.init(0.0, 0.0);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"near the center\" {\n    const expected: usize = 10;\n    const coordinate = darts.Coordinate.init(-0.1, -0.1);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"just within the inner circle\" {\n    const expected: usize = 10;\n    const coordinate = darts.Coordinate.init(0.7, 0.7);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"just outside the inner circle\" {\n    const expected: usize = 5;\n    const coordinate = darts.Coordinate.init(0.8, -0.8);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"just within the middle circle\" {\n    const expected: usize = 5;\n    const coordinate = darts.Coordinate.init(3.5, -3.5);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"just outside the middle circle\" {\n    const expected: usize = 1;\n    const coordinate = darts.Coordinate.init(-3.6, -3.6);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"just within the outer circle\" {\n    const expected: usize = 1;\n    const coordinate = darts.Coordinate.init(-7.0, 7.0);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"just outside the outer circle\" {\n    const expected: usize = 0;\n    const coordinate = darts.Coordinate.init(7.1, -7.1);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"asymmetric position between the inner and middle circles\" {\n    const expected: usize = 5;\n    const coordinate = darts.Coordinate.init(0.5, -4.0);\n    const actual = coordinate.score();\n    try testing.expectEqual(expected, actual);\n}\n\n```\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1782829610-a1uVV1LxZ8OrBE9VjX6x","object":"chat.completion","created":1782829610,"model":"nvidia/nemotron-nano-12b-v2-vl:free","provider":"Nvidia","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\nconst Coordinate = struct {\n    x: f32,\n    y: f32,\n};\n\npub fn init(x_coord: f32, y_coord: f32) Coordinate {\n    return Coordinate{\n        .x = x_coord,\n        .y = y_coord,\n    };\n}\n\npub fn score(self: Coordinate) usize {\n    const r_squared = self.x * self.x + self.y * self.y;\n    const r = @sqrt(r_squared);\n\n    if r > 10.0 {\n        return 0;\n    } else if r > 5.0 {\n        return 1;\n    } else if r > 1.0 {\n        return 5;\n    } else {\n        return 10;\n    }\n}\n```\n","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":1712,"completion_tokens":166,"total_tokens":1878,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

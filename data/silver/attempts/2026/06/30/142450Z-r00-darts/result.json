@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-06-30-142450Z-r00-darts",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"darts","status":"pass"}},
+  "date": "2026-06-30",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Darts","slug":"darts","tags":["conditionals","functions","importing","methods","structs"],"uuid":"3819c81e-db22-4aac-b745-5eec450b7b4d"},
+  "resultPath": "data/silver/attempts/2026/06/30/142450Z-r00-darts/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/06/30/142450Z-r00-darts/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\ndarts.zig:17:8: error: expected '(', found 'an identifier'\n    if r > 10.0 {\n       ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-06-30T14:26:55Z",
+  "zigVersion": "0.16.0"
+}

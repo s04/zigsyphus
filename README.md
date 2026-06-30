@@ -86,6 +86,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-06-30 | Darts (`darts`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [142450Z-r01-darts](data/silver/attempts/2026/06/30/142450Z-r01-darts/solution.zig) |
+| 2026-06-30 | Darts (`darts`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [142450Z-r00-darts](data/silver/attempts/2026/06/30/142450Z-r00-darts/solution.zig) |
 | 2026-06-29 | Binary Search (`binary-search`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145210Z-r02-binary-search](data/silver/attempts/2026/06/29/145210Z-r02-binary-search/solution.zig) |
 | 2026-06-29 | Binary Search (`binary-search`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145210Z-r01-binary-search](data/silver/attempts/2026/06/29/145210Z-r01-binary-search/solution.zig) |
 | 2026-06-29 | Binary Search (`binary-search`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145210Z-r00-binary-search](data/silver/attempts/2026/06/29/145210Z-r00-binary-search/solution.zig) |
@@ -104,7 +106,5 @@ Required GitHub secret:
 | 2026-06-21 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [142354Z-r01-difference-of-squares](data/silver/attempts/2026/06/21/142354Z-r01-difference-of-squares/solution.zig) |
 | 2026-06-21 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [142354Z-r00-difference-of-squares](data/silver/attempts/2026/06/21/142354Z-r00-difference-of-squares/solution.zig) |
 | 2026-06-20 | Triangle (`triangle`) | 1 | `openrouter/free` | pass/compiled | 21/21 | 100 | [142331Z-r00-triangle](data/silver/attempts/2026/06/20/142331Z-r00-triangle/solution.zig) |
-| 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r02-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r02-sum-of-multiples/solution.zig) |
-| 2026-06-19 | Sum of Multiples (`sum-of-multiples`) | 1 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143056Z-r01-sum-of-multiples](data/silver/attempts/2026/06/19/143056Z-r01-sum-of-multiples/solution.zig) |
 
 <!-- zigsyphus-results:end -->
