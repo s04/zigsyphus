@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-01-142546Z-r01-bottle-song",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"bottle-song","status":"pass"}},
+  "date": "2026-07-01",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Bottle Song","slug":"bottle-song","tags":[],"uuid":"26b6fdd5-6e9d-4a5a-87d3-e9de104b6f3d"},
+  "resultPath": "data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":7,"outputExcerpt":"\nbottle_song.zig:37:14: error: expected ',' after for operand\n    for (u32 i = 0; i <= take_down; i++) {\n             ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":7},
+  "testedAt": "2026-07-01T14:26:58Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,20 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-06-30-142450Z-r01-darts",
-    "currentDifficulty": 2,
-    "lastScore": 100,
-    "lastStatus": "pass",
-    "nextDifficulty": 3,
+    "attemptId": "2026-07-01-142546Z-r02-bottle-song",
+    "currentDifficulty": 3,
+    "lastScore": 10,
+    "lastStatus": "compile_error",
+    "nextDifficulty": 2,
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T14:27:08Z"
+    "updatedAt": "2026-07-01T14:28:10Z"
   },
-  "generatedAt": "2026-06-30T14:27:08Z",
-  "latest": {"attemptId":"2026-06-30-142450Z-r01-darts","compileStatus":"compiled","date":"2026-06-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Darts","passed":"13","resultPath":"data/silver/attempts/2026/06/30/142450Z-r01-darts/result.json","runAt":"2026-06-30T14:27:08Z","score":"100","slug":"darts","solutionPath":"data/silver/attempts/2026/06/30/142450Z-r01-darts/solution.zig","status":"pass","total":"13","zigVersion":"0.16.0"},
-  "nextDifficulty": 3,
+  "generatedAt": "2026-07-01T14:28:10Z",
+  "latest": {"attemptId":"2026-07-01-142546Z-r02-bottle-song","compileStatus":"compile_error","date":"2026-07-01","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bottle Song","passed":"0","resultPath":"data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/result.json","runAt":"2026-07-01T14:28:10Z","score":"10","slug":"bottle-song","solutionPath":"data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+  "nextDifficulty": 2,
   "recentRuns": [
-    {"attemptId":"2026-06-20-142331Z-r00-triangle","compileStatus":"compiled","date":"2026-06-20","difficulty":"1","mode":"live","model":"openrouter/free","name":"Triangle","passed":"21","resultPath":"data/silver/attempts/2026/06/20/142331Z-r00-triangle/result.json","runAt":"2026-06-20T14:23:42Z","score":"100","slug":"triangle","solutionPath":"data/silver/attempts/2026/06/20/142331Z-r00-triangle/solution.zig","status":"pass","total":"21","zigVersion":"0.16.0"},
-    {"attemptId":"2026-06-21-142354Z-r00-difference-of-squares","compileStatus":"compile_error","date":"2026-06-21","difficulty":"2","mode":"live","model":"openrouter/free","name":"Difference of Squares","passed":"0","resultPath":"data/silver/attempts/2026/06/21/142354Z-r00-difference-of-squares/result.json","runAt":"2026-06-21T14:23:56Z","score":"10","slug":"difference-of-squares","solutionPath":"data/silver/attempts/2026/06/21/142354Z-r00-difference-of-squares/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
-    {"attemptId":"2026-06-21-142354Z-r01-difference-of-squares","compileStatus":"compile_error","date":"2026-06-21","difficulty":"2","mode":"live","model":"openrouter/free","name":"Difference of Squares","passed":"0","resultPath":"data/silver/attempts/2026/06/21/142354Z-r01-difference-of-squares/result.json","runAt":"2026-06-21T14:24:30Z","score":"10","slug":"difference-of-squares","solutionPath":"data/silver/attempts/2026/06/21/142354Z-r01-difference-of-squares/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-21-142354Z-r02-difference-of-squares","compileStatus":"compile_error","date":"2026-06-21","difficulty":"2","mode":"live","model":"openrouter/free","name":"Difference of Squares","passed":"0","resultPath":"data/silver/attempts/2026/06/21/142354Z-r02-difference-of-squares/result.json","runAt":"2026-06-21T14:25:10Z","score":"10","slug":"difference-of-squares","solutionPath":"data/silver/attempts/2026/06/21/142354Z-r02-difference-of-squares/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-22-152514Z-r00-nucleotide-count","compileStatus":"compiled","date":"2026-06-22","difficulty":"1","mode":"live","model":"openrouter/free","name":"Nucleotide Count","passed":"5","resultPath":"data/silver/attempts/2026/06/22/152514Z-r00-nucleotide-count/result.json","runAt":"2026-06-22T15:25:22Z","score":"100","slug":"nucleotide-count","solutionPath":"data/silver/attempts/2026/06/22/152514Z-r00-nucleotide-count/solution.zig","status":"pass","total":"5","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-24-142836Z-r00-grains","compileStatus":"compile_error","date":"2026-06-24","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/06/24/142836Z-r00-grains/result.json","runAt":"2026-06-24T14:29:01Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/06/24/142836Z-r00-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
@@ -31,9 +28,12 @@
     {"attemptId":"2026-06-29-145210Z-r01-binary-search","compileStatus":"compile_error","date":"2026-06-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Binary Search","passed":"0","resultPath":"data/silver/attempts/2026/06/29/145210Z-r01-binary-search/result.json","runAt":"2026-06-29T14:55:27Z","score":"10","slug":"binary-search","solutionPath":"data/silver/attempts/2026/06/29/145210Z-r01-binary-search/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-29-145210Z-r02-binary-search","compileStatus":"compile_error","date":"2026-06-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Binary Search","passed":"0","resultPath":"data/silver/attempts/2026/06/29/145210Z-r02-binary-search/result.json","runAt":"2026-06-29T14:56:55Z","score":"10","slug":"binary-search","solutionPath":"data/silver/attempts/2026/06/29/145210Z-r02-binary-search/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-30-142450Z-r00-darts","compileStatus":"compile_error","date":"2026-06-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Darts","passed":"0","resultPath":"data/silver/attempts/2026/06/30/142450Z-r00-darts/result.json","runAt":"2026-06-30T14:26:55Z","score":"10","slug":"darts","solutionPath":"data/silver/attempts/2026/06/30/142450Z-r00-darts/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
-    {"attemptId":"2026-06-30-142450Z-r01-darts","compileStatus":"compiled","date":"2026-06-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Darts","passed":"13","resultPath":"data/silver/attempts/2026/06/30/142450Z-r01-darts/result.json","runAt":"2026-06-30T14:27:08Z","score":"100","slug":"darts","solutionPath":"data/silver/attempts/2026/06/30/142450Z-r01-darts/solution.zig","status":"pass","total":"13","zigVersion":"0.16.0"}
+    {"attemptId":"2026-06-30-142450Z-r01-darts","compileStatus":"compiled","date":"2026-06-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Darts","passed":"13","resultPath":"data/silver/attempts/2026/06/30/142450Z-r01-darts/result.json","runAt":"2026-06-30T14:27:08Z","score":"100","slug":"darts","solutionPath":"data/silver/attempts/2026/06/30/142450Z-r01-darts/solution.zig","status":"pass","total":"13","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-01-142546Z-r00-bottle-song","compileStatus":"compile_error","date":"2026-07-01","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bottle Song","passed":"0","resultPath":"data/silver/attempts/2026/07/01/142546Z-r00-bottle-song/result.json","runAt":"2026-07-01T14:26:53Z","score":"10","slug":"bottle-song","solutionPath":"data/silver/attempts/2026/07/01/142546Z-r00-bottle-song/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-01-142546Z-r01-bottle-song","compileStatus":"compile_error","date":"2026-07-01","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bottle Song","passed":"0","resultPath":"data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/result.json","runAt":"2026-07-01T14:26:58Z","score":"10","slug":"bottle-song","solutionPath":"data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-01-142546Z-r02-bottle-song","compileStatus":"compile_error","date":"2026-07-01","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bottle Song","passed":"0","resultPath":"data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/result.json","runAt":"2026-07-01T14:28:10Z","score":"10","slug":"bottle-song","solutionPath":"data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"}
   ],
-  "runCount": 38,
+  "runCount": 41,
   "schemaVersion": 1,
   "scores": [
     {"attemptId": "2026-06-15-211650Z-r00-zebra-puzzle", "date": "2026-06-15", "score": 100, "slug": "zebra-puzzle"},
@@ -73,6 +73,9 @@
     {"attemptId": "2026-06-29-145210Z-r01-binary-search", "date": "2026-06-29", "score": 10, "slug": "binary-search"},
     {"attemptId": "2026-06-29-145210Z-r02-binary-search", "date": "2026-06-29", "score": 10, "slug": "binary-search"},
     {"attemptId": "2026-06-30-142450Z-r00-darts", "date": "2026-06-30", "score": 10, "slug": "darts"},
-    {"attemptId": "2026-06-30-142450Z-r01-darts", "date": "2026-06-30", "score": 100, "slug": "darts"}
+    {"attemptId": "2026-06-30-142450Z-r01-darts", "date": "2026-06-30", "score": 100, "slug": "darts"},
+    {"attemptId": "2026-07-01-142546Z-r00-bottle-song", "date": "2026-07-01", "score": 10, "slug": "bottle-song"},
+    {"attemptId": "2026-07-01-142546Z-r01-bottle-song", "date": "2026-07-01", "score": 10, "slug": "bottle-song"},
+    {"attemptId": "2026-07-01-142546Z-r02-bottle-song", "date": "2026-07-01", "score": 10, "slug": "bottle-song"}
   ]
 }
