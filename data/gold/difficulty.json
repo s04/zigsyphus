@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-01-142546Z-r02-bottle-song",
-  "currentDifficulty": 3,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 2,
+  "attemptId": "2026-07-03-153441Z-r00-resistor-color-trio",
+  "currentDifficulty": 2,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-01T14:28:10Z"
+  "updatedAt": "2026-07-03T15:35:14Z"
 }

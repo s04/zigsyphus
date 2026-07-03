@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-03 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | pass/compiled | 14/14 | 100 | [153441Z-r00-resistor-color-trio](data/silver/attempts/2026/07/03/153441Z-r00-resistor-color-trio/solution.zig) |
 | 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r02-bottle-song](data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/solution.zig) |
 | 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r01-bottle-song](data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/solution.zig) |
 | 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r00-bottle-song](data/silver/attempts/2026/07/01/142546Z-r00-bottle-song/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-06-24 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [142836Z-r01-grains](data/silver/attempts/2026/06/24/142836Z-r01-grains/solution.zig) |
 | 2026-06-24 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [142836Z-r00-grains](data/silver/attempts/2026/06/24/142836Z-r00-grains/solution.zig) |
 | 2026-06-22 | Nucleotide Count (`nucleotide-count`) | 1 | `openrouter/free` | pass/compiled | 5/5 | 100 | [152514Z-r00-nucleotide-count](data/silver/attempts/2026/06/22/152514Z-r00-nucleotide-count/solution.zig) |
-| 2026-06-21 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [142354Z-r02-difference-of-squares](data/silver/attempts/2026/06/21/142354Z-r02-difference-of-squares/solution.zig) |
 
 <!-- zigsyphus-results:end -->
