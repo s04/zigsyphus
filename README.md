@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r02-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r02-secret-handshake/solution.zig) |
+| 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r01-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r01-secret-handshake/solution.zig) |
+| 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r00-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r00-secret-handshake/solution.zig) |
 | 2026-07-03 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | pass/compiled | 14/14 | 100 | [153441Z-r00-resistor-color-trio](data/silver/attempts/2026/07/03/153441Z-r00-resistor-color-trio/solution.zig) |
 | 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r02-bottle-song](data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/solution.zig) |
 | 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r01-bottle-song](data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-06-26 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142458Z-r00-collatz-conjecture](data/silver/attempts/2026/06/26/142458Z-r00-collatz-conjecture/solution.zig) |
 | 2026-06-25 | Hello World (`hello-world`) | 1 | `openrouter/free` | pass/compiled | 1/1 | 100 | [142546Z-r00-hello-world](data/silver/attempts/2026/06/25/142546Z-r00-hello-world/solution.zig) |
 | 2026-06-24 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [142836Z-r02-grains](data/silver/attempts/2026/06/24/142836Z-r02-grains/solution.zig) |
-| 2026-06-24 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [142836Z-r01-grains](data/silver/attempts/2026/06/24/142836Z-r01-grains/solution.zig) |
-| 2026-06-24 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [142836Z-r00-grains](data/silver/attempts/2026/06/24/142836Z-r00-grains/solution.zig) |
-| 2026-06-22 | Nucleotide Count (`nucleotide-count`) | 1 | `openrouter/free` | pass/compiled | 5/5 | 100 | [152514Z-r00-nucleotide-count](data/silver/attempts/2026/06/22/152514Z-r00-nucleotide-count/solution.zig) |
 
 <!-- zigsyphus-results:end -->

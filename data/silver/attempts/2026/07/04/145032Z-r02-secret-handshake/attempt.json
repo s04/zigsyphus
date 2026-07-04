@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-04-145032Z-r02-secret-handshake",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-04T14:50:32Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Secret Handshake","slug":"secret-handshake","tags":["allocators","bitwise-operations","conditionals","control-flow","error-sets","functions","importing"],"uuid":"ba0ab298-3fb4-47e1-87f0-0644a405502e"},
+  "promptHash": "e052684c67936241",
+  "repairFrom": "data/silver/attempts/2026/07/04/145032Z-r01-secret-handshake/result.json",
+  "roundIndex": 2,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/04/145032Z-r02-secret-handshake/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783176786-w3RDJtCc05rzwC1fukUy",
+    "routedModel": "poolside/laguna-xs-2.1-20260625:free",
+    "usage": {
+  "prompt_tokens": 2441,
+  "completion_tokens": 411,
+  "total_tokens": 2852,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

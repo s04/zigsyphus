@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-03-153441Z-r00-resistor-color-trio",
-  "currentDifficulty": 2,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "attemptId": "2026-07-04-145032Z-r02-secret-handshake",
+  "currentDifficulty": 3,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-03T15:35:14Z"
+  "updatedAt": "2026-07-04T14:53:12Z"
 }
