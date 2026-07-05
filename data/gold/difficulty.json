@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-04-145032Z-r02-secret-handshake",
-  "currentDifficulty": 3,
+  "attemptId": "2026-07-05-145849Z-r02-high-scores",
+  "currentDifficulty": 2,
   "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 2,
+  "nextDifficulty": 1,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-04T14:53:12Z"
+  "updatedAt": "2026-07-05T15:05:22Z"
 }

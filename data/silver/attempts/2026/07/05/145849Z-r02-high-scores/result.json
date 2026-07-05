@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-05-145849Z-r02-high-scores",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"high-scores","status":"pass"}},
+  "date": "2026-07-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"High Scores","slug":"high-scores","tags":[],"uuid":"a47ba7b5-ba54-4e84-b2a1-4e50cdcfa0a3"},
+  "resultPath": "data/silver/attempts/2026/07/05/145849Z-r02-high-scores/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/05/145849Z-r02-high-scores/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\nhigh_scores.zig:17:28: error: expected expression, found '^'\n        return self.scores[^1];\n                           ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-07-05T15:05:22Z",
+  "zigVersion": "0.16.0"
+}
