@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r02-isogram](data/silver/attempts/2026/07/06/164015Z-r02-isogram/solution.zig) |
+| 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r01-isogram](data/silver/attempts/2026/07/06/164015Z-r01-isogram/solution.zig) |
+| 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r00-isogram](data/silver/attempts/2026/07/06/164015Z-r00-isogram/solution.zig) |
 | 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r02-high-scores](data/silver/attempts/2026/07/05/145849Z-r02-high-scores/solution.zig) |
 | 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r01-high-scores](data/silver/attempts/2026/07/05/145849Z-r01-high-scores/solution.zig) |
 | 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r00-high-scores](data/silver/attempts/2026/07/05/145849Z-r00-high-scores/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-06-29 | Binary Search (`binary-search`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145210Z-r00-binary-search](data/silver/attempts/2026/06/29/145210Z-r00-binary-search/solution.zig) |
 | 2026-06-28 | Resistor Color (`resistor-color`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [141649Z-r00-resistor-color](data/silver/attempts/2026/06/28/141649Z-r00-resistor-color/solution.zig) |
 | 2026-06-27 | Leap (`leap`) | 1 | `openrouter/free` | pass/compiled | 9/9 | 100 | [141134Z-r01-leap](data/silver/attempts/2026/06/27/141134Z-r01-leap/solution.zig) |
-| 2026-06-27 | Leap (`leap`) | 1 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [141134Z-r00-leap](data/silver/attempts/2026/06/27/141134Z-r00-leap/solution.zig) |
-| 2026-06-26 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142458Z-r02-collatz-conjecture](data/silver/attempts/2026/06/26/142458Z-r02-collatz-conjecture/solution.zig) |
-| 2026-06-26 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142458Z-r01-collatz-conjecture](data/silver/attempts/2026/06/26/142458Z-r01-collatz-conjecture/solution.zig) |
 
 <!-- zigsyphus-results:end -->

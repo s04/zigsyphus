@@ -1,0 +1,147 @@
+{
+  "attempt": {
+  "attemptId": "2026-07-06-164015Z-r00-isogram",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-06T16:40:15Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Isogram","slug":"isogram","tags":["builtin-functions","bitwise-operations","conditionals","control-flow","functions"],"uuid":"93a9b5bd-b495-4a7d-86fe-b71fd0343336"},
+  "promptHash": "67e9a4ab8e075ee9",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/06/164015Z-r00-isogram/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783356015-blzd4xKxpVfPwyIAOHhZ",
+    "routedModel": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428:free",
+    "usage": {
+  "prompt_tokens": 1007,
+  "completion_tokens": 2036,
+  "total_tokens": 3043,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 1871,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Isogram (isogram)\nDifficulty: 1/9\n\nInstructions:\n# Instructions\n\nDetermine if a word or phrase is an isogram.\n\nAn isogram (also known as a \"non-pattern word\") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.\n\nExamples of isograms:\n\n- lumberjacks\n- background\n- downstream\n- six-year-old\n\nThe word _isograms_, however, is not an isogram, because the s repeats.\n\n\nStarter file:\n```zig\npub fn isIsogram(str: []const u8) bool {\n    _ = str;\n    @compileError(\"please implement the isIsogram function\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst isogram = @import(\"isogram.zig\");\n\ntest \"empty string\" {\n    try testing.expect(isogram.isIsogram(\"\"));\n}\n\ntest \"isogram with only lower case characters\" {\n    try testing.expect(isogram.isIsogram(\"isogram\"));\n}\n\ntest \"word with one duplicated character\" {\n    try testing.expect(!isogram.isIsogram(\"eleven\"));\n}\n\ntest \"word with one duplicated character from the end of the alphabet\" {\n    try testing.expect(!isogram.isIsogram(\"zzyzx\"));\n}\n\ntest \"longest reported english isogram\" {\n    try testing.expect(isogram.isIsogram(\"subdermatoglyphic\"));\n}\n\ntest \"word with duplicated character in mixed case\" {\n    try testing.expect(!isogram.isIsogram(\"Alphabet\"));\n}\n\ntest \"word with duplicated character in mixed case, lowercase first\" {\n    try testing.expect(!isogram.isIsogram(\"alphAbet\"));\n}\n\ntest \"hypothetical isogrammic word with hyphen\" {\n    try testing.expect(isogram.isIsogram(\"thumbscrew-japingly\"));\n}\n\ntest \"hypothetical word with duplicated character following hyphen\" {\n    try testing.expect(!isogram.isIsogram(\"thumbscrew-jappingly\"));\n}\n\ntest \"isogram with duplicated hyphen\" {\n    try testing.expect(isogram.isIsogram(\"six-year-old\"));\n}\n\ntest \"made-up name that is an isogram\" {\n    try testing.expect(isogram.isIsogram(\"Emily Jung Schwartzkopf\"));\n}\n\ntest \"duplicated character in the middle\" {\n    try testing.expect(!isogram.isIsogram(\"accentor\"));\n}\n\ntest \"same first and last characters\" {\n    try testing.expect(!isogram.isIsogram(\"angola\"));\n}\n\ntest \"word with duplicated character and with two hyphens\" {\n    try testing.expect(!isogram.isIsogram(\"up-to-date\"));\n}\n\n```\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1783356015-blzd4xKxpVfPwyIAOHhZ","object":"chat.completion","created":1783356015,"model":"nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428:free","provider":"Nvidia","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\npub fn isIsogram(str: []const u8) bool {\n    var seen: u32 = 0;\n    const n = str.len;\n    for (i in 0..n) {\n        const c = str[i];\n        // consider only ASCII letters; ignore spaces and hyphens\n        const lower = if (c >= 'A' and c <= 'Z') {\n            @intCast(c) + 32\n        } else if (c >= 'a' and c <= 'z') {\n            @intCast(c)\n        } else {\n            continue;\n        }\n        const idx = lower - 'a';\n        const mask = 1u32 << idx;\n        if ((seen and mask) != 0) {\n            return false;\n        }\n        seen |= mask;\n    }\n    return true;\n}\n```","refusal":null,"reasoning":"We need to implement isIsogram function. It takes []const u8 (a slice of bytes). Should treat letters case-insensitively? The examples show \"Alphabet\" vs \"alphabet\" both considered duplicated because case-insensitive? The test \"word with duplicated character in mixed case\" expects !isIsogram(\"Alphabet\")\". \"Alphabet\" letters: A l p h a b e t. The 'a' appears twice (A and a). So case-insensitive comparison. Also \"alphAbet\" also fails. So we need to treat uppercase and lowercase as same letter.\n\nAlso spaces and hyphens are allowed multiple times. So we ignore spaces and hyphens when checking duplicates. Also maybe other whitespace? Only spaces and hyphens allowed to appear multiple times. So we should skip bytes that are ASCII space (0x20) and hyphen (0x2D). Also maybe other punctuation? Not needed.\n\nImplementation: iterate over bytes, maintain a boolean array of size 26 for letters a-z. For each byte, if it's a letter (A-Z or a-z), convert to lowercase (if uppercase subtract 32 or use tolower). Then check if the corresponding index already true -> duplicate -> return false. Else set true. If byte is space (0x20) or hyphen (0x2D), continue. Any other byte? Probably treat as normal character; but examples include spaces in phrase \"Emily Jung Schwartzkopf\". That's spaces, allowed. Also maybe other characters like apostrophe? Not in tests. We'll just treat any other byte as a character that must be unique as well (i.e., not allowed to repeat). But spec says \"without a repeating letter, however spaces and hyphens are allowed to appear multiple times.\" So other characters (like digits) would be considered letters? Probably they'd be considered characters that must be unique. But tests only include letters, spaces, hyphens. We'll implement as: if byte is a letter (A-Z or a-z), treat case-insensitively. Else if byte is space or hyphen, ignore. Else treat as normal character: we need to check duplicates for any other character as well? The spec says \"without a repeating letter\". It doesn't mention other characters. But to be safe, we could treat any other character as a \"letter\" for duplicate detection (i.e., any byte other than space/hyphen). However examples: \"six-year-old\" includes hyphens, allowed. \"thumbscrew-japingly\" includes hyphen. \"Emily Jung Schwartzkopf\" includes spaces. No other characters. So we can just ignore spaces and hyphens, and treat all other bytes as letters (i.e., they must be unique). But that may be too strict: e.g., \"a a\" would be spaces only, considered isogram (since only spaces). That's fine. If there is a digit, it would be considered a character that must be unique. Not tested.\n\nImplementation details: We'll allocate a 32-bit bitmask maybe, but simple bool array of 26 is fine. Since we only care about letters a-z. For other characters, we could use a set via a map, but not needed.\n\nSimplify: Use a []bool[26] allocated on stack? In Zig, we can use var seen = try allocator.allocator()._allocate(u8, 26)? But we can also use a fixed-size array of u8 bits. Simpler: use a 32-bit usize bitmask for 26 letters. We'll map letter index 0-25. For each char c (lowercase), set bit. If bit already set -> duplicate -> return false.\n\nImplementation steps:\n\n- Get length of slice.\n- Initialize bitmask = 0u32.\n- Iterate i from 0 to len-1:\n   - byte = str[i]\n   - if (byte == 0x20) or (byte == 0x2D) continue\n   - else if (byte >= 'A' and byte <= 'Z'): c = byte - 'A' + 'a' (or just byte + 32). Then idx = c - 'a'.\n   - else if (byte >= 'a' and byte <= 'z'): idx = byte - 'a'.\n   - else: // other characters, treat as letter? maybe we need to handle them as distinct characters. But spec only about letters. Let's treat any other character as a \"letter\" that must be unique. But then we need a way to differentiate characters beyond a-z. Could use a separate map, but not needed for tests. Simpler: treat any other character as a letter by using its byte value as key, but that may cause collisions with letters? Not likely. But to be safe, we could treat any other character as a \"character\" that must be unique, using a set of seen bytes via a std.HashMap(u8, bool). However that adds complexity. Since tests only involve letters and spaces/hyphens, we can ignore other characters (just treat them as letters? maybe they'd cause false negatives). Let's read spec: \"An isogram (also known as a \"non-pattern word\") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.\" So only letters matter. Other characters (like digits) are not mentioned; maybe they count as letters? In typical isogram definition, only letters matter; other characters are ignored. So we should treat any character that is a letter (alphabetic) case-insensitively; ignore spaces and hyphens; all other characters (digits, punctuation) are ignored as well? The spec says \"without a repeating letter\". So only letters. So we should only check letters (A-Z, a-z). Non-letter characters (including digits) are ignored (i.e., not considered for duplication). But spaces and hyphens are explicitly allowed to repeat, but other characters also may repeat? Not specified. I'd assume they are also letters; if not a letter, we ignore them (i.e., they don't affect isogram status). However \"word\" implies letters only. So implement: only consider ASCII letters a-z/A-Z. Ignore everything else (including spaces, hyphens). That matches spec: spaces and hyphens allowed to appear multiple times, but other characters also allowed to appear multiple times? Not mentioned, but likely they are also ignored (i.e., not considered letters). So we just check letters.\n\nThus algorithm: for each byte, if it's a letter (A-Z or a-z), convert to lowercase, compute index = byte - 'a', check bitmask. If already set -> duplicate -> return false. Else set bit. Continue.\n\nEdge cases: empty string -> true (no letters). Should pass test.\n\nNow implement function:\n\npub fn isIsogram(str: []const u8) bool {\n    var seen: u32 = 0;\n    const n = str.len;\n    for (i in 0..n) {\n        const c = str[i];\n        // check if letter\n        const lower = if (c >= 'A' and c <= 'Z') {\n            @intCast(c) + 32 // to lowercase\n        } else if (c >= 'a' and c <= 'z') {\n            @intCast(c)\n        } else {\n            // not a letter, skip\n            continue;\n        }\n        const idx = lower - 'a';\n        const mask = 1u32 << idx;\n        if (seen and mask) != 0 {\n            return false;\n        }\n        seen |= mask;\n    }\n    return true;\n}\n\nNeed to ensure that subtraction 'a' works: lower is u8, 'a' is u8. In Zig, char literals are u8. So lower - 'a' yields u8. But we need to cast to u32 for shift? We can do: const idx = lower - 'a'; // u8\nthen mask = 1u32 << idx; but shift expects integer type same as shift? In Zig, shift operators work on usize, i32, etc. 1u32 << idx where idx is u8 will be promoted to u32. That's fine.\n\nBut need to ensure that idx < 32, which is true for a-z.\n\nPotential overflow if idx >= 32 (e.g., non-ASCII). But we only consider a-z.\n\nEdge Cases: The string may contain characters outside ASCII; but tests only ASCII.\n\nNow ensure function signature matches: pub fn isIsogram(str: []const u8) bool\n\nImplementation uses const, no allocator.\n\nNow produce final code block.\n","reasoning_details":[{"type":"reasoning.text","text":"We need to implement isIsogram function. It takes []const u8 (a slice of bytes). Should treat letters case-insensitively? The examples show \"Alphabet\" vs \"alphabet\" both considered duplicated because case-insensitive? The test \"word with duplicated character in mixed case\" expects !isIsogram(\"Alphabet\")\". \"Alphabet\" letters: A l p h a b e t. The 'a' appears twice (A and a). So case-insensitive comparison. Also \"alphAbet\" also fails. So we need to treat uppercase and lowercase as same letter.\n\nAlso spaces and hyphens are allowed multiple times. So we ignore spaces and hyphens when checking duplicates. Also maybe other whitespace? Only spaces and hyphens allowed to appear multiple times. So we should skip bytes that are ASCII space (0x20) and hyphen (0x2D). Also maybe other punctuation? Not needed.\n\nImplementation: iterate over bytes, maintain a boolean array of size 26 for letters a-z. For each byte, if it's a letter (A-Z or a-z), convert to lowercase (if uppercase subtract 32 or use tolower). Then check if the corresponding index already true -> duplicate -> return false. Else set true. If byte is space (0x20) or hyphen (0x2D), continue. Any other byte? Probably treat as normal character; but examples include spaces in phrase \"Emily Jung Schwartzkopf\". That's spaces, allowed. Also maybe other characters like apostrophe? Not in tests. We'll just treat any other byte as a character that must be unique as well (i.e., not allowed to repeat). But spec says \"without a repeating letter, however spaces and hyphens are allowed to appear multiple times.\" So other characters (like digits) would be considered letters? Probably they'd be considered characters that must be unique. But tests only include letters, spaces, hyphens. We'll implement as: if byte is a letter (A-Z or a-z), treat case-insensitively. Else if byte is space or hyphen, ignore. Else treat as normal character: we need to check duplicates for any other character as well? The spec says \"without a repeating letter\". It doesn't mention other characters. But to be safe, we could treat any other character as a \"letter\" for duplicate detection (i.e., any byte other than space/hyphen). However examples: \"six-year-old\" includes hyphens, allowed. \"thumbscrew-japingly\" includes hyphen. \"Emily Jung Schwartzkopf\" includes spaces. No other characters. So we can just ignore spaces and hyphens, and treat all other bytes as letters (i.e., they must be unique). But that may be too strict: e.g., \"a a\" would be spaces only, considered isogram (since only spaces). That's fine. If there is a digit, it would be considered a character that must be unique. Not tested.\n\nImplementation details: We'll allocate a 32-bit bitmask maybe, but simple bool array of 26 is fine. Since we only care about letters a-z. For other characters, we could use a set via a map, but not needed.\n\nSimplify: Use a []bool[26] allocated on stack? In Zig, we can use var seen = try allocator.allocator()._allocate(u8, 26)? But we can also use a fixed-size array of u8 bits. Simpler: use a 32-bit usize bitmask for 26 letters. We'll map letter index 0-25. For each char c (lowercase), set bit. If bit already set -> duplicate -> return false.\n\nImplementation steps:\n\n- Get length of slice.\n- Initialize bitmask = 0u32.\n- Iterate i from 0 to len-1:\n   - byte = str[i]\n   - if (byte == 0x20) or (byte == 0x2D) continue\n   - else if (byte >= 'A' and byte <= 'Z'): c = byte - 'A' + 'a' (or just byte + 32). Then idx = c - 'a'.\n   - else if (byte >= 'a' and byte <= 'z'): idx = byte - 'a'.\n   - else: // other characters, treat as letter? maybe we need to handle them as distinct characters. But spec only about letters. Let's treat any other character as a \"letter\" that must be unique. But then we need a way to differentiate characters beyond a-z. Could use a separate map, but not needed for tests. Simpler: treat any other character as a letter by using its byte value as key, but that may cause collisions with letters? Not likely. But to be safe, we could treat any other character as a \"character\" that must be unique, using a set of seen bytes via a std.HashMap(u8, bool). However that adds complexity. Since tests only involve letters and spaces/hyphens, we can ignore other characters (just treat them as letters? maybe they'd cause false negatives). Let's read spec: \"An isogram (also known as a \"non-pattern word\") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.\" So only letters matter. Other characters (like digits) are not mentioned; maybe they count as letters? In typical isogram definition, only letters matter; other characters are ignored. So we should treat any character that is a letter (alphabetic) case-insensitively; ignore spaces and hyphens; all other characters (digits, punctuation) are ignored as well? The spec says \"without a repeating letter\". So only letters. So we should only check letters (A-Z, a-z). Non-letter characters (including digits) are ignored (i.e., not considered for duplication). But spaces and hyphens are explicitly allowed to repeat, but other characters also may repeat? Not specified. I'd assume they are also letters; if not a letter, we ignore them (i.e., they don't affect isogram status). However \"word\" implies letters only. So implement: only consider ASCII letters a-z/A-Z. Ignore everything else (including spaces, hyphens). That matches spec: spaces and hyphens allowed to appear multiple times, but other characters also allowed to appear multiple times? Not mentioned, but likely they are also ignored (i.e., not considered letters). So we just check letters.\n\nThus algorithm: for each byte, if it's a letter (A-Z or a-z), convert to lowercase, compute index = byte - 'a', check bitmask. If already set -> duplicate -> return false. Else set bit. Continue.\n\nEdge cases: empty string -> true (no letters). Should pass test.\n\nNow implement function:\n\npub fn isIsogram(str: []const u8) bool {\n    var seen: u32 = 0;\n    const n = str.len;\n    for (i in 0..n) {\n        const c = str[i];\n        // check if letter\n        const lower = if (c >= 'A' and c <= 'Z') {\n            @intCast(c) + 32 // to lowercase\n        } else if (c >= 'a' and c <= 'z') {\n            @intCast(c)\n        } else {\n            // not a letter, skip\n            continue;\n        }\n        const idx = lower - 'a';\n        const mask = 1u32 << idx;\n        if (seen and mask) != 0 {\n            return false;\n        }\n        seen |= mask;\n    }\n    return true;\n}\n\nNeed to ensure that subtraction 'a' works: lower is u8, 'a' is u8. In Zig, char literals are u8. So lower - 'a' yields u8. But we need to cast to u32 for shift? We can do: const idx = lower - 'a'; // u8\nthen mask = 1u32 << idx; but shift expects integer type same as shift? In Zig, shift operators work on usize, i32, etc. 1u32 << idx where idx is u8 will be promoted to u32. That's fine.\n\nBut need to ensure that idx < 32, which is true for a-z.\n\nPotential overflow if idx >= 32 (e.g., non-ASCII). But we only consider a-z.\n\nEdge Cases: The string may contain characters outside ASCII; but tests only ASCII.\n\nNow ensure function signature matches: pub fn isIsogram(str: []const u8) bool\n\nImplementation uses const, no allocator.\n\nNow produce final code block.\n","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":1007,"completion_tokens":2036,"total_tokens":3043,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":1871,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

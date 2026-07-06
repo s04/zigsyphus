@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-06-164015Z-r02-isogram",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"isogram","status":"pass"}},
+  "date": "2026-07-06",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Isogram","slug":"isogram","tags":["builtin-functions","bitwise-operations","conditionals","control-flow","functions"],"uuid":"93a9b5bd-b495-4a7d-86fe-b71fd0343336"},
+  "resultPath": "data/silver/attempts/2026/07/06/164015Z-r02-isogram/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/06/164015Z-r02-isogram/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nisogram.zig:15:22: error: type 'type' not a function\n        const mask = u32(1) << idx;\n                     ^~~\nreferenced by:\n    test.empty string: test_isogram.zig:7:41\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-07-06T16:40:53Z",
+  "zigVersion": "0.16.0"
+}

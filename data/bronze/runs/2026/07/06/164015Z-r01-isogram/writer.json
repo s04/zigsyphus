@@ -1,0 +1,77 @@
+{
+  "attempt": {
+  "attemptId": "2026-07-06-164015Z-r01-isogram",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-06T16:40:15Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Isogram","slug":"isogram","tags":["builtin-functions","bitwise-operations","conditionals","control-flow","functions"],"uuid":"93a9b5bd-b495-4a7d-86fe-b71fd0343336"},
+  "promptHash": "68838d78f959f2c5",
+  "repairFrom": "data/silver/attempts/2026/07/06/164015Z-r00-isogram/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/06/164015Z-r01-isogram/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783356036-LSGJeH2DFBjfxXsextQe",
+    "routedModel": "nvidia/nemotron-3-super-120b-a12b-20230311:free",
+    "usage": {
+  "prompt_tokens": 1269,
+  "completion_tokens": 479,
+  "total_tokens": 1748,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 265,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Isogram (isogram)\nDifficulty: 1/9\n\nInstructions:\n# Instructions\n\nDetermine if a word or phrase is an isogram.\n\nAn isogram (also known as a \"non-pattern word\") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.\n\nExamples of isograms:\n\n- lumberjacks\n- background\n- downstream\n- six-year-old\n\nThe word _isograms_, however, is not an isogram, because the s repeats.\n\n\nStarter file:\n```zig\npub fn isIsogram(str: []const u8) bool {\n    _ = str;\n    @compileError(\"please implement the isIsogram function\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst isogram = @import(\"isogram.zig\");\n\ntest \"empty string\" {\n    try testing.expect(isogram.isIsogram(\"\"));\n}\n\ntest \"isogram with only lower case characters\" {\n    try testing.expect(isogram.isIsogram(\"isogram\"));\n}\n\ntest \"word with one duplicated character\" {\n    try testing.expect(!isogram.isIsogram(\"eleven\"));\n}\n\ntest \"word with one duplicated character from the end of the alphabet\" {\n    try testing.expect(!isogram.isIsogram(\"zzyzx\"));\n}\n\ntest \"longest reported english isogram\" {\n    try testing.expect(isogram.isIsogram(\"subdermatoglyphic\"));\n}\n\ntest \"word with duplicated character in mixed case\" {\n    try testing.expect(!isogram.isIsogram(\"Alphabet\"));\n}\n\ntest \"word with duplicated character in mixed case, lowercase first\" {\n    try testing.expect(!isogram.isIsogram(\"alphAbet\"));\n}\n\ntest \"hypothetical isogrammic word with hyphen\" {\n    try testing.expect(isogram.isIsogram(\"thumbscrew-japingly\"));\n}\n\ntest \"hypothetical word with duplicated character following hyphen\" {\n    try testing.expect(!isogram.isIsogram(\"thumbscrew-jappingly\"));\n}\n\ntest \"isogram with duplicated hyphen\" {\n    try testing.expect(isogram.isIsogram(\"six-year-old\"));\n}\n\ntest \"made-up name that is an isogram\" {\n    try testing.expect(isogram.isIsogram(\"Emily Jung Schwartzkopf\"));\n}\n\ntest \"duplicated character in the middle\" {\n    try testing.expect(!isogram.isIsogram(\"accentor\"));\n}\n\ntest \"same first and last characters\" {\n    try testing.expect(!isogram.isIsogram(\"angola\"));\n}\n\ntest \"word with duplicated character and with two hyphens\" {\n    try testing.expect(!isogram.isIsogram(\"up-to-date\"));\n}\n\n```\n"},{"role":"assistant","content":"```zig\npub fn isIsogram(str: []const u8) bool {\n    var seen: u32 = 0;\n    const n = str.len;\n    for (i in 0..n) {\n        const c = str[i];\n        // consider only ASCII letters; ignore spaces and hyphens\n        const lower = if (c >= 'A' and c <= 'Z') {\n            @intCast(c) + 32\n        } else if (c >= 'a' and c <= 'z') {\n            @intCast(c)\n        } else {\n            continue;\n        }\n        const idx = lower - 'a';\n        const mask = 1u32 << idx;\n        if ((seen and mask) != 0) {\n            return false;\n        }\n        seen |= mask;\n    }\n    return true;\n}\n\n```"},{"role":"user","content":"The deterministic tester rejected that solution. Repair it and return only the full replacement Zig file.\n\nStatus: compile_error\nPassed: 0/14\n\nCompiler/test output:\n\nisogram.zig:4:12: error: expected ',' after for operand\n    for (i in 0..n) {\n           ^~\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1783356036-LSGJeH2DFBjfxXsextQe","object":"chat.completion","created":1783356036,"model":"nvidia/nemotron-3-super-120b-a12b-20230311:free","provider":"Nvidia","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\npub fn isIsogram(str: []const u8) bool {\n    var seen: u32 = 0;\n    const n = str.len;\n    for (0..n) |i| {\n        const c = str[i];\n        var lower: u8 = 0;\n        if (c >= 'A' and c <= 'Z') {\n            lower = c + 32;\n        } else if (c >= 'a' and c <= 'z') {\n            lower = c;\n        } else {\n            continue;\n        }\n        const idx = lower - 'a';\n        const mask = 1u32 << idx;\n        if ((seen and mask) != 0) {\n            return false;\n        }\n        seen |= mask;\n    }\n    return true;\n}\n```","refusal":null,"reasoning":"We need to fix syntax: Zig for loop syntax: for (0..n) |i| { ... } or for (0..n) |i| { ... }. Also need to import nothing else. Also need to handle Unicode? Not needed. Use u32 bitmask for 26 letters. Ensure we treat only letters a-z A-Z. Also need to handle empty string.\n\nLet's rewrite.\n\nPotential issues: The for loop syntax: for (0..n) |i| { ... }.\n\nAlso need to cast c to u8? Already u8. For lower case conversion: if c between 'A' and 'Z', add 32. Use @intCast? Actually c is u8, adding 32 yields u8. So we can do: const lower = if (c >= 'A' and c <= 'Z') c + 32 else c; but need to ensure only letters. So:\n\nif (c >= 'A' and c <= 'Z') {\n    const lower = c + 32;\n    // process lower\n} else if (c >= 'a' and c <= 'z') {\n    const lower = c;\n    // process lower\n} else {\n    continue;\n}\n\nThen compute idx = lower - 'a'.\n\nLet's produce final code.\n\nAlso need to ensure we use u32 for seen.\n\nEdge: string may contain non-ASCII? Not needed.\n\nLet's produce final answer.\n\n","reasoning_details":[{"type":"reasoning.text","text":"We need to fix syntax: Zig for loop syntax: for (0..n) |i| { ... } or for (0..n) |i| { ... }. Also need to import nothing else. Also need to handle Unicode? Not needed. Use u32 bitmask for 26 letters. Ensure we treat only letters a-z A-Z. Also need to handle empty string.\n\nLet's rewrite.\n\nPotential issues: The for loop syntax: for (0..n) |i| { ... }.\n\nAlso need to cast c to u8? Already u8. For lower case conversion: if c between 'A' and 'Z', add 32. Use @intCast? Actually c is u8, adding 32 yields u8. So we can do: const lower = if (c >= 'A' and c <= 'Z') c + 32 else c; but need to ensure only letters. So:\n\nif (c >= 'A' and c <= 'Z') {\n    const lower = c + 32;\n    // process lower\n} else if (c >= 'a' and c <= 'z') {\n    const lower = c;\n    // process lower\n} else {\n    continue;\n}\n\nThen compute idx = lower - 'a'.\n\nLet's produce final code.\n\nAlso need to ensure we use u32 for seen.\n\nEdge: string may contain non-ASCII? Not needed.\n\nLet's produce final answer.\n\n","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":1269,"completion_tokens":479,"total_tokens":1748,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":265,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}
