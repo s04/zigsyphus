@@ -1,0 +1,71 @@
+{
+  "attempt": {
+  "attemptId": "2026-07-07-160406Z-r00-rna-transcription",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-07T16:04:06Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"RNA Transcription","slug":"rna-transcription","tags":["allocators","conditionals","control-flow","error-sets","slices","type-coercion"],"uuid":"9f715841-e4d0-491e-9ed7-af36c8eafb49"},
+  "promptHash": "d93cda698f90346e",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783440246-OtMVZpx2RCVGySamd7zK",
+    "routedModel": "tencent/hy3-20260706:free",
+    "usage": {
+  "prompt_tokens": 952,
+  "completion_tokens": 146,
+  "total_tokens": 1098,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: RNA Transcription (rna-transcription)\nDifficulty: 1/9\n\nInstructions:\n# Instructions\n\nYour task is to determine the RNA complement of a given DNA sequence.\n\nBoth DNA and RNA strands are a sequence of nucleotides.\n\nThe four nucleotides found in DNA are adenine (**A**), cytosine (**C**), guanine (**G**), and thymine (**T**).\n\nThe four nucleotides found in RNA are adenine (**A**), cytosine (**C**), guanine (**G**), and uracil (**U**).\n\nGiven a DNA strand, its transcribed RNA strand is formed by replacing each nucleotide with its complement:\n\n- `G` -> `C`\n- `C` -> `G`\n- `T` -> `A`\n- `A` -> `U`\n\n~~~~exercism/note\nIf you want to look at how the inputs and outputs are structured, take a look at the examples in the test suite.\n~~~~\n\n\nStarter file:\n```zig\nconst std = @import(\"std\");\nconst mem = std.mem;\n\npub fn toRna(allocator: mem.Allocator, dna: []const u8) mem.Allocator.Error![]const u8 {\n    _ = allocator;\n    _ = dna;\n    @compileError(\"please implement the toRna function\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst mem = std.mem;\nconst testing = std.testing;\n\nconst rna_transcription = @import(\"rna_transcription.zig\");\n\nfn testTranscription(dna: []const u8, expected: []const u8) !void {\n    const rna = try rna_transcription.toRna(testing.allocator, dna);\n    defer testing.allocator.free(rna);\n    try testing.expectEqualStrings(expected, rna);\n}\n\ntest \"empty rna sequence\" {\n    try testTranscription(\"\", \"\");\n}\n\ntest \"rna complement of cytosine is guanine\" {\n    try testTranscription(\"C\", \"G\");\n}\n\ntest \"rna complement of guanine is cytosine\" {\n    try testTranscription(\"G\", \"C\");\n}\n\ntest \"rna complement of thymine is adenine\" {\n    try testTranscription(\"T\", \"A\");\n}\n\ntest \"rna complement of adenine is uracil\" {\n    try testTranscription(\"A\", \"U\");\n}\n\ntest \"rna complement\" {\n    try testTranscription(\"ACGTGGTCTTAA\", \"UGCACCAGAAUU\");\n}\n\n```\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1783440246-OtMVZpx2RCVGySamd7zK","object":"chat.completion","created":1783440246,"model":"tencent/hy3-20260706:free","provider":"SiliconFlow","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\nconst std = @import(\"std\");\nconst mem = std.mem;\n\npub fn toRna(allocator: mem.Allocator, dna: []const u8) mem.Allocator.Error![]const u8 {\n    const rna = try allocator.alloc(u8, dna.len);\n    for (dna, 0..) |nucleotide, i| {\n        rna[i] = switch (nucleotide) {\n            'G' => 'C',\n            'C' => 'G',\n            'T' => 'A',\n            'A' => 'U',\n            else => '?',\n        };\n    }\n    return rna;\n}\n```","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":952,"completion_tokens":146,"total_tokens":1098,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-07-160406Z-r00-rna-transcription",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rna-transcription","status":"pass"}},
+  "date": "2026-07-07",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"RNA Transcription","slug":"rna-transcription","tags":["allocators","conditionals","control-flow","error-sets","slices","type-coercion"],"uuid":"9f715841-e4d0-491e-9ed7-af36c8eafb49"},
+  "resultPath": "data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/6 test_rna_transcription.test.empty rna sequence...OK\n2/6 test_rna_transcription.test.rna complement of cytosine is guanine...OK\n3/6 test_rna_transcription.test.rna complement of guanine is cytosine...OK\n4/6 test_rna_transcription.test.rna complement of thymine is adenine...OK\n5/6 test_rna_transcription.test.rna complement of adenine is uracil...OK\n6/6 test_rna_transcription.test.rna complement...OK\nAll 6 tests passed.\n","passed":6,"returnCode":0,"skipped":0,"status":"pass","total":6},
+  "testedAt": "2026-07-07T16:04:11Z",
+  "zigVersion": "0.16.0"
+}

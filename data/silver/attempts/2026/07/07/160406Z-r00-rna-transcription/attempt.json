@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-07-160406Z-r00-rna-transcription",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-07T16:04:06Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"RNA Transcription","slug":"rna-transcription","tags":["allocators","conditionals","control-flow","error-sets","slices","type-coercion"],"uuid":"9f715841-e4d0-491e-9ed7-af36c8eafb49"},
+  "promptHash": "d93cda698f90346e",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783440246-OtMVZpx2RCVGySamd7zK",
+    "routedModel": "tencent/hy3-20260706:free",
+    "usage": {
+  "prompt_tokens": 952,
+  "completion_tokens": 146,
+  "total_tokens": 1098,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

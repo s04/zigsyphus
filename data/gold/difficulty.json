@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-06-164015Z-r02-isogram",
+  "attemptId": "2026-07-07-160406Z-r00-rna-transcription",
   "currentDifficulty": 1,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 1,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-06T16:40:53Z"
+  "updatedAt": "2026-07-07T16:04:11Z"
 }
