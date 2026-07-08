@@ -1,0 +1,113 @@
+{
+  "attempt": {
+  "attemptId": "2026-07-08-155143Z-r00-hamming",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-08T15:51:43Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Hamming","slug":"hamming","tags":["conditionals","control-flow","error-sets","functions","slices","type-coercion"],"uuid":"bd72bb30-583f-494c-818d-4394703293a1"},
+  "promptHash": "f9c6745016ab6835",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/08/155143Z-r00-hamming/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783525903-AoH6QJNlRCvPn513YxLm",
+    "routedModel": "openai/gpt-oss-20b:free",
+    "usage": {
+  "prompt_tokens": 1115,
+  "completion_tokens": 344,
+  "total_tokens": 1459,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.0000402475,
+    "upstream_inference_prompt_cost": 0.0000161675,
+    "upstream_inference_completions_cost": 0.00002408
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 174,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Hamming (hamming)\nDifficulty: 2/9\n\nInstructions:\n# Instructions\n\nCalculate the Hamming distance between two DNA strands.\n\nWe read DNA using the letters C, A, G and T.\nTwo strands might look like this:\n\n    GAGCCTACTAACGGGAT\n    CATCGTAATGACGGCCT\n    ^ ^ ^  ^ ^    ^^\n\nThey have 7 differences, and therefore the Hamming distance is 7.\n\n## Implementation notes\n\nThe Hamming distance is only defined for sequences of equal length, so an attempt to calculate it between sequences of different lengths should not work.\n\n\nStarter file:\n```zig\npub fn compute(first: []const u8, second: []const u8) DnaError!usize {\n    _ = first;\n    _ = second;\n    @compileError(\"please implement the compute function\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst hamming = @import(\"hamming.zig\");\nconst DnaError = hamming.DnaError;\n\ntest \"empty strands\" {\n    const expected = DnaError.EmptyDnaStrands;\n    const actual = hamming.compute(\"\", \"\");\n    try testing.expectError(expected, actual);\n}\n\ntest \"single letter identical strands\" {\n    const expected: usize = 0;\n    const actual = try hamming.compute(\"A\", \"A\");\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"single letter different strands\" {\n    const expected: usize = 1;\n    const actual = try hamming.compute(\"G\", \"T\");\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"long identical strands\" {\n    const expected: usize = 0;\n    const actual = try hamming.compute(\"GGACTGAAATCTG\", \"GGACTGAAATCTG\");\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"long different strands\" {\n    const expected: usize = 9;\n    const actual = try hamming.compute(\"GGACGGATTCTG\", \"AGGACGGATTCT\");\n    try testing.expectEqual(expected, actual);\n}\n\ntest \"disallow first strand longer\" {\n    const expected = DnaError.UnequalDnaStrands;\n    const actual = hamming.compute(\"AATG\", \"AAA\");\n    try testing.expectError(expected, actual);\n}\n\ntest \"disallow second strand longer\" {\n    const expected = DnaError.UnequalDnaStrands;\n    const actual = hamming.compute(\"ATA\", \"AGTG\");\n    try testing.expectError(expected, actual);\n}\n\ntest \"disallow left empty strand\" {\n    const expected = DnaError.EmptyDnaStrands;\n    const actual = hamming.compute(\"\", \"G\");\n    try testing.expectError(expected, actual);\n}\n\ntest \"disallow right empty strand\" {\n    const expected = DnaError.EmptyDnaStrands;\n    const actual = hamming.compute(\"G\", \"\");\n    try testing.expectError(expected, actual);\n}\n\n```\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1783525903-AoH6QJNlRCvPn513YxLm","object":"chat.completion","created":1783525903,"model":"openai/gpt-oss-20b:free","provider":"Darkbloom","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\npub const DnaError = error{\n    EmptyDnaStrands,\n    UnequalDnaStrands,\n};\n\npub fn compute(first: []const u8, second: []const u8) DnaError!usize {\n    // Check for empty strands\n    if (first.len == 0 or second.len == 0) {\n        return DnaError.EmptyDnaStrands;\n    }\n\n    // Check for unequal lengths\n    if (first.len != second.len) {\n        return DnaError.UnequalDnaStrands;\n    }\n\n    var diff: usize = 0;\n    for (first, second) |a, b| {\n        if (a != b) diff += 1;\n    }\n    return diff;\n}\n```","refusal":null,"reasoning":"We need to implement compute function returning DnaError!usize. We need to define DnaError enum. Let's inspect typical Exercism Zig hamming exercise. Usually DnaError has EmptyDnaStrands, UnequalDnaStrands. Let's implement.\n\nCompute: if first.len == 0 or second.len == 0 => error EmptyDnaStrands. If lengths unequal => error UnequalDnaStrands. Then iterate over indices, count differences where first[i] != second[i]. Return count.\n\nEdge: maybe also check that characters are valid? Not required by tests. So just compute.\n\nReturn type: DnaError!usize.\n\nDefine DnaError: pub const DnaError = error{ EmptyDnaStrands, UnequalDnaStrands };\n\nImplementation.\n\nAlso need to import std? Not necessary.\n\nLet's produce file.\n\n","reasoning_details":[{"type":"reasoning.text","text":"We need to implement compute function returning DnaError!usize. We need to define DnaError enum. Let's inspect typical Exercism Zig hamming exercise. Usually DnaError has EmptyDnaStrands, UnequalDnaStrands. Let's implement.\n\nCompute: if first.len == 0 or second.len == 0 => error EmptyDnaStrands. If lengths unequal => error UnequalDnaStrands. Then iterate over indices, count differences where first[i] != second[i]. Return count.\n\nEdge: maybe also check that characters are valid? Not required by tests. So just compute.\n\nReturn type: DnaError!usize.\n\nDefine DnaError: pub const DnaError = error{ EmptyDnaStrands, UnequalDnaStrands };\n\nImplementation.\n\nAlso need to import std? Not necessary.\n\nLet's produce file.\n\n","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":1115,"completion_tokens":344,"total_tokens":1459,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.0000402475,"upstream_inference_prompt_cost":0.0000161675,"upstream_inference_completions_cost":0.00002408},"completion_tokens_details":{"reasoning_tokens":174,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

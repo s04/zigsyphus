@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-07-160406Z-r00-rna-transcription",
-  "currentDifficulty": 1,
+  "attemptId": "2026-07-08-155143Z-r00-hamming",
+  "currentDifficulty": 2,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 2,
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-07T16:04:11Z"
+  "updatedAt": "2026-07-08T15:51:57Z"
 }

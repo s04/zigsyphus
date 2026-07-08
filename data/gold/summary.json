@@ -1,18 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-07-07-160406Z-r00-rna-transcription",
-    "currentDifficulty": 1,
+    "attemptId": "2026-07-08-155143Z-r00-hamming",
+    "currentDifficulty": 2,
     "lastScore": 100,
     "lastStatus": "pass",
-    "nextDifficulty": 2,
+    "nextDifficulty": 3,
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T16:04:11Z"
+    "updatedAt": "2026-07-08T15:51:57Z"
   },
-  "generatedAt": "2026-07-07T16:04:11Z",
-  "latest": {"attemptId":"2026-07-07-160406Z-r00-rna-transcription","compileStatus":"compiled","date":"2026-07-07","difficulty":"1","mode":"live","model":"openrouter/free","name":"RNA Transcription","passed":"6","resultPath":"data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/result.json","runAt":"2026-07-07T16:04:11Z","score":"100","slug":"rna-transcription","solutionPath":"data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig","status":"pass","total":"6","zigVersion":"0.16.0"},
-  "nextDifficulty": 2,
+  "generatedAt": "2026-07-08T15:51:57Z",
+  "latest": {"attemptId":"2026-07-08-155143Z-r00-hamming","compileStatus":"compiled","date":"2026-07-08","difficulty":"2","mode":"live","model":"openrouter/free","name":"Hamming","passed":"9","resultPath":"data/silver/attempts/2026/07/08/155143Z-r00-hamming/result.json","runAt":"2026-07-08T15:51:57Z","score":"100","slug":"hamming","solutionPath":"data/silver/attempts/2026/07/08/155143Z-r00-hamming/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"},
+  "nextDifficulty": 3,
   "recentRuns": [
-    {"attemptId":"2026-06-28-141649Z-r00-resistor-color","compileStatus":"compiled","date":"2026-06-28","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color","passed":"4","resultPath":"data/silver/attempts/2026/06/28/141649Z-r00-resistor-color/result.json","runAt":"2026-06-28T14:17:07Z","score":"100","slug":"resistor-color","solutionPath":"data/silver/attempts/2026/06/28/141649Z-r00-resistor-color/solution.zig","status":"pass","total":"4","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-29-145210Z-r00-binary-search","compileStatus":"compile_error","date":"2026-06-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Binary Search","passed":"0","resultPath":"data/silver/attempts/2026/06/29/145210Z-r00-binary-search/result.json","runAt":"2026-06-29T14:52:12Z","score":"10","slug":"binary-search","solutionPath":"data/silver/attempts/2026/06/29/145210Z-r00-binary-search/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-29-145210Z-r01-binary-search","compileStatus":"compile_error","date":"2026-06-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Binary Search","passed":"0","resultPath":"data/silver/attempts/2026/06/29/145210Z-r01-binary-search/result.json","runAt":"2026-06-29T14:55:27Z","score":"10","slug":"binary-search","solutionPath":"data/silver/attempts/2026/06/29/145210Z-r01-binary-search/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-06-29-145210Z-r02-binary-search","compileStatus":"compile_error","date":"2026-06-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Binary Search","passed":"0","resultPath":"data/silver/attempts/2026/06/29/145210Z-r02-binary-search/result.json","runAt":"2026-06-29T14:56:55Z","score":"10","slug":"binary-search","solutionPath":"data/silver/attempts/2026/06/29/145210Z-r02-binary-search/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
@@ -31,9 +30,10 @@
     {"attemptId":"2026-07-06-164015Z-r00-isogram","compileStatus":"compile_error","date":"2026-07-06","difficulty":"1","mode":"live","model":"openrouter/free","name":"Isogram","passed":"0","resultPath":"data/silver/attempts/2026/07/06/164015Z-r00-isogram/result.json","runAt":"2026-07-06T16:40:36Z","score":"10","slug":"isogram","solutionPath":"data/silver/attempts/2026/07/06/164015Z-r00-isogram/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-06-164015Z-r01-isogram","compileStatus":"compile_error","date":"2026-07-06","difficulty":"1","mode":"live","model":"openrouter/free","name":"Isogram","passed":"0","resultPath":"data/silver/attempts/2026/07/06/164015Z-r01-isogram/result.json","runAt":"2026-07-06T16:40:42Z","score":"10","slug":"isogram","solutionPath":"data/silver/attempts/2026/07/06/164015Z-r01-isogram/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-06-164015Z-r02-isogram","compileStatus":"compile_error","date":"2026-07-06","difficulty":"1","mode":"live","model":"openrouter/free","name":"Isogram","passed":"0","resultPath":"data/silver/attempts/2026/07/06/164015Z-r02-isogram/result.json","runAt":"2026-07-06T16:40:53Z","score":"10","slug":"isogram","solutionPath":"data/silver/attempts/2026/07/06/164015Z-r02-isogram/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-07-160406Z-r00-rna-transcription","compileStatus":"compiled","date":"2026-07-07","difficulty":"1","mode":"live","model":"openrouter/free","name":"RNA Transcription","passed":"6","resultPath":"data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/result.json","runAt":"2026-07-07T16:04:11Z","score":"100","slug":"rna-transcription","solutionPath":"data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig","status":"pass","total":"6","zigVersion":"0.16.0"}
+    {"attemptId":"2026-07-07-160406Z-r00-rna-transcription","compileStatus":"compiled","date":"2026-07-07","difficulty":"1","mode":"live","model":"openrouter/free","name":"RNA Transcription","passed":"6","resultPath":"data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/result.json","runAt":"2026-07-07T16:04:11Z","score":"100","slug":"rna-transcription","solutionPath":"data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig","status":"pass","total":"6","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-08-155143Z-r00-hamming","compileStatus":"compiled","date":"2026-07-08","difficulty":"2","mode":"live","model":"openrouter/free","name":"Hamming","passed":"9","resultPath":"data/silver/attempts/2026/07/08/155143Z-r00-hamming/result.json","runAt":"2026-07-08T15:51:57Z","score":"100","slug":"hamming","solutionPath":"data/silver/attempts/2026/07/08/155143Z-r00-hamming/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"}
   ],
-  "runCount": 52,
+  "runCount": 53,
   "schemaVersion": 1,
   "scores": [
     {"attemptId": "2026-06-15-211650Z-r00-zebra-puzzle", "date": "2026-06-15", "score": 100, "slug": "zebra-puzzle"},
@@ -87,6 +87,7 @@
     {"attemptId": "2026-07-06-164015Z-r00-isogram", "date": "2026-07-06", "score": 10, "slug": "isogram"},
     {"attemptId": "2026-07-06-164015Z-r01-isogram", "date": "2026-07-06", "score": 10, "slug": "isogram"},
     {"attemptId": "2026-07-06-164015Z-r02-isogram", "date": "2026-07-06", "score": 10, "slug": "isogram"},
-    {"attemptId": "2026-07-07-160406Z-r00-rna-transcription", "date": "2026-07-07", "score": 100, "slug": "rna-transcription"}
+    {"attemptId": "2026-07-07-160406Z-r00-rna-transcription", "date": "2026-07-07", "score": 100, "slug": "rna-transcription"},
+    {"attemptId": "2026-07-08-155143Z-r00-hamming", "date": "2026-07-08", "score": 100, "slug": "hamming"}
   ]
 }

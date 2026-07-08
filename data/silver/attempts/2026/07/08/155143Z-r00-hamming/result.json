@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-08-155143Z-r00-hamming",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"hamming","status":"pass"}},
+  "date": "2026-07-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Hamming","slug":"hamming","tags":["conditionals","control-flow","error-sets","functions","slices","type-coercion"],"uuid":"bd72bb30-583f-494c-818d-4394703293a1"},
+  "resultPath": "data/silver/attempts/2026/07/08/155143Z-r00-hamming/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/07/08/155143Z-r00-hamming/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/9 test_hamming.test.empty strands...OK\n2/9 test_hamming.test.single letter identical strands...OK\n3/9 test_hamming.test.single letter different strands...OK\n4/9 test_hamming.test.long identical strands...OK\n5/9 test_hamming.test.long different strands...OK\n6/9 test_hamming.test.disallow first strand longer...OK\n7/9 test_hamming.test.disallow second strand longer...OK\n8/9 test_hamming.test.disallow left empty strand...OK\n9/9 test_hamming.test.disallow right empty strand...OK\nAll 9 tests passed.\n","passed":9,"returnCode":0,"skipped":0,"status":"pass","total":9},
+  "testedAt": "2026-07-08T15:51:57Z",
+  "zigVersion": "0.16.0"
+}
