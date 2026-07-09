@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r02-protein-translation](data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/solution.zig) |
+| 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r01-protein-translation](data/silver/attempts/2026/07/09/161301Z-r01-protein-translation/solution.zig) |
+| 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r00-protein-translation](data/silver/attempts/2026/07/09/161301Z-r00-protein-translation/solution.zig) |
 | 2026-07-08 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [155143Z-r00-hamming](data/silver/attempts/2026/07/08/155143Z-r00-hamming/solution.zig) |
 | 2026-07-07 | RNA Transcription (`rna-transcription`) | 1 | `openrouter/free` | pass/compiled | 6/6 | 100 | [160406Z-r00-rna-transcription](data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig) |
 | 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r02-isogram](data/silver/attempts/2026/07/06/164015Z-r02-isogram/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r00-bottle-song](data/silver/attempts/2026/07/01/142546Z-r00-bottle-song/solution.zig) |
 | 2026-06-30 | Darts (`darts`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [142450Z-r01-darts](data/silver/attempts/2026/06/30/142450Z-r01-darts/solution.zig) |
 | 2026-06-30 | Darts (`darts`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [142450Z-r00-darts](data/silver/attempts/2026/06/30/142450Z-r00-darts/solution.zig) |
-| 2026-06-29 | Binary Search (`binary-search`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145210Z-r02-binary-search](data/silver/attempts/2026/06/29/145210Z-r02-binary-search/solution.zig) |
-| 2026-06-29 | Binary Search (`binary-search`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145210Z-r01-binary-search](data/silver/attempts/2026/06/29/145210Z-r01-binary-search/solution.zig) |
-| 2026-06-29 | Binary Search (`binary-search`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145210Z-r00-binary-search](data/silver/attempts/2026/06/29/145210Z-r00-binary-search/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-09-161301Z-r00-protein-translation",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-09T16:13:01Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Protein Translation","slug":"protein-translation","tags":[],"uuid":"a1479543-eb90-4ebd-9a19-478408c2e3c1"},
+  "promptHash": "f067a34e51a15ba2",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/09/161301Z-r00-protein-translation/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783613701-4soEkL94ihcCF0DplBou",
+    "routedModel": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428:free",
+    "usage": {
+  "prompt_tokens": 3120,
+  "completion_tokens": 7729,
+  "total_tokens": 10849,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 6672,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

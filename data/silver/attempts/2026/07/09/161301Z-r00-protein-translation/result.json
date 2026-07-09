@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-09-161301Z-r00-protein-translation",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"protein-translation","status":"pass"}},
+  "date": "2026-07-09",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Protein Translation","slug":"protein-translation","tags":[],"uuid":"a1479543-eb90-4ebd-9a19-478408c2e3c1"},
+  "resultPath": "data/silver/attempts/2026/07/09/161301Z-r00-protein-translation/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/09/161301Z-r00-protein-translation/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":30,"outputExcerpt":"\nprotein_translation.zig:66:31: error: expected ']', found ':'\n        const codon = strand[i: i + 3];\n                              ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":30},
+  "testedAt": "2026-07-09T16:15:55Z",
+  "zigVersion": "0.16.0"
+}

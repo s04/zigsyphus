@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-09-161301Z-r02-protein-translation",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"protein-translation","status":"pass"}},
+  "date": "2026-07-09",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Protein Translation","slug":"protein-translation","tags":[],"uuid":"a1479543-eb90-4ebd-9a19-478408c2e3c1"},
+  "resultPath": "data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":30,"outputExcerpt":"\nprotein_translation.zig:37:38: error: struct 'array_list.Aligned(protein_translation.Protein,null)' has no member named 'init'\n    var list = std.ArrayList(Protein).init(allocator);\n               ~~~~~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/9d1530ea-0ba1-4572-8f60-8192a7a92ea8/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.Empty RNA sequence results in no proteins: test_protein_translation.zig:11:32\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":30},
+  "testedAt": "2026-07-09T16:18:39Z",
+  "zigVersion": "0.16.0"
+}

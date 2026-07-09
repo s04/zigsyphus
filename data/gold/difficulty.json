@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-08-155143Z-r00-hamming",
-  "currentDifficulty": 2,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "attemptId": "2026-07-09-161301Z-r02-protein-translation",
+  "currentDifficulty": 3,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-08T15:51:57Z"
+  "updatedAt": "2026-07-09T16:18:39Z"
 }

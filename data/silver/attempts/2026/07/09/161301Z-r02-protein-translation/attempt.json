@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-09-161301Z-r02-protein-translation",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-09T16:13:01Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Protein Translation","slug":"protein-translation","tags":[],"uuid":"a1479543-eb90-4ebd-9a19-478408c2e3c1"},
+  "promptHash": "90490c4c77685129",
+  "repairFrom": "data/silver/attempts/2026/07/09/161301Z-r01-protein-translation/result.json",
+  "roundIndex": 2,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783613892-BX3JLmF07Vbtz4Cqv97b",
+    "routedModel": "poolside/laguna-m.1-20260312:free",
+    "usage": {
+  "prompt_tokens": 4073,
+  "completion_tokens": 691,
+  "total_tokens": 4764,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 54,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
