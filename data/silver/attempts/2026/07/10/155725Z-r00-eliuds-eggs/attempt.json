@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-10-155725Z-r00-eliuds-eggs",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-10T15:57:25Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Eliud's Eggs","slug":"eliuds-eggs","tags":[],"uuid":"493be46b-6cb3-4591-87db-b0a17e9238ee"},
+  "promptHash": "e3a402b4463e3716",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783699045-Y03xweFlHMxAgILUOoce",
+    "routedModel": "nvidia/nemotron-3-super-120b-a12b-20230311:free",
+    "usage": {
+  "prompt_tokens": 761,
+  "completion_tokens": 146,
+  "total_tokens": 907,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 74,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

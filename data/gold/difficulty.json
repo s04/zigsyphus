@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-09-161301Z-r02-protein-translation",
-  "currentDifficulty": 3,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 2,
+  "attemptId": "2026-07-10-155725Z-r01-eliuds-eggs",
+  "currentDifficulty": 2,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-09T16:18:39Z"
+  "updatedAt": "2026-07-10T15:57:41Z"
 }

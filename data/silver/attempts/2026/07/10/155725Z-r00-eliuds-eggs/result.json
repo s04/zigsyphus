@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-10-155725Z-r00-eliuds-eggs",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"eliuds-eggs","status":"pass"}},
+  "date": "2026-07-10",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Eliud's Eggs","slug":"eliuds-eggs","tags":[],"uuid":"493be46b-6cb3-4591-87db-b0a17e9238ee"},
+  "resultPath": "data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":4,"outputExcerpt":"\neliuds_eggs.zig:5:20: error: expected block or assignment, found '=='\n        if (n & 1) == 1 {\n                   ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":4},
+  "testedAt": "2026-07-10T15:57:27Z",
+  "zigVersion": "0.16.0"
+}

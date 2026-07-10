@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-10-155725Z-r01-eliuds-eggs",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"eliuds-eggs","status":"pass"}},
+  "date": "2026-07-10",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Eliud's Eggs","slug":"eliuds-eggs","tags":[],"uuid":"493be46b-6cb3-4591-87db-b0a17e9238ee"},
+  "resultPath": "data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/4 test_eliuds_eggs.test.0 eggs...OK\n2/4 test_eliuds_eggs.test.1 egg...OK\n3/4 test_eliuds_eggs.test.4 eggs...OK\n4/4 test_eliuds_eggs.test.13 eggs...OK\nAll 4 tests passed.\n","passed":4,"returnCode":0,"skipped":0,"status":"pass","total":4},
+  "testedAt": "2026-07-10T15:57:41Z",
+  "zigVersion": "0.16.0"
+}
