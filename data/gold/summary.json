@@ -1,20 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-07-10-155725Z-r01-eliuds-eggs",
-    "currentDifficulty": 2,
-    "lastScore": 100,
-    "lastStatus": "pass",
-    "nextDifficulty": 3,
+    "attemptId": "2026-07-11-143607Z-r02-kindergarten-garden",
+    "currentDifficulty": 3,
+    "lastScore": 10,
+    "lastStatus": "compile_error",
+    "nextDifficulty": 2,
     "schemaVersion": 1,
-    "updatedAt": "2026-07-10T15:57:41Z"
+    "updatedAt": "2026-07-11T14:37:35Z"
   },
-  "generatedAt": "2026-07-10T15:57:41Z",
-  "latest": {"attemptId":"2026-07-10-155725Z-r01-eliuds-eggs","compileStatus":"compiled","date":"2026-07-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Eliud's Eggs","passed":"4","resultPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/result.json","runAt":"2026-07-10T15:57:41Z","score":"100","slug":"eliuds-eggs","solutionPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig","status":"pass","total":"4","zigVersion":"0.16.0"},
-  "nextDifficulty": 3,
+  "generatedAt": "2026-07-11T14:37:35Z",
+  "latest": {"attemptId":"2026-07-11-143607Z-r02-kindergarten-garden","compileStatus":"compile_error","date":"2026-07-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"Kindergarten Garden","passed":"0","resultPath":"data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/result.json","runAt":"2026-07-11T14:37:35Z","score":"10","slug":"kindergarten-garden","solutionPath":"data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+  "nextDifficulty": 2,
   "recentRuns": [
-    {"attemptId":"2026-07-01-142546Z-r00-bottle-song","compileStatus":"compile_error","date":"2026-07-01","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bottle Song","passed":"0","resultPath":"data/silver/attempts/2026/07/01/142546Z-r00-bottle-song/result.json","runAt":"2026-07-01T14:26:53Z","score":"10","slug":"bottle-song","solutionPath":"data/silver/attempts/2026/07/01/142546Z-r00-bottle-song/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-01-142546Z-r01-bottle-song","compileStatus":"compile_error","date":"2026-07-01","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bottle Song","passed":"0","resultPath":"data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/result.json","runAt":"2026-07-01T14:26:58Z","score":"10","slug":"bottle-song","solutionPath":"data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-01-142546Z-r02-bottle-song","compileStatus":"compile_error","date":"2026-07-01","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bottle Song","passed":"0","resultPath":"data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/result.json","runAt":"2026-07-01T14:28:10Z","score":"10","slug":"bottle-song","solutionPath":"data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-03-153441Z-r00-resistor-color-trio","compileStatus":"compiled","date":"2026-07-03","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Trio","passed":"14","resultPath":"data/silver/attempts/2026/07/03/153441Z-r00-resistor-color-trio/result.json","runAt":"2026-07-03T15:35:14Z","score":"100","slug":"resistor-color-trio","solutionPath":"data/silver/attempts/2026/07/03/153441Z-r00-resistor-color-trio/solution.zig","status":"pass","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-04-145032Z-r00-secret-handshake","compileStatus":"compile_error","date":"2026-07-04","difficulty":"3","mode":"live","model":"openrouter/free","name":"Secret Handshake","passed":"0","resultPath":"data/silver/attempts/2026/07/04/145032Z-r00-secret-handshake/result.json","runAt":"2026-07-04T14:52:54Z","score":"10","slug":"secret-handshake","solutionPath":"data/silver/attempts/2026/07/04/145032Z-r00-secret-handshake/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-04-145032Z-r01-secret-handshake","compileStatus":"compile_error","date":"2026-07-04","difficulty":"3","mode":"live","model":"openrouter/free","name":"Secret Handshake","passed":"0","resultPath":"data/silver/attempts/2026/07/04/145032Z-r01-secret-handshake/result.json","runAt":"2026-07-04T14:53:06Z","score":"10","slug":"secret-handshake","solutionPath":"data/silver/attempts/2026/07/04/145032Z-r01-secret-handshake/solution.zig","status":"compile_error","total":"11","zigVersion":"0.16.0"},
@@ -31,12 +28,14 @@
     {"attemptId":"2026-07-09-161301Z-r01-protein-translation","compileStatus":"compile_error","date":"2026-07-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Protein Translation","passed":"0","resultPath":"data/silver/attempts/2026/07/09/161301Z-r01-protein-translation/result.json","runAt":"2026-07-09T16:18:12Z","score":"10","slug":"protein-translation","solutionPath":"data/silver/attempts/2026/07/09/161301Z-r01-protein-translation/solution.zig","status":"compile_error","total":"30","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-09-161301Z-r02-protein-translation","compileStatus":"compile_error","date":"2026-07-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Protein Translation","passed":"0","resultPath":"data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/result.json","runAt":"2026-07-09T16:18:39Z","score":"10","slug":"protein-translation","solutionPath":"data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/solution.zig","status":"compile_error","total":"30","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-10-155725Z-r00-eliuds-eggs","compileStatus":"compile_error","date":"2026-07-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Eliud's Eggs","passed":"0","resultPath":"data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/result.json","runAt":"2026-07-10T15:57:27Z","score":"10","slug":"eliuds-eggs","solutionPath":"data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/solution.zig","status":"compile_error","total":"4","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-10-155725Z-r01-eliuds-eggs","compileStatus":"compiled","date":"2026-07-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Eliud's Eggs","passed":"4","resultPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/result.json","runAt":"2026-07-10T15:57:41Z","score":"100","slug":"eliuds-eggs","solutionPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig","status":"pass","total":"4","zigVersion":"0.16.0"}
+    {"attemptId":"2026-07-10-155725Z-r01-eliuds-eggs","compileStatus":"compiled","date":"2026-07-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Eliud's Eggs","passed":"4","resultPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/result.json","runAt":"2026-07-10T15:57:41Z","score":"100","slug":"eliuds-eggs","solutionPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig","status":"pass","total":"4","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-11-143607Z-r00-kindergarten-garden","compileStatus":"compile_error","date":"2026-07-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"Kindergarten Garden","passed":"0","resultPath":"data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/result.json","runAt":"2026-07-11T14:36:47Z","score":"10","slug":"kindergarten-garden","solutionPath":"data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-11-143607Z-r01-kindergarten-garden","compileStatus":"compile_error","date":"2026-07-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"Kindergarten Garden","passed":"0","resultPath":"data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/result.json","runAt":"2026-07-11T14:37:09Z","score":"10","slug":"kindergarten-garden","solutionPath":"data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-11-143607Z-r02-kindergarten-garden","compileStatus":"compile_error","date":"2026-07-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"Kindergarten Garden","passed":"0","resultPath":"data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/result.json","runAt":"2026-07-11T14:37:35Z","score":"10","slug":"kindergarten-garden","solutionPath":"data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"}
   ],
-  "runCount": 58,
+  "runCount": 61,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-06-15-211650Z-r00-zebra-puzzle", "date": "2026-06-15", "score": 100, "slug": "zebra-puzzle"},
     {"attemptId": "2026-06-16-062540Z-r00-space-age", "date": "2026-06-16", "score": 10, "slug": "space-age"},
     {"attemptId": "2026-06-16-062540Z-r01-pangram", "date": "2026-06-16", "score": 10, "slug": "pangram"},
     {"attemptId": "2026-06-16-062540Z-r02-reverse-string", "date": "2026-06-16", "score": 10, "slug": "reverse-string"},
@@ -93,6 +92,9 @@
     {"attemptId": "2026-07-09-161301Z-r01-protein-translation", "date": "2026-07-09", "score": 10, "slug": "protein-translation"},
     {"attemptId": "2026-07-09-161301Z-r02-protein-translation", "date": "2026-07-09", "score": 10, "slug": "protein-translation"},
     {"attemptId": "2026-07-10-155725Z-r00-eliuds-eggs", "date": "2026-07-10", "score": 10, "slug": "eliuds-eggs"},
-    {"attemptId": "2026-07-10-155725Z-r01-eliuds-eggs", "date": "2026-07-10", "score": 100, "slug": "eliuds-eggs"}
+    {"attemptId": "2026-07-10-155725Z-r01-eliuds-eggs", "date": "2026-07-10", "score": 100, "slug": "eliuds-eggs"},
+    {"attemptId": "2026-07-11-143607Z-r00-kindergarten-garden", "date": "2026-07-11", "score": 10, "slug": "kindergarten-garden"},
+    {"attemptId": "2026-07-11-143607Z-r01-kindergarten-garden", "date": "2026-07-11", "score": 10, "slug": "kindergarten-garden"},
+    {"attemptId": "2026-07-11-143607Z-r02-kindergarten-garden", "date": "2026-07-11", "score": 10, "slug": "kindergarten-garden"}
   ]
 }

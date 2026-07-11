@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-11-143607Z-r01-kindergarten-garden",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"kindergarten-garden","status":"pass"}},
+  "date": "2026-07-11",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Kindergarten Garden","slug":"kindergarten-garden","tags":[],"uuid":"8ffd8bb1-f57d-4c9e-adcc-76188a7e1603"},
+  "resultPath": "data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\nkindergarten_garden.zig:45:32: error: type 'u8' does not support indexing\n    const p0 = charToPlant(row0[start]);\n                           ~~~~^~~~~~~\nkindergarten_garden.zig:45:32: note: operand must be an array, slice, tuple, or vector\nreferenced by:\n    test.partial garden with single student: test_kindergarten_garden.zig:12:46\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-07-11T14:37:09Z",
+  "zigVersion": "0.16.0"
+}

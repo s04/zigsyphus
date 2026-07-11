@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-11-143607Z-r00-kindergarten-garden",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-11T14:36:07Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Kindergarten Garden","slug":"kindergarten-garden","tags":[],"uuid":"8ffd8bb1-f57d-4c9e-adcc-76188a7e1603"},
+  "promptHash": "929fa133119ea26f",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783780567-tsHEfgxbVaE35iMW6Fet",
+    "routedModel": "openai/gpt-oss-20b:free",
+    "usage": {
+  "prompt_tokens": 2581,
+  "completion_tokens": 957,
+  "total_tokens": 3538,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.0001044145,
+    "upstream_inference_prompt_cost": 0.0000374245,
+    "upstream_inference_completions_cost": 0.00006699
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 466,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r02-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/solution.zig) |
+| 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r01-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/solution.zig) |
+| 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r00-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig) |
 | 2026-07-10 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [155725Z-r01-eliuds-eggs](data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig) |
 | 2026-07-10 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [155725Z-r00-eliuds-eggs](data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/solution.zig) |
 | 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r02-protein-translation](data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r01-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r01-secret-handshake/solution.zig) |
 | 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r00-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r00-secret-handshake/solution.zig) |
 | 2026-07-03 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | pass/compiled | 14/14 | 100 | [153441Z-r00-resistor-color-trio](data/silver/attempts/2026/07/03/153441Z-r00-resistor-color-trio/solution.zig) |
-| 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r02-bottle-song](data/silver/attempts/2026/07/01/142546Z-r02-bottle-song/solution.zig) |
-| 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r01-bottle-song](data/silver/attempts/2026/07/01/142546Z-r01-bottle-song/solution.zig) |
-| 2026-07-01 | Bottle Song (`bottle-song`) | 3 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [142546Z-r00-bottle-song](data/silver/attempts/2026/07/01/142546Z-r00-bottle-song/solution.zig) |
 
 <!-- zigsyphus-results:end -->

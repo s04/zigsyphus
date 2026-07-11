@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-11-143607Z-r00-kindergarten-garden",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"kindergarten-garden","status":"pass"}},
+  "date": "2026-07-11",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Kindergarten Garden","slug":"kindergarten-garden","tags":[],"uuid":"8ffd8bb1-f57d-4c9e-adcc-76188a7e1603"},
+  "resultPath": "data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\nkindergarten_garden.zig:19:13: error: use of undeclared identifier 'std'\n        if (std.mem.eql(u8, students[idx], student)) {\n            ^~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-07-11T14:36:47Z",
+  "zigVersion": "0.16.0"
+}
