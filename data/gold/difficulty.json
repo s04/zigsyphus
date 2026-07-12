@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-11-143607Z-r02-kindergarten-garden",
-  "currentDifficulty": 3,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 2,
+  "attemptId": "2026-07-12-144144Z-r02-resistor-color-duo",
+  "currentDifficulty": 2,
+  "lastScore": 50,
+  "lastStatus": "fail",
+  "nextDifficulty": 1,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-11T14:37:35Z"
+  "updatedAt": "2026-07-12T14:42:40Z"
 }

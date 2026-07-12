@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-12-144144Z-r01-resistor-color-duo",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"resistor-color-duo","status":"pass"}},
+  "date": "2026-07-12",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color Duo","slug":"resistor-color-duo","tags":["arrays","builtin-functions","enums","functions"],"uuid":"52a244a4-205d-4fb3-8725-2f31fbc0a0b8"},
+  "resultPath": "data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/result.json",
+  "schemaVersion": 1,
+  "score": 50,
+  "solutionPath": "data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":5,"outputExcerpt":"\n1/6 test_resistor_color_duo.test.brown and black...OK\n2/6 test_resistor_color_duo.test.blue and grey...thread 2375 panic: integer overflow\n/tmp/zigsyphus-resistor-color-duo-4b2ae6b03bc1bd50/resistor_color_duo.zig:17:18: 0x12334bd in colorCode (test_resistor_color_duo.zig)\n    return first * 10 + second;\n                 ^\n/tmp/zigsyphus-resistor-color-duo-4b2ae6b03bc1bd50/test_resistor_color_duo.zig:17:48: 0x12340c1 in test.blue and grey (test_resistor_color_duo.zig)\n    const actual = resistor_color_duo.colorCode(array);\n                                               ^\n/home/runner/work/_temp/c1999478-57dc-4531-9984-8d8a8407bb7a/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:291:25: 0x11eec36 in mainTerminal (test_runner.zig)\n        if (test_fn.func()) |_| {\n                        ^\n/home/runner/work/_temp/c1999478-57dc-4531-9984-8d8a8407bb7a/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:73:28: 0x11ee452 in main (test_runner.zig)\n        return mainTerminal(init);\n                           ^\n/home/runner/work/_temp/c1999478-57dc-4531-9984-8d8a8407bb7a/zig-x86_64-linux-0.16.0/lib/std/start.zig:699:88: 0x11eac65 in callMain (std.zig)\n    if (fn_info.params[0].type.? == std.process.Init.Minimal) return wrapMain(root.main(.{\n                                                                                       ^\n/home/runner/work/_temp/c1999478-57dc-4531-9984-8d8a8407bb7a/zig-x86_64-linux-0.16.0/lib/std/start.zig:190:5: 0x11ea641 in _start (std.zig)\n    asm volatile (switch (native_arch) {\n    ^\nerror: the following test command terminated with signal ABRT:\n/home/runner/work/zigsyphus/zigsyphus/.zig-cache/o/ad7f9a69f8a8e465b3ebad5cfe03ee8b/test --seed=0x80c77e45\n","passed":1,"returnCode":1,"skipped":0,"status":"fail","total":6},
+  "testedAt": "2026-07-12T14:42:12Z",
+  "zigVersion": "0.16.0"
+}

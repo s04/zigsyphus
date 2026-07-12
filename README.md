@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r02-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r02-resistor-color-duo/solution.zig) |
+| 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r01-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/solution.zig) |
+| 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r00-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r00-resistor-color-duo/solution.zig) |
 | 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r02-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/solution.zig) |
 | 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r01-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/solution.zig) |
 | 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r00-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r01-high-scores](data/silver/attempts/2026/07/05/145849Z-r01-high-scores/solution.zig) |
 | 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r00-high-scores](data/silver/attempts/2026/07/05/145849Z-r00-high-scores/solution.zig) |
 | 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r02-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r02-secret-handshake/solution.zig) |
-| 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r01-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r01-secret-handshake/solution.zig) |
-| 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r00-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r00-secret-handshake/solution.zig) |
-| 2026-07-03 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | pass/compiled | 14/14 | 100 | [153441Z-r00-resistor-color-trio](data/silver/attempts/2026/07/03/153441Z-r00-resistor-color-trio/solution.zig) |
 
 <!-- zigsyphus-results:end -->
