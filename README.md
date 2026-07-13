@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | pass/compiled | 3/3 | 100 | [160608Z-r02-two-fer](data/silver/attempts/2026/07/13/160608Z-r02-two-fer/solution.zig) |
+| 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | compile_error/compile_error | 0/3 | 10 | [160608Z-r01-two-fer](data/silver/attempts/2026/07/13/160608Z-r01-two-fer/solution.zig) |
+| 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | compile_error/compile_error | 0/3 | 10 | [160608Z-r00-two-fer](data/silver/attempts/2026/07/13/160608Z-r00-two-fer/solution.zig) |
 | 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r02-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r02-resistor-color-duo/solution.zig) |
 | 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r01-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/solution.zig) |
 | 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r00-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r00-resistor-color-duo/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r01-isogram](data/silver/attempts/2026/07/06/164015Z-r01-isogram/solution.zig) |
 | 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r00-isogram](data/silver/attempts/2026/07/06/164015Z-r00-isogram/solution.zig) |
 | 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r02-high-scores](data/silver/attempts/2026/07/05/145849Z-r02-high-scores/solution.zig) |
-| 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r01-high-scores](data/silver/attempts/2026/07/05/145849Z-r01-high-scores/solution.zig) |
-| 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r00-high-scores](data/silver/attempts/2026/07/05/145849Z-r00-high-scores/solution.zig) |
-| 2026-07-04 | Secret Handshake (`secret-handshake`) | 3 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [145032Z-r02-secret-handshake](data/silver/attempts/2026/07/04/145032Z-r02-secret-handshake/solution.zig) |
 
 <!-- zigsyphus-results:end -->

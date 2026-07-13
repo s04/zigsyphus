@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-13-160608Z-r02-two-fer",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"two-fer","status":"pass"}},
+  "date": "2026-07-13",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Two-Fer","slug":"two-fer","tags":["conditionals","error-sets","functions","optionals","slices"],"uuid":"866a09d8-6949-4363-b83f-7b9fefb53893"},
+  "resultPath": "data/silver/attempts/2026/07/13/160608Z-r02-two-fer/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/07/13/160608Z-r02-two-fer/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/3 test_two_fer.test.no name given...OK\n2/3 test_two_fer.test.a name given...OK\n3/3 test_two_fer.test.another name given...OK\nAll 3 tests passed.\n","passed":3,"returnCode":0,"skipped":0,"status":"pass","total":3},
+  "testedAt": "2026-07-13T16:06:41Z",
+  "zigVersion": "0.16.0"
+}

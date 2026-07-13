@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-12-144144Z-r02-resistor-color-duo",
-  "currentDifficulty": 2,
-  "lastScore": 50,
-  "lastStatus": "fail",
-  "nextDifficulty": 1,
+  "attemptId": "2026-07-13-160608Z-r02-two-fer",
+  "currentDifficulty": 1,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-12T14:42:40Z"
+  "updatedAt": "2026-07-13T16:06:41Z"
 }

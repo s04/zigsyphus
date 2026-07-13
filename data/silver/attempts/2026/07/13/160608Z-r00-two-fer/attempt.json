@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-13-160608Z-r00-two-fer",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-13T16:06:08Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Two-Fer","slug":"two-fer","tags":["conditionals","error-sets","functions","optionals","slices"],"uuid":"866a09d8-6949-4363-b83f-7b9fefb53893"},
+  "promptHash": "20f4e522261c29eb",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/13/160608Z-r00-two-fer/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1783958768-svEMqtu2z5LPCauUABIB",
+    "routedModel": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "usage": {
+  "prompt_tokens": 908,
+  "completion_tokens": 1849,
+  "total_tokens": 2757,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 1381,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
