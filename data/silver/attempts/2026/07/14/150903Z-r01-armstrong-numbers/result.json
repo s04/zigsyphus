@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-14-150903Z-r01-armstrong-numbers",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"armstrong-numbers","status":"pass"}},
+  "date": "2026-07-14",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Armstrong Numbers","slug":"armstrong-numbers","tags":["integers","math"],"uuid":"386c397f-d9d5-4647-8bf8-671abd5cc8a1"},
+  "resultPath": "data/silver/attempts/2026/07/14/150903Z-r01-armstrong-numbers/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/14/150903Z-r01-armstrong-numbers/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\narmstrong_numbers.zig:21:13: error: local variable is never mutated\n        var digit_pow = int_pow(digit, digits);\n            ^~~~~~~~~\narmstrong_numbers.zig:21:13: note: consider using 'const'\narmstrong_numbers.zig:20:13: error: local variable is never mutated\n        var digit = remaining % 10;\n            ^~~~~\narmstrong_numbers.zig:20:13: note: consider using 'const'\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-07-14T15:11:48Z",
+  "zigVersion": "0.16.0"
+}

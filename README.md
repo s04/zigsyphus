@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [150903Z-r02-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r02-armstrong-numbers/solution.zig) |
+| 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r01-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r01-armstrong-numbers/solution.zig) |
+| 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r00-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r00-armstrong-numbers/solution.zig) |
 | 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | pass/compiled | 3/3 | 100 | [160608Z-r02-two-fer](data/silver/attempts/2026/07/13/160608Z-r02-two-fer/solution.zig) |
 | 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | compile_error/compile_error | 0/3 | 10 | [160608Z-r01-two-fer](data/silver/attempts/2026/07/13/160608Z-r01-two-fer/solution.zig) |
 | 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | compile_error/compile_error | 0/3 | 10 | [160608Z-r00-two-fer](data/silver/attempts/2026/07/13/160608Z-r00-two-fer/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-07-08 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [155143Z-r00-hamming](data/silver/attempts/2026/07/08/155143Z-r00-hamming/solution.zig) |
 | 2026-07-07 | RNA Transcription (`rna-transcription`) | 1 | `openrouter/free` | pass/compiled | 6/6 | 100 | [160406Z-r00-rna-transcription](data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig) |
 | 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r02-isogram](data/silver/attempts/2026/07/06/164015Z-r02-isogram/solution.zig) |
-| 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r01-isogram](data/silver/attempts/2026/07/06/164015Z-r01-isogram/solution.zig) |
-| 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r00-isogram](data/silver/attempts/2026/07/06/164015Z-r00-isogram/solution.zig) |
-| 2026-07-05 | High Scores (`high-scores`) | 2 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [145849Z-r02-high-scores](data/silver/attempts/2026/07/05/145849Z-r02-high-scores/solution.zig) |
 
 <!-- zigsyphus-results:end -->

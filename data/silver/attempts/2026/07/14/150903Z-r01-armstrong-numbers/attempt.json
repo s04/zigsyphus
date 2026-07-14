@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-14-150903Z-r01-armstrong-numbers",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-14T15:09:03Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Armstrong Numbers","slug":"armstrong-numbers","tags":["integers","math"],"uuid":"386c397f-d9d5-4647-8bf8-671abd5cc8a1"},
+  "promptHash": "5ea6de56b468fc03",
+  "repairFrom": "data/silver/attempts/2026/07/14/150903Z-r00-armstrong-numbers/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/14/150903Z-r01-armstrong-numbers/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784041886-CtpnU6IyAHZXi6sGNZB5",
+    "routedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "usage": {
+  "prompt_tokens": 1679,
+  "completion_tokens": 538,
+  "total_tokens": 2217,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 242,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-13-160608Z-r02-two-fer",
-  "currentDifficulty": 1,
+  "attemptId": "2026-07-14-150903Z-r02-armstrong-numbers",
+  "currentDifficulty": 2,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 2,
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-13T16:06:41Z"
+  "updatedAt": "2026-07-14T15:11:56Z"
 }
