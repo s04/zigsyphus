@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | pass/compiled | 10/10 | 100 | [150858Z-r02-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/solution.zig) |
+| 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [150858Z-r01-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r01-rotational-cipher/solution.zig) |
+| 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [150858Z-r00-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r00-rotational-cipher/solution.zig) |
 | 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [150903Z-r02-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r02-armstrong-numbers/solution.zig) |
 | 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r01-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r01-armstrong-numbers/solution.zig) |
 | 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r00-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r00-armstrong-numbers/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r02-protein-translation](data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/solution.zig) |
 | 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r01-protein-translation](data/silver/attempts/2026/07/09/161301Z-r01-protein-translation/solution.zig) |
 | 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r00-protein-translation](data/silver/attempts/2026/07/09/161301Z-r00-protein-translation/solution.zig) |
-| 2026-07-08 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [155143Z-r00-hamming](data/silver/attempts/2026/07/08/155143Z-r00-hamming/solution.zig) |
-| 2026-07-07 | RNA Transcription (`rna-transcription`) | 1 | `openrouter/free` | pass/compiled | 6/6 | 100 | [160406Z-r00-rna-transcription](data/silver/attempts/2026/07/07/160406Z-r00-rna-transcription/solution.zig) |
-| 2026-07-06 | Isogram (`isogram`) | 1 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164015Z-r02-isogram](data/silver/attempts/2026/07/06/164015Z-r02-isogram/solution.zig) |
 
 <!-- zigsyphus-results:end -->

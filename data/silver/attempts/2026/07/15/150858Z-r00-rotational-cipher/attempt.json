@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-15-150858Z-r00-rotational-cipher",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-15T15:08:58Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Rotational Cipher","slug":"rotational-cipher","tags":[],"uuid":"f111103f-3276-4c30-86e5-916225d60af0"},
+  "promptHash": "fd78f6d11334ab66",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/15/150858Z-r00-rotational-cipher/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784128138-WNldmaYJanw4BmNZK2Sp",
+    "routedModel": "nvidia/nemotron-nano-9b-v2:free",
+    "usage": {
+  "prompt_tokens": 1615,
+  "completion_tokens": 3406,
+  "total_tokens": 5021,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 2610,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

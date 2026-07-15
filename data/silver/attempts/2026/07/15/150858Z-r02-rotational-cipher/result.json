@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-15-150858Z-r02-rotational-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rotational-cipher","status":"pass"}},
+  "date": "2026-07-15",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Rotational Cipher","slug":"rotational-cipher","tags":[],"uuid":"f111103f-3276-4c30-86e5-916225d60af0"},
+  "resultPath": "data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/10 test_rotational_cipher.test.rotate a by 0, same output as input...OK\n2/10 test_rotational_cipher.test.rotate a by 1...OK\n3/10 test_rotational_cipher.test.rotate a by 26, same output as input...OK\n4/10 test_rotational_cipher.test.rotate m by 13...OK\n5/10 test_rotational_cipher.test.rotate n by 13 with wrap around alphabet...OK\n6/10 test_rotational_cipher.test.rotate capital letters...OK\n7/10 test_rotational_cipher.test.rotate spaces...OK\n8/10 test_rotational_cipher.test.rotate numbers...OK\n9/10 test_rotational_cipher.test.rotate punctuation...OK\n10/10 test_rotational_cipher.test.rotate all letters...OK\nAll 10 tests passed.\n","passed":10,"returnCode":0,"skipped":0,"status":"pass","total":10},
+  "testedAt": "2026-07-15T15:10:54Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-15-150858Z-r01-rotational-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rotational-cipher","status":"pass"}},
+  "date": "2026-07-15",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Rotational Cipher","slug":"rotational-cipher","tags":[],"uuid":"f111103f-3276-4c30-86e5-916225d60af0"},
+  "resultPath": "data/silver/attempts/2026/07/15/150858Z-r01-rotational-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/15/150858Z-r01-rotational-cipher/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":10,"outputExcerpt":"\nrotational_cipher.zig:9:12: error: expected '(', found 'an identifier'\n        if c >= 'a' and c <= 'z' {\n           ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":10},
+  "testedAt": "2026-07-15T15:10:49Z",
+  "zigVersion": "0.16.0"
+}
