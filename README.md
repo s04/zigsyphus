@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r02-luhn](data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig) |
+| 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r01-luhn](data/silver/attempts/2026/07/16/151756Z-r01-luhn/solution.zig) |
+| 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r00-luhn](data/silver/attempts/2026/07/16/151756Z-r00-luhn/solution.zig) |
 | 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | pass/compiled | 10/10 | 100 | [150858Z-r02-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/solution.zig) |
 | 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [150858Z-r01-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r01-rotational-cipher/solution.zig) |
 | 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [150858Z-r00-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r00-rotational-cipher/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r00-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig) |
 | 2026-07-10 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [155725Z-r01-eliuds-eggs](data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig) |
 | 2026-07-10 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [155725Z-r00-eliuds-eggs](data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/solution.zig) |
-| 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r02-protein-translation](data/silver/attempts/2026/07/09/161301Z-r02-protein-translation/solution.zig) |
-| 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r01-protein-translation](data/silver/attempts/2026/07/09/161301Z-r01-protein-translation/solution.zig) |
-| 2026-07-09 | Protein Translation (`protein-translation`) | 3 | `openrouter/free` | compile_error/compile_error | 0/30 | 10 | [161301Z-r00-protein-translation](data/silver/attempts/2026/07/09/161301Z-r00-protein-translation/solution.zig) |
 
 <!-- zigsyphus-results:end -->

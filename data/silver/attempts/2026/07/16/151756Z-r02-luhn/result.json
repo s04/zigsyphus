@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-16-151756Z-r02-luhn",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"luhn","status":"pass"}},
+  "date": "2026-07-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Luhn","slug":"luhn","tags":["integers","math","strings"],"uuid":"ca72ff14-470d-4679-ad36-82ea9d2890bc"},
+  "resultPath": "data/silver/attempts/2026/07/16/151756Z-r02-luhn/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":22,"outputExcerpt":"\nluhn.zig:5:26: error: comparison operators cannot be chained\n        if (b < '0' || b > '9') {\n                         ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":22},
+  "testedAt": "2026-07-16T15:23:59Z",
+  "zigVersion": "0.16.0"
+}

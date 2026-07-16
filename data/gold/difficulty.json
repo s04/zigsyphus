@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-15-150858Z-r02-rotational-cipher",
-  "currentDifficulty": 3,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 4,
+  "attemptId": "2026-07-16-151756Z-r02-luhn",
+  "currentDifficulty": 4,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T15:10:54Z"
+  "updatedAt": "2026-07-16T15:23:59Z"
 }

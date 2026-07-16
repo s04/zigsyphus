@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-16-151756Z-r00-luhn",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-16T15:17:56Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Luhn","slug":"luhn","tags":["integers","math","strings"],"uuid":"ca72ff14-470d-4679-ad36-82ea9d2890bc"},
+  "promptHash": "7562593df37e66f7",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/16/151756Z-r00-luhn/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784215196-7V7PLQAiHAYkTqQgIsCA",
+    "routedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+    "usage": {
+  "prompt_tokens": 1813,
+  "completion_tokens": 4416,
+  "total_tokens": 6229,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 3524,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
