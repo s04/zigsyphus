@@ -75,6 +75,12 @@ jobs:
         Zig 0.16 pitfalls that have crushed you before. Reread your code for
         these before answering:
         - Every statement ends with a semicolon, including `return x;`.
+        - `if`, `while`, and `switch` conditions need parentheses:
+          `if (!done)`, never `if !done`.
+        - String escapes are only `\n \r \t \\ \' \" \xNN`; there is no
+          `\v` or `\f`.
+        - Check stdlib names against 0.16: `std.ascii.isWhitespace`,
+          `isDigit`, `isAlphabetic`, `toLower`, `toUpper` (no `isSpace`).
         - Copy the exact function names and signatures from the starter and
           test file; do not rename, camelCase, or "improve" them.
         - Loops: `for (items) |item| { ... }`, `for (items, 0..) |item, i|`,
