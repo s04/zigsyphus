@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-17-234032Z-r02-bob",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"bob","status":"pass"}},
+  "date": "2026-07-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Bob","slug":"bob","tags":["conditionals","strings"],"uuid":"044ff920-f4a6-408a-b2a2-6923b0764178"},
+  "resultPath": "data/silver/attempts/2026/07/17/234032Z-r02-bob/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/17/234032Z-r02-bob/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":25,"outputExcerpt":"\nbob.zig:7:23: error: root source file struct 'ascii' has no member named 'isSpace'\n        if (!std.ascii.isSpace(c)) {\n             ~~~~~~~~~^~~~~~~~\n/home/runner/work/_temp/6b2f72de-0d91-4921-a4c5-84ccb427998c/zig-x86_64-linux-0.16.0/lib/std/ascii.zig:1:1: note: struct declared here\n//! The 7-bit [ASCII](https://en.wikipedia.org/wiki/ASCII) character encoding standard.\n^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nreferenced by:\n    test.stating something: test_bob.zig:8:28\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":25},
+  "testedAt": "2026-07-17T23:44:51Z",
+  "zigVersion": "0.16.0"
+}

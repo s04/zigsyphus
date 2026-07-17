@@ -1,21 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-07-16-151756Z-r02-luhn",
-    "currentDifficulty": 4,
+    "attemptId": "2026-07-17-234032Z-r03-bob",
+    "currentDifficulty": 3,
     "lastScore": 10,
     "lastStatus": "compile_error",
-    "nextDifficulty": 3,
+    "nextDifficulty": 2,
     "schemaVersion": 1,
-    "updatedAt": "2026-07-16T15:23:59Z"
+    "updatedAt": "2026-07-17T23:44:58Z"
   },
-  "generatedAt": "2026-07-16T15:23:59Z",
-  "latest": {"attemptId":"2026-07-16-151756Z-r02-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/result.json","runAt":"2026-07-16T15:23:59Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"},
-  "nextDifficulty": 3,
+  "generatedAt": "2026-07-17T23:44:58Z",
+  "latest": {"attemptId":"2026-07-17-234032Z-r03-bob","compileStatus":"compile_error","date":"2026-07-17","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bob","passed":"0","resultPath":"data/silver/attempts/2026/07/17/234032Z-r03-bob/result.json","runAt":"2026-07-17T23:44:58Z","score":"10","slug":"bob","solutionPath":"data/silver/attempts/2026/07/17/234032Z-r03-bob/solution.zig","status":"compile_error","total":"25","zigVersion":"0.16.0"},
+  "nextDifficulty": 2,
   "recentRuns": [
-    {"attemptId":"2026-07-10-155725Z-r00-eliuds-eggs","compileStatus":"compile_error","date":"2026-07-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Eliud's Eggs","passed":"0","resultPath":"data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/result.json","runAt":"2026-07-10T15:57:27Z","score":"10","slug":"eliuds-eggs","solutionPath":"data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/solution.zig","status":"compile_error","total":"4","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-10-155725Z-r01-eliuds-eggs","compileStatus":"compiled","date":"2026-07-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Eliud's Eggs","passed":"4","resultPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/result.json","runAt":"2026-07-10T15:57:41Z","score":"100","slug":"eliuds-eggs","solutionPath":"data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig","status":"pass","total":"4","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-11-143607Z-r00-kindergarten-garden","compileStatus":"compile_error","date":"2026-07-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"Kindergarten Garden","passed":"0","resultPath":"data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/result.json","runAt":"2026-07-11T14:36:47Z","score":"10","slug":"kindergarten-garden","solutionPath":"data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-11-143607Z-r01-kindergarten-garden","compileStatus":"compile_error","date":"2026-07-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"Kindergarten Garden","passed":"0","resultPath":"data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/result.json","runAt":"2026-07-11T14:37:09Z","score":"10","slug":"kindergarten-garden","solutionPath":"data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-11-143607Z-r02-kindergarten-garden","compileStatus":"compile_error","date":"2026-07-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"Kindergarten Garden","passed":"0","resultPath":"data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/result.json","runAt":"2026-07-11T14:37:35Z","score":"10","slug":"kindergarten-garden","solutionPath":"data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-12-144144Z-r00-resistor-color-duo","compileStatus":"compiled","date":"2026-07-12","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Duo","passed":"1","resultPath":"data/silver/attempts/2026/07/12/144144Z-r00-resistor-color-duo/result.json","runAt":"2026-07-12T14:42:09Z","score":"50","slug":"resistor-color-duo","solutionPath":"data/silver/attempts/2026/07/12/144144Z-r00-resistor-color-duo/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-12-144144Z-r01-resistor-color-duo","compileStatus":"compiled","date":"2026-07-12","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Duo","passed":"1","resultPath":"data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/result.json","runAt":"2026-07-12T14:42:12Z","score":"50","slug":"resistor-color-duo","solutionPath":"data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"},
@@ -31,15 +27,15 @@
     {"attemptId":"2026-07-15-150858Z-r02-rotational-cipher","compileStatus":"compiled","date":"2026-07-15","difficulty":"3","mode":"live","model":"openrouter/free","name":"Rotational Cipher","passed":"10","resultPath":"data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/result.json","runAt":"2026-07-15T15:10:54Z","score":"100","slug":"rotational-cipher","solutionPath":"data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/solution.zig","status":"pass","total":"10","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-16-151756Z-r00-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r00-luhn/result.json","runAt":"2026-07-16T15:20:32Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r00-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-16-151756Z-r01-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r01-luhn/result.json","runAt":"2026-07-16T15:22:41Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r01-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-16-151756Z-r02-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/result.json","runAt":"2026-07-16T15:23:59Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"}
+    {"attemptId":"2026-07-16-151756Z-r02-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/result.json","runAt":"2026-07-16T15:23:59Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-17-234032Z-r00-bob","compileStatus":"compile_error","date":"2026-07-17","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bob","passed":"0","resultPath":"data/silver/attempts/2026/07/17/234032Z-r00-bob/result.json","runAt":"2026-07-17T23:42:24Z","score":"10","slug":"bob","solutionPath":"data/silver/attempts/2026/07/17/234032Z-r00-bob/solution.zig","status":"compile_error","total":"25","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-17-234032Z-r01-bob","compileStatus":"compile_error","date":"2026-07-17","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bob","passed":"0","resultPath":"data/silver/attempts/2026/07/17/234032Z-r01-bob/result.json","runAt":"2026-07-17T23:42:42Z","score":"10","slug":"bob","solutionPath":"data/silver/attempts/2026/07/17/234032Z-r01-bob/solution.zig","status":"compile_error","total":"25","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-17-234032Z-r02-bob","compileStatus":"compile_error","date":"2026-07-17","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bob","passed":"0","resultPath":"data/silver/attempts/2026/07/17/234032Z-r02-bob/result.json","runAt":"2026-07-17T23:44:51Z","score":"10","slug":"bob","solutionPath":"data/silver/attempts/2026/07/17/234032Z-r02-bob/solution.zig","status":"compile_error","total":"25","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-17-234032Z-r03-bob","compileStatus":"compile_error","date":"2026-07-17","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bob","passed":"0","resultPath":"data/silver/attempts/2026/07/17/234032Z-r03-bob/result.json","runAt":"2026-07-17T23:44:58Z","score":"10","slug":"bob","solutionPath":"data/silver/attempts/2026/07/17/234032Z-r03-bob/solution.zig","status":"compile_error","total":"25","zigVersion":"0.16.0"}
   ],
-  "runCount": 76,
+  "runCount": 80,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-06-19-143056Z-r01-sum-of-multiples", "date": "2026-06-19", "score": 10, "slug": "sum-of-multiples"},
-    {"attemptId": "2026-06-19-143056Z-r02-sum-of-multiples", "date": "2026-06-19", "score": 10, "slug": "sum-of-multiples"},
-    {"attemptId": "2026-06-20-142331Z-r00-triangle", "date": "2026-06-20", "score": 100, "slug": "triangle"},
-    {"attemptId": "2026-06-21-142354Z-r00-difference-of-squares", "date": "2026-06-21", "score": 10, "slug": "difference-of-squares"},
     {"attemptId": "2026-06-21-142354Z-r01-difference-of-squares", "date": "2026-06-21", "score": 10, "slug": "difference-of-squares"},
     {"attemptId": "2026-06-21-142354Z-r02-difference-of-squares", "date": "2026-06-21", "score": 10, "slug": "difference-of-squares"},
     {"attemptId": "2026-06-22-152514Z-r00-nucleotide-count", "date": "2026-06-22", "score": 100, "slug": "nucleotide-count"},
@@ -95,6 +91,10 @@
     {"attemptId": "2026-07-15-150858Z-r02-rotational-cipher", "date": "2026-07-15", "score": 100, "slug": "rotational-cipher"},
     {"attemptId": "2026-07-16-151756Z-r00-luhn", "date": "2026-07-16", "score": 10, "slug": "luhn"},
     {"attemptId": "2026-07-16-151756Z-r01-luhn", "date": "2026-07-16", "score": 10, "slug": "luhn"},
-    {"attemptId": "2026-07-16-151756Z-r02-luhn", "date": "2026-07-16", "score": 10, "slug": "luhn"}
+    {"attemptId": "2026-07-16-151756Z-r02-luhn", "date": "2026-07-16", "score": 10, "slug": "luhn"},
+    {"attemptId": "2026-07-17-234032Z-r00-bob", "date": "2026-07-17", "score": 10, "slug": "bob"},
+    {"attemptId": "2026-07-17-234032Z-r01-bob", "date": "2026-07-17", "score": 10, "slug": "bob"},
+    {"attemptId": "2026-07-17-234032Z-r02-bob", "date": "2026-07-17", "score": 10, "slug": "bob"},
+    {"attemptId": "2026-07-17-234032Z-r03-bob", "date": "2026-07-17", "score": 10, "slug": "bob"}
   ]
 }

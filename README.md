@@ -86,6 +86,10 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r03-bob](data/silver/attempts/2026/07/17/234032Z-r03-bob/solution.zig) |
+| 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r02-bob](data/silver/attempts/2026/07/17/234032Z-r02-bob/solution.zig) |
+| 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r01-bob](data/silver/attempts/2026/07/17/234032Z-r01-bob/solution.zig) |
+| 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r00-bob](data/silver/attempts/2026/07/17/234032Z-r00-bob/solution.zig) |
 | 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r02-luhn](data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig) |
 | 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r01-luhn](data/silver/attempts/2026/07/16/151756Z-r01-luhn/solution.zig) |
 | 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r00-luhn](data/silver/attempts/2026/07/16/151756Z-r00-luhn/solution.zig) |
@@ -102,9 +106,5 @@ Required GitHub secret:
 | 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r01-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/solution.zig) |
 | 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r00-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r00-resistor-color-duo/solution.zig) |
 | 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r02-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/solution.zig) |
-| 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r01-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r01-kindergarten-garden/solution.zig) |
-| 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r00-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r00-kindergarten-garden/solution.zig) |
-| 2026-07-10 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [155725Z-r01-eliuds-eggs](data/silver/attempts/2026/07/10/155725Z-r01-eliuds-eggs/solution.zig) |
-| 2026-07-10 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [155725Z-r00-eliuds-eggs](data/silver/attempts/2026/07/10/155725Z-r00-eliuds-eggs/solution.zig) |
 
 <!-- zigsyphus-results:end -->

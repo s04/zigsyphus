@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-17-234032Z-r03-bob",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"bob","status":"pass"}},
+  "date": "2026-07-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Bob","slug":"bob","tags":["conditionals","strings"],"uuid":"044ff920-f4a6-408a-b2a2-6923b0764178"},
+  "resultPath": "data/silver/attempts/2026/07/17/234032Z-r03-bob/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/17/234032Z-r03-bob/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":25,"outputExcerpt":"\nbob.zig:5:89: error: expected ',' after initializer\n        return c == ' ' or c == '\\t' or c == '\\n' or c == '\\r' or c == '\\v' or c == '\\f';\n                                                                                        ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":25},
+  "testedAt": "2026-07-17T23:44:58Z",
+  "zigVersion": "0.16.0"
+}

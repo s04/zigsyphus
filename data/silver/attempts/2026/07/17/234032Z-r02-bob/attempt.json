@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-17-234032Z-r02-bob",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-17T23:40:32Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Bob","slug":"bob","tags":["conditionals","strings"],"uuid":"044ff920-f4a6-408a-b2a2-6923b0764178"},
+  "promptHash": "2e1e9e55de891a0b",
+  "repairFrom": "data/silver/attempts/2026/07/17/234032Z-r01-bob/result.json",
+  "roundIndex": 2,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/17/234032Z-r02-bob/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784331882-5FaVeRYzaaWBwSK1Cz5F",
+    "routedModel": "poolside/laguna-m.1:free",
+    "usage": {
+  "prompt_tokens": 2988,
+  "completion_tokens": 544,
+  "total_tokens": 3532,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 150,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
