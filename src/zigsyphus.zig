@@ -17,7 +17,7 @@ const Options = struct {
     problem_slug: ?[]const u8 = null,
     min_difficulty: ?u8 = null,
     max_difficulty: ?u8 = null,
-    repair_attempts: u8 = 2,
+    repair_attempts: u8 = 3,
     timeout_seconds: u32 = 30,
     run_at: []const u8 = "",
     skip_readme: bool = false,
@@ -248,9 +248,11 @@ fn writeAttempt(allocator: Allocator, opts: Options, exercise: Exercise, round_i
         defer parsed.deinit();
         solution = try extractSolution(allocator, parsed.value);
         extracted = solution.len > 0;
-        response_id = jsonString(parsed.value.object.get("id")) orelse "";
-        routed_model = jsonString(parsed.value.object.get("model")) orelse "";
-        if (parsed.value.object.get("usage")) |usage| usage_json = try jsonValueString(allocator, usage);
+        if (parsed.value == .object) {
+            response_id = jsonString(parsed.value.object.get("id")) orelse "";
+            routed_model = jsonString(parsed.value.object.get("model")) orelse "";
+            if (parsed.value.object.get("usage")) |usage| usage_json = try jsonValueString(allocator, usage);
+        }
     } else {
         solution = try fixtureSolution(allocator, opts.mode, exercise.slug);
         extracted = solution.len > 0;
@@ -567,9 +569,14 @@ fn openRouterPayload(allocator: Allocator, model: []const u8, messages: []Messag
 }
 
 fn extractSolution(allocator: Allocator, root: Value) ![]const u8 {
+    if (root != .object) return "";
     const choices = root.object.get("choices") orelse return "";
-    if (choices.array.items.len == 0) return "";
-    const content = choices.array.items[0].object.get("message").?.object.get("content").?.string;
+    if (choices != .array or choices.array.items.len == 0) return "";
+    const first = choices.array.items[0];
+    if (first != .object) return "";
+    const message = first.object.get("message") orelse return "";
+    if (message != .object) return "";
+    const content = jsonString(message.object.get("content")) orelse return "";
     if (std.mem.indexOf(u8, content, "```")) |start| {
         var code_start = start + 3;
         while (code_start < content.len and content[code_start] != '\n') code_start += 1;
