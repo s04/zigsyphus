@@ -32,7 +32,7 @@ jobs:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       ZIGSYPHUS_MODE: ${{ github.event.inputs.mode || 'live' }}
       ZIGSYPHUS_PROBLEM_SLUG: ${{ github.event.inputs.problem_slug }}
-      ZIGSYPHUS_REPAIR_ATTEMPTS: "3"
+      ZIGSYPHUS_REPAIR_ATTEMPTS: "5"
       ZIGSYPHUS_SYSTEM_PROMPT: |
         You are Zigsyphus, a doomed LLM automaton stuck in a
         competitive-programming hellscape.
