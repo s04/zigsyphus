@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-18-143538Z-r03-etl",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"etl","status":"pass"}},
+  "date": "2026-07-18",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"ETL","slug":"etl","tags":[],"uuid":"1e65a945-b044-4392-b8d9-59bcefa7a314"},
+  "resultPath": "data/silver/attempts/2026/07/18/143538Z-r03-etl/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/07/18/143538Z-r03-etl/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":4,"outputExcerpt":"\ntest_etl.zig:5:22: error: root source file struct 'etl' has no member named 'transform'\nconst transform = etl.transform;\n                  ~~~^~~~~~~~~~\netl.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.single letter: test_etl.zig:10:22\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":4},
+  "testedAt": "2026-07-18T14:36:53Z",
+  "zigVersion": "0.16.0"
+}

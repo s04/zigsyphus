@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [143538Z-r05-etl](data/silver/attempts/2026/07/18/143538Z-r05-etl/solution.zig) |
+| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 0 | [143538Z-r04-etl](data/silver/attempts/2026/07/18/143538Z-r04-etl/solution.zig) |
+| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 0 | [143538Z-r03-etl](data/silver/attempts/2026/07/18/143538Z-r03-etl/solution.zig) |
+| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [143538Z-r02-etl](data/silver/attempts/2026/07/18/143538Z-r02-etl/solution.zig) |
+| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [143538Z-r01-etl](data/silver/attempts/2026/07/18/143538Z-r01-etl/solution.zig) |
+| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [143538Z-r00-etl](data/silver/attempts/2026/07/18/143538Z-r00-etl/solution.zig) |
 | 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r03-bob](data/silver/attempts/2026/07/17/234032Z-r03-bob/solution.zig) |
 | 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r02-bob](data/silver/attempts/2026/07/17/234032Z-r02-bob/solution.zig) |
 | 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r01-bob](data/silver/attempts/2026/07/17/234032Z-r01-bob/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r01-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r01-armstrong-numbers/solution.zig) |
 | 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r00-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r00-armstrong-numbers/solution.zig) |
 | 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | pass/compiled | 3/3 | 100 | [160608Z-r02-two-fer](data/silver/attempts/2026/07/13/160608Z-r02-two-fer/solution.zig) |
-| 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | compile_error/compile_error | 0/3 | 10 | [160608Z-r01-two-fer](data/silver/attempts/2026/07/13/160608Z-r01-two-fer/solution.zig) |
-| 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | compile_error/compile_error | 0/3 | 10 | [160608Z-r00-two-fer](data/silver/attempts/2026/07/13/160608Z-r00-two-fer/solution.zig) |
-| 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r02-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r02-resistor-color-duo/solution.zig) |
-| 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r01-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r01-resistor-color-duo/solution.zig) |
-| 2026-07-12 | Resistor Color Duo (`resistor-color-duo`) | 2 | `openrouter/free` | fail/compiled | 1/6 | 50 | [144144Z-r00-resistor-color-duo](data/silver/attempts/2026/07/12/144144Z-r00-resistor-color-duo/solution.zig) |
-| 2026-07-11 | Kindergarten Garden (`kindergarten-garden`) | 3 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [143607Z-r02-kindergarten-garden](data/silver/attempts/2026/07/11/143607Z-r02-kindergarten-garden/solution.zig) |
 
 <!-- zigsyphus-results:end -->

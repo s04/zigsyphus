@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-18-143538Z-r01-etl",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"etl","status":"pass"}},
+  "date": "2026-07-18",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"ETL","slug":"etl","tags":[],"uuid":"1e65a945-b044-4392-b8d9-59bcefa7a314"},
+  "resultPath": "data/silver/attempts/2026/07/18/143538Z-r01-etl/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/18/143538Z-r01-etl/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":4,"outputExcerpt":"\netl.zig:1:1: error: expected type expression, found 'invalid token'\n```zig const std = @import(\"std\"); const mem = std.mem; pub fn transform(allocator: mem.Allocator, legacy: std.AutoHashMap(i5, []const u8)) mem.Allocator.Error!std.AutoHashMap(u8, i5) { var result = std.AutoHashMap(u8, i5).init(allocator); errdefer result.deinit(); for (legacy.iterator()) |entry| { const score = entry.key; const letters = entry.value; for (letters) |c| { const lower = std.ascii.toLower(c); try result.put(lower, score); } } return result; } ```\n^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":4},
+  "testedAt": "2026-07-18T14:35:56Z",
+  "zigVersion": "0.16.0"
+}
