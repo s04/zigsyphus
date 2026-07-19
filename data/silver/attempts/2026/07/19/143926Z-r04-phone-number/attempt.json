@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-19-143926Z-r04-phone-number",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-19T14:39:26Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Phone Number","slug":"phone-number","tags":[],"uuid":"66cd0755-1817-4ae3-9c5f-fab39bb08065"},
+  "promptHash": "953682d572f95a56",
+  "repairFrom": "data/silver/attempts/2026/07/19/143926Z-r03-phone-number/result.json",
+  "roundIndex": 4,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/19/143926Z-r04-phone-number/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784472126-pVhiWSl1dxSfCWd49ihi",
+    "routedModel": "google/gemma-4-26b-a4b-it:free",
+    "usage": {
+  "prompt_tokens": 4323,
+  "completion_tokens": 903,
+  "total_tokens": 5226,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.000278685,
+    "upstream_inference_prompt_cost": 0.00012969,
+    "upstream_inference_completions_cost": 0.000148995
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

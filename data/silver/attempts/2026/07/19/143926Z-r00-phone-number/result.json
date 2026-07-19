@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-19-143926Z-r00-phone-number",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"phone-number","status":"pass"}},
+  "date": "2026-07-19",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Phone Number","slug":"phone-number","tags":[],"uuid":"66cd0755-1817-4ae3-9c5f-fab39bb08065"},
+  "resultPath": "data/silver/attempts/2026/07/19/143926Z-r00-phone-number/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/19/143926Z-r00-phone-number/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\nphone_number.zig:10:12: error: expected '(', found 'an identifier'\n        if c >= '0' and c <= '9' {\n           ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-07-19T14:39:38Z",
+  "zigVersion": "0.16.0"
+}

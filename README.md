@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r05-phone-number](data/silver/attempts/2026/07/19/143926Z-r05-phone-number/solution.zig) |
+| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r04-phone-number](data/silver/attempts/2026/07/19/143926Z-r04-phone-number/solution.zig) |
+| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r03-phone-number](data/silver/attempts/2026/07/19/143926Z-r03-phone-number/solution.zig) |
+| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r02-phone-number](data/silver/attempts/2026/07/19/143926Z-r02-phone-number/solution.zig) |
+| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r01-phone-number](data/silver/attempts/2026/07/19/143926Z-r01-phone-number/solution.zig) |
+| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143926Z-r00-phone-number](data/silver/attempts/2026/07/19/143926Z-r00-phone-number/solution.zig) |
 | 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [143538Z-r05-etl](data/silver/attempts/2026/07/18/143538Z-r05-etl/solution.zig) |
 | 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 0 | [143538Z-r04-etl](data/silver/attempts/2026/07/18/143538Z-r04-etl/solution.zig) |
 | 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 0 | [143538Z-r03-etl](data/silver/attempts/2026/07/18/143538Z-r03-etl/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r01-luhn](data/silver/attempts/2026/07/16/151756Z-r01-luhn/solution.zig) |
 | 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r00-luhn](data/silver/attempts/2026/07/16/151756Z-r00-luhn/solution.zig) |
 | 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | pass/compiled | 10/10 | 100 | [150858Z-r02-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/solution.zig) |
-| 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [150858Z-r01-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r01-rotational-cipher/solution.zig) |
-| 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [150858Z-r00-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r00-rotational-cipher/solution.zig) |
-| 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [150903Z-r02-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r02-armstrong-numbers/solution.zig) |
-| 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r01-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r01-armstrong-numbers/solution.zig) |
-| 2026-07-14 | Armstrong Numbers (`armstrong-numbers`) | 2 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [150903Z-r00-armstrong-numbers](data/silver/attempts/2026/07/14/150903Z-r00-armstrong-numbers/solution.zig) |
-| 2026-07-13 | Two-Fer (`two-fer`) | 1 | `openrouter/free` | pass/compiled | 3/3 | 100 | [160608Z-r02-two-fer](data/silver/attempts/2026/07/13/160608Z-r02-two-fer/solution.zig) |
 
 <!-- zigsyphus-results:end -->
