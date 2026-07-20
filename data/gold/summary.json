@@ -1,19 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-07-19-143926Z-r05-phone-number",
-    "currentDifficulty": 3,
-    "lastScore": 93,
-    "lastStatus": "fail",
-    "nextDifficulty": 2,
+    "attemptId": "2026-07-20-153015Z-r01-resistor-color",
+    "currentDifficulty": 2,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 3,
     "schemaVersion": 1,
-    "updatedAt": "2026-07-19T14:44:01Z"
+    "updatedAt": "2026-07-20T15:30:38Z"
   },
-  "generatedAt": "2026-07-19T14:44:01Z",
-  "latest": {"attemptId":"2026-07-19-143926Z-r05-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r05-phone-number/result.json","runAt":"2026-07-19T14:44:01Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r05-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
-  "nextDifficulty": 2,
+  "generatedAt": "2026-07-20T15:30:38Z",
+  "latest": {"attemptId":"2026-07-20-153015Z-r01-resistor-color","compileStatus":"compiled","date":"2026-07-20","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color","passed":"4","resultPath":"data/silver/attempts/2026/07/20/153015Z-r01-resistor-color/result.json","runAt":"2026-07-20T15:30:38Z","score":"100","slug":"resistor-color","solutionPath":"data/silver/attempts/2026/07/20/153015Z-r01-resistor-color/solution.zig","status":"pass","total":"4","zigVersion":"0.16.0"},
+  "nextDifficulty": 3,
   "recentRuns": [
-    {"attemptId":"2026-07-15-150858Z-r02-rotational-cipher","compileStatus":"compiled","date":"2026-07-15","difficulty":"3","mode":"live","model":"openrouter/free","name":"Rotational Cipher","passed":"10","resultPath":"data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/result.json","runAt":"2026-07-15T15:10:54Z","score":"100","slug":"rotational-cipher","solutionPath":"data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/solution.zig","status":"pass","total":"10","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-16-151756Z-r00-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r00-luhn/result.json","runAt":"2026-07-16T15:20:32Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r00-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-16-151756Z-r01-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r01-luhn/result.json","runAt":"2026-07-16T15:22:41Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r01-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-16-151756Z-r02-luhn","compileStatus":"compile_error","date":"2026-07-16","difficulty":"4","mode":"live","model":"openrouter/free","name":"Luhn","passed":"0","resultPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/result.json","runAt":"2026-07-16T15:23:59Z","score":"10","slug":"luhn","solutionPath":"data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig","status":"compile_error","total":"22","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-17-234032Z-r00-bob","compileStatus":"compile_error","date":"2026-07-17","difficulty":"3","mode":"live","model":"openrouter/free","name":"Bob","passed":"0","resultPath":"data/silver/attempts/2026/07/17/234032Z-r00-bob/result.json","runAt":"2026-07-17T23:42:24Z","score":"10","slug":"bob","solutionPath":"data/silver/attempts/2026/07/17/234032Z-r00-bob/solution.zig","status":"compile_error","total":"25","zigVersion":"0.16.0"},
@@ -31,13 +29,13 @@
     {"attemptId":"2026-07-19-143926Z-r02-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r02-phone-number/result.json","runAt":"2026-07-19T14:39:55Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r02-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-19-143926Z-r03-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r03-phone-number/result.json","runAt":"2026-07-19T14:42:06Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r03-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-19-143926Z-r04-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r04-phone-number/result.json","runAt":"2026-07-19T14:42:57Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r04-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-19-143926Z-r05-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r05-phone-number/result.json","runAt":"2026-07-19T14:44:01Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r05-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"}
+    {"attemptId":"2026-07-19-143926Z-r05-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r05-phone-number/result.json","runAt":"2026-07-19T14:44:01Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r05-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-20-153015Z-r00-resistor-color","compileStatus":"compile_error","date":"2026-07-20","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color","passed":"0","resultPath":"data/silver/attempts/2026/07/20/153015Z-r00-resistor-color/result.json","runAt":"2026-07-20T15:30:19Z","score":"10","slug":"resistor-color","solutionPath":"data/silver/attempts/2026/07/20/153015Z-r00-resistor-color/solution.zig","status":"compile_error","total":"4","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-20-153015Z-r01-resistor-color","compileStatus":"compiled","date":"2026-07-20","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color","passed":"4","resultPath":"data/silver/attempts/2026/07/20/153015Z-r01-resistor-color/result.json","runAt":"2026-07-20T15:30:38Z","score":"100","slug":"resistor-color","solutionPath":"data/silver/attempts/2026/07/20/153015Z-r01-resistor-color/solution.zig","status":"pass","total":"4","zigVersion":"0.16.0"}
   ],
-  "runCount": 92,
+  "runCount": 94,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-06-28-141649Z-r00-resistor-color", "date": "2026-06-28", "score": 100, "slug": "resistor-color"},
-    {"attemptId": "2026-06-29-145210Z-r00-binary-search", "date": "2026-06-29", "score": 10, "slug": "binary-search"},
     {"attemptId": "2026-06-29-145210Z-r01-binary-search", "date": "2026-06-29", "score": 10, "slug": "binary-search"},
     {"attemptId": "2026-06-29-145210Z-r02-binary-search", "date": "2026-06-29", "score": 10, "slug": "binary-search"},
     {"attemptId": "2026-06-30-142450Z-r00-darts", "date": "2026-06-30", "score": 10, "slug": "darts"},
@@ -95,6 +93,8 @@
     {"attemptId": "2026-07-19-143926Z-r02-phone-number", "date": "2026-07-19", "score": 93, "slug": "phone-number"},
     {"attemptId": "2026-07-19-143926Z-r03-phone-number", "date": "2026-07-19", "score": 93, "slug": "phone-number"},
     {"attemptId": "2026-07-19-143926Z-r04-phone-number", "date": "2026-07-19", "score": 93, "slug": "phone-number"},
-    {"attemptId": "2026-07-19-143926Z-r05-phone-number", "date": "2026-07-19", "score": 93, "slug": "phone-number"}
+    {"attemptId": "2026-07-19-143926Z-r05-phone-number", "date": "2026-07-19", "score": 93, "slug": "phone-number"},
+    {"attemptId": "2026-07-20-153015Z-r00-resistor-color", "date": "2026-07-20", "score": 10, "slug": "resistor-color"},
+    {"attemptId": "2026-07-20-153015Z-r01-resistor-color", "date": "2026-07-20", "score": 100, "slug": "resistor-color"}
   ]
 }

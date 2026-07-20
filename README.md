@@ -86,6 +86,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-20 | Resistor Color (`resistor-color`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [153015Z-r01-resistor-color](data/silver/attempts/2026/07/20/153015Z-r01-resistor-color/solution.zig) |
+| 2026-07-20 | Resistor Color (`resistor-color`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [153015Z-r00-resistor-color](data/silver/attempts/2026/07/20/153015Z-r00-resistor-color/solution.zig) |
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r05-phone-number](data/silver/attempts/2026/07/19/143926Z-r05-phone-number/solution.zig) |
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r04-phone-number](data/silver/attempts/2026/07/19/143926Z-r04-phone-number/solution.zig) |
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r03-phone-number](data/silver/attempts/2026/07/19/143926Z-r03-phone-number/solution.zig) |
@@ -104,7 +106,5 @@ Required GitHub secret:
 | 2026-07-17 | Bob (`bob`) | 3 | `openrouter/free` | compile_error/compile_error | 0/25 | 10 | [234032Z-r00-bob](data/silver/attempts/2026/07/17/234032Z-r00-bob/solution.zig) |
 | 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r02-luhn](data/silver/attempts/2026/07/16/151756Z-r02-luhn/solution.zig) |
 | 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r01-luhn](data/silver/attempts/2026/07/16/151756Z-r01-luhn/solution.zig) |
-| 2026-07-16 | Luhn (`luhn`) | 4 | `openrouter/free` | compile_error/compile_error | 0/22 | 10 | [151756Z-r00-luhn](data/silver/attempts/2026/07/16/151756Z-r00-luhn/solution.zig) |
-| 2026-07-15 | Rotational Cipher (`rotational-cipher`) | 3 | `openrouter/free` | pass/compiled | 10/10 | 100 | [150858Z-r02-rotational-cipher](data/silver/attempts/2026/07/15/150858Z-r02-rotational-cipher/solution.zig) |
 
 <!-- zigsyphus-results:end -->

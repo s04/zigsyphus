@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-20-153015Z-r00-resistor-color",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-20T15:30:15Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color","slug":"resistor-color","tags":["arrays","builtin-functions","enums","functions","pointers","slices","type-coercion"],"uuid":"f49a0baa-a309-4814-a123-f41a2d770bdd"},
+  "promptHash": "6097fa9b1596a6f",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/20/153015Z-r00-resistor-color/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784561415-pnRtkde4xTl2v3EE94ZU",
+    "routedModel": "nvidia/nemotron-nano-12b-v2-vl:free",
+    "usage": {
+  "prompt_tokens": 1426,
+  "completion_tokens": 128,
+  "total_tokens": 1554,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

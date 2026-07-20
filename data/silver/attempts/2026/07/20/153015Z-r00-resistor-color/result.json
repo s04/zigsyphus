@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-20-153015Z-r00-resistor-color",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"resistor-color","status":"pass"}},
+  "date": "2026-07-20",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color","slug":"resistor-color","tags":["arrays","builtin-functions","enums","functions","pointers","slices","type-coercion"],"uuid":"f49a0baa-a309-4814-a123-f41a2d770bdd"},
+  "resultPath": "data/silver/attempts/2026/07/20/153015Z-r00-resistor-color/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/20/153015Z-r00-resistor-color/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":4,"outputExcerpt":"\nresistor_color.zig:15:32: error: expected integer or vector, found 'resistor_color.ColorBand'\n    return @as(usize, @intCast(color));\n                               ^~~~~\nresistor_color.zig:1:19: note: enum declared here\nconst ColorBand = enum {\n                  ^~~~\nreferenced by:\n    test.black: test_resistor_color.zig:9:44\ntest_resistor_color.zig:5:33: error: 'ColorBand' is not marked 'pub'\nconst ColorBand = resistor_color.ColorBand;\n                  ~~~~~~~~~~~~~~^~~~~~~~~~\nresistor_color.zig:1:1: note: declared here\nconst ColorBand = enum {\n^~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":4},
+  "testedAt": "2026-07-20T15:30:19Z",
+  "zigVersion": "0.16.0"
+}
