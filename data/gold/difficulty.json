@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-20-153015Z-r01-resistor-color",
-  "currentDifficulty": 2,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "attemptId": "2026-07-21-152304Z-r05-isbn-verifier",
+  "currentDifficulty": 3,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-20T15:30:38Z"
+  "updatedAt": "2026-07-21T15:29:13Z"
 }

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-21-152304Z-r00-isbn-verifier",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"isbn-verifier","status":"pass"}},
+  "date": "2026-07-21",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"ISBN Verifier","slug":"isbn-verifier","tags":["integers","math","strings"],"uuid":"d9242387-064a-4ba8-8b04-b5cfe68ae9a2"},
+  "resultPath": "data/silver/attempts/2026/07/21/152304Z-r00-isbn-verifier/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/21/152304Z-r00-isbn-verifier/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":21,"outputExcerpt":"\nisbn_verifier.zig:12:21: error: expected 1 argument, found 2\n            value = @intCast(u8, c - '0');\n                    ^~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":21},
+  "testedAt": "2026-07-21T15:24:17Z",
+  "zigVersion": "0.16.0"
+}
