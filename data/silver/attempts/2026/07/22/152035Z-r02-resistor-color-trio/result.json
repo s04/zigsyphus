@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-22-152035Z-r02-resistor-color-trio",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"resistor-color-trio","status":"pass"}},
+  "date": "2026-07-22",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color Trio","slug":"resistor-color-trio","tags":[],"uuid":"7e57582e-a45b-4fe5-8e37-9c007c12d671"},
+  "resultPath": "data/silver/attempts/2026/07/22/152035Z-r02-resistor-color-trio/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/22/152035Z-r02-resistor-color-trio/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nresistor_color_trio.zig:30:17: error: expected loop payload, found '{'\n    for (0..v3) {\n                ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-07-22T15:26:03Z",
+  "zigVersion": "0.16.0"
+}

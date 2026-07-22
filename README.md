@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r05-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig) |
+| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r04-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r04-resistor-color-trio/solution.zig) |
+| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r03-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r03-resistor-color-trio/solution.zig) |
+| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r02-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r02-resistor-color-trio/solution.zig) |
+| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r01-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r01-resistor-color-trio/solution.zig) |
+| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r00-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r00-resistor-color-trio/solution.zig) |
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r05-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r05-isbn-verifier/solution.zig) |
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r04-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r04-isbn-verifier/solution.zig) |
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r03-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r03-isbn-verifier/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r02-phone-number](data/silver/attempts/2026/07/19/143926Z-r02-phone-number/solution.zig) |
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r01-phone-number](data/silver/attempts/2026/07/19/143926Z-r01-phone-number/solution.zig) |
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143926Z-r00-phone-number](data/silver/attempts/2026/07/19/143926Z-r00-phone-number/solution.zig) |
-| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [143538Z-r05-etl](data/silver/attempts/2026/07/18/143538Z-r05-etl/solution.zig) |
-| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 0 | [143538Z-r04-etl](data/silver/attempts/2026/07/18/143538Z-r04-etl/solution.zig) |
-| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 0 | [143538Z-r03-etl](data/silver/attempts/2026/07/18/143538Z-r03-etl/solution.zig) |
-| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [143538Z-r02-etl](data/silver/attempts/2026/07/18/143538Z-r02-etl/solution.zig) |
-| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [143538Z-r01-etl](data/silver/attempts/2026/07/18/143538Z-r01-etl/solution.zig) |
-| 2026-07-18 | ETL (`etl`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [143538Z-r00-etl](data/silver/attempts/2026/07/18/143538Z-r00-etl/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-22-152035Z-r01-resistor-color-trio",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-22T15:20:35Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color Trio","slug":"resistor-color-trio","tags":[],"uuid":"7e57582e-a45b-4fe5-8e37-9c007c12d671"},
+  "promptHash": "7ed7bb479f2219e7",
+  "repairFrom": "data/silver/attempts/2026/07/22/152035Z-r00-resistor-color-trio/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/22/152035Z-r01-resistor-color-trio/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784733830-GB0aeHVrGwuBWQQV6yR3",
+    "routedModel": "google/gemma-4-26b-a4b-it:free",
+    "usage": {
+  "prompt_tokens": 3831,
+  "completion_tokens": 2789,
+  "total_tokens": 6620,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.000575115,
+    "upstream_inference_prompt_cost": 0.00011493,
+    "upstream_inference_completions_cost": 0.000460185
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

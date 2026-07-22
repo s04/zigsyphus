@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-22-152035Z-r05-resistor-color-trio",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"resistor-color-trio","status":"pass"}},
+  "date": "2026-07-22",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Resistor Color Trio","slug":"resistor-color-trio","tags":[],"uuid":"7e57582e-a45b-4fe5-8e37-9c007c12d671"},
+  "resultPath": "data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nresistor_color_trio.zig:19:9: error: pointless discard of function parameter\n    _ = colors;\n        ^~~~~~\nresistor_color_trio.zig:23:23: note: used here\n    const v3 = _value(colors[2]);\n                      ^~~~~~\nresistor_color_trio.zig:18:9: error: pointless discard of function parameter\n    _ = allocator;\n        ^~~~~~~~~\nresistor_color_trio.zig:54:39: note: used here\n        return try std.fmt.allocPrint(allocator, \"{d:.1} {s}\", .{ scaled, units[unit_idx].name });\n                                      ^~~~~~~~~\nresistor_color_trio.zig:31:10: error: type 'resistor_color_trio.label__struct_43192' does not support array initialization syntax\n        .{ \"gigaohms\", 1.0e9 },\n        ~^~~~~~~~~~~~~~~~~~~~~\nreferenced by:\n    labelTest: test_resistor_color_trio.zig:8:49\n    checkAllAllocationFailures__anon_43113: /home/runner/work/_temp/a7c8d7ac-c64f-4fe6-b32f-95835c734e6b/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-07-22T15:30:50Z",
+  "zigVersion": "0.16.0"
+}
