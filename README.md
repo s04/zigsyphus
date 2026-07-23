@@ -86,6 +86,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-23 | Space Age (`space-age`) | 1 | `openrouter/free` | pass/compiled | 8/8 | 100 | [153333Z-r01-space-age](data/silver/attempts/2026/07/23/153333Z-r01-space-age/solution.zig) |
+| 2026-07-23 | Space Age (`space-age`) | 1 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [153333Z-r00-space-age](data/silver/attempts/2026/07/23/153333Z-r00-space-age/solution.zig) |
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r05-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig) |
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r04-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r04-resistor-color-trio/solution.zig) |
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r03-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r03-resistor-color-trio/solution.zig) |
@@ -104,7 +106,5 @@ Required GitHub secret:
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r04-phone-number](data/silver/attempts/2026/07/19/143926Z-r04-phone-number/solution.zig) |
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r03-phone-number](data/silver/attempts/2026/07/19/143926Z-r03-phone-number/solution.zig) |
 | 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r02-phone-number](data/silver/attempts/2026/07/19/143926Z-r02-phone-number/solution.zig) |
-| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r01-phone-number](data/silver/attempts/2026/07/19/143926Z-r01-phone-number/solution.zig) |
-| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143926Z-r00-phone-number](data/silver/attempts/2026/07/19/143926Z-r00-phone-number/solution.zig) |
 
 <!-- zigsyphus-results:end -->

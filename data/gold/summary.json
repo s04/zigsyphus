@@ -1,19 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-07-22-152035Z-r05-resistor-color-trio",
-    "currentDifficulty": 2,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 1,
+    "attemptId": "2026-07-23-153333Z-r01-space-age",
+    "currentDifficulty": 1,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 2,
     "schemaVersion": 1,
-    "updatedAt": "2026-07-22T15:30:50Z"
+    "updatedAt": "2026-07-23T15:34:19Z"
   },
-  "generatedAt": "2026-07-22T15:30:50Z",
-  "latest": {"attemptId":"2026-07-22-152035Z-r05-resistor-color-trio","compileStatus":"compile_error","date":"2026-07-22","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Trio","passed":"0","resultPath":"data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/result.json","runAt":"2026-07-22T15:30:50Z","score":"10","slug":"resistor-color-trio","solutionPath":"data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-  "nextDifficulty": 1,
+  "generatedAt": "2026-07-23T15:34:19Z",
+  "latest": {"attemptId":"2026-07-23-153333Z-r01-space-age","compileStatus":"compiled","date":"2026-07-23","difficulty":"1","mode":"live","model":"openrouter/free","name":"Space Age","passed":"8","resultPath":"data/silver/attempts/2026/07/23/153333Z-r01-space-age/result.json","runAt":"2026-07-23T15:34:19Z","score":"100","slug":"space-age","solutionPath":"data/silver/attempts/2026/07/23/153333Z-r01-space-age/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"},
+  "nextDifficulty": 2,
   "recentRuns": [
-    {"attemptId":"2026-07-19-143926Z-r00-phone-number","compileStatus":"compile_error","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"0","resultPath":"data/silver/attempts/2026/07/19/143926Z-r00-phone-number/result.json","runAt":"2026-07-19T14:39:38Z","score":"10","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r00-phone-number/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-19-143926Z-r01-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r01-phone-number/result.json","runAt":"2026-07-19T14:39:41Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r01-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-19-143926Z-r02-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r02-phone-number/result.json","runAt":"2026-07-19T14:39:55Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r02-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-19-143926Z-r03-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r03-phone-number/result.json","runAt":"2026-07-19T14:42:06Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r03-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-19-143926Z-r04-phone-number","compileStatus":"compiled","date":"2026-07-19","difficulty":"3","mode":"live","model":"openrouter/free","name":"Phone Number","passed":"16","resultPath":"data/silver/attempts/2026/07/19/143926Z-r04-phone-number/result.json","runAt":"2026-07-19T14:42:57Z","score":"93","slug":"phone-number","solutionPath":"data/silver/attempts/2026/07/19/143926Z-r04-phone-number/solution.zig","status":"fail","total":"18","zigVersion":"0.16.0"},
@@ -31,13 +29,13 @@
     {"attemptId":"2026-07-22-152035Z-r02-resistor-color-trio","compileStatus":"compile_error","date":"2026-07-22","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Trio","passed":"0","resultPath":"data/silver/attempts/2026/07/22/152035Z-r02-resistor-color-trio/result.json","runAt":"2026-07-22T15:26:03Z","score":"10","slug":"resistor-color-trio","solutionPath":"data/silver/attempts/2026/07/22/152035Z-r02-resistor-color-trio/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-22-152035Z-r03-resistor-color-trio","compileStatus":"compile_error","date":"2026-07-22","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Trio","passed":"0","resultPath":"data/silver/attempts/2026/07/22/152035Z-r03-resistor-color-trio/result.json","runAt":"2026-07-22T15:28:31Z","score":"10","slug":"resistor-color-trio","solutionPath":"data/silver/attempts/2026/07/22/152035Z-r03-resistor-color-trio/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-22-152035Z-r04-resistor-color-trio","compileStatus":"compile_error","date":"2026-07-22","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Trio","passed":"0","resultPath":"data/silver/attempts/2026/07/22/152035Z-r04-resistor-color-trio/result.json","runAt":"2026-07-22T15:29:16Z","score":"10","slug":"resistor-color-trio","solutionPath":"data/silver/attempts/2026/07/22/152035Z-r04-resistor-color-trio/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-22-152035Z-r05-resistor-color-trio","compileStatus":"compile_error","date":"2026-07-22","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Trio","passed":"0","resultPath":"data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/result.json","runAt":"2026-07-22T15:30:50Z","score":"10","slug":"resistor-color-trio","solutionPath":"data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"}
+    {"attemptId":"2026-07-22-152035Z-r05-resistor-color-trio","compileStatus":"compile_error","date":"2026-07-22","difficulty":"2","mode":"live","model":"openrouter/free","name":"Resistor Color Trio","passed":"0","resultPath":"data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/result.json","runAt":"2026-07-22T15:30:50Z","score":"10","slug":"resistor-color-trio","solutionPath":"data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-23-153333Z-r00-space-age","compileStatus":"compile_error","date":"2026-07-23","difficulty":"1","mode":"live","model":"openrouter/free","name":"Space Age","passed":"0","resultPath":"data/silver/attempts/2026/07/23/153333Z-r00-space-age/result.json","runAt":"2026-07-23T15:33:48Z","score":"10","slug":"space-age","solutionPath":"data/silver/attempts/2026/07/23/153333Z-r00-space-age/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-23-153333Z-r01-space-age","compileStatus":"compiled","date":"2026-07-23","difficulty":"1","mode":"live","model":"openrouter/free","name":"Space Age","passed":"8","resultPath":"data/silver/attempts/2026/07/23/153333Z-r01-space-age/result.json","runAt":"2026-07-23T15:34:19Z","score":"100","slug":"space-age","solutionPath":"data/silver/attempts/2026/07/23/153333Z-r01-space-age/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"}
   ],
-  "runCount": 106,
+  "runCount": 108,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-07-05-145849Z-r01-high-scores", "date": "2026-07-05", "score": 10, "slug": "high-scores"},
-    {"attemptId": "2026-07-05-145849Z-r02-high-scores", "date": "2026-07-05", "score": 10, "slug": "high-scores"},
     {"attemptId": "2026-07-06-164015Z-r00-isogram", "date": "2026-07-06", "score": 10, "slug": "isogram"},
     {"attemptId": "2026-07-06-164015Z-r01-isogram", "date": "2026-07-06", "score": 10, "slug": "isogram"},
     {"attemptId": "2026-07-06-164015Z-r02-isogram", "date": "2026-07-06", "score": 10, "slug": "isogram"},
@@ -95,6 +93,8 @@
     {"attemptId": "2026-07-22-152035Z-r02-resistor-color-trio", "date": "2026-07-22", "score": 10, "slug": "resistor-color-trio"},
     {"attemptId": "2026-07-22-152035Z-r03-resistor-color-trio", "date": "2026-07-22", "score": 10, "slug": "resistor-color-trio"},
     {"attemptId": "2026-07-22-152035Z-r04-resistor-color-trio", "date": "2026-07-22", "score": 10, "slug": "resistor-color-trio"},
-    {"attemptId": "2026-07-22-152035Z-r05-resistor-color-trio", "date": "2026-07-22", "score": 10, "slug": "resistor-color-trio"}
+    {"attemptId": "2026-07-22-152035Z-r05-resistor-color-trio", "date": "2026-07-22", "score": 10, "slug": "resistor-color-trio"},
+    {"attemptId": "2026-07-23-153333Z-r00-space-age", "date": "2026-07-23", "score": 10, "slug": "space-age"},
+    {"attemptId": "2026-07-23-153333Z-r01-space-age", "date": "2026-07-23", "score": 100, "slug": "space-age"}
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-23-153333Z-r01-space-age",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"space-age","status":"pass"}},
+  "date": "2026-07-23",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Space Age","slug":"space-age","tags":["builtin-functions","control-flow","enums","functions","methods","structs"],"uuid":"280bd414-898d-4ab9-8a7c-f9c0d1e382f6"},
+  "resultPath": "data/silver/attempts/2026/07/23/153333Z-r01-space-age/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/07/23/153333Z-r01-space-age/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/8 test_space_age.test.age on earth...OK\n2/8 test_space_age.test.age on mercury...OK\n3/8 test_space_age.test.age on venus...OK\n4/8 test_space_age.test.age on mars...OK\n5/8 test_space_age.test.age on jupiter...OK\n6/8 test_space_age.test.age on saturn...OK\n7/8 test_space_age.test.age on uranus...OK\n8/8 test_space_age.test.age on neptune...OK\nAll 8 tests passed.\n","passed":8,"returnCode":0,"skipped":0,"status":"pass","total":8},
+  "testedAt": "2026-07-23T15:34:19Z",
+  "zigVersion": "0.16.0"
+}

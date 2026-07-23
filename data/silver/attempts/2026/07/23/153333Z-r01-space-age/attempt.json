@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-23-153333Z-r01-space-age",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-23T15:33:33Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Space Age","slug":"space-age","tags":["builtin-functions","control-flow","enums","functions","methods","structs"],"uuid":"280bd414-898d-4ab9-8a7c-f9c0d1e382f6"},
+  "promptHash": "ca6a75803549b955",
+  "repairFrom": "data/silver/attempts/2026/07/23/153333Z-r00-space-age/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/23/153333Z-r01-space-age/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1784820828-QYknS7YrPpxWCy4ObVjr",
+    "routedModel": "openai/gpt-oss-20b:free",
+    "usage": {
+  "prompt_tokens": 2009,
+  "completion_tokens": 600,
+  "total_tokens": 2609,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.0000711305,
+    "upstream_inference_prompt_cost": 0.0000291305,
+    "upstream_inference_completions_cost": 0.000042
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 322,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
