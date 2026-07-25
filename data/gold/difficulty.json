@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-24-151402Z-r00-hamming",
-  "currentDifficulty": 2,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "attemptId": "2026-07-25-144742Z-r05-allergies",
+  "currentDifficulty": 3,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-24T15:14:22Z"
+  "updatedAt": "2026-07-25T14:56:49Z"
 }

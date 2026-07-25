@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-25-144742Z-r00-allergies",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"allergies","status":"pass"}},
+  "date": "2026-07-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Allergies","slug":"allergies","tags":["bitwise-operations","enums"],"uuid":"4c13a4fb-d673-4a2c-8e70-54173f52d98c"},
+  "resultPath": "data/silver/attempts/2026/07/25/144742Z-r00-allergies/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/25/144742Z-r00-allergies/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":50,"outputExcerpt":"\nallergies.zig:27:16: error: no field or member function named 'set' in 'enums.EnumSet(allergies.Allergen)'\n            set.set(allergen);\n            ~~~^~~~\n/home/runner/work/_temp/4c59e522-1a0d-49b4-b50e-872c80e5935f/zig-x86_64-linux-0.16.0/lib/std/enums.zig:242:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.initAllergenSet: no allergies: test_allergies.zig:170:35\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":50},
+  "testedAt": "2026-07-25T14:47:52Z",
+  "zigVersion": "0.16.0"
+}

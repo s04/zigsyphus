@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-25-144742Z-r04-allergies",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"allergies","status":"pass"}},
+  "date": "2026-07-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Allergies","slug":"allergies","tags":["bitwise-operations","enums"],"uuid":"4c13a4fb-d673-4a2c-8e70-54173f52d98c"},
+  "resultPath": "data/silver/attempts/2026/07/25/144742Z-r04-allergies/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/07/25/144742Z-r04-allergies/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":50,"outputExcerpt":"\ntest_allergies.zig:5:31: error: root source file struct 'allergies' has no member named 'isAllergicTo'\nconst isAllergicTo = allergies.isAllergicTo;\n                     ~~~~~~~~~^~~~~~~~~~~~~\nallergies.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.eggs: not allergic to anything: test_allergies.zig:9:25\ntest_allergies.zig:6:34: error: root source file struct 'allergies' has no member named 'initAllergenSet'\nconst initAllergenSet = allergies.initAllergenSet;\n                        ~~~~~~~~~^~~~~~~~~~~~~~~~\nallergies.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":50},
+  "testedAt": "2026-07-25T14:56:25Z",
+  "zigVersion": "0.16.0"
+}

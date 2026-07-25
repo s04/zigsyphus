@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r05-allergies](data/silver/attempts/2026/07/25/144742Z-r05-allergies/solution.zig) |
+| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 0 | [144742Z-r04-allergies](data/silver/attempts/2026/07/25/144742Z-r04-allergies/solution.zig) |
+| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r03-allergies](data/silver/attempts/2026/07/25/144742Z-r03-allergies/solution.zig) |
+| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r02-allergies](data/silver/attempts/2026/07/25/144742Z-r02-allergies/solution.zig) |
+| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r01-allergies](data/silver/attempts/2026/07/25/144742Z-r01-allergies/solution.zig) |
+| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r00-allergies](data/silver/attempts/2026/07/25/144742Z-r00-allergies/solution.zig) |
 | 2026-07-24 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [151402Z-r00-hamming](data/silver/attempts/2026/07/24/151402Z-r00-hamming/solution.zig) |
 | 2026-07-23 | Space Age (`space-age`) | 1 | `openrouter/free` | pass/compiled | 8/8 | 100 | [153333Z-r01-space-age](data/silver/attempts/2026/07/23/153333Z-r01-space-age/solution.zig) |
 | 2026-07-23 | Space Age (`space-age`) | 1 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [153333Z-r00-space-age](data/silver/attempts/2026/07/23/153333Z-r00-space-age/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r03-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r03-isbn-verifier/solution.zig) |
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r02-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r02-isbn-verifier/solution.zig) |
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r01-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r01-isbn-verifier/solution.zig) |
-| 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r00-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r00-isbn-verifier/solution.zig) |
-| 2026-07-20 | Resistor Color (`resistor-color`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [153015Z-r01-resistor-color](data/silver/attempts/2026/07/20/153015Z-r01-resistor-color/solution.zig) |
-| 2026-07-20 | Resistor Color (`resistor-color`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [153015Z-r00-resistor-color](data/silver/attempts/2026/07/20/153015Z-r00-resistor-color/solution.zig) |
-| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r05-phone-number](data/silver/attempts/2026/07/19/143926Z-r05-phone-number/solution.zig) |
-| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r04-phone-number](data/silver/attempts/2026/07/19/143926Z-r04-phone-number/solution.zig) |
-| 2026-07-19 | Phone Number (`phone-number`) | 3 | `openrouter/free` | fail/compiled | 16/18 | 93 | [143926Z-r03-phone-number](data/silver/attempts/2026/07/19/143926Z-r03-phone-number/solution.zig) |
 
 <!-- zigsyphus-results:end -->
