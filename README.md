@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-26 | Darts (`darts`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [144933Z-r00-darts](data/silver/attempts/2026/07/26/144933Z-r00-darts/solution.zig) |
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r05-allergies](data/silver/attempts/2026/07/25/144742Z-r05-allergies/solution.zig) |
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 0 | [144742Z-r04-allergies](data/silver/attempts/2026/07/25/144742Z-r04-allergies/solution.zig) |
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r03-allergies](data/silver/attempts/2026/07/25/144742Z-r03-allergies/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r04-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r04-isbn-verifier/solution.zig) |
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r03-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r03-isbn-verifier/solution.zig) |
 | 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r02-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r02-isbn-verifier/solution.zig) |
-| 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r01-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r01-isbn-verifier/solution.zig) |
 
 <!-- zigsyphus-results:end -->
