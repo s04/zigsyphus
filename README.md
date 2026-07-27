@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r05-twelve-days](data/silver/attempts/2026/07/27/160021Z-r05-twelve-days/solution.zig) |
+| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r04-twelve-days](data/silver/attempts/2026/07/27/160021Z-r04-twelve-days/solution.zig) |
+| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r03-twelve-days](data/silver/attempts/2026/07/27/160021Z-r03-twelve-days/solution.zig) |
+| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r02-twelve-days](data/silver/attempts/2026/07/27/160021Z-r02-twelve-days/solution.zig) |
+| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r01-twelve-days](data/silver/attempts/2026/07/27/160021Z-r01-twelve-days/solution.zig) |
+| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r00-twelve-days](data/silver/attempts/2026/07/27/160021Z-r00-twelve-days/solution.zig) |
 | 2026-07-26 | Darts (`darts`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [144933Z-r00-darts](data/silver/attempts/2026/07/26/144933Z-r00-darts/solution.zig) |
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r05-allergies](data/silver/attempts/2026/07/25/144742Z-r05-allergies/solution.zig) |
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 0 | [144742Z-r04-allergies](data/silver/attempts/2026/07/25/144742Z-r04-allergies/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r04-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r04-resistor-color-trio/solution.zig) |
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r03-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r03-resistor-color-trio/solution.zig) |
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r02-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r02-resistor-color-trio/solution.zig) |
-| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r01-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r01-resistor-color-trio/solution.zig) |
-| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r00-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r00-resistor-color-trio/solution.zig) |
-| 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r05-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r05-isbn-verifier/solution.zig) |
-| 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r04-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r04-isbn-verifier/solution.zig) |
-| 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r03-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r03-isbn-verifier/solution.zig) |
-| 2026-07-21 | ISBN Verifier (`isbn-verifier`) | 3 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [152304Z-r02-isbn-verifier](data/silver/attempts/2026/07/21/152304Z-r02-isbn-verifier/solution.zig) |
 
 <!-- zigsyphus-results:end -->

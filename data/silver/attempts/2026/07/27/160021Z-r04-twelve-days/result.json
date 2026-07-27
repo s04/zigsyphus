@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-27-160021Z-r04-twelve-days",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"twelve-days","status":"pass"}},
+  "date": "2026-07-27",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Twelve Days","slug":"twelve-days","tags":[],"uuid":"1ae61ecf-2ce4-49bb-9e3f-8b8b7125b176"},
+  "resultPath": "data/silver/attempts/2026/07/27/160021Z-r04-twelve-days/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/27/160021Z-r04-twelve-days/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":15,"outputExcerpt":"\ntwelve_days.zig:3:16: error: expected ']', found ','\n        \"first\",\n               ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":15},
+  "testedAt": "2026-07-27T16:09:36Z",
+  "zigVersion": "0.16.0"
+}
