@@ -86,6 +86,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-28 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [155147Z-r01-eliuds-eggs](data/silver/attempts/2026/07/28/155147Z-r01-eliuds-eggs/solution.zig) |
+| 2026-07-28 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [155147Z-r00-eliuds-eggs](data/silver/attempts/2026/07/28/155147Z-r00-eliuds-eggs/solution.zig) |
 | 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r05-twelve-days](data/silver/attempts/2026/07/27/160021Z-r05-twelve-days/solution.zig) |
 | 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r04-twelve-days](data/silver/attempts/2026/07/27/160021Z-r04-twelve-days/solution.zig) |
 | 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r03-twelve-days](data/silver/attempts/2026/07/27/160021Z-r03-twelve-days/solution.zig) |
@@ -104,7 +106,5 @@ Required GitHub secret:
 | 2026-07-23 | Space Age (`space-age`) | 1 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [153333Z-r00-space-age](data/silver/attempts/2026/07/23/153333Z-r00-space-age/solution.zig) |
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r05-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig) |
 | 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r04-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r04-resistor-color-trio/solution.zig) |
-| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r03-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r03-resistor-color-trio/solution.zig) |
-| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r02-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r02-resistor-color-trio/solution.zig) |
 
 <!-- zigsyphus-results:end -->
