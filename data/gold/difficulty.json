@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-28-155147Z-r01-eliuds-eggs",
-  "currentDifficulty": 2,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "attemptId": "2026-07-29-153115Z-r05-proverb",
+  "currentDifficulty": 3,
+  "lastScore": 50,
+  "lastStatus": "fail",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T15:52:27Z"
+  "updatedAt": "2026-07-29T15:43:20Z"
 }

@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r05-proverb](data/silver/attempts/2026/07/29/153115Z-r05-proverb/solution.zig) |
+| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r04-proverb](data/silver/attempts/2026/07/29/153115Z-r04-proverb/solution.zig) |
+| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r03-proverb](data/silver/attempts/2026/07/29/153115Z-r03-proverb/solution.zig) |
+| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r02-proverb](data/silver/attempts/2026/07/29/153115Z-r02-proverb/solution.zig) |
+| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r01-proverb](data/silver/attempts/2026/07/29/153115Z-r01-proverb/solution.zig) |
+| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r00-proverb](data/silver/attempts/2026/07/29/153115Z-r00-proverb/solution.zig) |
 | 2026-07-28 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [155147Z-r01-eliuds-eggs](data/silver/attempts/2026/07/28/155147Z-r01-eliuds-eggs/solution.zig) |
 | 2026-07-28 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [155147Z-r00-eliuds-eggs](data/silver/attempts/2026/07/28/155147Z-r00-eliuds-eggs/solution.zig) |
 | 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r05-twelve-days](data/silver/attempts/2026/07/27/160021Z-r05-twelve-days/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r03-allergies](data/silver/attempts/2026/07/25/144742Z-r03-allergies/solution.zig) |
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r02-allergies](data/silver/attempts/2026/07/25/144742Z-r02-allergies/solution.zig) |
 | 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r01-allergies](data/silver/attempts/2026/07/25/144742Z-r01-allergies/solution.zig) |
-| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r00-allergies](data/silver/attempts/2026/07/25/144742Z-r00-allergies/solution.zig) |
-| 2026-07-24 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [151402Z-r00-hamming](data/silver/attempts/2026/07/24/151402Z-r00-hamming/solution.zig) |
-| 2026-07-23 | Space Age (`space-age`) | 1 | `openrouter/free` | pass/compiled | 8/8 | 100 | [153333Z-r01-space-age](data/silver/attempts/2026/07/23/153333Z-r01-space-age/solution.zig) |
-| 2026-07-23 | Space Age (`space-age`) | 1 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [153333Z-r00-space-age](data/silver/attempts/2026/07/23/153333Z-r00-space-age/solution.zig) |
-| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r05-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r05-resistor-color-trio/solution.zig) |
-| 2026-07-22 | Resistor Color Trio (`resistor-color-trio`) | 2 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [152035Z-r04-resistor-color-trio](data/silver/attempts/2026/07/22/152035Z-r04-resistor-color-trio/solution.zig) |
 
 <!-- zigsyphus-results:end -->
