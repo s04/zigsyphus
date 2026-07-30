@@ -1,20 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-07-29-153115Z-r05-proverb",
-    "currentDifficulty": 3,
-    "lastScore": 50,
-    "lastStatus": "fail",
-    "nextDifficulty": 2,
+    "attemptId": "2026-07-30-153340Z-r02-hamming",
+    "currentDifficulty": 2,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 3,
     "schemaVersion": 1,
-    "updatedAt": "2026-07-29T15:43:20Z"
+    "updatedAt": "2026-07-30T15:37:07Z"
   },
-  "generatedAt": "2026-07-29T15:43:20Z",
-  "latest": {"attemptId":"2026-07-29-153115Z-r05-proverb","compileStatus":"compiled","date":"2026-07-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Proverb","passed":"1","resultPath":"data/silver/attempts/2026/07/29/153115Z-r05-proverb/result.json","runAt":"2026-07-29T15:43:20Z","score":"50","slug":"proverb","solutionPath":"data/silver/attempts/2026/07/29/153115Z-r05-proverb/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"},
-  "nextDifficulty": 2,
+  "generatedAt": "2026-07-30T15:37:07Z",
+  "latest": {"attemptId":"2026-07-30-153340Z-r02-hamming","compileStatus":"compiled","date":"2026-07-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Hamming","passed":"9","resultPath":"data/silver/attempts/2026/07/30/153340Z-r02-hamming/result.json","runAt":"2026-07-30T15:37:07Z","score":"100","slug":"hamming","solutionPath":"data/silver/attempts/2026/07/30/153340Z-r02-hamming/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"},
+  "nextDifficulty": 3,
   "recentRuns": [
-    {"attemptId":"2026-07-25-144742Z-r01-allergies","compileStatus":"compile_error","date":"2026-07-25","difficulty":"3","mode":"live","model":"openrouter/free","name":"Allergies","passed":"0","resultPath":"data/silver/attempts/2026/07/25/144742Z-r01-allergies/result.json","runAt":"2026-07-25T14:48:37Z","score":"10","slug":"allergies","solutionPath":"data/silver/attempts/2026/07/25/144742Z-r01-allergies/solution.zig","status":"compile_error","total":"50","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-25-144742Z-r02-allergies","compileStatus":"compile_error","date":"2026-07-25","difficulty":"3","mode":"live","model":"openrouter/free","name":"Allergies","passed":"0","resultPath":"data/silver/attempts/2026/07/25/144742Z-r02-allergies/result.json","runAt":"2026-07-25T14:49:19Z","score":"10","slug":"allergies","solutionPath":"data/silver/attempts/2026/07/25/144742Z-r02-allergies/solution.zig","status":"compile_error","total":"50","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-25-144742Z-r03-allergies","compileStatus":"compile_error","date":"2026-07-25","difficulty":"3","mode":"live","model":"openrouter/free","name":"Allergies","passed":"0","resultPath":"data/silver/attempts/2026/07/25/144742Z-r03-allergies/result.json","runAt":"2026-07-25T14:51:37Z","score":"10","slug":"allergies","solutionPath":"data/silver/attempts/2026/07/25/144742Z-r03-allergies/solution.zig","status":"compile_error","total":"50","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-25-144742Z-r04-allergies","compileStatus":"compile_error","date":"2026-07-25","difficulty":"3","mode":"live","model":"openrouter/free","name":"Allergies","passed":"0","resultPath":"data/silver/attempts/2026/07/25/144742Z-r04-allergies/result.json","runAt":"2026-07-25T14:56:25Z","score":"0","slug":"allergies","solutionPath":"data/silver/attempts/2026/07/25/144742Z-r04-allergies/solution.zig","status":"compile_error","total":"50","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-25-144742Z-r05-allergies","compileStatus":"compile_error","date":"2026-07-25","difficulty":"3","mode":"live","model":"openrouter/free","name":"Allergies","passed":"0","resultPath":"data/silver/attempts/2026/07/25/144742Z-r05-allergies/result.json","runAt":"2026-07-25T14:56:49Z","score":"10","slug":"allergies","solutionPath":"data/silver/attempts/2026/07/25/144742Z-r05-allergies/solution.zig","status":"compile_error","total":"50","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-26-144933Z-r00-darts","compileStatus":"compiled","date":"2026-07-26","difficulty":"2","mode":"live","model":"openrouter/free","name":"Darts","passed":"13","resultPath":"data/silver/attempts/2026/07/26/144933Z-r00-darts/result.json","runAt":"2026-07-26T14:49:49Z","score":"100","slug":"darts","solutionPath":"data/silver/attempts/2026/07/26/144933Z-r00-darts/solution.zig","status":"pass","total":"13","zigVersion":"0.16.0"},
@@ -31,14 +28,14 @@
     {"attemptId":"2026-07-29-153115Z-r02-proverb","compileStatus":"compiled","date":"2026-07-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Proverb","passed":"1","resultPath":"data/silver/attempts/2026/07/29/153115Z-r02-proverb/result.json","runAt":"2026-07-29T15:38:39Z","score":"50","slug":"proverb","solutionPath":"data/silver/attempts/2026/07/29/153115Z-r02-proverb/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-29-153115Z-r03-proverb","compileStatus":"compiled","date":"2026-07-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Proverb","passed":"1","resultPath":"data/silver/attempts/2026/07/29/153115Z-r03-proverb/result.json","runAt":"2026-07-29T15:39:52Z","score":"50","slug":"proverb","solutionPath":"data/silver/attempts/2026/07/29/153115Z-r03-proverb/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-07-29-153115Z-r04-proverb","compileStatus":"compiled","date":"2026-07-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Proverb","passed":"1","resultPath":"data/silver/attempts/2026/07/29/153115Z-r04-proverb/result.json","runAt":"2026-07-29T15:41:36Z","score":"50","slug":"proverb","solutionPath":"data/silver/attempts/2026/07/29/153115Z-r04-proverb/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"},
-    {"attemptId":"2026-07-29-153115Z-r05-proverb","compileStatus":"compiled","date":"2026-07-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Proverb","passed":"1","resultPath":"data/silver/attempts/2026/07/29/153115Z-r05-proverb/result.json","runAt":"2026-07-29T15:43:20Z","score":"50","slug":"proverb","solutionPath":"data/silver/attempts/2026/07/29/153115Z-r05-proverb/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"}
+    {"attemptId":"2026-07-29-153115Z-r05-proverb","compileStatus":"compiled","date":"2026-07-29","difficulty":"3","mode":"live","model":"openrouter/free","name":"Proverb","passed":"1","resultPath":"data/silver/attempts/2026/07/29/153115Z-r05-proverb/result.json","runAt":"2026-07-29T15:43:20Z","score":"50","slug":"proverb","solutionPath":"data/silver/attempts/2026/07/29/153115Z-r05-proverb/solution.zig","status":"fail","total":"6","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-30-153340Z-r00-hamming","compileStatus":"compile_error","date":"2026-07-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Hamming","passed":"0","resultPath":"data/silver/attempts/2026/07/30/153340Z-r00-hamming/result.json","runAt":"2026-07-30T15:34:12Z","score":"10","slug":"hamming","solutionPath":"data/silver/attempts/2026/07/30/153340Z-r00-hamming/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-30-153340Z-r01-hamming","compileStatus":"compile_error","date":"2026-07-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Hamming","passed":"0","resultPath":"data/silver/attempts/2026/07/30/153340Z-r01-hamming/result.json","runAt":"2026-07-30T15:34:19Z","score":"10","slug":"hamming","solutionPath":"data/silver/attempts/2026/07/30/153340Z-r01-hamming/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
+    {"attemptId":"2026-07-30-153340Z-r02-hamming","compileStatus":"compiled","date":"2026-07-30","difficulty":"2","mode":"live","model":"openrouter/free","name":"Hamming","passed":"9","resultPath":"data/silver/attempts/2026/07/30/153340Z-r02-hamming/result.json","runAt":"2026-07-30T15:37:07Z","score":"100","slug":"hamming","solutionPath":"data/silver/attempts/2026/07/30/153340Z-r02-hamming/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"}
   ],
-  "runCount": 130,
+  "runCount": 133,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-07-15-150858Z-r00-rotational-cipher", "date": "2026-07-15", "score": 10, "slug": "rotational-cipher"},
-    {"attemptId": "2026-07-15-150858Z-r01-rotational-cipher", "date": "2026-07-15", "score": 10, "slug": "rotational-cipher"},
-    {"attemptId": "2026-07-15-150858Z-r02-rotational-cipher", "date": "2026-07-15", "score": 100, "slug": "rotational-cipher"},
     {"attemptId": "2026-07-16-151756Z-r00-luhn", "date": "2026-07-16", "score": 10, "slug": "luhn"},
     {"attemptId": "2026-07-16-151756Z-r01-luhn", "date": "2026-07-16", "score": 10, "slug": "luhn"},
     {"attemptId": "2026-07-16-151756Z-r02-luhn", "date": "2026-07-16", "score": 10, "slug": "luhn"},
@@ -95,6 +92,9 @@
     {"attemptId": "2026-07-29-153115Z-r02-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"},
     {"attemptId": "2026-07-29-153115Z-r03-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"},
     {"attemptId": "2026-07-29-153115Z-r04-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"},
-    {"attemptId": "2026-07-29-153115Z-r05-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"}
+    {"attemptId": "2026-07-29-153115Z-r05-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"},
+    {"attemptId": "2026-07-30-153340Z-r00-hamming", "date": "2026-07-30", "score": 10, "slug": "hamming"},
+    {"attemptId": "2026-07-30-153340Z-r01-hamming", "date": "2026-07-30", "score": 10, "slug": "hamming"},
+    {"attemptId": "2026-07-30-153340Z-r02-hamming", "date": "2026-07-30", "score": 100, "slug": "hamming"}
   ]
 }

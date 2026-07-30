@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-30-153340Z-r01-hamming",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"hamming","status":"pass"}},
+  "date": "2026-07-30",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Hamming","slug":"hamming","tags":["conditionals","control-flow","error-sets","functions","slices","type-coercion"],"uuid":"bd72bb30-583f-494c-818d-4394703293a1"},
+  "resultPath": "data/silver/attempts/2026/07/30/153340Z-r01-hamming/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/30/153340Z-r01-hamming/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":9,"outputExcerpt":"\nhamming.zig:2:38: error: comparison operators cannot be chained\n    if (first.len == 0 || second.len == 0) {\n                                     ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":9},
+  "testedAt": "2026-07-30T15:34:19Z",
+  "zigVersion": "0.16.0"
+}
