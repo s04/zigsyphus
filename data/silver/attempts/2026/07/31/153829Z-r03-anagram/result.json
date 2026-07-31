@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-07-31-153829Z-r03-anagram",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"anagram","status":"pass"}},
+  "date": "2026-07-31",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Anagram","slug":"anagram","tags":["allocators","hashmaps","slices"],"uuid":"74d33b36-1c1c-45ca-9c8b-da9f1f97ea0b"},
+  "resultPath": "data/silver/attempts/2026/07/31/153829Z-r03-anagram/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/07/31/153829Z-r03-anagram/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":16,"outputExcerpt":"\nanagram.zig:15:37: error: expected error union type, found 'buf_set.BufSet'\n    var result = try std.BufSet.init(allocator);\n                     ~~~~~~~~~~~~~~~^~~~~~~~~~~\n/home/runner/work/_temp/52f19a36-6ea5-4551-bd01-eef26c74809b/zig-x86_64-linux-0.16.0/lib/std/buf_set.zig:10:20: note: struct declared here\npub const BufSet = struct {\n                   ^~~~~~\nanagram.zig:15:37: note: consider omitting 'try'\nreferenced by:\n    testAnagrams: test_anagram.zig:12:36\n    checkAllAllocationFailures__anon_43305: /home/runner/work/_temp/52f19a36-6ea5-4551-bd01-eef26c74809b/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":16},
+  "testedAt": "2026-07-31T15:40:33Z",
+  "zigVersion": "0.16.0"
+}

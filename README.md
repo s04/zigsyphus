@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r05-anagram](data/silver/attempts/2026/07/31/153829Z-r05-anagram/solution.zig) |
+| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r04-anagram](data/silver/attempts/2026/07/31/153829Z-r04-anagram/solution.zig) |
+| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r03-anagram](data/silver/attempts/2026/07/31/153829Z-r03-anagram/solution.zig) |
+| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r02-anagram](data/silver/attempts/2026/07/31/153829Z-r02-anagram/solution.zig) |
+| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r01-anagram](data/silver/attempts/2026/07/31/153829Z-r01-anagram/solution.zig) |
+| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r00-anagram](data/silver/attempts/2026/07/31/153829Z-r00-anagram/solution.zig) |
 | 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [153340Z-r02-hamming](data/silver/attempts/2026/07/30/153340Z-r02-hamming/solution.zig) |
 | 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [153340Z-r01-hamming](data/silver/attempts/2026/07/30/153340Z-r01-hamming/solution.zig) |
 | 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [153340Z-r00-hamming](data/silver/attempts/2026/07/30/153340Z-r00-hamming/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r05-twelve-days](data/silver/attempts/2026/07/27/160021Z-r05-twelve-days/solution.zig) |
 | 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r04-twelve-days](data/silver/attempts/2026/07/27/160021Z-r04-twelve-days/solution.zig) |
 | 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r03-twelve-days](data/silver/attempts/2026/07/27/160021Z-r03-twelve-days/solution.zig) |
-| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r02-twelve-days](data/silver/attempts/2026/07/27/160021Z-r02-twelve-days/solution.zig) |
-| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r01-twelve-days](data/silver/attempts/2026/07/27/160021Z-r01-twelve-days/solution.zig) |
-| 2026-07-27 | Twelve Days (`twelve-days`) | 3 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [160021Z-r00-twelve-days](data/silver/attempts/2026/07/27/160021Z-r00-twelve-days/solution.zig) |
-| 2026-07-26 | Darts (`darts`) | 2 | `openrouter/free` | pass/compiled | 13/13 | 100 | [144933Z-r00-darts](data/silver/attempts/2026/07/26/144933Z-r00-darts/solution.zig) |
-| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 10 | [144742Z-r05-allergies](data/silver/attempts/2026/07/25/144742Z-r05-allergies/solution.zig) |
-| 2026-07-25 | Allergies (`allergies`) | 3 | `openrouter/free` | compile_error/compile_error | 0/50 | 0 | [144742Z-r04-allergies](data/silver/attempts/2026/07/25/144742Z-r04-allergies/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-07-31-153829Z-r01-anagram",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-07-31T15:38:29Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Anagram","slug":"anagram","tags":["allocators","hashmaps","slices"],"uuid":"74d33b36-1c1c-45ca-9c8b-da9f1f97ea0b"},
+  "promptHash": "95a75a316b7157a5",
+  "repairFrom": "data/silver/attempts/2026/07/31/153829Z-r00-anagram/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/07/31/153829Z-r01-anagram/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1785512331-ArkyFPOLo0JDoHnBosRQ",
+    "routedModel": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "usage": {
+  "prompt_tokens": 3834,
+  "completion_tokens": 2560,
+  "total_tokens": 6394,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 2001,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
