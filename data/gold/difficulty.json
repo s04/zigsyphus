@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-07-31-153829Z-r05-anagram",
-  "currentDifficulty": 3,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 2,
+  "attemptId": "2026-08-02-144745Z-r02-acronym",
+  "currentDifficulty": 2,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T15:41:07Z"
+  "updatedAt": "2026-08-02T14:50:59Z"
 }

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-02-144745Z-r02-acronym",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"acronym","status":"pass"}},
+  "date": "2026-08-02",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Acronym","slug":"acronym","tags":["allocators","conditionals","control-flow","error-sets","functions","slices"],"uuid":"0590d6df-afbe-4983-92d4-8fe6797ad5fa"},
+  "resultPath": "data/silver/attempts/2026/08/02/144745Z-r02-acronym/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/02/144745Z-r02-acronym/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/9 test_acronym.test.basic...OK\n2/9 test_acronym.test.lowercase words...OK\n3/9 test_acronym.test.punctuation...OK\n4/9 test_acronym.test.all caps word...OK\n5/9 test_acronym.test.punctuation without whitespace...OK\n6/9 test_acronym.test.very long abbreviation...OK\n7/9 test_acronym.test.consecutive delimiters...OK\n8/9 test_acronym.test.apostrophes...OK\n9/9 test_acronym.test.underscore emphasis...OK\nAll 9 tests passed.\n","passed":9,"returnCode":0,"skipped":0,"status":"pass","total":9},
+  "testedAt": "2026-08-02T14:50:59Z",
+  "zigVersion": "0.16.0"
+}
