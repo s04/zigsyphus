@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-03-160444Z-r02-prime-factors",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"prime-factors","status":"pass"}},
+  "date": "2026-08-03",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Prime Factors","slug":"prime-factors","tags":[],"uuid":"0c48987b-b594-4bf6-8b65-ba696927cb04"},
+  "resultPath": "data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nprime_factors.zig:32:26: error: error union is discarded\n    _ = allocator.realloc(result, count);\n        ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nprime_factors.zig:32:26: note: consider using 'try', 'catch', or 'if'\nreferenced by:\n    test.no factors: test_prime_factors.zig:8:45\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-08-03T16:05:21Z",
+  "zigVersion": "0.16.0"
+}

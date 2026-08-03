@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-03-160444Z-r02-prime-factors",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-03T16:04:44Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Prime Factors","slug":"prime-factors","tags":[],"uuid":"0c48987b-b594-4bf6-8b65-ba696927cb04"},
+  "promptHash": "9b3d9f8294bfac6b",
+  "repairFrom": "data/silver/attempts/2026/08/03/160444Z-r01-prime-factors/result.json",
+  "roundIndex": 2,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1785773112-8InxB8tj7yO8z468Pa2m",
+    "routedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "usage": {
+  "prompt_tokens": 2892,
+  "completion_tokens": 378,
+  "total_tokens": 3270,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 96,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

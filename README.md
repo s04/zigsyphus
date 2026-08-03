@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r05-prime-factors](data/silver/attempts/2026/08/03/160444Z-r05-prime-factors/solution.zig) |
+| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r04-prime-factors](data/silver/attempts/2026/08/03/160444Z-r04-prime-factors/solution.zig) |
+| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r03-prime-factors](data/silver/attempts/2026/08/03/160444Z-r03-prime-factors/solution.zig) |
+| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r02-prime-factors](data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/solution.zig) |
+| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r01-prime-factors](data/silver/attempts/2026/08/03/160444Z-r01-prime-factors/solution.zig) |
+| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r00-prime-factors](data/silver/attempts/2026/08/03/160444Z-r00-prime-factors/solution.zig) |
 | 2026-08-02 | Acronym (`acronym`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [144745Z-r02-acronym](data/silver/attempts/2026/08/02/144745Z-r02-acronym/solution.zig) |
 | 2026-08-02 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [144745Z-r01-acronym](data/silver/attempts/2026/08/02/144745Z-r01-acronym/solution.zig) |
 | 2026-08-02 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [144745Z-r00-acronym](data/silver/attempts/2026/08/02/144745Z-r00-acronym/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [153340Z-r00-hamming](data/silver/attempts/2026/07/30/153340Z-r00-hamming/solution.zig) |
 | 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r05-proverb](data/silver/attempts/2026/07/29/153115Z-r05-proverb/solution.zig) |
 | 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r04-proverb](data/silver/attempts/2026/07/29/153115Z-r04-proverb/solution.zig) |
-| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r03-proverb](data/silver/attempts/2026/07/29/153115Z-r03-proverb/solution.zig) |
-| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r02-proverb](data/silver/attempts/2026/07/29/153115Z-r02-proverb/solution.zig) |
-| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r01-proverb](data/silver/attempts/2026/07/29/153115Z-r01-proverb/solution.zig) |
-| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r00-proverb](data/silver/attempts/2026/07/29/153115Z-r00-proverb/solution.zig) |
-| 2026-07-28 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | pass/compiled | 4/4 | 100 | [155147Z-r01-eliuds-eggs](data/silver/attempts/2026/07/28/155147Z-r01-eliuds-eggs/solution.zig) |
-| 2026-07-28 | Eliud's Eggs (`eliuds-eggs`) | 2 | `openrouter/free` | compile_error/compile_error | 0/4 | 10 | [155147Z-r00-eliuds-eggs](data/silver/attempts/2026/07/28/155147Z-r00-eliuds-eggs/solution.zig) |
 
 <!-- zigsyphus-results:end -->
