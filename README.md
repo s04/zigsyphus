@@ -86,6 +86,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-04 | Square Root (`square-root`) | 2 | `openrouter/free` | pass/compiled | 6/6 | 100 | [155753Z-r01-square-root](data/silver/attempts/2026/08/04/155753Z-r01-square-root/solution.zig) |
+| 2026-08-04 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [155753Z-r00-square-root](data/silver/attempts/2026/08/04/155753Z-r00-square-root/solution.zig) |
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r05-prime-factors](data/silver/attempts/2026/08/03/160444Z-r05-prime-factors/solution.zig) |
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r04-prime-factors](data/silver/attempts/2026/08/03/160444Z-r04-prime-factors/solution.zig) |
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r03-prime-factors](data/silver/attempts/2026/08/03/160444Z-r03-prime-factors/solution.zig) |
@@ -104,7 +106,5 @@ Required GitHub secret:
 | 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [153340Z-r02-hamming](data/silver/attempts/2026/07/30/153340Z-r02-hamming/solution.zig) |
 | 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [153340Z-r01-hamming](data/silver/attempts/2026/07/30/153340Z-r01-hamming/solution.zig) |
 | 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [153340Z-r00-hamming](data/silver/attempts/2026/07/30/153340Z-r00-hamming/solution.zig) |
-| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r05-proverb](data/silver/attempts/2026/07/29/153115Z-r05-proverb/solution.zig) |
-| 2026-07-29 | Proverb (`proverb`) | 3 | `openrouter/free` | fail/compiled | 1/6 | 50 | [153115Z-r04-proverb](data/silver/attempts/2026/07/29/153115Z-r04-proverb/solution.zig) |
 
 <!-- zigsyphus-results:end -->

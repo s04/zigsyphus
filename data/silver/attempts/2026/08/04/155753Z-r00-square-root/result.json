@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-04-155753Z-r00-square-root",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"square-root","status":"pass"}},
+  "date": "2026-08-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Square Root","slug":"square-root","tags":[],"uuid":"b272305d-7c9c-4dfe-b15c-ca950d69ee69"},
+  "resultPath": "data/silver/attempts/2026/08/04/155753Z-r00-square-root/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/04/155753Z-r00-square-root/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":6,"outputExcerpt":"\nsquare_root.zig:6:23: error: expected expression, found '='\n    var low: usize =  = radicand;\n                      ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":6},
+  "testedAt": "2026-08-04T15:58:48Z",
+  "zigVersion": "0.16.0"
+}

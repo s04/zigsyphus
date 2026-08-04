@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-03-160444Z-r05-prime-factors",
-  "currentDifficulty": 3,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 2,
+  "attemptId": "2026-08-04-155753Z-r01-square-root",
+  "currentDifficulty": 2,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T16:07:58Z"
+  "updatedAt": "2026-08-04T15:59:27Z"
 }

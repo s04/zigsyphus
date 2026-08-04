@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-04-155753Z-r01-square-root",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"square-root","status":"pass"}},
+  "date": "2026-08-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Square Root","slug":"square-root","tags":[],"uuid":"b272305d-7c9c-4dfe-b15c-ca950d69ee69"},
+  "resultPath": "data/silver/attempts/2026/08/04/155753Z-r01-square-root/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/04/155753Z-r01-square-root/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/6 test_square_root.test.root of 1...OK\n2/6 test_square_root.test.root of 4...OK\n3/6 test_square_root.test.root of 25...OK\n4/6 test_square_root.test.root of 81...OK\n5/6 test_square_root.test.root of 196...OK\n6/6 test_square_root.test.root of 65025...OK\nAll 6 tests passed.\n","passed":6,"returnCode":0,"skipped":0,"status":"pass","total":6},
+  "testedAt": "2026-08-04T15:59:27Z",
+  "zigVersion": "0.16.0"
+}
