@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-05-154010Z-r00-line-up",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-05T15:40:10Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Line up","slug":"line-up","tags":[],"uuid":"476a6847-a5c9-4d03-a81e-4aff8d27ec18"},
+  "promptHash": "e1db48644262988a",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/05/154010Z-r00-line-up/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1785944650-11EAiFaNa2PmYCpQ59hk",
+    "routedModel": "inclusionai/ling-3.0-flash:free",
+    "usage": {
+  "prompt_tokens": 2981,
+  "completion_tokens": 1496,
+  "total_tokens": 4477,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 987,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
