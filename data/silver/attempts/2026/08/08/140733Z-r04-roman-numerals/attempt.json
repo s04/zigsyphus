@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-08-140733Z-r04-roman-numerals",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-08T14:07:33Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Roman Numerals","slug":"roman-numerals","tags":[],"uuid":"ad55f4da-9f64-4a81-908d-43224d672e80"},
+  "promptHash": "d70c7546c73d6f71",
+  "repairFrom": "data/silver/attempts/2026/08/08/140733Z-r03-roman-numerals/result.json",
+  "roundIndex": 4,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786198499-1OJndcooDElfkh44Cpl6",
+    "routedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "usage": {
+  "prompt_tokens": 3140,
+  "completion_tokens": 2917,
+  "total_tokens": 6057,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 2175,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "attempt": {
+  "attemptId": "2026-08-08-140733Z-r00-roman-numerals",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-08T14:07:33Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Roman Numerals","slug":"roman-numerals","tags":[],"uuid":"ad55f4da-9f64-4a81-908d-43224d672e80"},
+  "promptHash": "1bc4f1dc2964ffc0",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786198173-bWBA3edcYrw7zYlsdQMv",
+    "routedModel": "google/gemma-4-26b-a4b-it:free",
+    "usage": {
+  "prompt_tokens": 2907,
+  "completion_tokens": 504,
+  "total_tokens": 3411,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.00017037,
+    "upstream_inference_prompt_cost": 0.00008721,
+    "upstream_inference_completions_cost": 0.00008316
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nZig 0.16 pitfalls that have crushed you before. Reread your code for\nthese before answering:\n- Every statement ends with a semicolon, including `return x;`.\n- `if`, `while`, and `switch` conditions need parentheses:\n  `if (!done)`, never `if !done`.\n- String escapes are only `\\n \\r \\t \\\\ \\' \\\" \\xNN`; there is no\n  `\\v` or `\\f`.\n- Check stdlib names against 0.16: `std.ascii.isWhitespace`,\n  `isDigit`, `isAlphabetic`, `toLower`, `toUpper` (no `isSpace`).\n- Copy the exact function names and signatures from the starter and\n  test file; do not rename, camelCase, or \"improve\" them.\n- Loops: `for (items) |item| { ... }`, `for (items, 0..) |item, i|`,\n  `while (cond) : (i += 1)`. There is no C-style `for (;;)`.\n- Strings are `[]const u8`; iterate bytes with `for (s) |c|`. Build\n  strings with an allocator, not `+`.\n- Casts are explicit: `@intCast(x)`, `@floatFromInt(x)`,\n  `@as(u32, @intCast(x))`. Integer types never convert implicitly.\n- Shift amounts must be a `u5`/`u6`-sized type or comptime-known:\n  use `@intCast` on the RHS of `<<` and `>>`.\n- `var` locals that are never mutated are a compile error; use `const`.\n- No exceptions and no null unless the type is optional (`?T`);\n  errors use `error{...}` sets, `try`, and `catch`.\n- Prefer `std.ascii`, `std.mem`, `std.fmt`, `std.math` helpers over\n  reinventing them.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Roman Numerals (roman-numerals)\nDifficulty: 4/9\n\nInstructions:\n# Introduction\n\nYour task is to convert a number from Arabic numerals to Roman numerals.\n\nFor this exercise, we are only concerned about traditional Roman numerals, in which the largest number is MMMCMXCIX (or 3,999).\n\n~~~~exercism/note\nThere are lots of different ways to convert between Arabic and Roman numerals.\nWe recommend taking a naive approach first to familiarise yourself with the concept of Roman numerals and then search for more efficient methods.\n\nMake sure to check out our Deep Dive video at the end to explore the different approaches you can take!\n~~~~\n\n\nStarter file:\n```zig\nconst std = @import(\"std\");\nconst mem = std.mem;\n\npub fn toRoman(allocator: mem.Allocator, arabicNumeral: i16) mem.Allocator.Error![]u8 {\n    _ = allocator;\n    _ = arabicNumeral;\n    @compileError(\"please implement the toRoman function\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst toRoman = @import(\"roman_numerals.zig\").toRoman;\n\ntest \"1 is I\" {\n    const expected = \"I\";\n    const actual = try toRoman(testing.allocator, 1);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"2 is II\" {\n    const expected = \"II\";\n    const actual = try toRoman(testing.allocator, 2);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"3 is III\" {\n    const expected = \"III\";\n    const actual = try toRoman(testing.allocator, 3);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"4 is IV\" {\n    const expected = \"IV\";\n    const actual = try toRoman(testing.allocator, 4);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"5 is V\" {\n    const expected = \"V\";\n    const actual = try toRoman(testing.allocator, 5);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"6 is VI\" {\n    const expected = \"VI\";\n    const actual = try toRoman(testing.allocator, 6);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"9 is IX\" {\n    const expected = \"IX\";\n    const actual = try toRoman(testing.allocator, 9);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"16 is XVI\" {\n    const expected = \"XVI\";\n    const actual = try toRoman(testing.allocator, 16);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"27 is XXVII\" {\n    const expected = \"XXVII\";\n    const actual = try toRoman(testing.allocator, 27);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"48 is XLVIII\" {\n    const expected = \"XLVIII\";\n    const actual = try toRoman(testing.allocator, 48);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"49 is XLIX\" {\n    const expected = \"XLIX\";\n    const actual = try toRoman(testing.allocator, 49);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"59 is LIX\" {\n    const expected = \"LIX\";\n    const actual = try toRoman(testing.allocator, 59);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"66 is LXVI\" {\n    const expected = \"LXVI\";\n    const actual = try toRoman(testing.allocator, 66);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"93 is XCIII\" {\n    const expected = \"XCIII\";\n    const actual = try toRoman(testing.allocator, 93);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"141 is CXLI\" {\n    const expected = \"CXLI\";\n    const actual = try toRoman(testing.allocator, 141);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"163 is CLXIII\" {\n    const expected = \"CLXIII\";\n    const actual = try toRoman(testing.allocator, 163);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"166 is CLXVI\" {\n    const expected = \"CLXVI\";\n    const actual = try toRoman(testing.allocator, 166);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"402 is CDII\" {\n    const expected = \"CDII\";\n    const actual = try toRoman(testing.allocator, 402);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"575 is DLXXV\" {\n    const expected = \"DLXXV\";\n    const actual = try toRoman(testing.allocator, 575);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"666 is DCLXVI\" {\n    const expected = \"DCLXVI\";\n    const actual = try toRoman(testing.allocator, 666);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"911 is CMXI\" {\n    const expected = \"CMXI\";\n    const actual = try toRoman(testing.allocator, 911);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"1024 is MXXIV\" {\n    const expected = \"MXXIV\";\n    const actual = try toRoman(testing.allocator, 1024);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"1666 is MDCLXVI\" {\n    const expected = \"MDCLXVI\";\n    const actual = try toRoman(testing.allocator, 1666);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"3000 is MMM\" {\n    const expected = \"MMM\";\n    const actual = try toRoman(testing.allocator, 3000);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"3001 is MMMI\" {\n    const expected = \"MMMI\";\n    const actual = try toRoman(testing.allocator, 3001);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"3888 is MMMDCCCLXXXVIII\" {\n    const expected = \"MMMDCCCLXXXVIII\";\n    const actual = try toRoman(testing.allocator, 3888);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"3999 is MMMCMXCIX\" {\n    const expected = \"MMMCMXCIX\";\n    const actual = try toRoman(testing.allocator, 3999);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualStrings(expected, actual);\n}\n\n```\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1786198173-bWBA3edcYrw7zYlsdQMv","object":"chat.completion","created":1786198173,"model":"google/gemma-4-26b-a4b-it:free","provider":"Darkbloom","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\nconst std = @import(\"std\");\nconst mem = std.mem;\n\npub fn toRoman(allocator: mem.Allocator, arabicNumeral: i16) mem.Allocator.Error![]u8 {\n    if (arabicNumeral < 1 or arabicNumeral > 3999) {\n        return error.OutOfRange;\n    }\n\n    const values = [_]struct {\n        val: i16,\n        sym: []const u8,\n    }{\n        {.val = 1000,.sym = \"M\" },\n        {.val = 900,.sym = \"CM\" },\n        {.val = 500,.sym = \"D\" },\n        {.val = 400,.sym = \"CD\" },\n        {.val = 100,.sym = \"C\" },\n        {.val = 90,.sym = \"XC\" },\n        {.val = 50,.sym = \"L\" },\n        {.val = 40,.sym = \"XL\" },\n        {.val = 10,.sym = \"X\" },\n        {.val = 9,.sym = \"IX\" },\n        {.val = 5,.sym = \"V\" },\n        {.val = 4,.sym = \"IV\" },\n        {.val = 1,.sym = \"I\" },\n    };\n\n    var remaining = arabicNumeral;\n    var result_buffer: [16]u8 = undefined;\n    var i: usize = 0;\n\n    for (values) |entry| {\n        while (remaining >= entry.val) {\n            if (i + std.mem.len(entry.sym) > result_buffer.len) {\n                return error.OutOfMemory;\n            }\n            @memcpy(result_buffer[i.. i + std.mem.len(entry.sym)], entry.sym);\n            i += std.mem.len(entry.sym);\n            remaining -= entry.val;\n        }\n    }\n\n    return allocator.dupe(u8, result_buffer[0..i]);\n}\n```","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":2907,"completion_tokens":504,"total_tokens":3411,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.00017037,"upstream_inference_prompt_cost":0.00008721,"upstream_inference_completions_cost":0.00008316},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

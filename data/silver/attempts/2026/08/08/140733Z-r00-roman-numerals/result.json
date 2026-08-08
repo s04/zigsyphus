@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-08-140733Z-r00-roman-numerals",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"roman-numerals","status":"pass"}},
+  "date": "2026-08-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Roman Numerals","slug":"roman-numerals","tags":[],"uuid":"ad55f4da-9f64-4a81-908d-43224d672e80"},
+  "resultPath": "data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":27,"outputExcerpt":"\nroman_numerals.zig:13:21: error: expected ';' after statement\n        {.val = 1000,.sym = \"M\" },\n                    ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":27},
+  "testedAt": "2026-08-08T14:10:04Z",
+  "zigVersion": "0.16.0"
+}

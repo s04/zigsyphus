@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-08-140733Z-r04-roman-numerals",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"roman-numerals","status":"pass"}},
+  "date": "2026-08-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Roman Numerals","slug":"roman-numerals","tags":[],"uuid":"ad55f4da-9f64-4a81-908d-43224d672e80"},
+  "resultPath": "data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":27,"outputExcerpt":"\nroman_numerals.zig:29:16: error: type 'type' not a function\n        while (u16(arabicNumeral) >= vn.value) {\n               ^~~\nreferenced by:\n    test.1 is I: test_roman_numerals.zig:8:31\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":27},
+  "testedAt": "2026-08-08T14:16:50Z",
+  "zigVersion": "0.16.0"
+}

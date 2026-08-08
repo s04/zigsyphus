@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r05-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/solution.zig) |
+| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r04-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/solution.zig) |
+| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r03-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r03-roman-numerals/solution.zig) |
+| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 0 | [140733Z-r02-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r02-roman-numerals/solution.zig) |
+| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 0 | [140733Z-r01-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r01-roman-numerals/solution.zig) |
+| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r00-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/solution.zig) |
 | 2026-08-05 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [154010Z-r00-line-up](data/silver/attempts/2026/08/05/154010Z-r00-line-up/solution.zig) |
 | 2026-08-04 | Square Root (`square-root`) | 2 | `openrouter/free` | pass/compiled | 6/6 | 100 | [155753Z-r01-square-root](data/silver/attempts/2026/08/04/155753Z-r01-square-root/solution.zig) |
 | 2026-08-04 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [155753Z-r00-square-root](data/silver/attempts/2026/08/04/155753Z-r00-square-root/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-02 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [144745Z-r00-acronym](data/silver/attempts/2026/08/02/144745Z-r00-acronym/solution.zig) |
 | 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r05-anagram](data/silver/attempts/2026/07/31/153829Z-r05-anagram/solution.zig) |
 | 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r04-anagram](data/silver/attempts/2026/07/31/153829Z-r04-anagram/solution.zig) |
-| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r03-anagram](data/silver/attempts/2026/07/31/153829Z-r03-anagram/solution.zig) |
-| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r02-anagram](data/silver/attempts/2026/07/31/153829Z-r02-anagram/solution.zig) |
-| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r01-anagram](data/silver/attempts/2026/07/31/153829Z-r01-anagram/solution.zig) |
-| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r00-anagram](data/silver/attempts/2026/07/31/153829Z-r00-anagram/solution.zig) |
-| 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [153340Z-r02-hamming](data/silver/attempts/2026/07/30/153340Z-r02-hamming/solution.zig) |
-| 2026-07-30 | Hamming (`hamming`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [153340Z-r01-hamming](data/silver/attempts/2026/07/30/153340Z-r01-hamming/solution.zig) |
 
 <!-- zigsyphus-results:end -->

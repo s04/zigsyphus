@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-08-140733Z-r02-roman-numerals",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"roman-numerals","status":"pass"}},
+  "date": "2026-08-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Roman Numerals","slug":"roman-numerals","tags":[],"uuid":"ad55f4da-9f64-4a81-908d-43224d672e80"},
+  "resultPath": "data/silver/attempts/2026/08/08/140733Z-r02-roman-numerals/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/08/08/140733Z-r02-roman-numerals/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":27,"outputExcerpt":"\ntest_roman_numerals.zig:4:46: error: root source file struct 'roman_numerals' has no member named 'toRoman'\nconst toRoman = @import(\"roman_numerals.zig\").toRoman;\n                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\nroman_numerals.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.1 is I: test_roman_numerals.zig:8:24\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":27},
+  "testedAt": "2026-08-08T14:13:37Z",
+  "zigVersion": "0.16.0"
+}

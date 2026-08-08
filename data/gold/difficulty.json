@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-05-154010Z-r00-line-up",
-  "currentDifficulty": 3,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 4,
+  "attemptId": "2026-08-08-140733Z-r05-roman-numerals",
+  "currentDifficulty": 4,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T15:44:17Z"
+  "updatedAt": "2026-08-08T14:19:02Z"
 }

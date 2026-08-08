@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-08-140733Z-r05-roman-numerals",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"roman-numerals","status":"pass"}},
+  "date": "2026-08-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Roman Numerals","slug":"roman-numerals","tags":[],"uuid":"ad55f4da-9f64-4a81-908d-43224d672e80"},
+  "resultPath": "data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":27,"outputExcerpt":"\nroman_numerals.zig:1:1: error: expected type expression, found 'invalid token'\n```zig const std = @import(\"std\"); const mem = std.mem; const ValueNoun = struct { value: u16, symbol: []const u8, }; pub fn toRoman(allocator: mem.Allocator, arabicNumeral: i16) mem.Allocator.Error![]u8 { const value_nouns = [_]ValueNoun{ ValueNoun{ .value = 1000, .symbol = \"M\" }, ValueNoun{ .value = 900, .symbol = \"CM\" }, ValueNoun{ .value = 500, .symbol = \"D\" }, ValueNoun{ .value = 400, .symbol = \"CD\" }, ValueNoun{ .value = 100, .symbol = \"C\" }, ValueNoun{ .value = 90, .symbol = \"XC\" }, ValueNoun{ .value = 50, .symbol = \"L\" }, ValueNoun{ .value = 40, .symbol = \"XL\" }, ValueNoun{ .value = 10, .symbol = \"X\" }, ValueNoun{ .value = 9, .symbol = \"IX\" }, ValueNoun{ .value = 5, .symbol = \"V\" }, ValueNoun{ .value = 4, .symbol = \"IV\" }, ValueNoun{ .value = 1, .symbol = \"I\" }, }; var result: []u8 = try allocator.alloc(u8, 0); for (value_nouns) |vn| { while (arabicNumeral >= vn.value) { result = try allocator.append(result, vn.symbol); arabicNumeral -= vn.value; } } return result; } ```\n^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":27},
+  "testedAt": "2026-08-08T14:19:02Z",
+  "zigVersion": "0.16.0"
+}
