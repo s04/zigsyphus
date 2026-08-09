@@ -1,0 +1,299 @@
+{
+  "attempt": {
+  "attemptId": "2026-08-09-140846Z-r03-micro-blog",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-09T14:08:46Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Micro Blog","slug":"micro-blog","tags":[],"uuid":"0441593f-23d3-42b8-aa21-b47166c7c86d"},
+  "promptHash": "7016db752cc3d2cb",
+  "repairFrom": "data/silver/attempts/2026/08/09/140846Z-r02-micro-blog/result.json",
+  "roundIndex": 3,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786284779-EjQkzlYtIkmt6jscHWys",
+    "routedModel": "openai/gpt-oss-20b:free",
+    "usage": {
+  "prompt_tokens": 2354,
+  "completion_tokens": 758,
+  "total_tokens": 3112,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0.000087193,
+    "upstream_inference_prompt_cost": 0.000034133,
+    "upstream_inference_completions_cost": 0.00005306
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 601,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nZig 0.16 pitfalls that have crushed you before. Reread your code for\nthese before answering:\n- Every statement ends with a semicolon, including `return x;`.\n- `if`, `while`, and `switch` conditions need parentheses:\n  `if (!done)`, never `if !done`.\n- String escapes are only `\\n \\r \\t \\\\ \\' \\\" \\xNN`; there is no\n  `\\v` or `\\f`.\n- Check stdlib names against 0.16: `std.ascii.isWhitespace`,\n  `isDigit`, `isAlphabetic`, `toLower`, `toUpper` (no `isSpace`).\n- Copy the exact function names and signatures from the starter and\n  test file; do not rename, camelCase, or \"improve\" them.\n- Loops: `for (items) |item| { ... }`, `for (items, 0..) |item, i|`,\n  `while (cond) : (i += 1)`. There is no C-style `for (;;)`.\n- Strings are `[]const u8`; iterate bytes with `for (s) |c|`. Build\n  strings with an allocator, not `+`.\n- Casts are explicit: `@intCast(x)`, `@floatFromInt(x)`,\n  `@as(u32, @intCast(x))`. Integer types never convert implicitly.\n- Shift amounts must be a `u5`/`u6`-sized type or comptime-known:\n  use `@intCast` on the RHS of `<<` and `>>`.\n- `var` locals that are never mutated are a compile error; use `const`.\n- No exceptions and no null unless the type is optional (`?T`);\n  errors use `error{...}` sets, `try`, and `catch`.\n- Prefer `std.ascii`, `std.mem`, `std.fmt`, `std.math` helpers over\n  reinventing them.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Micro Blog (micro-blog)\nDifficulty: 3/9\n\nInstructions:\n# Instructions\n\nYou have identified a gap in the social media market for very very short posts.\nNow that Twitter allows 280 character posts, people wanting quick social media updates aren't being served.\nYou decide to create your own social media network.\n\nTo make your product noteworthy, you make it extreme and only allow posts of 5 or less characters.\nAny posts of more than 5 characters should be truncated to 5.\n\nTo allow your users to express themselves fully, you allow Emoji and other Unicode.\n\nThe task is to truncate input strings to 5 characters.\n\n## Text Encodings\n\nText stored digitally has to be converted to a series of bytes.\nThere are 3 ways to map characters to bytes in common use.\n\n- **ASCII** can encode English language characters.\n  All characters are precisely 1 byte long.\n- **UTF-8** is a Unicode text encoding.\n  Characters take between 1 and 4 bytes.\n- **UTF-16** is a Unicode text encoding.\n  Characters are either 2 or 4 bytes long.\n\nUTF-8 and UTF-16 are both Unicode encodings which means they're capable of representing a massive range of characters including:\n\n- Text in most of the world's languages and scripts\n- Historic text\n- Emoji\n\nUTF-8 and UTF-16 are both variable length encodings, which means that different characters take up different amounts of space.\n\nConsider the letter 'a' and the emoji '😛'.\nIn UTF-16 the letter takes 2 bytes but the emoji takes 4 bytes.\n\nThe trick to this exercise is to use APIs designed around Unicode characters (codepoints) instead of Unicode codeunits.\n\n\nStarter file:\n```zig\npub fn truncate(phrase: []const u8) []const u8 {\n    _ = phrase;\n    @compileError(\"please implement the truncate function\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst micro_blog = @import(\"micro_blog.zig\");\n\ntest \"English language short\" {\n    const expected: []const u8 = \"Hi\";\n    const actual = micro_blog.truncate(\"Hi\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"English language long\" {\n    const expected: []const u8 = \"Hello\";\n    const actual = micro_blog.truncate(\"Hello there\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"German language short (broth)\" {\n    const expected: []const u8 = \"brühe\";\n    const actual = micro_blog.truncate(\"brühe\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"German language long (bear carpet → beards)\" {\n    const expected: []const u8 = \"Bärte\";\n    const actual = micro_blog.truncate(\"Bärteppich\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"Bulgarian language short (good)\" {\n    const expected: []const u8 = \"Добър\";\n    const actual = micro_blog.truncate(\"Добър\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"Greek language short (health)\" {\n    const expected: []const u8 = \"υγειά\";\n    const actual = micro_blog.truncate(\"υγειά\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"Maths short\" {\n    const expected: []const u8 = \"a=πr²\";\n    const actual = micro_blog.truncate(\"a=πr²\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"Maths long\" {\n    const expected: []const u8 = \"∅⊊ℕ⊊ℤ\";\n    const actual = micro_blog.truncate(\"∅⊊ℕ⊊ℤ⊊ℚ⊊ℝ⊊ℂ\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"English and emoji short\" {\n    const expected: []const u8 = \"Fly 🛫\";\n    const actual = micro_blog.truncate(\"Fly 🛫\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"Emoji short\" {\n    const expected: []const u8 = \"💇\";\n    const actual = micro_blog.truncate(\"💇\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"Emoji long\" {\n    const expected: []const u8 = \"❄🌡🤧🤒🏥\";\n    const actual = micro_blog.truncate(\"❄🌡🤧🤒🏥🕰😀\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"Royal Flush?\" {\n    const expected: []const u8 = \"🃎🂸🃅🃋🃍\";\n    const actual = micro_blog.truncate(\"🃎🂸🃅🃋🃍🃁🃊\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\ntest \"ideograms\" {\n    const expected: []const u8 = \"二兎を追う\";\n    const actual = micro_blog.truncate(\"二兎を追う者は一兎をも得ず\");\n    try testing.expectEqualStrings(expected, actual);\n}\n\n```\n"},{"role":"assistant","content":"```zig\nconst std = @import(\"std\");\n\npub fn truncate(phrase: []const u8) []const u8 {\n    var byte_index: usize = 0;\n    var codepoint_count: usize = 0;\n\n    while (byte_index < phrase.len and codepoint_count < 5) {\n        var cp: u21 = 0;\n        const len = std.unicode.utf8Decode(phrase[byte_index..], &cp);\n        if (len == 0) break; // malformed UTF‑8, stop processing\n        byte_index += len;\n        codepoint_count += 1;\n    }\n\n    return phrase[0..byte_index];\n}\n\n```"},{"role":"user","content":"The deterministic tester rejected that solution. Repair it and return only the full replacement Zig file.\n\nStatus: compile_error\nPassed: 0/13\n\nCompiler/test output:\n\nmicro_blog.zig:9:32: error: expected 1 argument(s), found 2\n        const len = std.unicode.utf8Decode(phrase[byte_index..], &cp);\n                    ~~~~~~~~~~~^~~~~~~~~~~\n/home/runner/work/_temp/fba9015c-34a1-4199-a6d3-6c3c98c9e649/zig-x86_64-linux-0.16.0/lib/std/unicode.zig:101:5: note: function declared here\npub fn utf8Decode(bytes: []const u8) Utf8DecodeError!u21 {\n~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nreferenced by:\n    test.English language short: test_micro_blog.zig:8:39\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1786284779-EjQkzlYtIkmt6jscHWys","object":"chat.completion","created":1786284779,"model":"openai/gpt-oss-20b:free","provider":"Darkbloom","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\nconst std = @import(\"std\");\n\npub fn truncate(phrase: []const u8) []const u8 {\n    var byte_index: usize = 0;\n    var codepoint_count: usize = 0;\n\n    while (byte_index < phrase.len and codepoint_count < 5) {\n        const slice = phrase[byte_index..];\n        const cp = std.unicode.utf8Decode(slice) catch break;\n        _ = cp; // value not needed, only the length matters\n        const len = std.unicode.utf8DecodeLen(slice);\n        byte_index += len;\n        codepoint_count += 1;\n    }\n\n    return phrase[0..byte_index];\n}\n```","refusal":null,"reasoning":"The error: std.unicode.utf8Decode expects only bytes slice, returns error!u21. We need to handle error. We can use try? but we want to stop on malformed. We can use std.unicode.utf8Decode(bytes) which returns error!u21. We can try catch. But we need length of codepoint. We can use std.unicode.utf8Decode(bytes) which returns codepoint and we need to know how many bytes consumed. There's also std.unicode.utf8Decode(bytes) returns codepoint but we need to know length. We can use std.unicode.utf8Decode(bytes) and then use std.unicode.utf8DecodeLen? Let's check std.unicode docs. In Zig 0.16, there is std.unicode.utf8Decode(bytes) returning error!u21. There's also std.unicode.utf8Decode(bytes) but no length. There's std.unicode.utf8Decode(bytes) but we can use std.unicode.utf8Decode(bytes) and then use std.unicode.utf8DecodeLen? Let's search memory: I know there's std.unicode.utf8Decode(bytes) and std.unicode.utf8DecodeLen? Actually there is std.unicode.utf8Decode(bytes) and std.unicode.utf8DecodeLen(bytes) maybe. Let's check typical usage: var cp = try std.unicode.utf8Decode(bytes); var len = std.unicode.utf8DecodeLen(bytes); But I'm not sure. Let's open memory: In Zig 0.16, there is std.unicode.utf8Decode(bytes) and std.unicode.utf8DecodeLen(bytes). I think yes. So we can do:\n\nconst cp = try std.unicode.utf8Decode(phrase[byte_index..]);\nconst len = std.unicode.utf8DecodeLen(phrase[byte_index..]);\n\nBut we need to handle error: if error, break.\n\nSo:\n\nwhile (byte_index < phrase.len and codepoint_count < 5) {\n    const slice = phrase[byte_index..];\n    const cp = std.unicode.utf8Decode(slice) catch break;\n    const len = std.unicode.utf8DecodeLen(slice);\n    byte_index += len;\n    codepoint_count += 1;\n}\n\nReturn phrase[0..byte_index].\n\nAlso need to import std.unicode? Already imported std.\n\nEdge: if phrase empty, return empty.\n\nReturn slice.\n\nLet's produce final file.\n\nAlso need to ensure we use correct function names: std.unicode.utf8DecodeLen? Let's confirm: In Zig 0.16, there is std.unicode.utf8DecodeLen? Quick search memory: I recall there is std.unicode.utf8DecodeLen(bytes) returning usize. Yes.\n\nThus final code.\n\nAlso need to add @import(\"std\") at top.\n\nReturn []const u8.\n\nLet's produce final file.","reasoning_details":[{"type":"reasoning.text","text":"The error: std.unicode.utf8Decode expects only bytes slice, returns error!u21. We need to handle error. We can use try? but we want to stop on malformed. We can use std.unicode.utf8Decode(bytes) which returns error!u21. We can try catch. But we need length of codepoint. We can use std.unicode.utf8Decode(bytes) which returns codepoint and we need to know how many bytes consumed. There's also std.unicode.utf8Decode(bytes) returns codepoint but we need to know length. We can use std.unicode.utf8Decode(bytes) and then use std.unicode.utf8DecodeLen? Let's check std.unicode docs. In Zig 0.16, there is std.unicode.utf8Decode(bytes) returning error!u21. There's also std.unicode.utf8Decode(bytes) but no length. There's std.unicode.utf8Decode(bytes) but we can use std.unicode.utf8Decode(bytes) and then use std.unicode.utf8DecodeLen? Let's search memory: I know there's std.unicode.utf8Decode(bytes) and std.unicode.utf8DecodeLen? Actually there is std.unicode.utf8Decode(bytes) and std.unicode.utf8DecodeLen(bytes) maybe. Let's check typical usage: var cp = try std.unicode.utf8Decode(bytes); var len = std.unicode.utf8DecodeLen(bytes); But I'm not sure. Let's open memory: In Zig 0.16, there is std.unicode.utf8Decode(bytes) and std.unicode.utf8DecodeLen(bytes). I think yes. So we can do:\n\nconst cp = try std.unicode.utf8Decode(phrase[byte_index..]);\nconst len = std.unicode.utf8DecodeLen(phrase[byte_index..]);\n\nBut we need to handle error: if error, break.\n\nSo:\n\nwhile (byte_index < phrase.len and codepoint_count < 5) {\n    const slice = phrase[byte_index..];\n    const cp = std.unicode.utf8Decode(slice) catch break;\n    const len = std.unicode.utf8DecodeLen(slice);\n    byte_index += len;\n    codepoint_count += 1;\n}\n\nReturn phrase[0..byte_index].\n\nAlso need to import std.unicode? Already imported std.\n\nEdge: if phrase empty, return empty.\n\nReturn slice.\n\nLet's produce final file.\n\nAlso need to ensure we use correct function names: std.unicode.utf8DecodeLen? Let's confirm: In Zig 0.16, there is std.unicode.utf8DecodeLen? Quick search memory: I recall there is std.unicode.utf8DecodeLen(bytes) returning usize. Yes.\n\nThus final code.\n\nAlso need to add @import(\"std\") at top.\n\nReturn []const u8.\n\nLet's produce final file.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":2354,"completion_tokens":758,"total_tokens":3112,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000087193,"upstream_inference_prompt_cost":0.000034133,"upstream_inference_completions_cost":0.00005306},"completion_tokens_details":{"reasoning_tokens":601,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

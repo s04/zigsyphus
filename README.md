@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r05-micro-blog](data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/solution.zig) |
+| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r04-micro-blog](data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/solution.zig) |
+| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r03-micro-blog](data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/solution.zig) |
+| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r02-micro-blog](data/silver/attempts/2026/08/09/140846Z-r02-micro-blog/solution.zig) |
+| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r01-micro-blog](data/silver/attempts/2026/08/09/140846Z-r01-micro-blog/solution.zig) |
+| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r00-micro-blog](data/silver/attempts/2026/08/09/140846Z-r00-micro-blog/solution.zig) |
 | 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r05-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/solution.zig) |
 | 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r04-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/solution.zig) |
 | 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r03-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r03-roman-numerals/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r03-prime-factors](data/silver/attempts/2026/08/03/160444Z-r03-prime-factors/solution.zig) |
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r02-prime-factors](data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/solution.zig) |
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r01-prime-factors](data/silver/attempts/2026/08/03/160444Z-r01-prime-factors/solution.zig) |
-| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r00-prime-factors](data/silver/attempts/2026/08/03/160444Z-r00-prime-factors/solution.zig) |
-| 2026-08-02 | Acronym (`acronym`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [144745Z-r02-acronym](data/silver/attempts/2026/08/02/144745Z-r02-acronym/solution.zig) |
-| 2026-08-02 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [144745Z-r01-acronym](data/silver/attempts/2026/08/02/144745Z-r01-acronym/solution.zig) |
-| 2026-08-02 | Acronym (`acronym`) | 2 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [144745Z-r00-acronym](data/silver/attempts/2026/08/02/144745Z-r00-acronym/solution.zig) |
-| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r05-anagram](data/silver/attempts/2026/07/31/153829Z-r05-anagram/solution.zig) |
-| 2026-07-31 | Anagram (`anagram`) | 3 | `openrouter/free` | compile_error/compile_error | 0/16 | 10 | [153829Z-r04-anagram](data/silver/attempts/2026/07/31/153829Z-r04-anagram/solution.zig) |
 
 <!-- zigsyphus-results:end -->

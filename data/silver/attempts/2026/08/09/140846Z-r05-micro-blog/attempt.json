@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-09-140846Z-r05-micro-blog",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-09T14:08:46Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Micro Blog","slug":"micro-blog","tags":[],"uuid":"0441593f-23d3-42b8-aa21-b47166c7c86d"},
+  "promptHash": "8a1911f61140fc61",
+  "repairFrom": "data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/result.json",
+  "roundIndex": 5,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786284853-UeKcRofKsfg47mlPilXy",
+    "routedModel": "nvidia/nemotron-nano-9b-v2:free",
+    "usage": {
+  "prompt_tokens": 3393,
+  "completion_tokens": 1983,
+  "total_tokens": 5376,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 1779,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
