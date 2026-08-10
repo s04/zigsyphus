@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-10-143830Z-r00-difference-of-squares",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"difference-of-squares","status":"pass"}},
+  "date": "2026-08-10",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Difference of Squares","slug":"difference-of-squares","tags":["builtin-functions","functions"],"uuid":"7f1ae5db-82f6-44b0-a5b4-a206f29c4bb0"},
+  "resultPath": "data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/9 test_difference_of_squares.test.square of sum up to 1...OK\n2/9 test_difference_of_squares.test.square of sum up to 5...OK\n3/9 test_difference_of_squares.test.square of sum up to 100...OK\n4/9 test_difference_of_squares.test.sum of squares up to 1...OK\n5/9 test_difference_of_squares.test.sum of squares up to 5...OK\n6/9 test_difference_of_squares.test.sum of squares up to 100...OK\n7/9 test_difference_of_squares.test.difference of squares up to 1...OK\n8/9 test_difference_of_squares.test.difference of squares up to 5...OK\n9/9 test_difference_of_squares.test.difference of squares up to 100...OK\nAll 9 tests passed.\n","passed":9,"returnCode":0,"skipped":0,"status":"pass","total":9},
+  "testedAt": "2026-08-10T14:39:31Z",
+  "zigVersion": "0.16.0"
+}

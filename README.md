@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-10 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [143830Z-r00-difference-of-squares](data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r05-micro-blog](data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r04-micro-blog](data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r03-micro-blog](data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r04-prime-factors](data/silver/attempts/2026/08/03/160444Z-r04-prime-factors/solution.zig) |
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r03-prime-factors](data/silver/attempts/2026/08/03/160444Z-r03-prime-factors/solution.zig) |
 | 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r02-prime-factors](data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/solution.zig) |
-| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r01-prime-factors](data/silver/attempts/2026/08/03/160444Z-r01-prime-factors/solution.zig) |
 
 <!-- zigsyphus-results:end -->

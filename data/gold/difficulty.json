@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-09-140846Z-r05-micro-blog",
-  "currentDifficulty": 3,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 2,
+  "attemptId": "2026-08-10-143830Z-r00-difference-of-squares",
+  "currentDifficulty": 2,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T14:15:21Z"
+  "updatedAt": "2026-08-10T14:39:31Z"
 }
