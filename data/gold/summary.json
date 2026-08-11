@@ -1,23 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-08-10-143830Z-r00-difference-of-squares",
-    "currentDifficulty": 2,
-    "lastScore": 100,
-    "lastStatus": "pass",
-    "nextDifficulty": 3,
+    "attemptId": "2026-08-11-143751Z-r05-dnd-character",
+    "currentDifficulty": 3,
+    "lastScore": 10,
+    "lastStatus": "compile_error",
+    "nextDifficulty": 2,
     "schemaVersion": 1,
-    "updatedAt": "2026-08-10T14:39:31Z"
+    "updatedAt": "2026-08-11T14:47:51Z"
   },
-  "generatedAt": "2026-08-10T14:39:31Z",
-  "latest": {"attemptId":"2026-08-10-143830Z-r00-difference-of-squares","compileStatus":"compiled","date":"2026-08-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Difference of Squares","passed":"9","resultPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/result.json","runAt":"2026-08-10T14:39:31Z","score":"100","slug":"difference-of-squares","solutionPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"},
-  "nextDifficulty": 3,
+  "generatedAt": "2026-08-11T14:47:51Z",
+  "latest": {"attemptId":"2026-08-11-143751Z-r05-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/result.json","runAt":"2026-08-11T14:47:51Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+  "nextDifficulty": 2,
   "recentRuns": [
-    {"attemptId":"2026-08-03-160444Z-r02-prime-factors","compileStatus":"compile_error","date":"2026-08-03","difficulty":"3","mode":"live","model":"openrouter/free","name":"Prime Factors","passed":"0","resultPath":"data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/result.json","runAt":"2026-08-03T16:05:21Z","score":"10","slug":"prime-factors","solutionPath":"data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-03-160444Z-r03-prime-factors","compileStatus":"compile_error","date":"2026-08-03","difficulty":"3","mode":"live","model":"openrouter/free","name":"Prime Factors","passed":"0","resultPath":"data/silver/attempts/2026/08/03/160444Z-r03-prime-factors/result.json","runAt":"2026-08-03T16:05:32Z","score":"10","slug":"prime-factors","solutionPath":"data/silver/attempts/2026/08/03/160444Z-r03-prime-factors/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-03-160444Z-r04-prime-factors","compileStatus":"compile_error","date":"2026-08-03","difficulty":"3","mode":"live","model":"openrouter/free","name":"Prime Factors","passed":"0","resultPath":"data/silver/attempts/2026/08/03/160444Z-r04-prime-factors/result.json","runAt":"2026-08-03T16:05:52Z","score":"10","slug":"prime-factors","solutionPath":"data/silver/attempts/2026/08/03/160444Z-r04-prime-factors/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-03-160444Z-r05-prime-factors","compileStatus":"compile_error","date":"2026-08-03","difficulty":"3","mode":"live","model":"openrouter/free","name":"Prime Factors","passed":"0","resultPath":"data/silver/attempts/2026/08/03/160444Z-r05-prime-factors/result.json","runAt":"2026-08-03T16:07:58Z","score":"10","slug":"prime-factors","solutionPath":"data/silver/attempts/2026/08/03/160444Z-r05-prime-factors/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-04-155753Z-r00-square-root","compileStatus":"compile_error","date":"2026-08-04","difficulty":"2","mode":"live","model":"openrouter/free","name":"Square Root","passed":"0","resultPath":"data/silver/attempts/2026/08/04/155753Z-r00-square-root/result.json","runAt":"2026-08-04T15:58:48Z","score":"10","slug":"square-root","solutionPath":"data/silver/attempts/2026/08/04/155753Z-r00-square-root/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-04-155753Z-r01-square-root","compileStatus":"compiled","date":"2026-08-04","difficulty":"2","mode":"live","model":"openrouter/free","name":"Square Root","passed":"6","resultPath":"data/silver/attempts/2026/08/04/155753Z-r01-square-root/result.json","runAt":"2026-08-04T15:59:27Z","score":"100","slug":"square-root","solutionPath":"data/silver/attempts/2026/08/04/155753Z-r01-square-root/solution.zig","status":"pass","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-05-154010Z-r00-line-up","compileStatus":"compiled","date":"2026-08-05","difficulty":"3","mode":"live","model":"openrouter/free","name":"Line up","passed":"19","resultPath":"data/silver/attempts/2026/08/05/154010Z-r00-line-up/result.json","runAt":"2026-08-05T15:44:17Z","score":"100","slug":"line-up","solutionPath":"data/silver/attempts/2026/08/05/154010Z-r00-line-up/solution.zig","status":"pass","total":"19","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-08-140733Z-r00-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/result.json","runAt":"2026-08-08T14:10:04Z","score":"10","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-08-140733Z-r01-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r01-roman-numerals/result.json","runAt":"2026-08-08T14:13:05Z","score":"0","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r01-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
@@ -31,17 +25,17 @@
     {"attemptId":"2026-08-09-140846Z-r03-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/result.json","runAt":"2026-08-09T14:13:52Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-09-140846Z-r04-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/result.json","runAt":"2026-08-09T14:14:12Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-09-140846Z-r05-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/result.json","runAt":"2026-08-09T14:15:21Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-10-143830Z-r00-difference-of-squares","compileStatus":"compiled","date":"2026-08-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Difference of Squares","passed":"9","resultPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/result.json","runAt":"2026-08-10T14:39:31Z","score":"100","slug":"difference-of-squares","solutionPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"}
+    {"attemptId":"2026-08-10-143830Z-r00-difference-of-squares","compileStatus":"compiled","date":"2026-08-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Difference of Squares","passed":"9","resultPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/result.json","runAt":"2026-08-10T14:39:31Z","score":"100","slug":"difference-of-squares","solutionPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-11-143751Z-r00-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r00-dnd-character/result.json","runAt":"2026-08-11T14:43:42Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r00-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-11-143751Z-r01-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r01-dnd-character/result.json","runAt":"2026-08-11T14:44:57Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r01-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-11-143751Z-r02-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r02-dnd-character/result.json","runAt":"2026-08-11T14:45:07Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r02-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-11-143751Z-r03-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r03-dnd-character/result.json","runAt":"2026-08-11T14:45:47Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r03-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-11-143751Z-r04-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/result.json","runAt":"2026-08-11T14:46:01Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-11-143751Z-r05-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/result.json","runAt":"2026-08-11T14:47:51Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"}
   ],
-  "runCount": 164,
+  "runCount": 170,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-07-22-152035Z-r04-resistor-color-trio", "date": "2026-07-22", "score": 10, "slug": "resistor-color-trio"},
-    {"attemptId": "2026-07-22-152035Z-r05-resistor-color-trio", "date": "2026-07-22", "score": 10, "slug": "resistor-color-trio"},
-    {"attemptId": "2026-07-23-153333Z-r00-space-age", "date": "2026-07-23", "score": 10, "slug": "space-age"},
-    {"attemptId": "2026-07-23-153333Z-r01-space-age", "date": "2026-07-23", "score": 100, "slug": "space-age"},
-    {"attemptId": "2026-07-24-151402Z-r00-hamming", "date": "2026-07-24", "score": 100, "slug": "hamming"},
-    {"attemptId": "2026-07-25-144742Z-r00-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
     {"attemptId": "2026-07-25-144742Z-r01-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
     {"attemptId": "2026-07-25-144742Z-r02-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
     {"attemptId": "2026-07-25-144742Z-r03-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
@@ -95,6 +89,12 @@
     {"attemptId": "2026-08-09-140846Z-r03-micro-blog", "date": "2026-08-09", "score": 10, "slug": "micro-blog"},
     {"attemptId": "2026-08-09-140846Z-r04-micro-blog", "date": "2026-08-09", "score": 10, "slug": "micro-blog"},
     {"attemptId": "2026-08-09-140846Z-r05-micro-blog", "date": "2026-08-09", "score": 10, "slug": "micro-blog"},
-    {"attemptId": "2026-08-10-143830Z-r00-difference-of-squares", "date": "2026-08-10", "score": 100, "slug": "difference-of-squares"}
+    {"attemptId": "2026-08-10-143830Z-r00-difference-of-squares", "date": "2026-08-10", "score": 100, "slug": "difference-of-squares"},
+    {"attemptId": "2026-08-11-143751Z-r00-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
+    {"attemptId": "2026-08-11-143751Z-r01-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
+    {"attemptId": "2026-08-11-143751Z-r02-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
+    {"attemptId": "2026-08-11-143751Z-r03-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
+    {"attemptId": "2026-08-11-143751Z-r04-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
+    {"attemptId": "2026-08-11-143751Z-r05-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"}
   ]
 }

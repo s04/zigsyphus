@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-11-143751Z-r00-dnd-character",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-11T14:37:51Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"D&D Character","slug":"dnd-character","tags":["integers","math","randomness"],"uuid":"2f4c1391-6e16-40bd-a4a9-883f51066cf3"},
+  "promptHash": "fad0ddf631bac591",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/11/143751Z-r00-dnd-character/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786459311-oKltj6KPEV8idP45oI3u",
+    "routedModel": "nvidia/nemotron-3.5-lightning:free",
+    "usage": {
+  "prompt_tokens": 2582,
+  "completion_tokens": 12000,
+  "total_tokens": 14582,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 10184,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

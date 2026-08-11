@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r05-dnd-character](data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig) |
+| 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r04-dnd-character](data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/solution.zig) |
+| 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r03-dnd-character](data/silver/attempts/2026/08/11/143751Z-r03-dnd-character/solution.zig) |
+| 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r02-dnd-character](data/silver/attempts/2026/08/11/143751Z-r02-dnd-character/solution.zig) |
+| 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r01-dnd-character](data/silver/attempts/2026/08/11/143751Z-r01-dnd-character/solution.zig) |
+| 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r00-dnd-character](data/silver/attempts/2026/08/11/143751Z-r00-dnd-character/solution.zig) |
 | 2026-08-10 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [143830Z-r00-difference-of-squares](data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r05-micro-blog](data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r04-micro-blog](data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 0 | [140733Z-r01-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r01-roman-numerals/solution.zig) |
 | 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r00-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/solution.zig) |
 | 2026-08-05 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [154010Z-r00-line-up](data/silver/attempts/2026/08/05/154010Z-r00-line-up/solution.zig) |
-| 2026-08-04 | Square Root (`square-root`) | 2 | `openrouter/free` | pass/compiled | 6/6 | 100 | [155753Z-r01-square-root](data/silver/attempts/2026/08/04/155753Z-r01-square-root/solution.zig) |
-| 2026-08-04 | Square Root (`square-root`) | 2 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [155753Z-r00-square-root](data/silver/attempts/2026/08/04/155753Z-r00-square-root/solution.zig) |
-| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r05-prime-factors](data/silver/attempts/2026/08/03/160444Z-r05-prime-factors/solution.zig) |
-| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r04-prime-factors](data/silver/attempts/2026/08/03/160444Z-r04-prime-factors/solution.zig) |
-| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r03-prime-factors](data/silver/attempts/2026/08/03/160444Z-r03-prime-factors/solution.zig) |
-| 2026-08-03 | Prime Factors (`prime-factors`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [160444Z-r02-prime-factors](data/silver/attempts/2026/08/03/160444Z-r02-prime-factors/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-10-143830Z-r00-difference-of-squares",
-  "currentDifficulty": 2,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "attemptId": "2026-08-11-143751Z-r05-dnd-character",
+  "currentDifficulty": 3,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T14:39:31Z"
+  "updatedAt": "2026-08-11T14:47:51Z"
 }

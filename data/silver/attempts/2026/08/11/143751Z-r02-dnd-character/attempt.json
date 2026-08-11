@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-11-143751Z-r02-dnd-character",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-11T14:37:51Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"D&D Character","slug":"dnd-character","tags":["integers","math","randomness"],"uuid":"2f4c1391-6e16-40bd-a4a9-883f51066cf3"},
+  "promptHash": "57c7d76414ca8aad",
+  "repairFrom": "data/silver/attempts/2026/08/11/143751Z-r01-dnd-character/result.json",
+  "roundIndex": 2,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/11/143751Z-r02-dnd-character/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786459497-DwEguL44X5THxbFOPFwh",
+    "routedModel": "poolside/laguna-xs-2.1:free",
+    "usage": {
+  "prompt_tokens": 3291,
+  "completion_tokens": 401,
+  "total_tokens": 3692,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

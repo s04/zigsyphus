@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-11-143751Z-r04-dnd-character",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"dnd-character","status":"pass"}},
+  "date": "2026-08-11",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"D&D Character","slug":"dnd-character","tags":["integers","math","randomness"],"uuid":"2f4c1391-6e16-40bd-a4a9-883f51066cf3"},
+  "resultPath": "data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\ndnd_character.zig:14:21: error: expected 1 argument, found 2\n        const die = @intCast(u8, prng.random().uintLessThan(u32, 6) + 1);\n                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-08-11T14:46:01Z",
+  "zigVersion": "0.16.0"
+}
