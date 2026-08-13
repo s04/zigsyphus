@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-13-143838Z-r04-grains",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"grains","status":"pass"}},
+  "date": "2026-08-13",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Grains","slug":"grains","tags":["bitwise-operations","builtin-functions","conditionals","error-sets","functions"],"uuid":"dff58791-4373-46ec-933a-ea27a28b4486"},
+  "resultPath": "data/silver/attempts/2026/08/13/143838Z-r04-grains/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/13/143838Z-r04-grains/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":10,"outputExcerpt":"\ngrains.zig:7:27: error: expected 1 argument, found 2\n    return @as(u64, 1) << @intCast(u5, index - 1);\n                          ^~~~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":10},
+  "testedAt": "2026-08-13T14:44:32Z",
+  "zigVersion": "0.16.0"
+}

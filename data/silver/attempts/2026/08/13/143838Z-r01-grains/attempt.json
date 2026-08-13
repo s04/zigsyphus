@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-13-143838Z-r01-grains",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-13T14:38:38Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"Grains","slug":"grains","tags":["bitwise-operations","builtin-functions","conditionals","error-sets","functions"],"uuid":"dff58791-4373-46ec-933a-ea27a28b4486"},
+  "promptHash": "2f63fb170d2ae494",
+  "repairFrom": "data/silver/attempts/2026/08/13/143838Z-r00-grains/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/13/143838Z-r01-grains/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786632149-vallXhhZgdTZF0gVI3JM",
+    "routedModel": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "usage": {
+  "prompt_tokens": 1732,
+  "completion_tokens": 5492,
+  "total_tokens": 7224,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 5429,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

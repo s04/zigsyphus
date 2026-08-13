@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r05-grains](data/silver/attempts/2026/08/13/143838Z-r05-grains/solution.zig) |
+| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r04-grains](data/silver/attempts/2026/08/13/143838Z-r04-grains/solution.zig) |
+| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r03-grains](data/silver/attempts/2026/08/13/143838Z-r03-grains/solution.zig) |
+| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r02-grains](data/silver/attempts/2026/08/13/143838Z-r02-grains/solution.zig) |
+| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r01-grains](data/silver/attempts/2026/08/13/143838Z-r01-grains/solution.zig) |
+| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r00-grains](data/silver/attempts/2026/08/13/143838Z-r00-grains/solution.zig) |
 | 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r05-dnd-character](data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig) |
 | 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r04-dnd-character](data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/solution.zig) |
 | 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r03-dnd-character](data/silver/attempts/2026/08/11/143751Z-r03-dnd-character/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r01-micro-blog](data/silver/attempts/2026/08/09/140846Z-r01-micro-blog/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r00-micro-blog](data/silver/attempts/2026/08/09/140846Z-r00-micro-blog/solution.zig) |
 | 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r05-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/solution.zig) |
-| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r04-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/solution.zig) |
-| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r03-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r03-roman-numerals/solution.zig) |
-| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 0 | [140733Z-r02-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r02-roman-numerals/solution.zig) |
-| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 0 | [140733Z-r01-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r01-roman-numerals/solution.zig) |
-| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r00-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/solution.zig) |
-| 2026-08-05 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [154010Z-r00-line-up](data/silver/attempts/2026/08/05/154010Z-r00-line-up/solution.zig) |
 
 <!-- zigsyphus-results:end -->

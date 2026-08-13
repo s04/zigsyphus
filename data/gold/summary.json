@@ -1,23 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-08-11-143751Z-r05-dnd-character",
-    "currentDifficulty": 3,
+    "attemptId": "2026-08-13-143838Z-r05-grains",
+    "currentDifficulty": 2,
     "lastScore": 10,
     "lastStatus": "compile_error",
-    "nextDifficulty": 2,
+    "nextDifficulty": 1,
     "schemaVersion": 1,
-    "updatedAt": "2026-08-11T14:47:51Z"
+    "updatedAt": "2026-08-13T14:44:53Z"
   },
-  "generatedAt": "2026-08-11T14:47:51Z",
-  "latest": {"attemptId":"2026-08-11-143751Z-r05-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/result.json","runAt":"2026-08-11T14:47:51Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
-  "nextDifficulty": 2,
+  "generatedAt": "2026-08-13T14:44:53Z",
+  "latest": {"attemptId":"2026-08-13-143838Z-r05-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r05-grains/result.json","runAt":"2026-08-13T14:44:53Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r05-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+  "nextDifficulty": 1,
   "recentRuns": [
-    {"attemptId":"2026-08-05-154010Z-r00-line-up","compileStatus":"compiled","date":"2026-08-05","difficulty":"3","mode":"live","model":"openrouter/free","name":"Line up","passed":"19","resultPath":"data/silver/attempts/2026/08/05/154010Z-r00-line-up/result.json","runAt":"2026-08-05T15:44:17Z","score":"100","slug":"line-up","solutionPath":"data/silver/attempts/2026/08/05/154010Z-r00-line-up/solution.zig","status":"pass","total":"19","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-08-140733Z-r00-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/result.json","runAt":"2026-08-08T14:10:04Z","score":"10","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r00-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-08-140733Z-r01-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r01-roman-numerals/result.json","runAt":"2026-08-08T14:13:05Z","score":"0","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r01-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-08-140733Z-r02-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r02-roman-numerals/result.json","runAt":"2026-08-08T14:13:37Z","score":"0","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r02-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-08-140733Z-r03-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r03-roman-numerals/result.json","runAt":"2026-08-08T14:14:59Z","score":"10","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r03-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-08-140733Z-r04-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/result.json","runAt":"2026-08-08T14:16:50Z","score":"10","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r04-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-08-140733Z-r05-roman-numerals","compileStatus":"compile_error","date":"2026-08-08","difficulty":"4","mode":"live","model":"openrouter/free","name":"Roman Numerals","passed":"0","resultPath":"data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/result.json","runAt":"2026-08-08T14:19:02Z","score":"10","slug":"roman-numerals","solutionPath":"data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/solution.zig","status":"compile_error","total":"27","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-09-140846Z-r00-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r00-micro-blog/result.json","runAt":"2026-08-09T14:09:43Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r00-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-09-140846Z-r01-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r01-micro-blog/result.json","runAt":"2026-08-09T14:10:11Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r01-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
@@ -31,17 +25,17 @@
     {"attemptId":"2026-08-11-143751Z-r02-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r02-dnd-character/result.json","runAt":"2026-08-11T14:45:07Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r02-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-11-143751Z-r03-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r03-dnd-character/result.json","runAt":"2026-08-11T14:45:47Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r03-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-11-143751Z-r04-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/result.json","runAt":"2026-08-11T14:46:01Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-11-143751Z-r05-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/result.json","runAt":"2026-08-11T14:47:51Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"}
+    {"attemptId":"2026-08-11-143751Z-r05-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/result.json","runAt":"2026-08-11T14:47:51Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-13-143838Z-r00-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r00-grains/result.json","runAt":"2026-08-13T14:42:29Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r00-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-13-143838Z-r01-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r01-grains/result.json","runAt":"2026-08-13T14:43:39Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r01-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-13-143838Z-r02-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r02-grains/result.json","runAt":"2026-08-13T14:44:11Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r02-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-13-143838Z-r03-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r03-grains/result.json","runAt":"2026-08-13T14:44:18Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r03-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-13-143838Z-r04-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r04-grains/result.json","runAt":"2026-08-13T14:44:32Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r04-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-13-143838Z-r05-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r05-grains/result.json","runAt":"2026-08-13T14:44:53Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r05-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"}
   ],
-  "runCount": 170,
+  "runCount": 176,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-07-25-144742Z-r01-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
-    {"attemptId": "2026-07-25-144742Z-r02-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
-    {"attemptId": "2026-07-25-144742Z-r03-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
-    {"attemptId": "2026-07-25-144742Z-r04-allergies", "date": "2026-07-25", "score": 0, "slug": "allergies"},
-    {"attemptId": "2026-07-25-144742Z-r05-allergies", "date": "2026-07-25", "score": 10, "slug": "allergies"},
-    {"attemptId": "2026-07-26-144933Z-r00-darts", "date": "2026-07-26", "score": 100, "slug": "darts"},
     {"attemptId": "2026-07-27-160021Z-r00-twelve-days", "date": "2026-07-27", "score": 10, "slug": "twelve-days"},
     {"attemptId": "2026-07-27-160021Z-r01-twelve-days", "date": "2026-07-27", "score": 10, "slug": "twelve-days"},
     {"attemptId": "2026-07-27-160021Z-r02-twelve-days", "date": "2026-07-27", "score": 10, "slug": "twelve-days"},
@@ -95,6 +89,12 @@
     {"attemptId": "2026-08-11-143751Z-r02-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
     {"attemptId": "2026-08-11-143751Z-r03-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
     {"attemptId": "2026-08-11-143751Z-r04-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
-    {"attemptId": "2026-08-11-143751Z-r05-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"}
+    {"attemptId": "2026-08-11-143751Z-r05-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
+    {"attemptId": "2026-08-13-143838Z-r00-grains", "date": "2026-08-13", "score": 10, "slug": "grains"},
+    {"attemptId": "2026-08-13-143838Z-r01-grains", "date": "2026-08-13", "score": 10, "slug": "grains"},
+    {"attemptId": "2026-08-13-143838Z-r02-grains", "date": "2026-08-13", "score": 10, "slug": "grains"},
+    {"attemptId": "2026-08-13-143838Z-r03-grains", "date": "2026-08-13", "score": 10, "slug": "grains"},
+    {"attemptId": "2026-08-13-143838Z-r04-grains", "date": "2026-08-13", "score": 10, "slug": "grains"},
+    {"attemptId": "2026-08-13-143838Z-r05-grains", "date": "2026-08-13", "score": 10, "slug": "grains"}
   ]
 }
