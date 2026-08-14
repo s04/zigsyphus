@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-14 | Pangram (`pangram`) | 1 | `openrouter/free` | pass/compiled | 11/11 | 100 | [143226Z-r00-pangram](data/silver/attempts/2026/08/14/143226Z-r00-pangram/solution.zig) |
 | 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r05-grains](data/silver/attempts/2026/08/13/143838Z-r05-grains/solution.zig) |
 | 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r04-grains](data/silver/attempts/2026/08/13/143838Z-r04-grains/solution.zig) |
 | 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r03-grains](data/silver/attempts/2026/08/13/143838Z-r03-grains/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r02-micro-blog](data/silver/attempts/2026/08/09/140846Z-r02-micro-blog/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r01-micro-blog](data/silver/attempts/2026/08/09/140846Z-r01-micro-blog/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r00-micro-blog](data/silver/attempts/2026/08/09/140846Z-r00-micro-blog/solution.zig) |
-| 2026-08-08 | Roman Numerals (`roman-numerals`) | 4 | `openrouter/free` | compile_error/compile_error | 0/27 | 10 | [140733Z-r05-roman-numerals](data/silver/attempts/2026/08/08/140733Z-r05-roman-numerals/solution.zig) |
 
 <!-- zigsyphus-results:end -->

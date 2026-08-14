@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-14-143226Z-r00-pangram",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"pangram","status":"pass"}},
+  "date": "2026-08-14",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Pangram","slug":"pangram","tags":["bitwise-operations","builtin-functions","conditionals","control-flow","importing","slices","type-coercion"],"uuid":"8f48a213-9a28-4a7e-93f9-f2b1fbe46e58"},
+  "resultPath": "data/silver/attempts/2026/08/14/143226Z-r00-pangram/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/14/143226Z-r00-pangram/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/11 test_pangram.test.empty sentence...OK\n2/11 test_pangram.test.perfect lower case...OK\n3/11 test_pangram.test.only lower case...OK\n4/11 test_pangram.test.missing the letter 'x'...OK\n5/11 test_pangram.test.missing the letter 'h'...OK\n6/11 test_pangram.test.with underscores...OK\n7/11 test_pangram.test.with numbers...OK\n8/11 test_pangram.test.missing letters replaced by numbers...OK\n9/11 test_pangram.test.mixed case and punctuation...OK\n10/11 test_pangram.test.a-m and A-M are 26 different characters but not a pangram...OK\n11/11 test_pangram.test.non-alphanumeric printable ASCII...OK\nAll 11 tests passed.\n","passed":11,"returnCode":0,"skipped":0,"status":"pass","total":11},
+  "testedAt": "2026-08-14T14:33:24Z",
+  "zigVersion": "0.16.0"
+}

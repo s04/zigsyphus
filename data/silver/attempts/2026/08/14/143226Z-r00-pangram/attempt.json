@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-14-143226Z-r00-pangram",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-14T14:32:26Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":1,"name":"Pangram","slug":"pangram","tags":["bitwise-operations","builtin-functions","conditionals","control-flow","importing","slices","type-coercion"],"uuid":"8f48a213-9a28-4a7e-93f9-f2b1fbe46e58"},
+  "promptHash": "49082f67fdf36fec",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/14/143226Z-r00-pangram/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1786717946-0QkAaUKuvOcA085ceI7a",
+    "routedModel": "poolside/laguna-s-2.1:free",
+    "usage": {
+  "prompt_tokens": 1438,
+  "completion_tokens": 2301,
+  "total_tokens": 3739,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 2171,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
