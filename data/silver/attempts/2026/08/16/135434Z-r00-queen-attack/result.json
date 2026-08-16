@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-16-135434Z-r00-queen-attack",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"queen-attack","status":"pass"}},
+  "date": "2026-08-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Queen Attack","slug":"queen-attack","tags":["control-flow","error-sets","importing","methods","structs"],"uuid":"6eb542c3-c14f-430a-81ce-ba9f2c0551c2"},
+  "resultPath": "data/silver/attempts/2026/08/16/135434Z-r00-queen-attack/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/16/135434Z-r00-queen-attack/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nqueen_attack.zig:10:32: error: comparison operators cannot be chained\n        if (row < 0 orelse row > 7) return error.InitializationFailure;\n                               ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-08-16T13:54:56Z",
+  "zigVersion": "0.16.0"
+}

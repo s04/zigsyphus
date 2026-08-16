@@ -1,19 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-08-15-135325Z-r02-collatz-conjecture",
-    "currentDifficulty": 2,
+    "attemptId": "2026-08-16-135434Z-r01-queen-attack",
+    "currentDifficulty": 3,
     "lastScore": 100,
     "lastStatus": "pass",
-    "nextDifficulty": 3,
+    "nextDifficulty": 4,
     "schemaVersion": 1,
-    "updatedAt": "2026-08-15T13:54:42Z"
+    "updatedAt": "2026-08-16T13:55:01Z"
   },
-  "generatedAt": "2026-08-15T13:54:42Z",
-  "latest": {"attemptId":"2026-08-15-135325Z-r02-collatz-conjecture","compileStatus":"compiled","date":"2026-08-15","difficulty":"2","mode":"live","model":"openrouter/free","name":"Collatz Conjecture","passed":"5","resultPath":"data/silver/attempts/2026/08/15/135325Z-r02-collatz-conjecture/result.json","runAt":"2026-08-15T13:54:42Z","score":"100","slug":"collatz-conjecture","solutionPath":"data/silver/attempts/2026/08/15/135325Z-r02-collatz-conjecture/solution.zig","status":"pass","total":"5","zigVersion":"0.16.0"},
-  "nextDifficulty": 3,
+  "generatedAt": "2026-08-16T13:55:01Z",
+  "latest": {"attemptId":"2026-08-16-135434Z-r01-queen-attack","compileStatus":"compiled","date":"2026-08-16","difficulty":"3","mode":"live","model":"openrouter/free","name":"Queen Attack","passed":"14","resultPath":"data/silver/attempts/2026/08/16/135434Z-r01-queen-attack/result.json","runAt":"2026-08-16T13:55:01Z","score":"100","slug":"queen-attack","solutionPath":"data/silver/attempts/2026/08/16/135434Z-r01-queen-attack/solution.zig","status":"pass","total":"14","zigVersion":"0.16.0"},
+  "nextDifficulty": 4,
   "recentRuns": [
-    {"attemptId":"2026-08-09-140846Z-r03-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/result.json","runAt":"2026-08-09T14:13:52Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-09-140846Z-r04-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/result.json","runAt":"2026-08-09T14:14:12Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-09-140846Z-r05-micro-blog","compileStatus":"compile_error","date":"2026-08-09","difficulty":"3","mode":"live","model":"openrouter/free","name":"Micro Blog","passed":"0","resultPath":"data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/result.json","runAt":"2026-08-09T14:15:21Z","score":"10","slug":"micro-blog","solutionPath":"data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-10-143830Z-r00-difference-of-squares","compileStatus":"compiled","date":"2026-08-10","difficulty":"2","mode":"live","model":"openrouter/free","name":"Difference of Squares","passed":"9","resultPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/result.json","runAt":"2026-08-10T14:39:31Z","score":"100","slug":"difference-of-squares","solutionPath":"data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-11-143751Z-r00-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r00-dnd-character/result.json","runAt":"2026-08-11T14:43:42Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r00-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
@@ -31,13 +29,13 @@
     {"attemptId":"2026-08-14-143226Z-r00-pangram","compileStatus":"compiled","date":"2026-08-14","difficulty":"1","mode":"live","model":"openrouter/free","name":"Pangram","passed":"11","resultPath":"data/silver/attempts/2026/08/14/143226Z-r00-pangram/result.json","runAt":"2026-08-14T14:33:24Z","score":"100","slug":"pangram","solutionPath":"data/silver/attempts/2026/08/14/143226Z-r00-pangram/solution.zig","status":"pass","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-15-135325Z-r00-collatz-conjecture","compileStatus":"compile_error","date":"2026-08-15","difficulty":"2","mode":"live","model":"openrouter/free","name":"Collatz Conjecture","passed":"0","resultPath":"data/silver/attempts/2026/08/15/135325Z-r00-collatz-conjecture/result.json","runAt":"2026-08-15T13:54:29Z","score":"10","slug":"collatz-conjecture","solutionPath":"data/silver/attempts/2026/08/15/135325Z-r00-collatz-conjecture/solution.zig","status":"compile_error","total":"5","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-15-135325Z-r01-collatz-conjecture","compileStatus":"compile_error","date":"2026-08-15","difficulty":"2","mode":"live","model":"openrouter/free","name":"Collatz Conjecture","passed":"0","resultPath":"data/silver/attempts/2026/08/15/135325Z-r01-collatz-conjecture/result.json","runAt":"2026-08-15T13:54:35Z","score":"10","slug":"collatz-conjecture","solutionPath":"data/silver/attempts/2026/08/15/135325Z-r01-collatz-conjecture/solution.zig","status":"compile_error","total":"5","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-15-135325Z-r02-collatz-conjecture","compileStatus":"compiled","date":"2026-08-15","difficulty":"2","mode":"live","model":"openrouter/free","name":"Collatz Conjecture","passed":"5","resultPath":"data/silver/attempts/2026/08/15/135325Z-r02-collatz-conjecture/result.json","runAt":"2026-08-15T13:54:42Z","score":"100","slug":"collatz-conjecture","solutionPath":"data/silver/attempts/2026/08/15/135325Z-r02-collatz-conjecture/solution.zig","status":"pass","total":"5","zigVersion":"0.16.0"}
+    {"attemptId":"2026-08-15-135325Z-r02-collatz-conjecture","compileStatus":"compiled","date":"2026-08-15","difficulty":"2","mode":"live","model":"openrouter/free","name":"Collatz Conjecture","passed":"5","resultPath":"data/silver/attempts/2026/08/15/135325Z-r02-collatz-conjecture/result.json","runAt":"2026-08-15T13:54:42Z","score":"100","slug":"collatz-conjecture","solutionPath":"data/silver/attempts/2026/08/15/135325Z-r02-collatz-conjecture/solution.zig","status":"pass","total":"5","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-16-135434Z-r00-queen-attack","compileStatus":"compile_error","date":"2026-08-16","difficulty":"3","mode":"live","model":"openrouter/free","name":"Queen Attack","passed":"0","resultPath":"data/silver/attempts/2026/08/16/135434Z-r00-queen-attack/result.json","runAt":"2026-08-16T13:54:56Z","score":"10","slug":"queen-attack","solutionPath":"data/silver/attempts/2026/08/16/135434Z-r00-queen-attack/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-16-135434Z-r01-queen-attack","compileStatus":"compiled","date":"2026-08-16","difficulty":"3","mode":"live","model":"openrouter/free","name":"Queen Attack","passed":"14","resultPath":"data/silver/attempts/2026/08/16/135434Z-r01-queen-attack/result.json","runAt":"2026-08-16T13:55:01Z","score":"100","slug":"queen-attack","solutionPath":"data/silver/attempts/2026/08/16/135434Z-r01-queen-attack/solution.zig","status":"pass","total":"14","zigVersion":"0.16.0"}
   ],
-  "runCount": 180,
+  "runCount": 182,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-07-27-160021Z-r04-twelve-days", "date": "2026-07-27", "score": 10, "slug": "twelve-days"},
-    {"attemptId": "2026-07-27-160021Z-r05-twelve-days", "date": "2026-07-27", "score": 10, "slug": "twelve-days"},
     {"attemptId": "2026-07-28-155147Z-r00-eliuds-eggs", "date": "2026-07-28", "score": 10, "slug": "eliuds-eggs"},
     {"attemptId": "2026-07-28-155147Z-r01-eliuds-eggs", "date": "2026-07-28", "score": 100, "slug": "eliuds-eggs"},
     {"attemptId": "2026-07-29-153115Z-r00-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"},
@@ -95,6 +93,8 @@
     {"attemptId": "2026-08-14-143226Z-r00-pangram", "date": "2026-08-14", "score": 100, "slug": "pangram"},
     {"attemptId": "2026-08-15-135325Z-r00-collatz-conjecture", "date": "2026-08-15", "score": 10, "slug": "collatz-conjecture"},
     {"attemptId": "2026-08-15-135325Z-r01-collatz-conjecture", "date": "2026-08-15", "score": 10, "slug": "collatz-conjecture"},
-    {"attemptId": "2026-08-15-135325Z-r02-collatz-conjecture", "date": "2026-08-15", "score": 100, "slug": "collatz-conjecture"}
+    {"attemptId": "2026-08-15-135325Z-r02-collatz-conjecture", "date": "2026-08-15", "score": 100, "slug": "collatz-conjecture"},
+    {"attemptId": "2026-08-16-135434Z-r00-queen-attack", "date": "2026-08-16", "score": 10, "slug": "queen-attack"},
+    {"attemptId": "2026-08-16-135434Z-r01-queen-attack", "date": "2026-08-16", "score": 100, "slug": "queen-attack"}
   ]
 }

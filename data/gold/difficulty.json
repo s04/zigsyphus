@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-15-135325Z-r02-collatz-conjecture",
-  "currentDifficulty": 2,
+  "attemptId": "2026-08-16-135434Z-r01-queen-attack",
+  "currentDifficulty": 3,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-15T13:54:42Z"
+  "updatedAt": "2026-08-16T13:55:01Z"
 }

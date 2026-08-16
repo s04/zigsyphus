@@ -86,6 +86,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-16 | Queen Attack (`queen-attack`) | 3 | `openrouter/free` | pass/compiled | 14/14 | 100 | [135434Z-r01-queen-attack](data/silver/attempts/2026/08/16/135434Z-r01-queen-attack/solution.zig) |
+| 2026-08-16 | Queen Attack (`queen-attack`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [135434Z-r00-queen-attack](data/silver/attempts/2026/08/16/135434Z-r00-queen-attack/solution.zig) |
 | 2026-08-15 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | pass/compiled | 5/5 | 100 | [135325Z-r02-collatz-conjecture](data/silver/attempts/2026/08/15/135325Z-r02-collatz-conjecture/solution.zig) |
 | 2026-08-15 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [135325Z-r01-collatz-conjecture](data/silver/attempts/2026/08/15/135325Z-r01-collatz-conjecture/solution.zig) |
 | 2026-08-15 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [135325Z-r00-collatz-conjecture](data/silver/attempts/2026/08/15/135325Z-r00-collatz-conjecture/solution.zig) |
@@ -104,7 +106,5 @@ Required GitHub secret:
 | 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r00-dnd-character](data/silver/attempts/2026/08/11/143751Z-r00-dnd-character/solution.zig) |
 | 2026-08-10 | Difference of Squares (`difference-of-squares`) | 2 | `openrouter/free` | pass/compiled | 9/9 | 100 | [143830Z-r00-difference-of-squares](data/silver/attempts/2026/08/10/143830Z-r00-difference-of-squares/solution.zig) |
 | 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r05-micro-blog](data/silver/attempts/2026/08/09/140846Z-r05-micro-blog/solution.zig) |
-| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r04-micro-blog](data/silver/attempts/2026/08/09/140846Z-r04-micro-blog/solution.zig) |
-| 2026-08-09 | Micro Blog (`micro-blog`) | 3 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [140846Z-r03-micro-blog](data/silver/attempts/2026/08/09/140846Z-r03-micro-blog/solution.zig) |
 
 <!-- zigsyphus-results:end -->
