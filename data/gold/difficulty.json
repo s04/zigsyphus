@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-16-135434Z-r01-queen-attack",
-  "currentDifficulty": 3,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 4,
+  "attemptId": "2026-08-17-140308Z-r05-house",
+  "currentDifficulty": 4,
+  "lastScore": 91,
+  "lastStatus": "fail",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-16T13:55:01Z"
+  "updatedAt": "2026-08-17T14:08:51Z"
 }

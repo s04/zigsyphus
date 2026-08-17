@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-17-140308Z-r02-house",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"house","status":"pass"}},
+  "date": "2026-08-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"House","slug":"house","tags":[],"uuid":"af541c61-e752-49f3-aa0e-8d96a738d0f1"},
+  "resultPath": "data/silver/attempts/2026/08/17/140308Z-r02-house/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/17/140308Z-r02-house/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nhouse.zig:16:1: error: expected expression or var decl, found '}'\n};\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-08-17T14:06:21Z",
+  "zigVersion": "0.16.0"
+}
