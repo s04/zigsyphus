@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-18 | Sublist (`sublist`) | 3 | `openrouter/free` | pass/compiled | 18/18 | 100 | [140755Z-r00-sublist](data/silver/attempts/2026/08/18/140755Z-r00-sublist/solution.zig) |
 | 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r05-house](data/silver/attempts/2026/08/17/140308Z-r05-house/solution.zig) |
 | 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r04-house](data/silver/attempts/2026/08/17/140308Z-r04-house/solution.zig) |
 | 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r03-house](data/silver/attempts/2026/08/17/140308Z-r03-house/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r01-grains](data/silver/attempts/2026/08/13/143838Z-r01-grains/solution.zig) |
 | 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r00-grains](data/silver/attempts/2026/08/13/143838Z-r00-grains/solution.zig) |
 | 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r05-dnd-character](data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig) |
-| 2026-08-11 | D&D Character (`dnd-character`) | 3 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [143751Z-r04-dnd-character](data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/solution.zig) |
 
 <!-- zigsyphus-results:end -->

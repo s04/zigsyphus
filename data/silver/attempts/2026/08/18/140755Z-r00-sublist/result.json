@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-18-140755Z-r00-sublist",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"sublist","status":"pass"}},
+  "date": "2026-08-18",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Sublist","slug":"sublist","tags":[],"uuid":"a2c7d511-7f80-410b-923f-0343d0770d81"},
+  "resultPath": "data/silver/attempts/2026/08/18/140755Z-r00-sublist/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/18/140755Z-r00-sublist/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/18 test_sublist.test.empty lists...OK\n2/18 test_sublist.test.empty list within non empty list...OK\n3/18 test_sublist.test.non empty list contains empty list...OK\n4/18 test_sublist.test.list equals itself...OK\n5/18 test_sublist.test.different lists...OK\n6/18 test_sublist.test.false start...OK\n7/18 test_sublist.test.consecutive...OK\n8/18 test_sublist.test.sublist at start...OK\n9/18 test_sublist.test.sublist in middle...OK\n10/18 test_sublist.test.sublist at end...OK\n11/18 test_sublist.test.at start of superlist...OK\n12/18 test_sublist.test.in middle of superlist...OK\n13/18 test_sublist.test.at end of superlist...OK\n14/18 test_sublist.test.first list missing element from second list...OK\n15/18 test_sublist.test.second list missing element from first list...OK\n16/18 test_sublist.test.first list missing additional digits from second list...OK\n17/18 test_sublist.test.order matters to a list...OK\n18/18 test_sublist.test.same digits but different numbers...OK\nAll 18 tests passed.\n","passed":18,"returnCode":0,"skipped":0,"status":"pass","total":18},
+  "testedAt": "2026-08-18T14:08:07Z",
+  "zigVersion": "0.16.0"
+}

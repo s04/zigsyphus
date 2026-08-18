@@ -1,18 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-08-17-140308Z-r05-house",
-    "currentDifficulty": 4,
-    "lastScore": 91,
-    "lastStatus": "fail",
-    "nextDifficulty": 3,
+    "attemptId": "2026-08-18-140755Z-r00-sublist",
+    "currentDifficulty": 3,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 4,
     "schemaVersion": 1,
-    "updatedAt": "2026-08-17T14:08:51Z"
+    "updatedAt": "2026-08-18T14:08:07Z"
   },
-  "generatedAt": "2026-08-17T14:08:51Z",
-  "latest": {"attemptId":"2026-08-17-140308Z-r05-house","compileStatus":"compiled","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"12","resultPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/result.json","runAt":"2026-08-17T14:08:51Z","score":"91","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/solution.zig","status":"fail","total":"14","zigVersion":"0.16.0"},
-  "nextDifficulty": 3,
+  "generatedAt": "2026-08-18T14:08:07Z",
+  "latest": {"attemptId":"2026-08-18-140755Z-r00-sublist","compileStatus":"compiled","date":"2026-08-18","difficulty":"3","mode":"live","model":"openrouter/free","name":"Sublist","passed":"18","resultPath":"data/silver/attempts/2026/08/18/140755Z-r00-sublist/result.json","runAt":"2026-08-18T14:08:07Z","score":"100","slug":"sublist","solutionPath":"data/silver/attempts/2026/08/18/140755Z-r00-sublist/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"},
+  "nextDifficulty": 4,
   "recentRuns": [
-    {"attemptId":"2026-08-11-143751Z-r04-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/result.json","runAt":"2026-08-11T14:46:01Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r04-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-11-143751Z-r05-dnd-character","compileStatus":"compile_error","date":"2026-08-11","difficulty":"3","mode":"live","model":"openrouter/free","name":"D&D Character","passed":"0","resultPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/result.json","runAt":"2026-08-11T14:47:51Z","score":"10","slug":"dnd-character","solutionPath":"data/silver/attempts/2026/08/11/143751Z-r05-dnd-character/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-13-143838Z-r00-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r00-grains/result.json","runAt":"2026-08-13T14:42:29Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r00-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-13-143838Z-r01-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r01-grains/result.json","runAt":"2026-08-13T14:43:39Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r01-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
@@ -31,12 +30,12 @@
     {"attemptId":"2026-08-17-140308Z-r02-house","compileStatus":"compile_error","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"0","resultPath":"data/silver/attempts/2026/08/17/140308Z-r02-house/result.json","runAt":"2026-08-17T14:06:21Z","score":"10","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r02-house/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-17-140308Z-r03-house","compileStatus":"compiled","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"12","resultPath":"data/silver/attempts/2026/08/17/140308Z-r03-house/result.json","runAt":"2026-08-17T14:07:22Z","score":"91","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r03-house/solution.zig","status":"fail","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-17-140308Z-r04-house","compileStatus":"compiled","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"12","resultPath":"data/silver/attempts/2026/08/17/140308Z-r04-house/result.json","runAt":"2026-08-17T14:07:41Z","score":"91","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r04-house/solution.zig","status":"fail","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-17-140308Z-r05-house","compileStatus":"compiled","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"12","resultPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/result.json","runAt":"2026-08-17T14:08:51Z","score":"91","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/solution.zig","status":"fail","total":"14","zigVersion":"0.16.0"}
+    {"attemptId":"2026-08-17-140308Z-r05-house","compileStatus":"compiled","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"12","resultPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/result.json","runAt":"2026-08-17T14:08:51Z","score":"91","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/solution.zig","status":"fail","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-18-140755Z-r00-sublist","compileStatus":"compiled","date":"2026-08-18","difficulty":"3","mode":"live","model":"openrouter/free","name":"Sublist","passed":"18","resultPath":"data/silver/attempts/2026/08/18/140755Z-r00-sublist/result.json","runAt":"2026-08-18T14:08:07Z","score":"100","slug":"sublist","solutionPath":"data/silver/attempts/2026/08/18/140755Z-r00-sublist/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"}
   ],
-  "runCount": 188,
+  "runCount": 189,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-07-29-153115Z-r04-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"},
     {"attemptId": "2026-07-29-153115Z-r05-proverb", "date": "2026-07-29", "score": 50, "slug": "proverb"},
     {"attemptId": "2026-07-30-153340Z-r00-hamming", "date": "2026-07-30", "score": 10, "slug": "hamming"},
     {"attemptId": "2026-07-30-153340Z-r01-hamming", "date": "2026-07-30", "score": 10, "slug": "hamming"},
@@ -95,6 +94,7 @@
     {"attemptId": "2026-08-17-140308Z-r02-house", "date": "2026-08-17", "score": 10, "slug": "house"},
     {"attemptId": "2026-08-17-140308Z-r03-house", "date": "2026-08-17", "score": 91, "slug": "house"},
     {"attemptId": "2026-08-17-140308Z-r04-house", "date": "2026-08-17", "score": 91, "slug": "house"},
-    {"attemptId": "2026-08-17-140308Z-r05-house", "date": "2026-08-17", "score": 91, "slug": "house"}
+    {"attemptId": "2026-08-17-140308Z-r05-house", "date": "2026-08-17", "score": 91, "slug": "house"},
+    {"attemptId": "2026-08-18-140755Z-r00-sublist", "date": "2026-08-18", "score": 100, "slug": "sublist"}
   ]
 }
