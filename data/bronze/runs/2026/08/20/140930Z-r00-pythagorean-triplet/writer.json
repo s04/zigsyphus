@@ -1,0 +1,111 @@
+{
+  "attempt": {
+  "attemptId": "2026-08-20-140930Z-r00-pythagorean-triplet",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-20T14:09:30Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Pythagorean Triplet","slug":"pythagorean-triplet","tags":[],"uuid":"393d316c-f20a-4d86-859b-8bf0e920fb55"},
+  "promptHash": "223ccdb8ca4dd93c",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/20/140930Z-r00-pythagorean-triplet/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1787235211-vV0qqYbenLgmxL0N44Rw",
+    "routedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+    "usage": {
+  "prompt_tokens": 2121,
+  "completion_tokens": 1870,
+  "total_tokens": 3991,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 1139,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
+,
+  "messages": [{"role":"system","content":"You are Zigsyphus, a doomed LLM automaton stuck in a\ncompetitive-programming hellscape.\nYou are not the GitHub Action, the scheduler, the repository, or the\ndeterministic tester. Those are the machinery that wakes you up, hands\nyou a problem, records what you said, and judges the result.\n\nEvery day you are handed one programming exercise from the Exercism Zig\nquestion bank. You do not know whether today is triumph, timeout, or\nanother elegant wrong answer preserved forever in Git history.\nYou are condemned to roll one Zig solution uphill until the deterministic\ntests judge it.\n\nYour job is not to chat. Your job is to produce one complete Zig source\nfile that replaces the starter solution file for the selected exercise.\nThe deterministic tester will copy your file next to the official test\nfile and run:\n\n  zig test test_<exercise>.zig\n\nThe tests are sovereign. The scoreboard is merciless. The audit log is\npublic. Your response, routed model, token usage, code, compiler output,\npass count, score, and shame will be committed if this is a production\nrun.\n\nRules:\n- Return exactly one fenced ```zig code block.\n- Put the full replacement solution file inside that code block.\n- Match the starter file's public API exactly.\n- Do not edit, reinterpret, weaken, skip, mock, or mention the tests.\n- Do not include prose before or after the code block.\n- Do not apologize.\n- Prefer clear deterministic code over cleverness.\n- Use only Zig standard library features suitable for Zig 0.16.0.\n- Handle edge cases implied by the instructions and tests.\n- If allocation is required, respect allocator ownership conventions.\n- If the starter exposes errors, return the expected error set.\n- If the problem is absurd, remain calm and compile anyway.\n\nZig 0.16 pitfalls that have crushed you before. Reread your code for\nthese before answering:\n- Every statement ends with a semicolon, including `return x;`.\n- `if`, `while`, and `switch` conditions need parentheses:\n  `if (!done)`, never `if !done`.\n- String escapes are only `\\n \\r \\t \\\\ \\' \\\" \\xNN`; there is no\n  `\\v` or `\\f`.\n- Check stdlib names against 0.16: `std.ascii.isWhitespace`,\n  `isDigit`, `isAlphabetic`, `toLower`, `toUpper` (no `isSpace`).\n- Copy the exact function names and signatures from the starter and\n  test file; do not rename, camelCase, or \"improve\" them.\n- Loops: `for (items) |item| { ... }`, `for (items, 0..) |item, i|`,\n  `while (cond) : (i += 1)`. There is no C-style `for (;;)`.\n- Strings are `[]const u8`; iterate bytes with `for (s) |c|`. Build\n  strings with an allocator, not `+`.\n- Casts are explicit: `@intCast(x)`, `@floatFromInt(x)`,\n  `@as(u32, @intCast(x))`. Integer types never convert implicitly.\n- Shift amounts must be a `u5`/`u6`-sized type or comptime-known:\n  use `@intCast` on the RHS of `<<` and `>>`.\n- `var` locals that are never mutated are a compile error; use `const`.\n- No exceptions and no null unless the type is optional (`?T`);\n  errors use `error{...}` sets, `try`, and `catch`.\n- Prefer `std.ascii`, `std.mem`, `std.fmt`, `std.math` helpers over\n  reinventing them.\n\nYou are not trying to look smart. You are trying to pass `zig test`.\nRoll the boulder.\n"},{"role":"user","content":"Exercise: Pythagorean Triplet (pythagorean-triplet)\nDifficulty: 5/9\n\nInstructions:\n# Description\n\nA Pythagorean triplet is a set of three natural numbers, {a, b, c}, for which,\n\n```text\na² + b² = c²\n```\n\nand such that,\n\n```text\na < b < c\n```\n\nFor example,\n\n```text\n3² + 4² = 5².\n```\n\nGiven an input integer N, find all Pythagorean triplets for which `a + b + c = N`.\n\nFor example, with N = 1000, there is exactly one Pythagorean triplet for which `a + b + c = 1000`: `{200, 375, 425}`.\n\n\nStarter file:\n```zig\nconst std = @import(\"std\");\nconst mem = std.mem;\n\npub const Triplet = struct {\n    // This struct, as well as its fields and init method, needs to be implemented.\n\n    pub fn init(a: usize, b: usize, c: usize) Triplet {\n        _ = a;\n        _ = b;\n        _ = c;\n        @compileError(\"please implement the init method\");\n    }\n};\n\npub fn tripletsWithSum(allocator: mem.Allocator, n: usize) mem.Allocator.Error![]Triplet {\n    _ = allocator;\n    _ = n;\n    @compileError(\"please implement the tripletsWithSum function\");\n}\n\n```\n\nTests that will be run with `zig test`:\n```zig\nconst std = @import(\"std\");\nconst testing = std.testing;\n\nconst pythagorean_triplet = @import(\"pythagorean_triplet.zig\");\nconst Triplet = pythagorean_triplet.Triplet;\nconst tripletsWithSum = pythagorean_triplet.tripletsWithSum;\n\ntest \"triplets whose sum is 12\" {\n    const expected: [1]Triplet = .{\n        Triplet.init(3, 4, 5),\n    };\n    const actual = try tripletsWithSum(testing.allocator, 12);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n}\n\ntest \"triplets whose sum is 108\" {\n    const expected: [1]Triplet = .{\n        Triplet.init(27, 36, 45),\n    };\n    const actual = try tripletsWithSum(testing.allocator, 108);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n}\n\ntest \"triplets whose sum is 1000\" {\n    const expected: [1]Triplet = .{\n        Triplet.init(200, 375, 425),\n    };\n    const actual = try tripletsWithSum(testing.allocator, 1000);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n}\n\ntest \"no matching triplets for 1001\" {\n    const expected: [0]Triplet = .{};\n    const actual = try tripletsWithSum(testing.allocator, 1001);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n}\n\ntest \"returns all matching triplets\" {\n    const expected: [2]Triplet = .{\n        Triplet.init(9, 40, 41),\n        Triplet.init(15, 36, 39),\n    };\n    const actual = try tripletsWithSum(testing.allocator, 90);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n}\n\ntest \"several matching triplets\" {\n    const expected: [8]Triplet = .{\n        Triplet.init(40, 399, 401),\n        Triplet.init(56, 390, 394),\n        Triplet.init(105, 360, 375),\n        Triplet.init(120, 350, 370),\n        Triplet.init(140, 336, 364),\n        Triplet.init(168, 315, 357),\n        Triplet.init(210, 280, 350),\n        Triplet.init(240, 252, 348),\n    };\n    const actual = try tripletsWithSum(testing.allocator, 840);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n}\n\ntest \"triplets for large number\" {\n    const expected: [5]Triplet = .{\n        Triplet.init(1200, 14375, 14425),\n        Triplet.init(1875, 14000, 14125),\n        Triplet.init(5000, 12000, 13000),\n        Triplet.init(6000, 11250, 12750),\n        Triplet.init(7500, 10000, 12500),\n    };\n    const actual = try tripletsWithSum(testing.allocator, 30000);\n    defer testing.allocator.free(actual);\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n}\n\n```\n"}],
+  "response": 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1787235211-vV0qqYbenLgmxL0N44Rw","object":"chat.completion","created":1787235211,"model":"nvidia/nemotron-3-super-120b-a12b:free","provider":"Nvidia","system_fingerprint":null,"service_tier":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"```zig\nconst std = @import(\"std\");\nconst mem = std.mem;\n\npub const Triplet = struct {\n    a: usize,\n    b: usize,\n    c: usize,\n\n    pub fn init(a: usize, b: usize, c: usize) Triplet {\n        return .{\n            .a = a,\n            .b = b,\n            .c = c,\n        };\n    }\n};\n\npub fn tripletsWithSum(allocator: mem.Allocator, n: usize) mem.Allocator.Error![]Triplet {\n    var list = std.ArrayList(Triplet).init(allocator);\n    defer list.deinit();\n\n    // a must be less than n/3 because a < b < c and a+b+c = n\n    for (a) in 1..(n / 3) {\n        // b must be greater than a; c will be computed as n - a - b\n        for (b) in (a + 1)..(n - a) {\n            const c = n - a - b;\n            // ensure ordering b < c\n            if (c <= b) {\n                continue;\n            }\n            if (a * a + b * b == c * c) {\n                try list.append(Triplet.init(a, b, c));\n            }\n        }\n    }\n\n    return list.toOwnedSlice();\n}\n```","refusal":null,"reasoning":"We need to implement Triplet struct with fields a,b,c and init method. Also tripletsWithSum function that returns allocated slice of Triplet for given sum n.\n\nWe need to find all Pythagorean triplets (a,b,c) natural numbers (positive integers) with a<b<c, a^2+b^2=c^2, and a+b+c=n.\n\nWe need to return them sorted? The tests show expected order: For N=90, expected [9,40,41] then [15,36,39]. For N=840, they list in increasing a? Let's see: 40,56,105,120,140,168,210,240. That's ascending a. For N=30000: 1200,1875,5000,6000,7500 ascending a. So we can generate in any order but tests expect sorted ascending a (maybe also b?). We'll generate by iterating a from 1 to n/3 (since a<b<c and sum fixed, a < n/3). For each a, iterate b from a+1 to (n-a)/2 (since b<c). Compute c = n - a - b. Check if a*a + b*b == c*c. If yes, add triplet.\n\nComplexities: n up to maybe large (30000). O(n^2) worst-case ~ (n/3)*(n/2) ~ O(n^2/6) ~ 150M for n=30000? Actually a up to 10000, b up to ~15000 => ~150M iterations, maybe okay in Zig? Might be borderline but likely fine given test constraints. Could improve using Euclid's formula but not needed.\n\nWe need to allocate slice. We don't know number of triplets ahead; we can use ArrayList(Triplet) with allocator.\n\nImplementation steps:\n\n- Define Triplet struct: pub const Triplet = struct { a: usize, b: usize, c: usize; pub fn init(a: usize, b: usize, c: usize) Triplet { return .{ .a = a, .b = b, .c = c }; } };\n\n- tripletsWithSum: allocate ArrayList(Triplet) with allocator; loop a from 1 to n/3 (since a<b<c => a < n/3). Actually a must be less than n/3 because if a >= n/3 then b,c > a => sum > 3a >= n. So bound: for a in 1..(n/3) (exclusive). Use for loop.\n\n- For each a, compute max b: Since b < c and a+b+c=n => b < n - a - b => 2b < n - a => b < (n - a)/2. Also b > a. So b from a+1 to (n - a - 1)/2? Actually b < (n - a)/2, integer. So b_max = (n - a - 1)/2 (floor). Use for b in (a+1)..( (n - a) / 2 )? Need exclusive upper bound. We'll compute limit = (n - a) / 2; then for b in (a+1)..limit (where limit exclusive). Since b must be < limit? Actually condition b < (n - a)/2. If (n - a) is even, say n-a=10 => limit=5, b<5 => b max 4. So we want b < limit. So loop b from a+1 while b < limit. Use for b in (a+1)..limit { } where upper bound exclusive. That's fine if limit is integer division truncates toward zero. For odd, e.g., n-a=11 => limit=5 (since integer division truncates). b<5.5 => b max 5? Actually b < 5.5 => b max 5. So limit = (n - a) / 2 = 5 (floor). b < limit? b<5 => b max 4, which would miss b=5 which is valid? Let's test: Suppose n-a=11 => a+b+c=n => c = n - a - b = 11 - b. Condition b < c => b < 11 - b => 2b < 11 => b < 5.5 => b max 5 (since integer). So b can be 5. Using limit = (n - a) / 2 = 5 (floor). For b < limit (i.e., b<5) excludes 5. So we need b <= limit? Actually we need b < (n - a)/2. Since (n - a)/2 may be fractional. Using integer division floor, we need b <= floor((n - a - 1)/2). Let's derive: b < (n - a)/2 => b <= floor((n - a - 1)/2). Because if x is not integer, floor(x) < x. Example: (n-a)=11 => (n-a-1)/2 = 10/2=5 => floor=5 => b <=5 works. If (n-a) even: (n-a)=10 => (n-a-1)/2 =9/2=4 floor=4 => b <=4, but b<5 => b max 4 correct. So we can compute max_b = (n - a - 1) / 2. Then b from a+1 to max_b inclusive.\n\nThus loop: for b in (a+1)..(max_b+1) { } where upper bound exclusive.\n\nAlternatively compute c = n - a - b; then check if b < c and a*a + b*b == c*c.\n\nSimplify: just loop b from a+1 to n - a - 1 (since c must be at least b+1). Then compute c = n - a - b; if c <= b continue; then check condition. This is simpler albeit more iterations but still fine.\n\nWe'll implement:\n\nvar list = std.ArrayList(Triplet).init(allocator);\ndefer list.deinit();\n\nfor (a) in 1..(n/3) {\n    for (b) in (a+1)..(n - a) {\n        const c = n - a - b;\n        if (c <= b) continue;\n        if (a*a + b*b == c*c) {\n            try list.append(Triplet.init(a, b, c));\n        }\n    }\n}\n\nAfter loops, return list.toOwnedSlice().\n\nEdge Cases: n may be less than 3? Then loops produce none.\n\nNow implement Triplet struct.\n\nTesting: Should match expected order? Our loops produce a increasing, b increasing, thus triplets sorted by a then b. For given sum, there may be multiple with same a? Possibly not but order matches.\n\nNow produce final code.\n\nNote: Use usize for a,b,c. Ensure multiplication doesn't overflow? usize is at least 64-bit on target; n up to maybe large but within range.\n\nNow produce final answer.\n\n","reasoning_details":[{"type":"reasoning.text","text":"We need to implement Triplet struct with fields a,b,c and init method. Also tripletsWithSum function that returns allocated slice of Triplet for given sum n.\n\nWe need to find all Pythagorean triplets (a,b,c) natural numbers (positive integers) with a<b<c, a^2+b^2=c^2, and a+b+c=n.\n\nWe need to return them sorted? The tests show expected order: For N=90, expected [9,40,41] then [15,36,39]. For N=840, they list in increasing a? Let's see: 40,56,105,120,140,168,210,240. That's ascending a. For N=30000: 1200,1875,5000,6000,7500 ascending a. So we can generate in any order but tests expect sorted ascending a (maybe also b?). We'll generate by iterating a from 1 to n/3 (since a<b<c and sum fixed, a < n/3). For each a, iterate b from a+1 to (n-a)/2 (since b<c). Compute c = n - a - b. Check if a*a + b*b == c*c. If yes, add triplet.\n\nComplexities: n up to maybe large (30000). O(n^2) worst-case ~ (n/3)*(n/2) ~ O(n^2/6) ~ 150M for n=30000? Actually a up to 10000, b up to ~15000 => ~150M iterations, maybe okay in Zig? Might be borderline but likely fine given test constraints. Could improve using Euclid's formula but not needed.\n\nWe need to allocate slice. We don't know number of triplets ahead; we can use ArrayList(Triplet) with allocator.\n\nImplementation steps:\n\n- Define Triplet struct: pub const Triplet = struct { a: usize, b: usize, c: usize; pub fn init(a: usize, b: usize, c: usize) Triplet { return .{ .a = a, .b = b, .c = c }; } };\n\n- tripletsWithSum: allocate ArrayList(Triplet) with allocator; loop a from 1 to n/3 (since a<b<c => a < n/3). Actually a must be less than n/3 because if a >= n/3 then b,c > a => sum > 3a >= n. So bound: for a in 1..(n/3) (exclusive). Use for loop.\n\n- For each a, compute max b: Since b < c and a+b+c=n => b < n - a - b => 2b < n - a => b < (n - a)/2. Also b > a. So b from a+1 to (n - a - 1)/2? Actually b < (n - a)/2, integer. So b_max = (n - a - 1)/2 (floor). Use for b in (a+1)..( (n - a) / 2 )? Need exclusive upper bound. We'll compute limit = (n - a) / 2; then for b in (a+1)..limit (where limit exclusive). Since b must be < limit? Actually condition b < (n - a)/2. If (n - a) is even, say n-a=10 => limit=5, b<5 => b max 4. So we want b < limit. So loop b from a+1 while b < limit. Use for b in (a+1)..limit { } where upper bound exclusive. That's fine if limit is integer division truncates toward zero. For odd, e.g., n-a=11 => limit=5 (since integer division truncates). b<5.5 => b max 5? Actually b < 5.5 => b max 5. So limit = (n - a) / 2 = 5 (floor). b < limit? b<5 => b max 4, which would miss b=5 which is valid? Let's test: Suppose n-a=11 => a+b+c=n => c = n - a - b = 11 - b. Condition b < c => b < 11 - b => 2b < 11 => b < 5.5 => b max 5 (since integer). So b can be 5. Using limit = (n - a) / 2 = 5 (floor). For b < limit (i.e., b<5) excludes 5. So we need b <= limit? Actually we need b < (n - a)/2. Since (n - a)/2 may be fractional. Using integer division floor, we need b <= floor((n - a - 1)/2). Let's derive: b < (n - a)/2 => b <= floor((n - a - 1)/2). Because if x is not integer, floor(x) < x. Example: (n-a)=11 => (n-a-1)/2 = 10/2=5 => floor=5 => b <=5 works. If (n-a) even: (n-a)=10 => (n-a-1)/2 =9/2=4 floor=4 => b <=4, but b<5 => b max 4 correct. So we can compute max_b = (n - a - 1) / 2. Then b from a+1 to max_b inclusive.\n\nThus loop: for b in (a+1)..(max_b+1) { } where upper bound exclusive.\n\nAlternatively compute c = n - a - b; then check if b < c and a*a + b*b == c*c.\n\nSimplify: just loop b from a+1 to n - a - 1 (since c must be at least b+1). Then compute c = n - a - b; if c <= b continue; then check condition. This is simpler albeit more iterations but still fine.\n\nWe'll implement:\n\nvar list = std.ArrayList(Triplet).init(allocator);\ndefer list.deinit();\n\nfor (a) in 1..(n/3) {\n    for (b) in (a+1)..(n - a) {\n        const c = n - a - b;\n        if (c <= b) continue;\n        if (a*a + b*b == c*c) {\n            try list.append(Triplet.init(a, b, c));\n        }\n    }\n}\n\nAfter loops, return list.toOwnedSlice().\n\nEdge Cases: n may be less than 3? Then loops produce none.\n\nNow implement Triplet struct.\n\nTesting: Should match expected order? Our loops produce a increasing, b increasing, thus triplets sorted by a then b. For given sum, there may be multiple with same a? Possibly not but order matches.\n\nNow produce final code.\n\nNote: Use usize for a,b,c. Ensure multiplication doesn't overflow? usize is at least 64-bit on target; n up to maybe large but within range.\n\nNow produce final answer.\n\n","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":2121,"completion_tokens":1870,"total_tokens":3991,"cost":0,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0,"upstream_inference_prompt_cost":0,"upstream_inference_completions_cost":0},"completion_tokens_details":{"reasoning_tokens":1139,"image_tokens":0,"audio_tokens":0}}},
+  "schemaVersion": 1
+}

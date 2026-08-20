@@ -1,23 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-08-19-140751Z-r00-state-of-tic-tac-toe",
-    "currentDifficulty": 4,
-    "lastScore": 100,
-    "lastStatus": "pass",
-    "nextDifficulty": 5,
+    "attemptId": "2026-08-20-140930Z-r05-pythagorean-triplet",
+    "currentDifficulty": 5,
+    "lastScore": 10,
+    "lastStatus": "compile_error",
+    "nextDifficulty": 4,
     "schemaVersion": 1,
-    "updatedAt": "2026-08-19T14:12:43Z"
+    "updatedAt": "2026-08-20T14:17:48Z"
   },
-  "generatedAt": "2026-08-19T14:12:43Z",
-  "latest": {"attemptId":"2026-08-19-140751Z-r00-state-of-tic-tac-toe","compileStatus":"compiled","date":"2026-08-19","difficulty":"4","mode":"live","model":"openrouter/free","name":"State of Tic-Tac-Toe","passed":"27","resultPath":"data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/result.json","runAt":"2026-08-19T14:12:43Z","score":"100","slug":"state-of-tic-tac-toe","solutionPath":"data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/solution.zig","status":"pass","total":"27","zigVersion":"0.16.0"},
-  "nextDifficulty": 5,
+  "generatedAt": "2026-08-20T14:17:48Z",
+  "latest": {"attemptId":"2026-08-20-140930Z-r05-pythagorean-triplet","compileStatus":"compile_error","date":"2026-08-20","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/08/20/140930Z-r05-pythagorean-triplet/result.json","runAt":"2026-08-20T14:17:48Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/08/20/140930Z-r05-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+  "nextDifficulty": 4,
   "recentRuns": [
-    {"attemptId":"2026-08-13-143838Z-r00-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r00-grains/result.json","runAt":"2026-08-13T14:42:29Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r00-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-13-143838Z-r01-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r01-grains/result.json","runAt":"2026-08-13T14:43:39Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r01-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-13-143838Z-r02-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r02-grains/result.json","runAt":"2026-08-13T14:44:11Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r02-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-13-143838Z-r03-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r03-grains/result.json","runAt":"2026-08-13T14:44:18Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r03-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-13-143838Z-r04-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r04-grains/result.json","runAt":"2026-08-13T14:44:32Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r04-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-13-143838Z-r05-grains","compileStatus":"compile_error","date":"2026-08-13","difficulty":"2","mode":"live","model":"openrouter/free","name":"Grains","passed":"0","resultPath":"data/silver/attempts/2026/08/13/143838Z-r05-grains/result.json","runAt":"2026-08-13T14:44:53Z","score":"10","slug":"grains","solutionPath":"data/silver/attempts/2026/08/13/143838Z-r05-grains/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-14-143226Z-r00-pangram","compileStatus":"compiled","date":"2026-08-14","difficulty":"1","mode":"live","model":"openrouter/free","name":"Pangram","passed":"11","resultPath":"data/silver/attempts/2026/08/14/143226Z-r00-pangram/result.json","runAt":"2026-08-14T14:33:24Z","score":"100","slug":"pangram","solutionPath":"data/silver/attempts/2026/08/14/143226Z-r00-pangram/solution.zig","status":"pass","total":"11","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-15-135325Z-r00-collatz-conjecture","compileStatus":"compile_error","date":"2026-08-15","difficulty":"2","mode":"live","model":"openrouter/free","name":"Collatz Conjecture","passed":"0","resultPath":"data/silver/attempts/2026/08/15/135325Z-r00-collatz-conjecture/result.json","runAt":"2026-08-15T13:54:29Z","score":"10","slug":"collatz-conjecture","solutionPath":"data/silver/attempts/2026/08/15/135325Z-r00-collatz-conjecture/solution.zig","status":"compile_error","total":"5","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-15-135325Z-r01-collatz-conjecture","compileStatus":"compile_error","date":"2026-08-15","difficulty":"2","mode":"live","model":"openrouter/free","name":"Collatz Conjecture","passed":"0","resultPath":"data/silver/attempts/2026/08/15/135325Z-r01-collatz-conjecture/result.json","runAt":"2026-08-15T13:54:35Z","score":"10","slug":"collatz-conjecture","solutionPath":"data/silver/attempts/2026/08/15/135325Z-r01-collatz-conjecture/solution.zig","status":"compile_error","total":"5","zigVersion":"0.16.0"},
@@ -31,17 +25,17 @@
     {"attemptId":"2026-08-17-140308Z-r04-house","compileStatus":"compiled","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"12","resultPath":"data/silver/attempts/2026/08/17/140308Z-r04-house/result.json","runAt":"2026-08-17T14:07:41Z","score":"91","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r04-house/solution.zig","status":"fail","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-17-140308Z-r05-house","compileStatus":"compiled","date":"2026-08-17","difficulty":"4","mode":"live","model":"openrouter/free","name":"House","passed":"12","resultPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/result.json","runAt":"2026-08-17T14:08:51Z","score":"91","slug":"house","solutionPath":"data/silver/attempts/2026/08/17/140308Z-r05-house/solution.zig","status":"fail","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-18-140755Z-r00-sublist","compileStatus":"compiled","date":"2026-08-18","difficulty":"3","mode":"live","model":"openrouter/free","name":"Sublist","passed":"18","resultPath":"data/silver/attempts/2026/08/18/140755Z-r00-sublist/result.json","runAt":"2026-08-18T14:08:07Z","score":"100","slug":"sublist","solutionPath":"data/silver/attempts/2026/08/18/140755Z-r00-sublist/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-19-140751Z-r00-state-of-tic-tac-toe","compileStatus":"compiled","date":"2026-08-19","difficulty":"4","mode":"live","model":"openrouter/free","name":"State of Tic-Tac-Toe","passed":"27","resultPath":"data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/result.json","runAt":"2026-08-19T14:12:43Z","score":"100","slug":"state-of-tic-tac-toe","solutionPath":"data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/solution.zig","status":"pass","total":"27","zigVersion":"0.16.0"}
+    {"attemptId":"2026-08-19-140751Z-r00-state-of-tic-tac-toe","compileStatus":"compiled","date":"2026-08-19","difficulty":"4","mode":"live","model":"openrouter/free","name":"State of Tic-Tac-Toe","passed":"27","resultPath":"data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/result.json","runAt":"2026-08-19T14:12:43Z","score":"100","slug":"state-of-tic-tac-toe","solutionPath":"data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/solution.zig","status":"pass","total":"27","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-20-140930Z-r00-pythagorean-triplet","compileStatus":"compile_error","date":"2026-08-20","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/08/20/140930Z-r00-pythagorean-triplet/result.json","runAt":"2026-08-20T14:13:44Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/08/20/140930Z-r00-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-20-140930Z-r01-pythagorean-triplet","compileStatus":"compile_error","date":"2026-08-20","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/08/20/140930Z-r01-pythagorean-triplet/result.json","runAt":"2026-08-20T14:13:52Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/08/20/140930Z-r01-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-20-140930Z-r02-pythagorean-triplet","compileStatus":"compile_error","date":"2026-08-20","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/08/20/140930Z-r02-pythagorean-triplet/result.json","runAt":"2026-08-20T14:16:24Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/08/20/140930Z-r02-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-20-140930Z-r03-pythagorean-triplet","compileStatus":"compile_error","date":"2026-08-20","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/08/20/140930Z-r03-pythagorean-triplet/result.json","runAt":"2026-08-20T14:16:45Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/08/20/140930Z-r03-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-20-140930Z-r04-pythagorean-triplet","compileStatus":"compile_error","date":"2026-08-20","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/08/20/140930Z-r04-pythagorean-triplet/result.json","runAt":"2026-08-20T14:17:08Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/08/20/140930Z-r04-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-20-140930Z-r05-pythagorean-triplet","compileStatus":"compile_error","date":"2026-08-20","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/08/20/140930Z-r05-pythagorean-triplet/result.json","runAt":"2026-08-20T14:17:48Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/08/20/140930Z-r05-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"}
   ],
-  "runCount": 190,
+  "runCount": 196,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-07-30-153340Z-r00-hamming", "date": "2026-07-30", "score": 10, "slug": "hamming"},
-    {"attemptId": "2026-07-30-153340Z-r01-hamming", "date": "2026-07-30", "score": 10, "slug": "hamming"},
-    {"attemptId": "2026-07-30-153340Z-r02-hamming", "date": "2026-07-30", "score": 100, "slug": "hamming"},
-    {"attemptId": "2026-07-31-153829Z-r00-anagram", "date": "2026-07-31", "score": 10, "slug": "anagram"},
-    {"attemptId": "2026-07-31-153829Z-r01-anagram", "date": "2026-07-31", "score": 10, "slug": "anagram"},
-    {"attemptId": "2026-07-31-153829Z-r02-anagram", "date": "2026-07-31", "score": 10, "slug": "anagram"},
     {"attemptId": "2026-07-31-153829Z-r03-anagram", "date": "2026-07-31", "score": 10, "slug": "anagram"},
     {"attemptId": "2026-07-31-153829Z-r04-anagram", "date": "2026-07-31", "score": 10, "slug": "anagram"},
     {"attemptId": "2026-07-31-153829Z-r05-anagram", "date": "2026-07-31", "score": 10, "slug": "anagram"},
@@ -95,6 +89,12 @@
     {"attemptId": "2026-08-17-140308Z-r04-house", "date": "2026-08-17", "score": 91, "slug": "house"},
     {"attemptId": "2026-08-17-140308Z-r05-house", "date": "2026-08-17", "score": 91, "slug": "house"},
     {"attemptId": "2026-08-18-140755Z-r00-sublist", "date": "2026-08-18", "score": 100, "slug": "sublist"},
-    {"attemptId": "2026-08-19-140751Z-r00-state-of-tic-tac-toe", "date": "2026-08-19", "score": 100, "slug": "state-of-tic-tac-toe"}
+    {"attemptId": "2026-08-19-140751Z-r00-state-of-tic-tac-toe", "date": "2026-08-19", "score": 100, "slug": "state-of-tic-tac-toe"},
+    {"attemptId": "2026-08-20-140930Z-r00-pythagorean-triplet", "date": "2026-08-20", "score": 10, "slug": "pythagorean-triplet"},
+    {"attemptId": "2026-08-20-140930Z-r01-pythagorean-triplet", "date": "2026-08-20", "score": 10, "slug": "pythagorean-triplet"},
+    {"attemptId": "2026-08-20-140930Z-r02-pythagorean-triplet", "date": "2026-08-20", "score": 10, "slug": "pythagorean-triplet"},
+    {"attemptId": "2026-08-20-140930Z-r03-pythagorean-triplet", "date": "2026-08-20", "score": 10, "slug": "pythagorean-triplet"},
+    {"attemptId": "2026-08-20-140930Z-r04-pythagorean-triplet", "date": "2026-08-20", "score": 10, "slug": "pythagorean-triplet"},
+    {"attemptId": "2026-08-20-140930Z-r05-pythagorean-triplet", "date": "2026-08-20", "score": 10, "slug": "pythagorean-triplet"}
   ]
 }

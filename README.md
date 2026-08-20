@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r05-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r05-pythagorean-triplet/solution.zig) |
+| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r04-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r04-pythagorean-triplet/solution.zig) |
+| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r03-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r03-pythagorean-triplet/solution.zig) |
+| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r02-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r02-pythagorean-triplet/solution.zig) |
+| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r01-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r01-pythagorean-triplet/solution.zig) |
+| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r00-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r00-pythagorean-triplet/solution.zig) |
 | 2026-08-19 | State of Tic-Tac-Toe (`state-of-tic-tac-toe`) | 4 | `openrouter/free` | pass/compiled | 27/27 | 100 | [140751Z-r00-state-of-tic-tac-toe](data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/solution.zig) |
 | 2026-08-18 | Sublist (`sublist`) | 3 | `openrouter/free` | pass/compiled | 18/18 | 100 | [140755Z-r00-sublist](data/silver/attempts/2026/08/18/140755Z-r00-sublist/solution.zig) |
 | 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r05-house](data/silver/attempts/2026/08/17/140308Z-r05-house/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-15 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [135325Z-r01-collatz-conjecture](data/silver/attempts/2026/08/15/135325Z-r01-collatz-conjecture/solution.zig) |
 | 2026-08-15 | Collatz Conjecture (`collatz-conjecture`) | 2 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [135325Z-r00-collatz-conjecture](data/silver/attempts/2026/08/15/135325Z-r00-collatz-conjecture/solution.zig) |
 | 2026-08-14 | Pangram (`pangram`) | 1 | `openrouter/free` | pass/compiled | 11/11 | 100 | [143226Z-r00-pangram](data/silver/attempts/2026/08/14/143226Z-r00-pangram/solution.zig) |
-| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r05-grains](data/silver/attempts/2026/08/13/143838Z-r05-grains/solution.zig) |
-| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r04-grains](data/silver/attempts/2026/08/13/143838Z-r04-grains/solution.zig) |
-| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r03-grains](data/silver/attempts/2026/08/13/143838Z-r03-grains/solution.zig) |
-| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r02-grains](data/silver/attempts/2026/08/13/143838Z-r02-grains/solution.zig) |
-| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r01-grains](data/silver/attempts/2026/08/13/143838Z-r01-grains/solution.zig) |
-| 2026-08-13 | Grains (`grains`) | 2 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [143838Z-r00-grains](data/silver/attempts/2026/08/13/143838Z-r00-grains/solution.zig) |
 
 <!-- zigsyphus-results:end -->
