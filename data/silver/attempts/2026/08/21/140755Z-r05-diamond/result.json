@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-21-140755Z-r05-diamond",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"diamond","status":"pass"}},
+  "date": "2026-08-21",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Diamond","slug":"diamond","tags":[],"uuid":"7f07006a-eafb-4dc3-87f3-4bbf945f6da7"},
+  "resultPath": "data/silver/attempts/2026/08/21/140755Z-r05-diamond/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/21/140755Z-r05-diamond/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":5,"outputExcerpt":"\ndiamond.zig:12:9: error: local variable shadows declaration of 'rows'\n    var rows = try allocator.alloc([][]u8, height);\n        ^~~~\ndiamond.zig:4:5: note: declared here\npub fn rows(allocator: mem.Allocator, letter: u8) allocator.Error![][]u8 {\n~~~~^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":5},
+  "testedAt": "2026-08-21T14:19:42Z",
+  "zigVersion": "0.16.0"
+}

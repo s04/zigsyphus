@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-21-140755Z-r02-diamond",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"diamond","status":"pass"}},
+  "date": "2026-08-21",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Diamond","slug":"diamond","tags":[],"uuid":"7f07006a-eafb-4dc3-87f3-4bbf945f6da7"},
+  "resultPath": "data/silver/attempts/2026/08/21/140755Z-r02-diamond/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/21/140755Z-r02-diamond/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":5,"outputExcerpt":"\ntest_diamond.zig:4:36: error: root source file struct 'diamond' has no member named 'rows'\nconst rows = @import(\"diamond.zig\").rows;\n             ~~~~~~~~~~~~~~~~~~~~~~^~~~~\ndiamond.zig:2:1: note: struct declared here\n\n^\nreferenced by:\n    testRows: test_diamond.zig:14:24\n    checkAllAllocationFailures__anon_43199: /home/runner/work/_temp/1d518b88-c18e-4052-84b0-238dea05f1bd/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":5},
+  "testedAt": "2026-08-21T14:15:02Z",
+  "zigVersion": "0.16.0"
+}
