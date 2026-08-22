@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-22-135403Z-r00-perfect-numbers",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"perfect-numbers","status":"pass"}},
+  "date": "2026-08-22",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Perfect Numbers","slug":"perfect-numbers","tags":["asserting","enums","integers","math"],"uuid":"2fbd5bd8-a839-42a3-9293-4ad577766a12"},
+  "resultPath": "data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/12 test_perfect_numbers.test.smallest perfect number is classified correctly...OK\n2/12 test_perfect_numbers.test.medium perfect number is classified correctly...OK\n3/12 test_perfect_numbers.test.large perfect number is classified correctly...OK\n4/12 test_perfect_numbers.test.smallest abundant number is classified correctly...OK\n5/12 test_perfect_numbers.test.medium abundant number is classified correctly...OK\n6/12 test_perfect_numbers.test.large abundant number is classified correctly...OK\n7/12 test_perfect_numbers.test.perfect square abundant number is classified correctly...OK\n8/12 test_perfect_numbers.test.smallest prime deficient number is classified correctly...OK\n9/12 test_perfect_numbers.test.smallest non-prime deficient number is classified correctly...OK\n10/12 test_perfect_numbers.test.medium deficient number is classified correctly...OK\n11/12 test_perfect_numbers.test.large deficient number is classified correctly...OK\n12/12 test_perfect_numbers.test.edge case (no factors other than itself) is classified correctly...OK\nAll 12 tests passed.\n","passed":12,"returnCode":0,"skipped":0,"status":"pass","total":12},
+  "testedAt": "2026-08-22T13:59:21Z",
+  "zigVersion": "0.16.0"
+}

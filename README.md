@@ -86,6 +86,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-22 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | pass/compiled | 12/12 | 100 | [135403Z-r00-perfect-numbers](data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r05-diamond](data/silver/attempts/2026/08/21/140755Z-r05-diamond/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r04-diamond](data/silver/attempts/2026/08/21/140755Z-r04-diamond/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r03-diamond](data/silver/attempts/2026/08/21/140755Z-r03-diamond/solution.zig) |
@@ -105,6 +106,5 @@ Required GitHub secret:
 | 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r03-house](data/silver/attempts/2026/08/17/140308Z-r03-house/solution.zig) |
 | 2026-08-17 | House (`house`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [140308Z-r02-house](data/silver/attempts/2026/08/17/140308Z-r02-house/solution.zig) |
 | 2026-08-17 | House (`house`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [140308Z-r01-house](data/silver/attempts/2026/08/17/140308Z-r01-house/solution.zig) |
-| 2026-08-17 | House (`house`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [140308Z-r00-house](data/silver/attempts/2026/08/17/140308Z-r00-house/solution.zig) |
 
 <!-- zigsyphus-results:end -->

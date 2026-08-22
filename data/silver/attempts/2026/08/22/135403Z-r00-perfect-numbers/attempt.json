@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-22-135403Z-r00-perfect-numbers",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-22T13:54:03Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Perfect Numbers","slug":"perfect-numbers","tags":["asserting","enums","integers","math"],"uuid":"2fbd5bd8-a839-42a3-9293-4ad577766a12"},
+  "promptHash": "ada1435fc52b09e9",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1787407084-VwVuQQJTFWMrDKu63TM5",
+    "routedModel": "cohere/north-mini-code:free",
+    "usage": {
+  "prompt_tokens": 1794,
+  "completion_tokens": 2093,
+  "total_tokens": 3887,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 1668,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

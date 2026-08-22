@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-21-140755Z-r05-diamond",
-  "currentDifficulty": 4,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 3,
+  "attemptId": "2026-08-22-135403Z-r00-perfect-numbers",
+  "currentDifficulty": 3,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T14:19:42Z"
+  "updatedAt": "2026-08-22T13:59:21Z"
 }
