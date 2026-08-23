@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-22-135403Z-r00-perfect-numbers",
-  "currentDifficulty": 3,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 4,
+  "attemptId": "2026-08-23-135535Z-r05-matching-brackets",
+  "currentDifficulty": 4,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22T13:59:21Z"
+  "updatedAt": "2026-08-23T14:02:44Z"
 }

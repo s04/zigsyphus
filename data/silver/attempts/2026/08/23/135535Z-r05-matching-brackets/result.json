@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-23-135535Z-r05-matching-brackets",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"matching-brackets","status":"pass"}},
+  "date": "2026-08-23",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Matching Brackets","slug":"matching-brackets","tags":["strings"],"uuid":"3878b8dc-4c63-4c7d-9800-bd99ad38650d"},
+  "resultPath": "data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":21,"outputExcerpt":"\nmatching_brackets.zig:11:34: error: value with comptime-only type 'comptime_int' depends on runtime control flow\n                const expected = switch (c) {\n                                 ^~~~~~\nmatching_brackets.zig:9:17: note: runtime control flow here\n        switch (c) {\n                ^\nreferenced by:\n    test.paired square brackets: test_matching_brackets.zig:7:34\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":21},
+  "testedAt": "2026-08-23T14:02:44Z",
+  "zigVersion": "0.16.0"
+}

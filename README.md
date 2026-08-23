@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r05-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/solution.zig) |
+| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r04-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r04-matching-brackets/solution.zig) |
+| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r03-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r03-matching-brackets/solution.zig) |
+| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 0 | [135535Z-r02-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r02-matching-brackets/solution.zig) |
+| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r01-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r01-matching-brackets/solution.zig) |
+| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r00-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r00-matching-brackets/solution.zig) |
 | 2026-08-22 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | pass/compiled | 12/12 | 100 | [135403Z-r00-perfect-numbers](data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r05-diamond](data/silver/attempts/2026/08/21/140755Z-r05-diamond/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r04-diamond](data/silver/attempts/2026/08/21/140755Z-r04-diamond/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r01-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r01-pythagorean-triplet/solution.zig) |
 | 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r00-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r00-pythagorean-triplet/solution.zig) |
 | 2026-08-19 | State of Tic-Tac-Toe (`state-of-tic-tac-toe`) | 4 | `openrouter/free` | pass/compiled | 27/27 | 100 | [140751Z-r00-state-of-tic-tac-toe](data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/solution.zig) |
-| 2026-08-18 | Sublist (`sublist`) | 3 | `openrouter/free` | pass/compiled | 18/18 | 100 | [140755Z-r00-sublist](data/silver/attempts/2026/08/18/140755Z-r00-sublist/solution.zig) |
-| 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r05-house](data/silver/attempts/2026/08/17/140308Z-r05-house/solution.zig) |
-| 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r04-house](data/silver/attempts/2026/08/17/140308Z-r04-house/solution.zig) |
-| 2026-08-17 | House (`house`) | 4 | `openrouter/free` | fail/compiled | 12/14 | 91 | [140308Z-r03-house](data/silver/attempts/2026/08/17/140308Z-r03-house/solution.zig) |
-| 2026-08-17 | House (`house`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [140308Z-r02-house](data/silver/attempts/2026/08/17/140308Z-r02-house/solution.zig) |
-| 2026-08-17 | House (`house`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [140308Z-r01-house](data/silver/attempts/2026/08/17/140308Z-r01-house/solution.zig) |
 
 <!-- zigsyphus-results:end -->
