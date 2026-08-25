@@ -86,6 +86,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-25 | Sieve (`sieve`) | 3 | `openrouter/free` | pass/compiled | 5/5 | 100 | [142133Z-r01-sieve](data/silver/attempts/2026/08/25/142133Z-r01-sieve/solution.zig) |
+| 2026-08-25 | Sieve (`sieve`) | 3 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142133Z-r00-sieve](data/silver/attempts/2026/08/25/142133Z-r00-sieve/solution.zig) |
 | 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r05-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/solution.zig) |
 | 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r04-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r04-matching-brackets/solution.zig) |
 | 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r03-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r03-matching-brackets/solution.zig) |
@@ -104,7 +106,5 @@ Required GitHub secret:
 | 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r03-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r03-pythagorean-triplet/solution.zig) |
 | 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r02-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r02-pythagorean-triplet/solution.zig) |
 | 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r01-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r01-pythagorean-triplet/solution.zig) |
-| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r00-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r00-pythagorean-triplet/solution.zig) |
-| 2026-08-19 | State of Tic-Tac-Toe (`state-of-tic-tac-toe`) | 4 | `openrouter/free` | pass/compiled | 27/27 | 100 | [140751Z-r00-state-of-tic-tac-toe](data/silver/attempts/2026/08/19/140751Z-r00-state-of-tic-tac-toe/solution.zig) |
 
 <!-- zigsyphus-results:end -->

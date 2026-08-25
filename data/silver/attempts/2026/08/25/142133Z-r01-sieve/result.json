@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-25-142133Z-r01-sieve",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"sieve","status":"pass"}},
+  "date": "2026-08-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Sieve","slug":"sieve","tags":["algorithms","integers","math","slices"],"uuid":"b9533606-bbbd-4110-8adc-54ccf94af1a6"},
+  "resultPath": "data/silver/attempts/2026/08/25/142133Z-r01-sieve/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/25/142133Z-r01-sieve/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/5 test_sieve.test.no primes under two...OK\n2/5 test_sieve.test.find first prime...OK\n3/5 test_sieve.test.find primes up to 10...OK\n4/5 test_sieve.test.limit is prime...OK\n5/5 test_sieve.test.find primes up to 1000...OK\nAll 5 tests passed.\n","passed":5,"returnCode":0,"skipped":0,"status":"pass","total":5},
+  "testedAt": "2026-08-25T14:24:00Z",
+  "zigVersion": "0.16.0"
+}

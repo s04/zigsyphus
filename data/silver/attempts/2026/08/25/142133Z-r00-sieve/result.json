@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-25-142133Z-r00-sieve",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"sieve","status":"pass"}},
+  "date": "2026-08-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Sieve","slug":"sieve","tags":["algorithms","integers","math","slices"],"uuid":"b9533606-bbbd-4110-8adc-54ccf94af1a6"},
+  "resultPath": "data/silver/attempts/2026/08/25/142133Z-r00-sieve/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/25/142133Z-r00-sieve/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":5,"outputExcerpt":"\nsieve.zig:23:33: error: cannot assign to constant\n                    is_composite[j] = true;\n                    ~~~~~~~~~~~~^~~\nreferenced by:\n    test.no primes under two: test_sieve.zig:10:32\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":5},
+  "testedAt": "2026-08-25T14:22:36Z",
+  "zigVersion": "0.16.0"
+}

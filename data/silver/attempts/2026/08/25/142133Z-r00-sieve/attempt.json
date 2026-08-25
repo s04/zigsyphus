@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-25-142133Z-r00-sieve",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-25T14:21:33Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Sieve","slug":"sieve","tags":["algorithms","integers","math","slices"],"uuid":"b9533606-bbbd-4110-8adc-54ccf94af1a6"},
+  "promptHash": "f73b31abdc4e082",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/25/142133Z-r00-sieve/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1787667693-zHIRThKJ248qHkZzijCn",
+    "routedModel": "minimax/minimax-m2.7:free",
+    "usage": {
+  "prompt_tokens": 2692,
+  "completion_tokens": 3385,
+  "total_tokens": 6077,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 3420,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
