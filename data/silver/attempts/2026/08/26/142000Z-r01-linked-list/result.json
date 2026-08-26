@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-26-142000Z-r01-linked-list",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"linked-list","status":"pass"}},
+  "date": "2026-08-26",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Linked List","slug":"linked-list","tags":["comptime","data-structures","generics","optionals","pointers","structs"],"uuid":"47ef24ce-745a-4dfe-a7a8-370d8a324d52"},
+  "resultPath": "data/silver/attempts/2026/08/26/142000Z-r01-linked-list/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/26/142000Z-r01-linked-list/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":19,"outputExcerpt":"\nlinked_list.zig:27:28: error: expected block or assignment, found '=='\n            if (last_node) == null {\n                           ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":19},
+  "testedAt": "2026-08-26T14:22:22Z",
+  "zigVersion": "0.16.0"
+}

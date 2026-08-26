@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r05-linked-list](data/silver/attempts/2026/08/26/142000Z-r05-linked-list/solution.zig) |
+| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r04-linked-list](data/silver/attempts/2026/08/26/142000Z-r04-linked-list/solution.zig) |
+| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r03-linked-list](data/silver/attempts/2026/08/26/142000Z-r03-linked-list/solution.zig) |
+| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r02-linked-list](data/silver/attempts/2026/08/26/142000Z-r02-linked-list/solution.zig) |
+| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r01-linked-list](data/silver/attempts/2026/08/26/142000Z-r01-linked-list/solution.zig) |
+| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r00-linked-list](data/silver/attempts/2026/08/26/142000Z-r00-linked-list/solution.zig) |
 | 2026-08-25 | Sieve (`sieve`) | 3 | `openrouter/free` | pass/compiled | 5/5 | 100 | [142133Z-r01-sieve](data/silver/attempts/2026/08/25/142133Z-r01-sieve/solution.zig) |
 | 2026-08-25 | Sieve (`sieve`) | 3 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142133Z-r00-sieve](data/silver/attempts/2026/08/25/142133Z-r00-sieve/solution.zig) |
 | 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r05-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r03-diamond](data/silver/attempts/2026/08/21/140755Z-r03-diamond/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r02-diamond](data/silver/attempts/2026/08/21/140755Z-r02-diamond/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r01-diamond](data/silver/attempts/2026/08/21/140755Z-r01-diamond/solution.zig) |
-| 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r00-diamond](data/silver/attempts/2026/08/21/140755Z-r00-diamond/solution.zig) |
-| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r05-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r05-pythagorean-triplet/solution.zig) |
-| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r04-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r04-pythagorean-triplet/solution.zig) |
-| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r03-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r03-pythagorean-triplet/solution.zig) |
-| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r02-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r02-pythagorean-triplet/solution.zig) |
-| 2026-08-20 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [140930Z-r01-pythagorean-triplet](data/silver/attempts/2026/08/20/140930Z-r01-pythagorean-triplet/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-25-142133Z-r01-sieve",
-  "currentDifficulty": 3,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 4,
+  "attemptId": "2026-08-26-142000Z-r05-linked-list",
+  "currentDifficulty": 4,
+  "lastScore": 97,
+  "lastStatus": "fail",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T14:24:00Z"
+  "updatedAt": "2026-08-26T14:23:53Z"
 }
