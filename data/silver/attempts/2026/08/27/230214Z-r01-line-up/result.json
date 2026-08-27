@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-27-230214Z-r01-line-up",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"line-up","status":"pass"}},
+  "date": "2026-08-27",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Line up","slug":"line-up","tags":[],"uuid":"476a6847-a5c9-4d03-a81e-4aff8d27ec18"},
+  "resultPath": "data/silver/attempts/2026/08/27/230214Z-r01-line-up/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/27/230214Z-r01-line-up/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":19,"outputExcerpt":"\nline_up.zig:5:15: error: @intCast must have a known result type\n    const n = @intCast(number);\n              ^~~~~~~~~~~~~~~~\nline_up.zig:5:15: note: use @as to provide explicit result type\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":19},
+  "testedAt": "2026-08-27T23:02:57Z",
+  "zigVersion": "0.16.0"
+}

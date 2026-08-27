@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-27-230214Z-r00-line-up",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"line-up","status":"pass"}},
+  "date": "2026-08-27",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Line up","slug":"line-up","tags":[],"uuid":"476a6847-a5c9-4d03-a81e-4aff8d27ec18"},
+  "resultPath": "data/silver/attempts/2026/08/27/230214Z-r00-line-up/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/27/230214Z-r00-line-up/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":19,"outputExcerpt":"\nline_up.zig:7:24: error: ambiguous use of '&&'; use 'and' for logical AND, or change whitespace to ' & &' for bitwise AND\n    if (last_two >= 11 && last_two <= 13) {\n                       ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":19},
+  "testedAt": "2026-08-27T23:02:47Z",
+  "zigVersion": "0.16.0"
+}

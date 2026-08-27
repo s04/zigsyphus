@@ -86,6 +86,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [230214Z-r02-line-up](data/silver/attempts/2026/08/27/230214Z-r02-line-up/solution.zig) |
+| 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r01-line-up](data/silver/attempts/2026/08/27/230214Z-r01-line-up/solution.zig) |
+| 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r00-line-up](data/silver/attempts/2026/08/27/230214Z-r00-line-up/solution.zig) |
 | 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r05-linked-list](data/silver/attempts/2026/08/26/142000Z-r05-linked-list/solution.zig) |
 | 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r04-linked-list](data/silver/attempts/2026/08/26/142000Z-r04-linked-list/solution.zig) |
 | 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r03-linked-list](data/silver/attempts/2026/08/26/142000Z-r03-linked-list/solution.zig) |
@@ -103,8 +106,5 @@ Required GitHub secret:
 | 2026-08-22 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | pass/compiled | 12/12 | 100 | [135403Z-r00-perfect-numbers](data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r05-diamond](data/silver/attempts/2026/08/21/140755Z-r05-diamond/solution.zig) |
 | 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r04-diamond](data/silver/attempts/2026/08/21/140755Z-r04-diamond/solution.zig) |
-| 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r03-diamond](data/silver/attempts/2026/08/21/140755Z-r03-diamond/solution.zig) |
-| 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r02-diamond](data/silver/attempts/2026/08/21/140755Z-r02-diamond/solution.zig) |
-| 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r01-diamond](data/silver/attempts/2026/08/21/140755Z-r01-diamond/solution.zig) |
 
 <!-- zigsyphus-results:end -->
