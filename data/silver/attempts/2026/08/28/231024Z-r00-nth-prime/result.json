@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-28-231024Z-r00-nth-prime",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"nth-prime","status":"pass"}},
+  "date": "2026-08-28",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Nth Prime","slug":"nth-prime","tags":[],"uuid":"799a17cb-9f29-481b-94be-b532f46c8024"},
+  "resultPath": "data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/8 test_nth_prime.test.first prime...OK\n2/8 test_nth_prime.test.second prime...OK\n3/8 test_nth_prime.test.third prime...OK\n4/8 test_nth_prime.test.fourth prime...OK\n5/8 test_nth_prime.test.fifth prime...OK\n6/8 test_nth_prime.test.sixth prime...OK\n7/8 test_nth_prime.test.seventh prime...OK\n8/8 test_nth_prime.test.big prime...OK\nAll 8 tests passed.\n","passed":8,"returnCode":0,"skipped":0,"status":"pass","total":8},
+  "testedAt": "2026-08-28T23:10:39Z",
+  "zigVersion": "0.16.0"
+}

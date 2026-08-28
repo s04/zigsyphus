@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-08-28-231024Z-r00-nth-prime",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-08-28T23:10:24Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Nth Prime","slug":"nth-prime","tags":[],"uuid":"799a17cb-9f29-481b-94be-b532f46c8024"},
+  "promptHash": "a09862c0aa78087b",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1787958624-rukE16ddmparxVap6Epx",
+    "routedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "usage": {
+  "prompt_tokens": 1384,
+  "completion_tokens": 585,
+  "total_tokens": 1969,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 326,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
