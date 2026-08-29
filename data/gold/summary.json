@@ -1,23 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-08-28-231024Z-r00-nth-prime",
-    "currentDifficulty": 4,
-    "lastScore": 100,
-    "lastStatus": "pass",
-    "nextDifficulty": 5,
+    "attemptId": "2026-08-29-172023Z-r05-affine-cipher",
+    "currentDifficulty": 5,
+    "lastScore": 0,
+    "lastStatus": "compile_error",
+    "nextDifficulty": 4,
     "schemaVersion": 1,
-    "updatedAt": "2026-08-28T23:10:39Z"
+    "updatedAt": "2026-08-29T17:30:55Z"
   },
-  "generatedAt": "2026-08-28T23:10:39Z",
-  "latest": {"attemptId":"2026-08-28-231024Z-r00-nth-prime","compileStatus":"compiled","date":"2026-08-28","difficulty":"4","mode":"live","model":"openrouter/free","name":"Nth Prime","passed":"8","resultPath":"data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/result.json","runAt":"2026-08-28T23:10:39Z","score":"100","slug":"nth-prime","solutionPath":"data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"},
-  "nextDifficulty": 5,
+  "generatedAt": "2026-08-29T17:30:55Z",
+  "latest": {"attemptId":"2026-08-29-172023Z-r05-affine-cipher","compileStatus":"compile_error","date":"2026-08-29","difficulty":"5","mode":"live","model":"openrouter/free","name":"Affine Cipher","passed":"0","resultPath":"data/silver/attempts/2026/08/29/172023Z-r05-affine-cipher/result.json","runAt":"2026-08-29T17:30:55Z","score":"0","slug":"affine-cipher","solutionPath":"data/silver/attempts/2026/08/29/172023Z-r05-affine-cipher/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+  "nextDifficulty": 4,
   "recentRuns": [
-    {"attemptId":"2026-08-21-140755Z-r05-diamond","compileStatus":"compile_error","date":"2026-08-21","difficulty":"4","mode":"live","model":"openrouter/free","name":"Diamond","passed":"0","resultPath":"data/silver/attempts/2026/08/21/140755Z-r05-diamond/result.json","runAt":"2026-08-21T14:19:42Z","score":"10","slug":"diamond","solutionPath":"data/silver/attempts/2026/08/21/140755Z-r05-diamond/solution.zig","status":"compile_error","total":"5","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-22-135403Z-r00-perfect-numbers","compileStatus":"compiled","date":"2026-08-22","difficulty":"3","mode":"live","model":"openrouter/free","name":"Perfect Numbers","passed":"12","resultPath":"data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/result.json","runAt":"2026-08-22T13:59:21Z","score":"100","slug":"perfect-numbers","solutionPath":"data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/solution.zig","status":"pass","total":"12","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-23-135535Z-r00-matching-brackets","compileStatus":"compile_error","date":"2026-08-23","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matching Brackets","passed":"0","resultPath":"data/silver/attempts/2026/08/23/135535Z-r00-matching-brackets/result.json","runAt":"2026-08-23T13:55:44Z","score":"10","slug":"matching-brackets","solutionPath":"data/silver/attempts/2026/08/23/135535Z-r00-matching-brackets/solution.zig","status":"compile_error","total":"21","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-23-135535Z-r01-matching-brackets","compileStatus":"compile_error","date":"2026-08-23","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matching Brackets","passed":"0","resultPath":"data/silver/attempts/2026/08/23/135535Z-r01-matching-brackets/result.json","runAt":"2026-08-23T14:00:22Z","score":"10","slug":"matching-brackets","solutionPath":"data/silver/attempts/2026/08/23/135535Z-r01-matching-brackets/solution.zig","status":"compile_error","total":"21","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-23-135535Z-r02-matching-brackets","compileStatus":"compile_error","date":"2026-08-23","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matching Brackets","passed":"0","resultPath":"data/silver/attempts/2026/08/23/135535Z-r02-matching-brackets/result.json","runAt":"2026-08-23T14:01:40Z","score":"0","slug":"matching-brackets","solutionPath":"data/silver/attempts/2026/08/23/135535Z-r02-matching-brackets/solution.zig","status":"compile_error","total":"21","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-23-135535Z-r03-matching-brackets","compileStatus":"compile_error","date":"2026-08-23","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matching Brackets","passed":"0","resultPath":"data/silver/attempts/2026/08/23/135535Z-r03-matching-brackets/result.json","runAt":"2026-08-23T14:02:23Z","score":"10","slug":"matching-brackets","solutionPath":"data/silver/attempts/2026/08/23/135535Z-r03-matching-brackets/solution.zig","status":"compile_error","total":"21","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-23-135535Z-r04-matching-brackets","compileStatus":"compile_error","date":"2026-08-23","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matching Brackets","passed":"0","resultPath":"data/silver/attempts/2026/08/23/135535Z-r04-matching-brackets/result.json","runAt":"2026-08-23T14:02:33Z","score":"10","slug":"matching-brackets","solutionPath":"data/silver/attempts/2026/08/23/135535Z-r04-matching-brackets/solution.zig","status":"compile_error","total":"21","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-23-135535Z-r05-matching-brackets","compileStatus":"compile_error","date":"2026-08-23","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matching Brackets","passed":"0","resultPath":"data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/result.json","runAt":"2026-08-23T14:02:44Z","score":"10","slug":"matching-brackets","solutionPath":"data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/solution.zig","status":"compile_error","total":"21","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-25-142133Z-r00-sieve","compileStatus":"compile_error","date":"2026-08-25","difficulty":"3","mode":"live","model":"openrouter/free","name":"Sieve","passed":"0","resultPath":"data/silver/attempts/2026/08/25/142133Z-r00-sieve/result.json","runAt":"2026-08-25T14:22:36Z","score":"10","slug":"sieve","solutionPath":"data/silver/attempts/2026/08/25/142133Z-r00-sieve/solution.zig","status":"compile_error","total":"5","zigVersion":"0.16.0"},
@@ -31,17 +25,17 @@
     {"attemptId":"2026-08-27-230214Z-r00-line-up","compileStatus":"compile_error","date":"2026-08-27","difficulty":"3","mode":"live","model":"openrouter/free","name":"Line up","passed":"0","resultPath":"data/silver/attempts/2026/08/27/230214Z-r00-line-up/result.json","runAt":"2026-08-27T23:02:47Z","score":"10","slug":"line-up","solutionPath":"data/silver/attempts/2026/08/27/230214Z-r00-line-up/solution.zig","status":"compile_error","total":"19","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-27-230214Z-r01-line-up","compileStatus":"compile_error","date":"2026-08-27","difficulty":"3","mode":"live","model":"openrouter/free","name":"Line up","passed":"0","resultPath":"data/silver/attempts/2026/08/27/230214Z-r01-line-up/result.json","runAt":"2026-08-27T23:02:57Z","score":"10","slug":"line-up","solutionPath":"data/silver/attempts/2026/08/27/230214Z-r01-line-up/solution.zig","status":"compile_error","total":"19","zigVersion":"0.16.0"},
     {"attemptId":"2026-08-27-230214Z-r02-line-up","compileStatus":"compiled","date":"2026-08-27","difficulty":"3","mode":"live","model":"openrouter/free","name":"Line up","passed":"19","resultPath":"data/silver/attempts/2026/08/27/230214Z-r02-line-up/result.json","runAt":"2026-08-27T23:03:05Z","score":"100","slug":"line-up","solutionPath":"data/silver/attempts/2026/08/27/230214Z-r02-line-up/solution.zig","status":"pass","total":"19","zigVersion":"0.16.0"},
-    {"attemptId":"2026-08-28-231024Z-r00-nth-prime","compileStatus":"compiled","date":"2026-08-28","difficulty":"4","mode":"live","model":"openrouter/free","name":"Nth Prime","passed":"8","resultPath":"data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/result.json","runAt":"2026-08-28T23:10:39Z","score":"100","slug":"nth-prime","solutionPath":"data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"}
+    {"attemptId":"2026-08-28-231024Z-r00-nth-prime","compileStatus":"compiled","date":"2026-08-28","difficulty":"4","mode":"live","model":"openrouter/free","name":"Nth Prime","passed":"8","resultPath":"data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/result.json","runAt":"2026-08-28T23:10:39Z","score":"100","slug":"nth-prime","solutionPath":"data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-29-172023Z-r00-affine-cipher","compileStatus":"compile_error","date":"2026-08-29","difficulty":"5","mode":"live","model":"openrouter/free","name":"Affine Cipher","passed":"0","resultPath":"data/silver/attempts/2026/08/29/172023Z-r00-affine-cipher/result.json","runAt":"2026-08-29T17:21:56Z","score":"0","slug":"affine-cipher","solutionPath":"data/silver/attempts/2026/08/29/172023Z-r00-affine-cipher/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-29-172023Z-r01-affine-cipher","compileStatus":"compile_error","date":"2026-08-29","difficulty":"5","mode":"live","model":"openrouter/free","name":"Affine Cipher","passed":"0","resultPath":"data/silver/attempts/2026/08/29/172023Z-r01-affine-cipher/result.json","runAt":"2026-08-29T17:23:27Z","score":"0","slug":"affine-cipher","solutionPath":"data/silver/attempts/2026/08/29/172023Z-r01-affine-cipher/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-29-172023Z-r02-affine-cipher","compileStatus":"compile_error","date":"2026-08-29","difficulty":"5","mode":"live","model":"openrouter/free","name":"Affine Cipher","passed":"0","resultPath":"data/silver/attempts/2026/08/29/172023Z-r02-affine-cipher/result.json","runAt":"2026-08-29T17:26:40Z","score":"0","slug":"affine-cipher","solutionPath":"data/silver/attempts/2026/08/29/172023Z-r02-affine-cipher/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-29-172023Z-r03-affine-cipher","compileStatus":"compile_error","date":"2026-08-29","difficulty":"5","mode":"live","model":"openrouter/free","name":"Affine Cipher","passed":"0","resultPath":"data/silver/attempts/2026/08/29/172023Z-r03-affine-cipher/result.json","runAt":"2026-08-29T17:29:25Z","score":"10","slug":"affine-cipher","solutionPath":"data/silver/attempts/2026/08/29/172023Z-r03-affine-cipher/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-29-172023Z-r04-affine-cipher","compileStatus":"compile_error","date":"2026-08-29","difficulty":"5","mode":"live","model":"openrouter/free","name":"Affine Cipher","passed":"0","resultPath":"data/silver/attempts/2026/08/29/172023Z-r04-affine-cipher/result.json","runAt":"2026-08-29T17:29:31Z","score":"10","slug":"affine-cipher","solutionPath":"data/silver/attempts/2026/08/29/172023Z-r04-affine-cipher/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"},
+    {"attemptId":"2026-08-29-172023Z-r05-affine-cipher","compileStatus":"compile_error","date":"2026-08-29","difficulty":"5","mode":"live","model":"openrouter/free","name":"Affine Cipher","passed":"0","resultPath":"data/silver/attempts/2026/08/29/172023Z-r05-affine-cipher/result.json","runAt":"2026-08-29T17:30:55Z","score":"0","slug":"affine-cipher","solutionPath":"data/silver/attempts/2026/08/29/172023Z-r05-affine-cipher/solution.zig","status":"compile_error","total":"17","zigVersion":"0.16.0"}
   ],
-  "runCount": 221,
+  "runCount": 227,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-08-09-140846Z-r04-micro-blog", "date": "2026-08-09", "score": 10, "slug": "micro-blog"},
-    {"attemptId": "2026-08-09-140846Z-r05-micro-blog", "date": "2026-08-09", "score": 10, "slug": "micro-blog"},
-    {"attemptId": "2026-08-10-143830Z-r00-difference-of-squares", "date": "2026-08-10", "score": 100, "slug": "difference-of-squares"},
-    {"attemptId": "2026-08-11-143751Z-r00-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
-    {"attemptId": "2026-08-11-143751Z-r01-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
-    {"attemptId": "2026-08-11-143751Z-r02-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
     {"attemptId": "2026-08-11-143751Z-r03-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
     {"attemptId": "2026-08-11-143751Z-r04-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
     {"attemptId": "2026-08-11-143751Z-r05-dnd-character", "date": "2026-08-11", "score": 10, "slug": "dnd-character"},
@@ -95,6 +89,12 @@
     {"attemptId": "2026-08-27-230214Z-r00-line-up", "date": "2026-08-27", "score": 10, "slug": "line-up"},
     {"attemptId": "2026-08-27-230214Z-r01-line-up", "date": "2026-08-27", "score": 10, "slug": "line-up"},
     {"attemptId": "2026-08-27-230214Z-r02-line-up", "date": "2026-08-27", "score": 100, "slug": "line-up"},
-    {"attemptId": "2026-08-28-231024Z-r00-nth-prime", "date": "2026-08-28", "score": 100, "slug": "nth-prime"}
+    {"attemptId": "2026-08-28-231024Z-r00-nth-prime", "date": "2026-08-28", "score": 100, "slug": "nth-prime"},
+    {"attemptId": "2026-08-29-172023Z-r00-affine-cipher", "date": "2026-08-29", "score": 0, "slug": "affine-cipher"},
+    {"attemptId": "2026-08-29-172023Z-r01-affine-cipher", "date": "2026-08-29", "score": 0, "slug": "affine-cipher"},
+    {"attemptId": "2026-08-29-172023Z-r02-affine-cipher", "date": "2026-08-29", "score": 0, "slug": "affine-cipher"},
+    {"attemptId": "2026-08-29-172023Z-r03-affine-cipher", "date": "2026-08-29", "score": 10, "slug": "affine-cipher"},
+    {"attemptId": "2026-08-29-172023Z-r04-affine-cipher", "date": "2026-08-29", "score": 10, "slug": "affine-cipher"},
+    {"attemptId": "2026-08-29-172023Z-r05-affine-cipher", "date": "2026-08-29", "score": 0, "slug": "affine-cipher"}
   ]
 }

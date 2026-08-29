@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-28-231024Z-r00-nth-prime",
-  "currentDifficulty": 4,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 5,
+  "attemptId": "2026-08-29-172023Z-r05-affine-cipher",
+  "currentDifficulty": 5,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T23:10:39Z"
+  "updatedAt": "2026-08-29T17:30:55Z"
 }

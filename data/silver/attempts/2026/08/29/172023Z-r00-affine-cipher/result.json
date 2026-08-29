@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-29-172023Z-r00-affine-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"affine-cipher","status":"pass"}},
+  "date": "2026-08-29",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Affine Cipher","slug":"affine-cipher","tags":[],"uuid":"0f7dabfb-8fe8-44f2-bf88-3c88d53cd8a6"},
+  "resultPath": "data/silver/attempts/2026/08/29/172023Z-r00-affine-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/08/29/172023Z-r00-affine-cipher/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\ntest_affine_cipher.zig:5:29: error: root source file struct 'affine_cipher' has no member named 'encode'\nconst encode = affine_cipher.encode;\n               ~~~~~~~~~~~~~^~~~~~~\naffine_cipher.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.encode yes: test_affine_cipher.zig:11:24\ntest_affine_cipher.zig:6:29: error: root source file struct 'affine_cipher' has no member named 'decode'\nconst decode = affine_cipher.decode;\n               ~~~~~~~~~~~~~^~~~~~~\naffine_cipher.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-08-29T17:21:56Z",
+  "zigVersion": "0.16.0"
+}

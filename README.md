@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172023Z-r05-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r05-affine-cipher/solution.zig) |
+| 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [172023Z-r04-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r04-affine-cipher/solution.zig) |
+| 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [172023Z-r03-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r03-affine-cipher/solution.zig) |
+| 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172023Z-r02-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r02-affine-cipher/solution.zig) |
+| 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172023Z-r01-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r01-affine-cipher/solution.zig) |
+| 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172023Z-r00-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r00-affine-cipher/solution.zig) |
 | 2026-08-28 | Nth Prime (`nth-prime`) | 4 | `openrouter/free` | pass/compiled | 8/8 | 100 | [231024Z-r00-nth-prime](data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/solution.zig) |
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [230214Z-r02-line-up](data/silver/attempts/2026/08/27/230214Z-r02-line-up/solution.zig) |
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r01-line-up](data/silver/attempts/2026/08/27/230214Z-r01-line-up/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-25 | Sieve (`sieve`) | 3 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142133Z-r00-sieve](data/silver/attempts/2026/08/25/142133Z-r00-sieve/solution.zig) |
 | 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r05-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r05-matching-brackets/solution.zig) |
 | 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r04-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r04-matching-brackets/solution.zig) |
-| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r03-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r03-matching-brackets/solution.zig) |
-| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 0 | [135535Z-r02-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r02-matching-brackets/solution.zig) |
-| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r01-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r01-matching-brackets/solution.zig) |
-| 2026-08-23 | Matching Brackets (`matching-brackets`) | 4 | `openrouter/free` | compile_error/compile_error | 0/21 | 10 | [135535Z-r00-matching-brackets](data/silver/attempts/2026/08/23/135535Z-r00-matching-brackets/solution.zig) |
-| 2026-08-22 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | pass/compiled | 12/12 | 100 | [135403Z-r00-perfect-numbers](data/silver/attempts/2026/08/22/135403Z-r00-perfect-numbers/solution.zig) |
-| 2026-08-21 | Diamond (`diamond`) | 4 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [140755Z-r05-diamond](data/silver/attempts/2026/08/21/140755Z-r05-diamond/solution.zig) |
 
 <!-- zigsyphus-results:end -->

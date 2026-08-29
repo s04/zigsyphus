@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-29-172023Z-r03-affine-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"affine-cipher","status":"pass"}},
+  "date": "2026-08-29",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Affine Cipher","slug":"affine-cipher","tags":[],"uuid":"0f7dabfb-8fe8-44f2-bf88-3c88d53cd8a6"},
+  "resultPath": "data/silver/attempts/2026/08/29/172023Z-r03-affine-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/29/172023Z-r03-affine-cipher/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\naffine_cipher.zig:52:35: error: extra capture in for loop\n    for (transformed.items) |*ch, i| {\n                                  ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-08-29T17:29:25Z",
+  "zigVersion": "0.16.0"
+}
