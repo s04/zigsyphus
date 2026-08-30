@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-08-30-174341Z-r00-robot-simulator",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"robot-simulator","status":"pass"}},
+  "date": "2026-08-30",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Robot Simulator","slug":"robot-simulator","tags":[],"uuid":"6444f72d-39e5-4ce8-963a-220244cd7073"},
+  "resultPath": "data/silver/attempts/2026/08/30/174341Z-r00-robot-simulator/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/08/30/174341Z-r00-robot-simulator/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\nrobot_simulator.zig:21:29: error: value with comptime-only type 'comptime_int' depends on runtime control flow\n                const idx = switch (dir) {\n                            ^~~~~~\nrobot_simulator.zig:20:19: note: runtime control flow here\n            if (c == 'R') {\n                ~~^~~~~~\nreferenced by:\n    test.Rotating clockwise-changes north to east: test_robot_simulator.zig:23:15\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-08-30T17:46:16Z",
+  "zigVersion": "0.16.0"
+}
