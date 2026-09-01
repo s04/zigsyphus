@@ -86,6 +86,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 78 | [172439Z-r05-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/solution.zig) |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 78 | [172439Z-r04-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r04-variable-length-quantity/solution.zig) |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 88 | [172439Z-r03-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r03-variable-length-quantity/solution.zig) |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r02-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r02-variable-length-quantity/solution.zig) |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 10 | [172439Z-r01-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r01-variable-length-quantity/solution.zig) |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r00-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r00-variable-length-quantity/solution.zig) |
 | 2026-08-30 | Robot Simulator (`robot-simulator`) | 4 | `openrouter/free` | pass/compiled | 18/18 | 100 | [174341Z-r01-robot-simulator](data/silver/attempts/2026/08/30/174341Z-r01-robot-simulator/solution.zig) |
 | 2026-08-30 | Robot Simulator (`robot-simulator`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174341Z-r00-robot-simulator](data/silver/attempts/2026/08/30/174341Z-r00-robot-simulator/solution.zig) |
 | 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172023Z-r05-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r05-affine-cipher/solution.zig) |
@@ -100,11 +106,5 @@ Required GitHub secret:
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r00-line-up](data/silver/attempts/2026/08/27/230214Z-r00-line-up/solution.zig) |
 | 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r05-linked-list](data/silver/attempts/2026/08/26/142000Z-r05-linked-list/solution.zig) |
 | 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r04-linked-list](data/silver/attempts/2026/08/26/142000Z-r04-linked-list/solution.zig) |
-| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r03-linked-list](data/silver/attempts/2026/08/26/142000Z-r03-linked-list/solution.zig) |
-| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r02-linked-list](data/silver/attempts/2026/08/26/142000Z-r02-linked-list/solution.zig) |
-| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r01-linked-list](data/silver/attempts/2026/08/26/142000Z-r01-linked-list/solution.zig) |
-| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [142000Z-r00-linked-list](data/silver/attempts/2026/08/26/142000Z-r00-linked-list/solution.zig) |
-| 2026-08-25 | Sieve (`sieve`) | 3 | `openrouter/free` | pass/compiled | 5/5 | 100 | [142133Z-r01-sieve](data/silver/attempts/2026/08/25/142133Z-r01-sieve/solution.zig) |
-| 2026-08-25 | Sieve (`sieve`) | 3 | `openrouter/free` | compile_error/compile_error | 0/5 | 10 | [142133Z-r00-sieve](data/silver/attempts/2026/08/25/142133Z-r00-sieve/solution.zig) |
 
 <!-- zigsyphus-results:end -->

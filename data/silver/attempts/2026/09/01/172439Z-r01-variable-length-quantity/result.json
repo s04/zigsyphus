@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-01-172439Z-r01-variable-length-quantity",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"variable-length-quantity","status":"pass"}},
+  "date": "2026-09-01",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Variable Length Quantity","slug":"variable-length-quantity","tags":[],"uuid":"1ec6b6b1-7c49-4902-a042-3dd05a8fdb09"},
+  "resultPath": "data/silver/attempts/2026/09/01/172439Z-r01-variable-length-quantity/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/01/172439Z-r01-variable-length-quantity/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":31,"outputExcerpt":"\nvariable_length_quantity.zig:23:29: error: expected 1 argument, found 2\n            buffer[count] = @intCast(u8, value & 0x7F);\n                            ^~~~~~~~~~~~~~~~~~~~~~~~~~\nvariable_length_quantity.zig:44:17: error: member function expected 1 argument(s), found 0\n    defer result.deinit();\n          ~~~~~~^~~~~~~\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:623:13: note: function declared here\n        pub fn deinit(self: *Self, gpa: Allocator) void {\n        ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nreferenced by:\n    test.decode - one byte: test_variable_length_quantity.zig:196:30\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":31},
+  "testedAt": "2026-09-01T17:29:29Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-08-30-174341Z-r01-robot-simulator",
-  "currentDifficulty": 4,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 5,
+  "attemptId": "2026-09-01-172439Z-r05-variable-length-quantity",
+  "currentDifficulty": 5,
+  "lastScore": 78,
+  "lastStatus": "fail",
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T17:46:36Z"
+  "updatedAt": "2026-09-01T17:36:53Z"
 }
