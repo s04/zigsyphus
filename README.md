@@ -94,6 +94,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-02 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [171600Z-r01-knapsack](data/silver/attempts/2026/09/02/171600Z-r01-knapsack/solution.zig) |
+| 2026-09-02 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [171600Z-r00-knapsack](data/silver/attempts/2026/09/02/171600Z-r00-knapsack/solution.zig) |
 | 2026-09-02 | Run-Length Encoding (`run-length-encoding`) | 4 | `openrouter/free` | pass/compiled | 13/13 | 100 | [002319Z-r01-run-length-encoding](data/silver/attempts/2026/09/02/002319Z-r01-run-length-encoding/solution.zig) |
 | 2026-09-02 | Run-Length Encoding (`run-length-encoding`) | 4 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [002319Z-r00-run-length-encoding](data/silver/attempts/2026/09/02/002319Z-r00-run-length-encoding/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r05-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/solution.zig) |
@@ -112,7 +114,5 @@ Required GitHub secret:
 | 2026-08-29 | Affine Cipher (`affine-cipher`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172023Z-r00-affine-cipher](data/silver/attempts/2026/08/29/172023Z-r00-affine-cipher/solution.zig) |
 | 2026-08-28 | Nth Prime (`nth-prime`) | 4 | `openrouter/free` | pass/compiled | 8/8 | 100 | [231024Z-r00-nth-prime](data/silver/attempts/2026/08/28/231024Z-r00-nth-prime/solution.zig) |
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [230214Z-r02-line-up](data/silver/attempts/2026/08/27/230214Z-r02-line-up/solution.zig) |
-| 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r01-line-up](data/silver/attempts/2026/08/27/230214Z-r01-line-up/solution.zig) |
-| 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r00-line-up](data/silver/attempts/2026/08/27/230214Z-r00-line-up/solution.zig) |
 
 <!-- zigsyphus-results:end -->

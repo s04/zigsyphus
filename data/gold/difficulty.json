@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-02-002319Z-r01-run-length-encoding",
-  "currentDifficulty": 4,
+  "attemptId": "2026-09-02-171600Z-r01-knapsack",
+  "currentDifficulty": 5,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 5,
+  "nextDifficulty": 6,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T00:29:19Z"
+  "updatedAt": "2026-09-02T17:18:13Z"
 }

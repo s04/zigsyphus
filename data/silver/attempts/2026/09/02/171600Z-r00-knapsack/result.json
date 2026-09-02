@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-02-171600Z-r00-knapsack",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"knapsack","status":"pass"}},
+  "date": "2026-09-02",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Knapsack","slug":"knapsack","tags":[],"uuid":"ffa03fc8-0503-4524-ae40-9f3202349003"},
+  "resultPath": "data/silver/attempts/2026/09/02/171600Z-r00-knapsack/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/02/171600Z-r00-knapsack/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":7,"outputExcerpt":"\nknapsack.zig:19:12: error: root source file struct 'mem' has no member named 'set'\n    std.mem.set(dp, 0);\n    ~~~~~~~^~~~\n/home/runner/work/_temp/37d63e0e-64c1-44ca-acf9-8b474f83c079/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nreferenced by:\n    test.no items: test_knapsack.zig:10:45\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":7},
+  "testedAt": "2026-09-02T17:16:09Z",
+  "zigVersion": "0.16.0"
+}
