@@ -28,26 +28,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Build Pages artifact
         run: |
           rm -rf _site
           mkdir -p _site
           cp -R site/. _site/
-          if [ -d data ]; then cp -R data _site/data; fi
+          mkdir -p _site/data
+          cp -R data/gold _site/data/gold
+          cp -R data/silver _site/data/silver
           touch _site/.nojekyll
 
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         with:
           enablement: true
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
       - name: Deploy Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

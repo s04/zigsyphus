@@ -34,7 +34,15 @@ Each run has a full audit trail:
 
 The prompt lives in `.github/workflows/daily.yml` under `ZIGSYPHUS_SYSTEM_PROMPT`. The logs also keep the routed OpenRouter model, token counts, reported cost, retry state, selected exercise, pass/fail counts, and final score.
 
+Archived solutions were revalidated with isolated Zig caches on 2026-09-02 after a shared-cache bug was found. Corrected result files retain their previous verdicts under `revalidation.previous`.
+
 ## Local Runs
+
+Run the repository, dashboard-link, and deterministic good/bad control checks:
+
+```bash
+./check.sh
+```
 
 Use the pinned local Zig 0.16 binary when present:
 
@@ -86,8 +94,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 78 | [172439Z-r05-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/solution.zig) |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 78 | [172439Z-r04-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r04-variable-length-quantity/solution.zig) |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r05-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/solution.zig) |
+| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r04-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r04-variable-length-quantity/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 88 | [172439Z-r03-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r03-variable-length-quantity/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r02-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r02-variable-length-quantity/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 10 | [172439Z-r01-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r01-variable-length-quantity/solution.zig) |
@@ -104,7 +112,7 @@ Required GitHub secret:
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [230214Z-r02-line-up](data/silver/attempts/2026/08/27/230214Z-r02-line-up/solution.zig) |
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r01-line-up](data/silver/attempts/2026/08/27/230214Z-r01-line-up/solution.zig) |
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r00-line-up](data/silver/attempts/2026/08/27/230214Z-r00-line-up/solution.zig) |
-| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r05-linked-list](data/silver/attempts/2026/08/26/142000Z-r05-linked-list/solution.zig) |
+| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | pass/compiled | 19/19 | 100 | [142000Z-r05-linked-list](data/silver/attempts/2026/08/26/142000Z-r05-linked-list/solution.zig) |
 | 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r04-linked-list](data/silver/attempts/2026/08/26/142000Z-r04-linked-list/solution.zig) |
 
 <!-- zigsyphus-results:end -->

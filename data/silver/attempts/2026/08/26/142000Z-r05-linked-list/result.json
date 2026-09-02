@@ -1,15 +1,69 @@
 {
   "attemptId": "2026-08-26-142000Z-r05-linked-list",
-  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"linked-list","status":"pass"}},
+  "controls": {
+    "badFixture": {
+      "expected": "fail",
+      "ok": true,
+      "problem": "leap",
+      "status": "fail"
+    },
+    "goodFixture": {
+      "expected": "pass",
+      "ok": true,
+      "problem": "linked-list",
+      "status": "pass"
+    }
+  },
   "date": "2026-08-26",
   "mode": "live",
   "model": "openrouter/free",
-  "problem": {"difficulty":4,"name":"Linked List","slug":"linked-list","tags":["comptime","data-structures","generics","optionals","pointers","structs"],"uuid":"47ef24ce-745a-4dfe-a7a8-370d8a324d52"},
+  "problem": {
+    "difficulty": 4,
+    "name": "Linked List",
+    "slug": "linked-list",
+    "tags": [
+      "comptime",
+      "data-structures",
+      "generics",
+      "optionals",
+      "pointers",
+      "structs"
+    ],
+    "uuid": "47ef24ce-745a-4dfe-a7a8-370d8a324d52"
+  },
   "resultPath": "data/silver/attempts/2026/08/26/142000Z-r05-linked-list/result.json",
+  "revalidation": {
+    "at": "2026-09-02T00:19:40Z",
+    "previous": {
+      "score": 97,
+      "test": {
+        "compileStatus": "compiled",
+        "durationSeconds": 0.0,
+        "failed": 1,
+        "outputExcerpt": "\n1/19 test_linked_list.test.pop gets element from the list...OK\n2/19 test_linked_list.test.push/pop respectively add/remove at the end of the list...OK\n3/19 test_linked_list.test.shift gets an element from the list...OK\n4/19 test_linked_list.test.shift gets first element from the list...OK\n5/19 test_linked_list.test.unshift adds element at start of the list...OK\n6/19 test_linked_list.test.pop, push, shift, and unshift can be used in any order...OK\n7/19 test_linked_list.test.count an empty list...OK\n8/19 test_linked_list.test.count a list with items...OK\n9/19 test_linked_list.test.count is correct after mutation...OK\n10/19 test_linked_list.test.popping to empty doesn't break the list...OK\n11/19 test_linked_list.test.shifting to empty doesn't break the list...OK\n12/19 test_linked_list.test.deletes the only element...OK\n13/19 test_linked_list.test.deletes the element with the specified value from the list...OK\n14/19 test_linked_list.test.deletes the element with the specified value from the list, re-assigns tail...OK\n15/19 test_linked_list.test.deletes the element with the specified value from the list, re-assigns head...OK\n16/19 test_linked_list.test.deletes the first of two elements...OK\n17/19 test_linked_list.test.deletes the second of two elements...OK\n18/19 test_linked_list.test.delete does not modify the list if the element is not found...expected 1, found 0\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ae184ca6-abb3-4558-94f2-33af229d2aa0/zig-x86_64-linux-0.16.0/lib/std/testing.zig:118:17: 0x1233319 in expectEqualInner__anon_43041 (std.zig)\n                return error.TestExpectedEqual;\n                ^\n/home/runner/work/_temp/ae184ca6-abb3-4558-94f2-33af229d2aa0/zig-x86_64-linux-0.16.0/lib/std/testing.zig:83:5: 0x123461e in expectEqual (test_linked_list.zig)\n    return expectEqualInner(T, expected, actual);\n    ^\n/tmp/zigsyphus-linked-list-f4484594ae94cfcc/test_linked_list.zig:204:5: 0x1234665 in test.delete does not modify the list if the element is not found (test_linked_list.zig)\n    try testing.expectEqual(@as(usize, 1), list.len);\n    ^\n19/19 test_linked_list.test.deletes only the first occurrence...OK\n18 passed; 0 skipped; 1 failed.\nerror: the following test command failed with exit code 1:\n/home/runner/work/zigsyphus/zigsyphus/.zig-cache/o/0663c9d07df7276d0e91d4d76631e55d/test --seed=0xe98d4f8c\n",
+        "passed": 18,
+        "returnCode": 1,
+        "skipped": 0,
+        "status": "fail",
+        "total": 19
+      }
+    },
+    "reason": "isolated Zig cache verification"
+  },
   "schemaVersion": 1,
-  "score": 97,
+  "score": 100,
   "solutionPath": "data/silver/attempts/2026/08/26/142000Z-r05-linked-list/solution.zig",
-  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":1,"outputExcerpt":"\n1/19 test_linked_list.test.pop gets element from the list...OK\n2/19 test_linked_list.test.push/pop respectively add/remove at the end of the list...OK\n3/19 test_linked_list.test.shift gets an element from the list...OK\n4/19 test_linked_list.test.shift gets first element from the list...OK\n5/19 test_linked_list.test.unshift adds element at start of the list...OK\n6/19 test_linked_list.test.pop, push, shift, and unshift can be used in any order...OK\n7/19 test_linked_list.test.count an empty list...OK\n8/19 test_linked_list.test.count a list with items...OK\n9/19 test_linked_list.test.count is correct after mutation...OK\n10/19 test_linked_list.test.popping to empty doesn't break the list...OK\n11/19 test_linked_list.test.shifting to empty doesn't break the list...OK\n12/19 test_linked_list.test.deletes the only element...OK\n13/19 test_linked_list.test.deletes the element with the specified value from the list...OK\n14/19 test_linked_list.test.deletes the element with the specified value from the list, re-assigns tail...OK\n15/19 test_linked_list.test.deletes the element with the specified value from the list, re-assigns head...OK\n16/19 test_linked_list.test.deletes the first of two elements...OK\n17/19 test_linked_list.test.deletes the second of two elements...OK\n18/19 test_linked_list.test.delete does not modify the list if the element is not found...expected 1, found 0\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ae184ca6-abb3-4558-94f2-33af229d2aa0/zig-x86_64-linux-0.16.0/lib/std/testing.zig:118:17: 0x1233319 in expectEqualInner__anon_43041 (std.zig)\n                return error.TestExpectedEqual;\n                ^\n/home/runner/work/_temp/ae184ca6-abb3-4558-94f2-33af229d2aa0/zig-x86_64-linux-0.16.0/lib/std/testing.zig:83:5: 0x123461e in expectEqual (test_linked_list.zig)\n    return expectEqualInner(T, expected, actual);\n    ^\n/tmp/zigsyphus-linked-list-f4484594ae94cfcc/test_linked_list.zig:204:5: 0x1234665 in test.delete does not modify the list if the element is not found (test_linked_list.zig)\n    try testing.expectEqual(@as(usize, 1), list.len);\n    ^\n19/19 test_linked_list.test.deletes only the first occurrence...OK\n18 passed; 0 skipped; 1 failed.\nerror: the following test command failed with exit code 1:\n/home/runner/work/zigsyphus/zigsyphus/.zig-cache/o/0663c9d07df7276d0e91d4d76631e55d/test --seed=0xe98d4f8c\n","passed":18,"returnCode":1,"skipped":0,"status":"fail","total":19},
+  "test": {
+    "compileStatus": "compiled",
+    "durationSeconds": 0.0,
+    "failed": 0,
+    "outputExcerpt": "\n1/19 test_linked_list.test.pop gets element from the list...OK\n2/19 test_linked_list.test.push/pop respectively add/remove at the end of the list...OK\n3/19 test_linked_list.test.shift gets an element from the list...OK\n4/19 test_linked_list.test.shift gets first element from the list...OK\n5/19 test_linked_list.test.unshift adds element at start of the list...OK\n6/19 test_linked_list.test.pop, push, shift, and unshift can be used in any order...OK\n7/19 test_linked_list.test.count an empty list...OK\n8/19 test_linked_list.test.count a list with items...OK\n9/19 test_linked_list.test.count is correct after mutation...OK\n10/19 test_linked_list.test.popping to empty doesn't break the list...OK\n11/19 test_linked_list.test.shifting to empty doesn't break the list...OK\n12/19 test_linked_list.test.deletes the only element...OK\n13/19 test_linked_list.test.deletes the element with the specified value from the list...OK\n14/19 test_linked_list.test.deletes the element with the specified value from the list, re-assigns tail...OK\n15/19 test_linked_list.test.deletes the element with the specified value from the list, re-assigns head...OK\n16/19 test_linked_list.test.deletes the first of two elements...OK\n17/19 test_linked_list.test.deletes the second of two elements...OK\n18/19 test_linked_list.test.delete does not modify the list if the element is not found...OK\n19/19 test_linked_list.test.deletes only the first occurrence...OK\nAll 19 tests passed.\n",
+    "passed": 19,
+    "returnCode": 0,
+    "skipped": 0,
+    "status": "pass",
+    "total": 19
+  },
   "testedAt": "2026-08-26T14:23:53Z",
   "zigVersion": "0.16.0"
 }

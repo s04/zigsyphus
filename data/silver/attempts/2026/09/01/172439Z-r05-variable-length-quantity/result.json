@@ -1,15 +1,62 @@
 {
   "attemptId": "2026-09-01-172439Z-r05-variable-length-quantity",
-  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"variable-length-quantity","status":"pass"}},
+  "controls": {
+    "badFixture": {
+      "expected": "fail",
+      "ok": true,
+      "problem": "leap",
+      "status": "fail"
+    },
+    "goodFixture": {
+      "expected": "pass",
+      "ok": true,
+      "problem": "variable-length-quantity",
+      "status": "pass"
+    }
+  },
   "date": "2026-09-01",
   "mode": "live",
   "model": "openrouter/free",
-  "problem": {"difficulty":5,"name":"Variable Length Quantity","slug":"variable-length-quantity","tags":[],"uuid":"1ec6b6b1-7c49-4902-a042-3dd05a8fdb09"},
+  "problem": {
+    "difficulty": 5,
+    "name": "Variable Length Quantity",
+    "slug": "variable-length-quantity",
+    "tags": [],
+    "uuid": "1ec6b6b1-7c49-4902-a042-3dd05a8fdb09"
+  },
   "resultPath": "data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/result.json",
+  "revalidation": {
+    "at": "2026-09-02T00:19:40Z",
+    "previous": {
+      "score": 78,
+      "test": {
+        "compileStatus": "compiled",
+        "durationSeconds": 0.0,
+        "failed": 6,
+        "outputExcerpt": "\n1/31 test_variable_length_quantity.test.encode - zero...OK\n2/31 test_variable_length_quantity.test.encode - arbitrary single byte...OK\n3/31 test_variable_length_quantity.test.encode - asymmetric single byte...OK\n4/31 test_variable_length_quantity.test.encode - largest single byte...OK\n5/31 test_variable_length_quantity.test.encode - smallest double byte...OK\n6/31 test_variable_length_quantity.test.encode - arbitrary double byte...OK\n7/31 test_variable_length_quantity.test.encode - asymmetric double byte...OK\n8/31 test_variable_length_quantity.test.encode - largest double byte...OK\n9/31 test_variable_length_quantity.test.encode - smallest triple byte...OK\n10/31 test_variable_length_quantity.test.encode - arbitrary triple byte...OK\n11/31 test_variable_length_quantity.test.encode - asymmetric triple byte...OK\n12/31 test_variable_length_quantity.test.encode - largest triple byte...OK\n13/31 test_variable_length_quantity.test.encode - smallest quadruple byte...OK\n14/31 test_variable_length_quantity.test.encode - arbitrary quadruple byte...OK\n15/31 test_variable_length_quantity.test.encode - asymmetric quadruple byte...OK\n16/31 test_variable_length_quantity.test.encode - largest quadruple byte...OK\n17/31 test_variable_length_quantity.test.encode - smallest quintuple byte...OK\n18/31 test_variable_length_quantity.test.encode - arbitrary quintuple byte...OK\n19/31 test_variable_length_quantity.test.encode - asymmetric quintuple byte...OK\n20/31 test_variable_length_quantity.test.encode - maximum 32-bit integer input...OK\n21/31 test_variable_length_quantity.test.encode - two single-byte values...OK\n22/31 test_variable_length_quantity.test.encode - two multi-byte values...OK\n23/31 test_variable_length_quantity.test.encode - many multi-byte values...OK\n24/31 test_variable_length_quantity.test.decode - one byte...OK\n25/31 test_variable_length_quantity.test.decode - two bytes...slices differ. first difference occurs at index 0 (0x0)\n\n============ expected this output: =============  len: 1 (0x1)\n\n[0]: 8192\n\n============= instead found this: ==============  len: 1 (0x1)\n\n[0]: 64\n\n================================================\n\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/testing.zig:379:5: 0x1234c9d in expectEqualSlices__anon_43237 (std.zig)\n    return error.TestExpectedEqual;\n    ^\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/test_variable_length_quantity.zig:206:5: 0x123ac22 in test.decode - two bytes (test_variable_length_quantity.zig)\n    try testing.expectEqualSlices(u32, &expected, actual);\n    ^\n26/31 test_variable_length_quantity.test.decode - three bytes...OK\n27/31 test_variable_length_quantity.test.decode - four bytes...slices differ. first difference occurs at index 0 (0x0)\n\n============ expected this output: =============  len: 1 (0x1)\n\n[0]: 2097152\n\n============= instead found this: ==============  len: 1 (0x1)\n\n[0]: 1\n\n================================================\n\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/testing.zig:379:5: 0x1234c9d in expectEqualSlices__anon_43237 (std.zig)\n    return error.TestExpectedEqual;\n    ^\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/test_variable_length_quantity.zig:222:5: 0x123a870 in test.decode - four bytes (test_variable_length_quantity.zig)\n    try testing.expectEqualSlices(u32, &expected, actual);\n    ^\n28/31 test_variable_length_quantity.test.decode - maximum 32-bit integer...thread 2283 panic: integer overflow\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/variable_length_quantity.zig:51:19: 0x12351be in decode (test_variable_length_quantity.zig)\n            shift += 7;\n                  ^\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/test_variable_length_quantity.zig:228:30: 0x123a5be in test.decode - maximum 32-bit integer (test_variable_length_quantity.zig)\n    const actual = try decode(testing.allocator, &integers);\n                             ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:291:25: 0x11eec36 in mainTerminal (test_runner.zig)\n        if (test_fn.func()) |_| {\n                        ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:73:28: 0x11ee452 in main (test_runner.zig)\n        return mainTerminal(init);\n                           ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/start.zig:699:88: 0x11eac65 in callMain (std.zig)\n    if (fn_info.params[0].type.? == std.process.Init.Minimal) return wrapMain(root.main(.{\n                                                                                       ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/start.zig:190:5: 0x11ea641 in _start (std.zig)\n    asm volatile (switch (native_arch) {\n    ^\nerror: the following test command terminated with signal ABRT:\n/home/runner/work/zigsyphus/zigsyphus/.zig-cache/o/84fc276d9ed22d9bdc43709d065c2a25/test --seed=0x7d4dd87c\n",
+        "passed": 25,
+        "returnCode": 1,
+        "skipped": 0,
+        "status": "fail",
+        "total": 31
+      }
+    },
+    "reason": "isolated Zig cache verification"
+  },
   "schemaVersion": 1,
-  "score": 78,
+  "score": 0,
   "solutionPath": "data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/solution.zig",
-  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":6,"outputExcerpt":"\n1/31 test_variable_length_quantity.test.encode - zero...OK\n2/31 test_variable_length_quantity.test.encode - arbitrary single byte...OK\n3/31 test_variable_length_quantity.test.encode - asymmetric single byte...OK\n4/31 test_variable_length_quantity.test.encode - largest single byte...OK\n5/31 test_variable_length_quantity.test.encode - smallest double byte...OK\n6/31 test_variable_length_quantity.test.encode - arbitrary double byte...OK\n7/31 test_variable_length_quantity.test.encode - asymmetric double byte...OK\n8/31 test_variable_length_quantity.test.encode - largest double byte...OK\n9/31 test_variable_length_quantity.test.encode - smallest triple byte...OK\n10/31 test_variable_length_quantity.test.encode - arbitrary triple byte...OK\n11/31 test_variable_length_quantity.test.encode - asymmetric triple byte...OK\n12/31 test_variable_length_quantity.test.encode - largest triple byte...OK\n13/31 test_variable_length_quantity.test.encode - smallest quadruple byte...OK\n14/31 test_variable_length_quantity.test.encode - arbitrary quadruple byte...OK\n15/31 test_variable_length_quantity.test.encode - asymmetric quadruple byte...OK\n16/31 test_variable_length_quantity.test.encode - largest quadruple byte...OK\n17/31 test_variable_length_quantity.test.encode - smallest quintuple byte...OK\n18/31 test_variable_length_quantity.test.encode - arbitrary quintuple byte...OK\n19/31 test_variable_length_quantity.test.encode - asymmetric quintuple byte...OK\n20/31 test_variable_length_quantity.test.encode - maximum 32-bit integer input...OK\n21/31 test_variable_length_quantity.test.encode - two single-byte values...OK\n22/31 test_variable_length_quantity.test.encode - two multi-byte values...OK\n23/31 test_variable_length_quantity.test.encode - many multi-byte values...OK\n24/31 test_variable_length_quantity.test.decode - one byte...OK\n25/31 test_variable_length_quantity.test.decode - two bytes...slices differ. first difference occurs at index 0 (0x0)\n\n============ expected this output: =============  len: 1 (0x1)\n\n[0]: 8192\n\n============= instead found this: ==============  len: 1 (0x1)\n\n[0]: 64\n\n================================================\n\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/testing.zig:379:5: 0x1234c9d in expectEqualSlices__anon_43237 (std.zig)\n    return error.TestExpectedEqual;\n    ^\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/test_variable_length_quantity.zig:206:5: 0x123ac22 in test.decode - two bytes (test_variable_length_quantity.zig)\n    try testing.expectEqualSlices(u32, &expected, actual);\n    ^\n26/31 test_variable_length_quantity.test.decode - three bytes...OK\n27/31 test_variable_length_quantity.test.decode - four bytes...slices differ. first difference occurs at index 0 (0x0)\n\n============ expected this output: =============  len: 1 (0x1)\n\n[0]: 2097152\n\n============= instead found this: ==============  len: 1 (0x1)\n\n[0]: 1\n\n================================================\n\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/testing.zig:379:5: 0x1234c9d in expectEqualSlices__anon_43237 (std.zig)\n    return error.TestExpectedEqual;\n    ^\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/test_variable_length_quantity.zig:222:5: 0x123a870 in test.decode - four bytes (test_variable_length_quantity.zig)\n    try testing.expectEqualSlices(u32, &expected, actual);\n    ^\n28/31 test_variable_length_quantity.test.decode - maximum 32-bit integer...thread 2283 panic: integer overflow\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/variable_length_quantity.zig:51:19: 0x12351be in decode (test_variable_length_quantity.zig)\n            shift += 7;\n                  ^\n/tmp/zigsyphus-variable-length-quantity-f46a780a5f9573e9/test_variable_length_quantity.zig:228:30: 0x123a5be in test.decode - maximum 32-bit integer (test_variable_length_quantity.zig)\n    const actual = try decode(testing.allocator, &integers);\n                             ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:291:25: 0x11eec36 in mainTerminal (test_runner.zig)\n        if (test_fn.func()) |_| {\n                        ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:73:28: 0x11ee452 in main (test_runner.zig)\n        return mainTerminal(init);\n                           ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/start.zig:699:88: 0x11eac65 in callMain (std.zig)\n    if (fn_info.params[0].type.? == std.process.Init.Minimal) return wrapMain(root.main(.{\n                                                                                       ^\n/home/runner/work/_temp/ba4e90c9-44dd-451a-b6aa-fabc775895b6/zig-x86_64-linux-0.16.0/lib/std/start.zig:190:5: 0x11ea641 in _start (std.zig)\n    asm volatile (switch (native_arch) {\n    ^\nerror: the following test command terminated with signal ABRT:\n/home/runner/work/zigsyphus/zigsyphus/.zig-cache/o/84fc276d9ed22d9bdc43709d065c2a25/test --seed=0x7d4dd87c\n","passed":25,"returnCode":1,"skipped":0,"status":"fail","total":31},
+  "test": {
+    "compileStatus": "compile_error",
+    "durationSeconds": 0.0,
+    "failed": 31,
+    "outputExcerpt": "\ntest_variable_length_quantity.zig:5:40: error: root source file struct 'variable_length_quantity' has no member named 'encode'\nconst encode = variable_length_quantity.encode;\n               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\nvariable_length_quantity.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.encode - zero: test_variable_length_quantity.zig:12:24\ntest_variable_length_quantity.zig:6:40: error: root source file struct 'variable_length_quantity' has no member named 'decode'\nconst decode = variable_length_quantity.decode;\n               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\nvariable_length_quantity.zig:1:1: note: struct declared here\n\n^\n",
+    "passed": 0,
+    "returnCode": 1,
+    "skipped": 0,
+    "status": "compile_error",
+    "total": 31
+  },
   "testedAt": "2026-09-01T17:36:53Z",
   "zigVersion": "0.16.0"
 }

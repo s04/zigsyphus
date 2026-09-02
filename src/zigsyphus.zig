@@ -1,4 +1,5 @@
 const std = @import("std");
+const builtin = @import("builtin");
 
 const Allocator = std.mem.Allocator;
 const Value = std.json.Value;
@@ -159,6 +160,7 @@ fn parseOptions(allocator: Allocator, args: []const []const u8) !Options {
     opts.max_difficulty = envInt(u8, "ZIGSYPHUS_MAX_DIFFICULTY");
     if (envInt(u8, "ZIGSYPHUS_REPAIR_ATTEMPTS")) |value| opts.repair_attempts = value;
     if (envInt(u8, "ZIGSYPHUS_API_RETRIES")) |value| opts.api_retries = value;
+    if (envInt(u32, "ZIGSYPHUS_TIMEOUT_SECONDS")) |value| opts.timeout_seconds = value;
     opts.run_at = try isoNow(allocator);
 
     var i: usize = 0;
@@ -557,9 +559,34 @@ fn callOpenRouter(allocator: Allocator, api_key: []const u8, model: []const u8, 
             "https://openrouter.ai/api/v1/chat/completions",
         }, null);
         if (res.exit_code == 0) return res.stdout;
+        if (isUsableOpenRouterResponse(allocator, res.stdout)) return res.stdout;
         last = try std.mem.concat(allocator, u8, &.{ res.stdout, res.stderr });
     }
     fatal("OpenRouter request failed: {s}", .{last});
+}
+
+fn isUsableOpenRouterResponse(allocator: Allocator, body: []const u8) bool {
+    var parsed = std.json.parseFromSlice(Value, allocator, body, .{}) catch return false;
+    defer parsed.deinit();
+    if (parsed.value != .object) return false;
+    const choices = parsed.value.object.get("choices") orelse return false;
+    if (choices != .array or choices.array.items.len == 0) return false;
+    const first = choices.array.items[0];
+    if (first != .object) return false;
+    const message = first.object.get("message") orelse return false;
+    if (message != .object) return false;
+    const content = jsonString(message.object.get("content")) orelse return false;
+    return content.len > 0;
+}
+
+test "OpenRouter response validation accepts content and rejects incomplete bodies" {
+    const allocator = std.testing.allocator;
+    try std.testing.expect(isUsableOpenRouterResponse(
+        allocator,
+        "{\"choices\":[{\"message\":{\"content\":\"```zig\\npub fn answer() void {}\\n```\"}}]}",
+    ));
+    try std.testing.expect(!isUsableOpenRouterResponse(allocator, "{\"choices\":["));
+    try std.testing.expect(!isUsableOpenRouterResponse(allocator, "{\"choices\":[]}"));
 }
 
 fn openRouterPayload(allocator: Allocator, model: []const u8, messages: []Message) ![]const u8 {
@@ -597,7 +624,6 @@ fn fixtureSolution(allocator: Allocator, mode: Mode, slug: []const u8) ![]const 
 }
 
 fn runZigTest(allocator: Allocator, slug: []const u8, solution: []const u8, timeout_seconds: u32) !TestResult {
-    _ = timeout_seconds;
     const paths = try exercisePaths(allocator, slug);
     const snake = try snakeSlug(allocator, slug);
     const total = countTests(try readFileAlloc(allocator, paths.test_file));
@@ -608,15 +634,29 @@ fn runZigTest(allocator: Allocator, slug: []const u8, solution: []const u8, time
     try copyZigFiles(allocator, paths.dir, tmp);
     try writeFile(allocator, try std.fmt.allocPrint(allocator, "{s}/{s}.zig", .{ tmp, snake }), solution);
     const test_file = try std.fmt.allocPrint(allocator, "test_{s}.zig", .{snake});
-    const res = try runProcess(allocator, &.{ try zigBin(allocator), "test", test_file }, tmp);
+    const res = if (builtin.os.tag == .linux and timeout_seconds > 0) blk: {
+        const timeout_arg = try std.fmt.allocPrint(allocator, "{d}s", .{timeout_seconds});
+        break :blk try runProcess(
+            allocator,
+            &.{ "timeout", "--signal=TERM", "--kill-after=2s", timeout_arg, try zigBin(allocator), "test", test_file, "--cache-dir", ".zig-cache" },
+            tmp,
+        );
+    } else try runProcess(allocator, &.{ try zigBin(allocator), "test", test_file, "--cache-dir", ".zig-cache" }, tmp);
     const duration = 0.0;
-    const output = try std.mem.concat(allocator, u8, &.{ res.stdout, "\n", res.stderr });
+    const timed_out = res.exit_code == 124 or res.exit_code == 137;
+    const timeout_note = if (timed_out) "\nZig test exceeded its configured timeout.\n" else "";
+    const output = try std.mem.concat(allocator, u8, &.{ res.stdout, "\n", res.stderr, timeout_note });
     const progress = parseTestProgress(output);
     var status: []const u8 = undefined;
     var compile_status: []const u8 = undefined;
     var passed: u32 = 0;
     var failed: u32 = 0;
-    if (res.exit_code == 0) {
+    if (timed_out) {
+        status = "timeout";
+        compile_status = "timeout";
+        passed = progress.passed;
+        failed = total -| progress.passed -| progress.skipped;
+    } else if (res.exit_code == 0) {
         status = "pass";
         compile_status = "compiled";
         passed = total;
