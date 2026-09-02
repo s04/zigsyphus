@@ -94,6 +94,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-02 | Run-Length Encoding (`run-length-encoding`) | 4 | `openrouter/free` | pass/compiled | 13/13 | 100 | [002319Z-r01-run-length-encoding](data/silver/attempts/2026/09/02/002319Z-r01-run-length-encoding/solution.zig) |
+| 2026-09-02 | Run-Length Encoding (`run-length-encoding`) | 4 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [002319Z-r00-run-length-encoding](data/silver/attempts/2026/09/02/002319Z-r00-run-length-encoding/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r05-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r04-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r04-variable-length-quantity/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 88 | [172439Z-r03-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r03-variable-length-quantity/solution.zig) |
@@ -112,7 +114,5 @@ Required GitHub secret:
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | pass/compiled | 19/19 | 100 | [230214Z-r02-line-up](data/silver/attempts/2026/08/27/230214Z-r02-line-up/solution.zig) |
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r01-line-up](data/silver/attempts/2026/08/27/230214Z-r01-line-up/solution.zig) |
 | 2026-08-27 | Line up (`line-up`) | 3 | `openrouter/free` | compile_error/compile_error | 0/19 | 10 | [230214Z-r00-line-up](data/silver/attempts/2026/08/27/230214Z-r00-line-up/solution.zig) |
-| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | pass/compiled | 19/19 | 100 | [142000Z-r05-linked-list](data/silver/attempts/2026/08/26/142000Z-r05-linked-list/solution.zig) |
-| 2026-08-26 | Linked List (`linked-list`) | 4 | `openrouter/free` | fail/compiled | 18/19 | 97 | [142000Z-r04-linked-list](data/silver/attempts/2026/08/26/142000Z-r04-linked-list/solution.zig) |
 
 <!-- zigsyphus-results:end -->

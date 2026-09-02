@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-02-002319Z-r00-run-length-encoding",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"run-length-encoding","status":"pass"}},
+  "date": "2026-09-02",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Run-Length Encoding","slug":"run-length-encoding","tags":[],"uuid":"71e5d918-6327-442a-98e8-3f9560b1ecd9"},
+  "resultPath": "data/silver/attempts/2026/09/02/002319Z-r00-run-length-encoding/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/02/002319Z-r00-run-length-encoding/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\ntest_run_length_encoding.zig:9:39: error: root source file struct 'run_length_encoding' has no member named 'encode'\n    const actual = run_length_encoding.encode(&buffer, string);\n                   ~~~~~~~~~~~~~~~~~~~^~~~~~~\nrun_length_encoding.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.run-length encode a string-empty string: test_run_length_encoding.zig:30:19\ntest_run_length_encoding.zig:16:39: error: root source file struct 'run_length_encoding' has no member named 'decode'\n    const actual = run_length_encoding.decode(&buffer, string);\n                   ~~~~~~~~~~~~~~~~~~~^~~~~~~\nrun_length_encoding.zig:1:1: note: struct declared here\n\n^\ntest_run_length_encoding.zig:24:40: error: root source file struct 'run_length_encoding' has no member named 'encode'\n    const encoded = run_length_encoding.encode(&buffer1, string);\n                    ~~~~~~~~~~~~~~~~~~~^~~~~~~\nrun_length_encoding.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-09-02T00:27:13Z",
+  "zigVersion": "0.16.0"
+}
