@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-05-161207Z-r07-split-second-stopwatch",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"split-second-stopwatch","status":"pass"}},
+  "date": "2026-09-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Split-Second Stopwatch","slug":"split-second-stopwatch","tags":[],"uuid":"ffd410bf-09cf-44f4-99db-c8a35c611112"},
+  "resultPath": "data/silver/attempts/2026/09/05/161207Z-r07-split-second-stopwatch/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/05/161207Z-r07-split-second-stopwatch/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":29,"outputExcerpt":"\ntest_split_second_stopwatch.zig:5:41: error: root source file struct 'split_second_stopwatch' has no member named 'Stopwatch'\nconst Stopwatch = split_second_stopwatch.Stopwatch;\n                  ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\nsplit_second_stopwatch.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.new stopwatch starts in ready state: test_split_second_stopwatch.zig:10:21\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":29},
+  "testedAt": "2026-09-05T16:18:24Z",
+  "zigVersion": "0.16.0"
+}

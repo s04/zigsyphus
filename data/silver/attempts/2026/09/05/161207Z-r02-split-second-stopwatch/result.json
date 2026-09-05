@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-05-161207Z-r02-split-second-stopwatch",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"split-second-stopwatch","status":"pass"}},
+  "date": "2026-09-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Split-Second Stopwatch","slug":"split-second-stopwatch","tags":[],"uuid":"ffd410bf-09cf-44f4-99db-c8a35c611112"},
+  "resultPath": "data/silver/attempts/2026/09/05/161207Z-r02-split-second-stopwatch/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/05/161207Z-r02-split-second-stopwatch/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":29,"outputExcerpt":"\nsplit_second_stopwatch.zig:20:5: error: duplicate struct member name 'previousLaps'\n    previousLaps: std.ArrayList(u32),\n    ^~~~~~~~~~~~\nsplit_second_stopwatch.zig:41:12: note: duplicate name here\n    pub fn previousLaps(self: *Stopwatch) mem.Allocator.Error![][8]u8 {\n           ^~~~~~~~~~~~\nsplit_second_stopwatch.zig:16:23: note: struct declared here\npub const Stopwatch = struct {\n                      ^~~~~~\nsplit_second_stopwatch.zig:104:23: error: expected 1 argument, found 2\n    result[0] = '0' + @intCast(u8, hours / 10);\n                      ^~~~~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":29},
+  "testedAt": "2026-09-05T16:15:26Z",
+  "zigVersion": "0.16.0"
+}

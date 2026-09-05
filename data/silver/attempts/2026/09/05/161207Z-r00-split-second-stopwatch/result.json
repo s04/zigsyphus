@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-05-161207Z-r00-split-second-stopwatch",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"split-second-stopwatch","status":"pass"}},
+  "date": "2026-09-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Split-Second Stopwatch","slug":"split-second-stopwatch","tags":[],"uuid":"ffd410bf-09cf-44f4-99db-c8a35c611112"},
+  "resultPath": "data/silver/attempts/2026/09/05/161207Z-r00-split-second-stopwatch/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/05/161207Z-r00-split-second-stopwatch/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":29,"outputExcerpt":"\nsplit_second_stopwatch.zig:22:20: error: expected 1 argument, found 2\n    buf[0] = '0' + @intCast(u8, hours / 10);\n                   ^~~~~~~~~~~~~~~~~~~~~~~~\nsplit_second_stopwatch.zig:34:24: error: @intCast must have a known result type\n    const hours: u64 = @intCast(text[0] - '0') * 10 + @intCast(text[1] - '0');\n                       ^~~~~~~~~~~~~~~~~~~~~~~\nsplit_second_stopwatch.zig:34:24: note: use @as to provide explicit result type\nsplit_second_stopwatch.zig:68:27: error: capture shadows declaration of 'lap'\n        for (items, 0..) |lap, i| {\n                          ^~~\nsplit_second_stopwatch.zig:115:9: note: declared here\n    pub fn lap(self: *Stopwatch) (mem.Allocator.Error || StopwatchError)!void {\n    ~~~~^~\nsplit_second_stopwatch.zig:52:46: error: struct 'array_list.Aligned([8]u8,null)' has no member named 'init'\n            .previous_laps = ArrayList([8]u8).init(allocator),\n                             ~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/a34f6209-7569-4dc1-b88a-5aa6d9e62a7d/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.new stopwatch starts in ready state: test_split_second_stopwatch.zig:10:35\nsplit_second_stopwatch.zig:58:27: error: member function expected 1 argument(s), found 0\n        self.previous_laps.deinit();\n        ~~~~~~~~~~~~~~~~~~^~~~~~~\n/home/runner/work/_temp/a34f6209-7569-4dc1-b88a-5aa6d9e62a7d/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:623:13: note: function declared here\n        pub fn deinit(self: *Self, gpa: Allocator) void {\n        ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nsplit_second_stopwatch.zig:117:31: error: member function expected 2 argument(s), found 1\n        try self.previous_laps.append(formatTime(self.current_lap));\n            ~~~~~~~~~~~~~~~~~~^~~~~~~\n/home/runner/work/_temp/a34f6209-7569-4dc1-b88a-5aa6d9e62a7d/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:903:13: note: function declared here\n        pub fn append(self: *Self, gpa: Allocator, item: T) Allocator.Error!void {\n        ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":29},
+  "testedAt": "2026-09-05T16:13:43Z",
+  "zigVersion": "0.16.0"
+}

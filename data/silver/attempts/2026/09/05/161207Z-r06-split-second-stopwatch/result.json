@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-05-161207Z-r06-split-second-stopwatch",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"split-second-stopwatch","status":"pass"}},
+  "date": "2026-09-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Split-Second Stopwatch","slug":"split-second-stopwatch","tags":[],"uuid":"ffd410bf-09cf-44f4-99db-c8a35c611112"},
+  "resultPath": "data/silver/attempts/2026/09/05/161207Z-r06-split-second-stopwatch/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/05/161207Z-r06-split-second-stopwatch/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":29,"outputExcerpt":"\nsplit_second_stopwatch.zig:104:23: error: expected 1 argument, found 2\n    result[0] = '0' + @intCast(u8, hours / 10);\n                      ^~~~~~~~~~~~~~~~~~~~~~~~\nsplit_second_stopwatch.zig:28:43: error: struct 'array_list.Aligned(u32,null)' has no member named 'init'\n            .lapTimes = std.ArrayList(u32).init(allocator),\n                        ~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/a34f6209-7569-4dc1-b88a-5aa6d9e62a7d/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.new stopwatch starts in ready state: test_split_second_stopwatch.zig:10:35\nsplit_second_stopwatch.zig:42:42: error: struct 'array_list.Aligned([8]u8,null)' has no member named 'init'\n        var result = std.ArrayList([8]u8).init(self.allocator);\n                     ~~~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/a34f6209-7569-4dc1-b88a-5aa6d9e62a7d/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nsplit_second_stopwatch.zig:120:20: error: type 'u8' cannot represent integer value '3600'\n    return hours * 3600 + minutes * 60 + seconds;\n                   ^~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":29},
+  "testedAt": "2026-09-05T16:17:38Z",
+  "zigVersion": "0.16.0"
+}

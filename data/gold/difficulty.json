@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-02-171600Z-r01-knapsack",
-  "currentDifficulty": 5,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 6,
+  "attemptId": "2026-09-05-161207Z-r07-split-second-stopwatch",
+  "currentDifficulty": 6,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T17:18:13Z"
+  "updatedAt": "2026-09-05T16:18:24Z"
 }
