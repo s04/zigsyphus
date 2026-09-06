@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-06-162409Z-r00-meetup",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"meetup","status":"pass"}},
+  "date": "2026-09-06",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Meetup","slug":"meetup","tags":[],"uuid":"a625f21c-b468-478a-b23b-1b3fd02fa2a7"},
+  "resultPath": "data/silver/attempts/2026/09/06/162409Z-r00-meetup/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/06/162409Z-r00-meetup/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":97,"outputExcerpt":"\nmeetup.zig:114:20: error: remainder division with 'i32' and 'comptime_int': signed integers and floats must use @rem or @mod\n    const K: i32 = y % 100;\n                   ^\nreferenced by:\n    meetup: meetup.zig:43:32\n    test.when teenth Monday is the 13th, the first day of the teenth week: test_meetup.zig:11:33\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":97},
+  "testedAt": "2026-09-06T16:24:17Z",
+  "zigVersion": "0.16.0"
+}

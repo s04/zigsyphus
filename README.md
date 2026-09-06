@@ -94,6 +94,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-06 | Meetup (`meetup`) | 5 | `openrouter/free` | pass/compiled | 97/97 | 100 | [162409Z-r01-meetup](data/silver/attempts/2026/09/06/162409Z-r01-meetup/solution.zig) |
+| 2026-09-06 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [162409Z-r00-meetup](data/silver/attempts/2026/09/06/162409Z-r00-meetup/solution.zig) |
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [161207Z-r07-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r07-split-second-stopwatch/solution.zig) |
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r06-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r06-split-second-stopwatch/solution.zig) |
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r05-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r05-split-second-stopwatch/solution.zig) |
@@ -112,7 +114,5 @@ Required GitHub secret:
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r02-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r02-variable-length-quantity/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 10 | [172439Z-r01-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r01-variable-length-quantity/solution.zig) |
 | 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r00-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r00-variable-length-quantity/solution.zig) |
-| 2026-08-30 | Robot Simulator (`robot-simulator`) | 4 | `openrouter/free` | pass/compiled | 18/18 | 100 | [174341Z-r01-robot-simulator](data/silver/attempts/2026/08/30/174341Z-r01-robot-simulator/solution.zig) |
-| 2026-08-30 | Robot Simulator (`robot-simulator`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174341Z-r00-robot-simulator](data/silver/attempts/2026/08/30/174341Z-r00-robot-simulator/solution.zig) |
 
 <!-- zigsyphus-results:end -->
