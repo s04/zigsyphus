@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-07-182108Z-r06-change",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-07T18:21:08Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Change","slug":"change","tags":[],"uuid":"f43cb2e1-de01-4502-bc22-7b7bebbc10ab"},
+  "promptHash": "a4070dd7283425e8",
+  "repairFrom": "data/silver/attempts/2026/09/07/182108Z-r05-change/result.json",
+  "roundIndex": 6,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/07/182108Z-r06-change/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1788805945-9S8mKVeOxLiJIyikAJyj",
+    "routedModel": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "usage": {
+  "prompt_tokens": 3111,
+  "completion_tokens": 2875,
+  "total_tokens": 5986,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 2292,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

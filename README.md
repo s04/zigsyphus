@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [182108Z-r07-change](data/silver/attempts/2026/09/07/182108Z-r07-change/solution.zig) |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r06-change](data/silver/attempts/2026/09/07/182108Z-r06-change/solution.zig) |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r05-change](data/silver/attempts/2026/09/07/182108Z-r05-change/solution.zig) |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r04-change](data/silver/attempts/2026/09/07/182108Z-r04-change/solution.zig) |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r03-change](data/silver/attempts/2026/09/07/182108Z-r03-change/solution.zig) |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r02-change](data/silver/attempts/2026/09/07/182108Z-r02-change/solution.zig) |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r01-change](data/silver/attempts/2026/09/07/182108Z-r01-change/solution.zig) |
+| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [182108Z-r00-change](data/silver/attempts/2026/09/07/182108Z-r00-change/solution.zig) |
 | 2026-09-06 | Meetup (`meetup`) | 5 | `openrouter/free` | pass/compiled | 97/97 | 100 | [162409Z-r01-meetup](data/silver/attempts/2026/09/06/162409Z-r01-meetup/solution.zig) |
 | 2026-09-06 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [162409Z-r00-meetup](data/silver/attempts/2026/09/06/162409Z-r00-meetup/solution.zig) |
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [161207Z-r07-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r07-split-second-stopwatch/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r00-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r00-split-second-stopwatch/solution.zig) |
 | 2026-09-02 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [171600Z-r01-knapsack](data/silver/attempts/2026/09/02/171600Z-r01-knapsack/solution.zig) |
 | 2026-09-02 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [171600Z-r00-knapsack](data/silver/attempts/2026/09/02/171600Z-r00-knapsack/solution.zig) |
-| 2026-09-02 | Run-Length Encoding (`run-length-encoding`) | 4 | `openrouter/free` | pass/compiled | 13/13 | 100 | [002319Z-r01-run-length-encoding](data/silver/attempts/2026/09/02/002319Z-r01-run-length-encoding/solution.zig) |
-| 2026-09-02 | Run-Length Encoding (`run-length-encoding`) | 4 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [002319Z-r00-run-length-encoding](data/silver/attempts/2026/09/02/002319Z-r00-run-length-encoding/solution.zig) |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r05-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r05-variable-length-quantity/solution.zig) |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r04-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r04-variable-length-quantity/solution.zig) |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | fail/compiled | 25/31 | 88 | [172439Z-r03-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r03-variable-length-quantity/solution.zig) |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r02-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r02-variable-length-quantity/solution.zig) |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 10 | [172439Z-r01-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r01-variable-length-quantity/solution.zig) |
-| 2026-09-01 | Variable Length Quantity (`variable-length-quantity`) | 5 | `openrouter/free` | compile_error/compile_error | 0/31 | 0 | [172439Z-r00-variable-length-quantity](data/silver/attempts/2026/09/01/172439Z-r00-variable-length-quantity/solution.zig) |
 
 <!-- zigsyphus-results:end -->
