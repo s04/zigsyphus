@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-08-172254Z-r00-ocr-numbers",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"ocr-numbers","status":"pass"}},
+  "date": "2026-09-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"OCR Numbers","slug":"ocr-numbers","tags":[],"uuid":"8500f97b-c8b4-4845-a72c-99859d882ff1"},
+  "resultPath": "data/silver/attempts/2026/09/08/172254Z-r00-ocr-numbers/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/08/172254Z-r00-ocr-numbers/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\ntest_ocr_numbers.zig:5:28: error: root source file struct 'ocr_numbers' has no member named 'convert'\nconst convert = ocr_numbers.convert;\n                ~~~~~~~~~~~^~~~~~~~\nocr_numbers.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.Recognizes 0: test_ocr_numbers.zig:18:45\ntest_ocr_numbers.zig:6:37: error: root source file struct 'ocr_numbers' has no member named 'RecognitionError'\nconst RecognitionError = ocr_numbers.RecognitionError;\n                         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~\nocr_numbers.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-09-08T17:23:52Z",
+  "zigVersion": "0.16.0"
+}

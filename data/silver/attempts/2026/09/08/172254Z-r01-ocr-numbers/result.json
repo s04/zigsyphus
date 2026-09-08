@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-08-172254Z-r01-ocr-numbers",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"ocr-numbers","status":"pass"}},
+  "date": "2026-09-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"OCR Numbers","slug":"ocr-numbers","tags":[],"uuid":"8500f97b-c8b4-4845-a72c-99859d882ff1"},
+  "resultPath": "data/silver/attempts/2026/09/08/172254Z-r01-ocr-numbers/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/08/172254Z-r01-ocr-numbers/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\nocr_numbers.zig:61:36: error: ambiguous use of '&&'; use 'and' for logical AND, or change whitespace to ' & &' for bitwise AND\n    if (std.mem.eql(u8, c0, \" _ \") && std.mem.eql(u8, c1, \"| |\") && std.mem.eql(u8, c2, \"|_|\") && std.mem.eql(u8, c3, \"   \")) {\n                                   ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-09-08T17:25:32Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-08-172254Z-r02-ocr-numbers",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"ocr-numbers","status":"pass"}},
+  "date": "2026-09-08",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"OCR Numbers","slug":"ocr-numbers","tags":[],"uuid":"8500f97b-c8b4-4845-a72c-99859d882ff1"},
+  "resultPath": "data/silver/attempts/2026/09/08/172254Z-r02-ocr-numbers/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/09/08/172254Z-r02-ocr-numbers/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/17 test_ocr_numbers.test.Recognizes 0...OK\n2/17 test_ocr_numbers.test.Recognizes 1...OK\n3/17 test_ocr_numbers.test.Unreadable but correctly sized inputs return ?...OK\n4/17 test_ocr_numbers.test.Input with a number of lines that is not a multiple of four raises an error...OK\n5/17 test_ocr_numbers.test.Input with a number of columns that is not a multiple of three raises an error...OK\n6/17 test_ocr_numbers.test.Recognizes 110101100...OK\n7/17 test_ocr_numbers.test.Garbled numbers in a string are replaced with ?...OK\n8/17 test_ocr_numbers.test.Recognizes 2...OK\n9/17 test_ocr_numbers.test.Recognizes 3...OK\n10/17 test_ocr_numbers.test.Recognizes 4...OK\n11/17 test_ocr_numbers.test.Recognizes 5...OK\n12/17 test_ocr_numbers.test.Recognizes 6...OK\n13/17 test_ocr_numbers.test.Recognizes 7...OK\n14/17 test_ocr_numbers.test.Recognizes 8...OK\n15/17 test_ocr_numbers.test.Recognizes 9...OK\n16/17 test_ocr_numbers.test.Recognizes string of decimal numbers...OK\n17/17 test_ocr_numbers.test.Numbers separated by empty lines are recognized. Lines are joined by commas....OK\nAll 17 tests passed.\n","passed":17,"returnCode":0,"skipped":0,"status":"pass","total":17},
+  "testedAt": "2026-09-08T17:25:36Z",
+  "zigVersion": "0.16.0"
+}

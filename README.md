@@ -94,6 +94,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | pass/compiled | 17/17 | 100 | [172254Z-r02-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r02-ocr-numbers/solution.zig) |
+| 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [172254Z-r01-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r01-ocr-numbers/solution.zig) |
+| 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172254Z-r00-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r00-ocr-numbers/solution.zig) |
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [182108Z-r07-change](data/silver/attempts/2026/09/07/182108Z-r07-change/solution.zig) |
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r06-change](data/silver/attempts/2026/09/07/182108Z-r06-change/solution.zig) |
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r05-change](data/silver/attempts/2026/09/07/182108Z-r05-change/solution.zig) |
@@ -111,8 +114,5 @@ Required GitHub secret:
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r03-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r03-split-second-stopwatch/solution.zig) |
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r02-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r02-split-second-stopwatch/solution.zig) |
 | 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [161207Z-r01-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r01-split-second-stopwatch/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r00-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r00-split-second-stopwatch/solution.zig) |
-| 2026-09-02 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [171600Z-r01-knapsack](data/silver/attempts/2026/09/02/171600Z-r01-knapsack/solution.zig) |
-| 2026-09-02 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [171600Z-r00-knapsack](data/silver/attempts/2026/09/02/171600Z-r00-knapsack/solution.zig) |
 
 <!-- zigsyphus-results:end -->

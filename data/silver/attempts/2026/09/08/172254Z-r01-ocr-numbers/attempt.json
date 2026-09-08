@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-08-172254Z-r01-ocr-numbers",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-08T17:22:54Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"OCR Numbers","slug":"ocr-numbers","tags":[],"uuid":"8500f97b-c8b4-4845-a72c-99859d882ff1"},
+  "promptHash": "fe36831660cb0485",
+  "repairFrom": "data/silver/attempts/2026/09/08/172254Z-r00-ocr-numbers/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/08/172254Z-r01-ocr-numbers/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1788888232-wJPtEqFNpTEG8a9ntRq2",
+    "routedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+    "usage": {
+  "prompt_tokens": 3168,
+  "completion_tokens": 6047,
+  "total_tokens": 9215,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 4233,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
