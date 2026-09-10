@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r07-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r07-piecing-it-together/solution.zig) |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r06-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/solution.zig) |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r05-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r05-piecing-it-together/solution.zig) |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r04-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r04-piecing-it-together/solution.zig) |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r03-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r03-piecing-it-together/solution.zig) |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [170704Z-r02-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r02-piecing-it-together/solution.zig) |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r01-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r01-piecing-it-together/solution.zig) |
+| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r00-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r00-piecing-it-together/solution.zig) |
 | 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | pass/compiled | 17/17 | 100 | [172254Z-r02-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r02-ocr-numbers/solution.zig) |
 | 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [172254Z-r01-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r01-ocr-numbers/solution.zig) |
 | 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172254Z-r00-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r00-ocr-numbers/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r01-change](data/silver/attempts/2026/09/07/182108Z-r01-change/solution.zig) |
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [182108Z-r00-change](data/silver/attempts/2026/09/07/182108Z-r00-change/solution.zig) |
 | 2026-09-06 | Meetup (`meetup`) | 5 | `openrouter/free` | pass/compiled | 97/97 | 100 | [162409Z-r01-meetup](data/silver/attempts/2026/09/06/162409Z-r01-meetup/solution.zig) |
-| 2026-09-06 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [162409Z-r00-meetup](data/silver/attempts/2026/09/06/162409Z-r00-meetup/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [161207Z-r07-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r07-split-second-stopwatch/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r06-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r06-split-second-stopwatch/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r05-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r05-split-second-stopwatch/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r04-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r04-split-second-stopwatch/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r03-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r03-split-second-stopwatch/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [161207Z-r02-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r02-split-second-stopwatch/solution.zig) |
-| 2026-09-05 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [161207Z-r01-split-second-stopwatch](data/silver/attempts/2026/09/05/161207Z-r01-split-second-stopwatch/solution.zig) |
 
 <!-- zigsyphus-results:end -->

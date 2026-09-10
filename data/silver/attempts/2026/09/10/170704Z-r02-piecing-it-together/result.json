@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-10-170704Z-r02-piecing-it-together",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"piecing-it-together","status":"pass"}},
+  "date": "2026-09-10",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Piecing It Together","slug":"piecing-it-together","tags":[],"uuid":"6e8760d1-f231-42b8-a6ad-ac9cd36528d9"},
+  "resultPath": "data/silver/attempts/2026/09/10/170704Z-r02-piecing-it-together/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/10/170704Z-r02-piecing-it-together/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\npiecing_it_together.zig:1:5: error: expected ',' after field\nHere...... ... ...  ... ... Iinanders...... ... .. ........\n    ^~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-09-10T17:09:29Z",
+  "zigVersion": "0.16.0"
+}

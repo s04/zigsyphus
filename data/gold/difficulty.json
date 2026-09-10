@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-08-172254Z-r02-ocr-numbers",
-  "currentDifficulty": 5,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 6,
+  "attemptId": "2026-09-10-170704Z-r07-piecing-it-together",
+  "currentDifficulty": 6,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T17:25:36Z"
+  "updatedAt": "2026-09-10T17:19:44Z"
 }

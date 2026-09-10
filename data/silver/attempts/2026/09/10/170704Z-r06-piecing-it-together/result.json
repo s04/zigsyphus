@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-10-170704Z-r06-piecing-it-together",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"piecing-it-together","status":"pass"}},
+  "date": "2026-09-10",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Piecing It Together","slug":"piecing-it-together","tags":[],"uuid":"6e8760d1-f231-42b8-a6ad-ac9cd36528d9"},
+  "resultPath": "data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\ntest_piecing_it_together.zig:8:47: error: root source file struct 'piecing_it_together' has no member named 'PartialInformation'\nconst PartialInformation = piecing_it_together.PartialInformation;\n                           ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\npiecing_it_together.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.1000 pieces puzzle with 1.6 aspect ratio: test_piecing_it_together.zig:12:20\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-09-10T17:17:46Z",
+  "zigVersion": "0.16.0"
+}

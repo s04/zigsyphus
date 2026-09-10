@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-10-170704Z-r07-piecing-it-together",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-10T17:07:04Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Piecing It Together","slug":"piecing-it-together","tags":[],"uuid":"6e8760d1-f231-42b8-a6ad-ac9cd36528d9"},
+  "promptHash": "1df0c496361575d0",
+  "repairFrom": "data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/result.json",
+  "roundIndex": 7,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/10/170704Z-r07-piecing-it-together/solution.zig",
+  "writer": {
+    "extracted": false,
+    "responseId": "gen-1789060666-FBvwKK9tco6jmKalP7mC",
+    "routedModel": "dots-studio/dots-3-note-preview:free",
+    "usage": {
+  "prompt_tokens": 2818,
+  "completion_tokens": 12000,
+  "total_tokens": 14818,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 10705,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
