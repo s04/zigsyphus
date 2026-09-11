@@ -94,6 +94,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-11 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [170716Z-r00-series](data/silver/attempts/2026/09/11/170716Z-r00-series/solution.zig) |
 | 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r07-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r07-piecing-it-together/solution.zig) |
 | 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r06-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/solution.zig) |
 | 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r05-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r05-piecing-it-together/solution.zig) |
@@ -113,6 +114,5 @@ Required GitHub secret:
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r02-change](data/silver/attempts/2026/09/07/182108Z-r02-change/solution.zig) |
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r01-change](data/silver/attempts/2026/09/07/182108Z-r01-change/solution.zig) |
 | 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [182108Z-r00-change](data/silver/attempts/2026/09/07/182108Z-r00-change/solution.zig) |
-| 2026-09-06 | Meetup (`meetup`) | 5 | `openrouter/free` | pass/compiled | 97/97 | 100 | [162409Z-r01-meetup](data/silver/attempts/2026/09/06/162409Z-r01-meetup/solution.zig) |
 
 <!-- zigsyphus-results:end -->
