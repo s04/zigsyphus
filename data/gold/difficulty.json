@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-12-162706Z-r00-flower-field",
-  "currentDifficulty": 6,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 7,
+  "attemptId": "2026-09-13-170204Z-r07-book-store",
+  "currentDifficulty": 7,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 6,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-12T16:30:42Z"
+  "updatedAt": "2026-09-13T17:11:38Z"
 }

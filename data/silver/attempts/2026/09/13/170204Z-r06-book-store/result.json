@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-13-170204Z-r06-book-store",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"book-store","status":"pass"}},
+  "date": "2026-09-13",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Book Store","slug":"book-store","tags":[],"uuid":"cc192edb-a5d5-4f0d-a585-324641235cd5"},
+  "resultPath": "data/silver/attempts/2026/09/13/170204Z-r06-book-store/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/13/170204Z-r06-book-store/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\nbook_store.zig:16:22: error: extra capture in for loop\n    for (sorted) |c, i| {\n                     ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-09-13T17:09:22Z",
+  "zigVersion": "0.16.0"
+}

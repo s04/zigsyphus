@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r07-book-store](data/silver/attempts/2026/09/13/170204Z-r07-book-store/solution.zig) |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r06-book-store](data/silver/attempts/2026/09/13/170204Z-r06-book-store/solution.zig) |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [170204Z-r05-book-store](data/silver/attempts/2026/09/13/170204Z-r05-book-store/solution.zig) |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [170204Z-r04-book-store](data/silver/attempts/2026/09/13/170204Z-r04-book-store/solution.zig) |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r03-book-store](data/silver/attempts/2026/09/13/170204Z-r03-book-store/solution.zig) |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r02-book-store](data/silver/attempts/2026/09/13/170204Z-r02-book-store/solution.zig) |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r01-book-store](data/silver/attempts/2026/09/13/170204Z-r01-book-store/solution.zig) |
+| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [170204Z-r00-book-store](data/silver/attempts/2026/09/13/170204Z-r00-book-store/solution.zig) |
 | 2026-09-12 | Flower Field (`flower-field`) | 6 | `openrouter/free` | pass/compiled | 13/13 | 100 | [162706Z-r00-flower-field](data/silver/attempts/2026/09/12/162706Z-r00-flower-field/solution.zig) |
 | 2026-09-11 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [170716Z-r00-series](data/silver/attempts/2026/09/11/170716Z-r00-series/solution.zig) |
 | 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r07-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r07-piecing-it-together/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r00-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r00-piecing-it-together/solution.zig) |
 | 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | pass/compiled | 17/17 | 100 | [172254Z-r02-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r02-ocr-numbers/solution.zig) |
 | 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [172254Z-r01-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r01-ocr-numbers/solution.zig) |
-| 2026-09-08 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [172254Z-r00-ocr-numbers](data/silver/attempts/2026/09/08/172254Z-r00-ocr-numbers/solution.zig) |
-| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [182108Z-r07-change](data/silver/attempts/2026/09/07/182108Z-r07-change/solution.zig) |
-| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r06-change](data/silver/attempts/2026/09/07/182108Z-r06-change/solution.zig) |
-| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r05-change](data/silver/attempts/2026/09/07/182108Z-r05-change/solution.zig) |
-| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r04-change](data/silver/attempts/2026/09/07/182108Z-r04-change/solution.zig) |
-| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r03-change](data/silver/attempts/2026/09/07/182108Z-r03-change/solution.zig) |
-| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r02-change](data/silver/attempts/2026/09/07/182108Z-r02-change/solution.zig) |
-| 2026-09-07 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [182108Z-r01-change](data/silver/attempts/2026/09/07/182108Z-r01-change/solution.zig) |
 
 <!-- zigsyphus-results:end -->
