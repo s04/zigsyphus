@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-13-170204Z-r07-book-store",
-  "currentDifficulty": 7,
+  "attemptId": "2026-09-14-184945Z-r07-rail-fence-cipher",
+  "currentDifficulty": 6,
   "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 6,
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T17:11:38Z"
+  "updatedAt": "2026-09-14T19:05:18Z"
 }

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-14-184945Z-r03-rail-fence-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rail-fence-cipher","status":"pass"}},
+  "date": "2026-09-14",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Rail Fence Cipher","slug":"rail-fence-cipher","tags":[],"uuid":"db06d047-2ae9-4c12-a709-1d0c38e2698e"},
+  "resultPath": "data/silver/attempts/2026/09/14/184945Z-r03-rail-fence-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/14/184945Z-r03-rail-fence-cipher/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":6,"outputExcerpt":"\nrail_fence_cipher.zig:7:12: error: root source file struct 'mem' has no member named 'set'\n        mem.set(u32, indices, 0);\n        ~~~^~~~\n/home/runner/work/_temp/519bc48e-05ab-468a-9390-a6d98a92652e/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nreferenced by:\n    encode: rail_fence_cipher.zig:31:39\n    test.encode with two rails: test_rail_fence_cipher.zig:23:13\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":6},
+  "testedAt": "2026-09-14T19:00:20Z",
+  "zigVersion": "0.16.0"
+}

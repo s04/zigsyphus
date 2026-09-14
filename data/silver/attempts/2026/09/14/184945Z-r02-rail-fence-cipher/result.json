@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-14-184945Z-r02-rail-fence-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rail-fence-cipher","status":"pass"}},
+  "date": "2026-09-14",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Rail Fence Cipher","slug":"rail-fence-cipher","tags":[],"uuid":"db06d047-2ae9-4c12-a709-1d0c38e2698e"},
+  "resultPath": "data/silver/attempts/2026/09/14/184945Z-r02-rail-fence-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/14/184945Z-r02-rail-fence-cipher/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":6,"outputExcerpt":"\ntest_rail_fence_cipher.zig:6:33: error: root source file struct 'rail_fence_cipher' has no member named 'encode'\nconst encode = rail_fence_cipher.encode;\n               ~~~~~~~~~~~~~~~~~^~~~~~~\nrail_fence_cipher.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.encode with two rails: test_rail_fence_cipher.zig:23:13\ntest_rail_fence_cipher.zig:7:33: error: root source file struct 'rail_fence_cipher' has no member named 'decode'\nconst decode = rail_fence_cipher.decode;\n               ~~~~~~~~~~~~~~~~~^~~~~~~\nrail_fence_cipher.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":6},
+  "testedAt": "2026-09-14T18:59:45Z",
+  "zigVersion": "0.16.0"
+}
