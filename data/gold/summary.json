@@ -1,20 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-09-14-184945Z-r07-rail-fence-cipher",
-    "currentDifficulty": 6,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 5,
+    "attemptId": "2026-09-15-174430Z-r02-food-chain",
+    "currentDifficulty": 5,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 6,
     "schemaVersion": 1,
-    "updatedAt": "2026-09-14T19:05:18Z"
+    "updatedAt": "2026-09-15T17:48:49Z"
   },
-  "generatedAt": "2026-09-14T19:05:18Z",
-  "latest": {"attemptId":"2026-09-14-184945Z-r07-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/result.json","runAt":"2026-09-14T19:05:18Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
-  "nextDifficulty": 5,
+  "generatedAt": "2026-09-15T17:48:49Z",
+  "latest": {"attemptId":"2026-09-15-174430Z-r02-food-chain","compileStatus":"compiled","date":"2026-09-15","difficulty":"5","mode":"live","model":"openrouter/free","name":"Food Chain","passed":"10","resultPath":"data/silver/attempts/2026/09/15/174430Z-r02-food-chain/result.json","runAt":"2026-09-15T17:48:49Z","score":"100","slug":"food-chain","solutionPath":"data/silver/attempts/2026/09/15/174430Z-r02-food-chain/solution.zig","status":"pass","total":"10","zigVersion":"0.16.0"},
+  "nextDifficulty": 6,
   "recentRuns": [
-    {"attemptId":"2026-09-10-170704Z-r06-piecing-it-together","compileStatus":"compile_error","date":"2026-09-10","difficulty":"6","mode":"live","model":"openrouter/free","name":"Piecing It Together","passed":"0","resultPath":"data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/result.json","runAt":"2026-09-10T17:17:46Z","score":"0","slug":"piecing-it-together","solutionPath":"data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-10-170704Z-r07-piecing-it-together","compileStatus":"compile_error","date":"2026-09-10","difficulty":"6","mode":"live","model":"openrouter/free","name":"Piecing It Together","passed":"0","resultPath":"data/silver/attempts/2026/09/10/170704Z-r07-piecing-it-together/result.json","runAt":"2026-09-10T17:19:44Z","score":"0","slug":"piecing-it-together","solutionPath":"data/silver/attempts/2026/09/10/170704Z-r07-piecing-it-together/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-11-170716Z-r00-series","compileStatus":"compiled","date":"2026-09-11","difficulty":"5","mode":"live","model":"openrouter/free","name":"Series","passed":"8","resultPath":"data/silver/attempts/2026/09/11/170716Z-r00-series/result.json","runAt":"2026-09-11T17:07:29Z","score":"100","slug":"series","solutionPath":"data/silver/attempts/2026/09/11/170716Z-r00-series/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-12-162706Z-r00-flower-field","compileStatus":"compiled","date":"2026-09-12","difficulty":"6","mode":"live","model":"openrouter/free","name":"Flower Field","passed":"13","resultPath":"data/silver/attempts/2026/09/12/162706Z-r00-flower-field/result.json","runAt":"2026-09-12T16:30:42Z","score":"100","slug":"flower-field","solutionPath":"data/silver/attempts/2026/09/12/162706Z-r00-flower-field/solution.zig","status":"pass","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-13-170204Z-r00-book-store","compileStatus":"compile_error","date":"2026-09-13","difficulty":"7","mode":"live","model":"openrouter/free","name":"Book Store","passed":"0","resultPath":"data/silver/attempts/2026/09/13/170204Z-r00-book-store/result.json","runAt":"2026-09-13T17:03:50Z","score":"0","slug":"book-store","solutionPath":"data/silver/attempts/2026/09/13/170204Z-r00-book-store/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-13-170204Z-r01-book-store","compileStatus":"compile_error","date":"2026-09-13","difficulty":"7","mode":"live","model":"openrouter/free","name":"Book Store","passed":"0","resultPath":"data/silver/attempts/2026/09/13/170204Z-r01-book-store/result.json","runAt":"2026-09-13T17:04:44Z","score":"10","slug":"book-store","solutionPath":"data/silver/attempts/2026/09/13/170204Z-r01-book-store/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
@@ -31,14 +28,14 @@
     {"attemptId":"2026-09-14-184945Z-r04-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r04-rail-fence-cipher/result.json","runAt":"2026-09-14T19:02:59Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r04-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-14-184945Z-r05-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r05-rail-fence-cipher/result.json","runAt":"2026-09-14T19:03:45Z","score":"0","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r05-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-14-184945Z-r06-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r06-rail-fence-cipher/result.json","runAt":"2026-09-14T19:04:06Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r06-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-14-184945Z-r07-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/result.json","runAt":"2026-09-14T19:05:18Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"}
+    {"attemptId":"2026-09-14-184945Z-r07-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/result.json","runAt":"2026-09-14T19:05:18Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-15-174430Z-r00-food-chain","compileStatus":"compile_error","date":"2026-09-15","difficulty":"5","mode":"live","model":"openrouter/free","name":"Food Chain","passed":"0","resultPath":"data/silver/attempts/2026/09/15/174430Z-r00-food-chain/result.json","runAt":"2026-09-15T17:47:17Z","score":"0","slug":"food-chain","solutionPath":"data/silver/attempts/2026/09/15/174430Z-r00-food-chain/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-15-174430Z-r01-food-chain","compileStatus":"compiled","date":"2026-09-15","difficulty":"5","mode":"live","model":"openrouter/free","name":"Food Chain","passed":"7","resultPath":"data/silver/attempts/2026/09/15/174430Z-r01-food-chain/result.json","runAt":"2026-09-15T17:48:41Z","score":"82","slug":"food-chain","solutionPath":"data/silver/attempts/2026/09/15/174430Z-r01-food-chain/solution.zig","status":"fail","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-15-174430Z-r02-food-chain","compileStatus":"compiled","date":"2026-09-15","difficulty":"5","mode":"live","model":"openrouter/free","name":"Food Chain","passed":"10","resultPath":"data/silver/attempts/2026/09/15/174430Z-r02-food-chain/result.json","runAt":"2026-09-15T17:48:49Z","score":"100","slug":"food-chain","solutionPath":"data/silver/attempts/2026/09/15/174430Z-r02-food-chain/solution.zig","status":"pass","total":"10","zigVersion":"0.16.0"}
   ],
-  "runCount": 286,
+  "runCount": 289,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-08-29-172023Z-r05-affine-cipher", "date": "2026-08-29", "score": 0, "slug": "affine-cipher"},
-    {"attemptId": "2026-08-30-174341Z-r00-robot-simulator", "date": "2026-08-30", "score": 10, "slug": "robot-simulator"},
-    {"attemptId": "2026-08-30-174341Z-r01-robot-simulator", "date": "2026-08-30", "score": 100, "slug": "robot-simulator"},
     {"attemptId": "2026-09-01-172439Z-r00-variable-length-quantity", "date": "2026-09-01", "score": 0, "slug": "variable-length-quantity"},
     {"attemptId": "2026-09-01-172439Z-r01-variable-length-quantity", "date": "2026-09-01", "score": 10, "slug": "variable-length-quantity"},
     {"attemptId": "2026-09-01-172439Z-r02-variable-length-quantity", "date": "2026-09-01", "score": 0, "slug": "variable-length-quantity"},
@@ -95,6 +92,9 @@
     {"attemptId": "2026-09-14-184945Z-r04-rail-fence-cipher", "date": "2026-09-14", "score": 10, "slug": "rail-fence-cipher"},
     {"attemptId": "2026-09-14-184945Z-r05-rail-fence-cipher", "date": "2026-09-14", "score": 0, "slug": "rail-fence-cipher"},
     {"attemptId": "2026-09-14-184945Z-r06-rail-fence-cipher", "date": "2026-09-14", "score": 10, "slug": "rail-fence-cipher"},
-    {"attemptId": "2026-09-14-184945Z-r07-rail-fence-cipher", "date": "2026-09-14", "score": 10, "slug": "rail-fence-cipher"}
+    {"attemptId": "2026-09-14-184945Z-r07-rail-fence-cipher", "date": "2026-09-14", "score": 10, "slug": "rail-fence-cipher"},
+    {"attemptId": "2026-09-15-174430Z-r00-food-chain", "date": "2026-09-15", "score": 0, "slug": "food-chain"},
+    {"attemptId": "2026-09-15-174430Z-r01-food-chain", "date": "2026-09-15", "score": 82, "slug": "food-chain"},
+    {"attemptId": "2026-09-15-174430Z-r02-food-chain", "date": "2026-09-15", "score": 100, "slug": "food-chain"}
   ]
 }

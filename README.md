@@ -94,6 +94,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-15 | Food Chain (`food-chain`) | 5 | `openrouter/free` | pass/compiled | 10/10 | 100 | [174430Z-r02-food-chain](data/silver/attempts/2026/09/15/174430Z-r02-food-chain/solution.zig) |
+| 2026-09-15 | Food Chain (`food-chain`) | 5 | `openrouter/free` | fail/compiled | 7/10 | 82 | [174430Z-r01-food-chain](data/silver/attempts/2026/09/15/174430Z-r01-food-chain/solution.zig) |
+| 2026-09-15 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [174430Z-r00-food-chain](data/silver/attempts/2026/09/15/174430Z-r00-food-chain/solution.zig) |
 | 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [184945Z-r07-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/solution.zig) |
 | 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [184945Z-r06-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r06-rail-fence-cipher/solution.zig) |
 | 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [184945Z-r05-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r05-rail-fence-cipher/solution.zig) |
@@ -111,8 +114,5 @@ Required GitHub secret:
 | 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r01-book-store](data/silver/attempts/2026/09/13/170204Z-r01-book-store/solution.zig) |
 | 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [170204Z-r00-book-store](data/silver/attempts/2026/09/13/170204Z-r00-book-store/solution.zig) |
 | 2026-09-12 | Flower Field (`flower-field`) | 6 | `openrouter/free` | pass/compiled | 13/13 | 100 | [162706Z-r00-flower-field](data/silver/attempts/2026/09/12/162706Z-r00-flower-field/solution.zig) |
-| 2026-09-11 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [170716Z-r00-series](data/silver/attempts/2026/09/11/170716Z-r00-series/solution.zig) |
-| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r07-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r07-piecing-it-together/solution.zig) |
-| 2026-09-10 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [170704Z-r06-piecing-it-together](data/silver/attempts/2026/09/10/170704Z-r06-piecing-it-together/solution.zig) |
 
 <!-- zigsyphus-results:end -->
