@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-15-174430Z-r02-food-chain",
-  "currentDifficulty": 5,
+  "attemptId": "2026-09-16-174222Z-r02-circular-buffer",
+  "currentDifficulty": 6,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 6,
+  "nextDifficulty": 7,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T17:48:49Z"
+  "updatedAt": "2026-09-16T17:46:09Z"
 }

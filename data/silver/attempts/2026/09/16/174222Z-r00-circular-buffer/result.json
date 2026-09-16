@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-16-174222Z-r00-circular-buffer",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"circular-buffer","status":"pass"}},
+  "date": "2026-09-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Circular Buffer","slug":"circular-buffer","tags":[],"uuid":"29e1dff8-b3bc-4b8a-b50b-bd05f9a9a42f"},
+  "resultPath": "data/silver/attempts/2026/09/16/174222Z-r00-circular-buffer/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/16/174222Z-r00-circular-buffer/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\ncircular_buffer.zig:10:21: error: expected ',' after field\n        count: usize;\n                    ^\ncircular_buffer.zig:10:9: note: use 'var' or 'const' to declare variable\n        count: usize;\n        ^~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-09-16T17:45:42Z",
+  "zigVersion": "0.16.0"
+}

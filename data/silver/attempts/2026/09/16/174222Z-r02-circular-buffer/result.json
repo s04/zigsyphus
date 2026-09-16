@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-16-174222Z-r02-circular-buffer",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"circular-buffer","status":"pass"}},
+  "date": "2026-09-16",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Circular Buffer","slug":"circular-buffer","tags":[],"uuid":"29e1dff8-b3bc-4b8a-b50b-bd05f9a9a42f"},
+  "resultPath": "data/silver/attempts/2026/09/16/174222Z-r02-circular-buffer/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/09/16/174222Z-r02-circular-buffer/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/14 test_circular_buffer.test.reading empty buffer should fail...OK\n2/14 test_circular_buffer.test.can read an item just written...OK\n3/14 test_circular_buffer.test.each item may only be read once...OK\n4/14 test_circular_buffer.test.items are read in the order they are written...OK\n5/14 test_circular_buffer.test.full buffer can't be written to...OK\n6/14 test_circular_buffer.test.a read frees up capacity for another write...OK\n7/14 test_circular_buffer.test.read position is maintained even across multiple writes...OK\n8/14 test_circular_buffer.test.items cleared out of buffer can't be read...OK\n9/14 test_circular_buffer.test.clear frees up capacity for another write...OK\n10/14 test_circular_buffer.test.clear does nothing on empty buffer...OK\n11/14 test_circular_buffer.test.overwrite acts like write on non-full buffer...OK\n12/14 test_circular_buffer.test.overwrite replaces the oldest item on full buffer...OK\n13/14 test_circular_buffer.test.overwrite replaces the oldest item remaining in buffer following a read...OK\n14/14 test_circular_buffer.test.initial clear does not affect wrapping around...OK\nAll 14 tests passed.\n","passed":14,"returnCode":0,"skipped":0,"status":"pass","total":14},
+  "testedAt": "2026-09-16T17:46:09Z",
+  "zigVersion": "0.16.0"
+}
