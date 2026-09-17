@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-17-174249Z-r02-dominoes",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"dominoes","status":"pass"}},
+  "date": "2026-09-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Dominoes","slug":"dominoes","tags":[],"uuid":"a4449d1c-bbb1-4a38-9d30-9d5a2492ec25"},
+  "resultPath": "data/silver/attempts/2026/09/17/174249Z-r02-dominoes/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/17/174249Z-r02-dominoes/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\ndominoes.zig:45:22: error: expected 1 argument, found 2\n    try stack.append(@intCast(u32, s));\n                     ^~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-09-17T17:47:54Z",
+  "zigVersion": "0.16.0"
+}

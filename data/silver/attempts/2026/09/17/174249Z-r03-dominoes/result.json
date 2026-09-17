@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-17-174249Z-r03-dominoes",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"dominoes","status":"pass"}},
+  "date": "2026-09-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Dominoes","slug":"dominoes","tags":[],"uuid":"a4449d1c-bbb1-4a38-9d30-9d5a2492ec25"},
+  "resultPath": "data/silver/attempts/2026/09/17/174249Z-r03-dominoes/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/09/17/174249Z-r03-dominoes/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/13 test_dominoes.test.empty input = empty output...OK\n2/13 test_dominoes.test.singleton input = singleton output...OK\n3/13 test_dominoes.test.singleton that can't be chained...OK\n4/13 test_dominoes.test.three elements...OK\n5/13 test_dominoes.test.can reverse dominoes...OK\n6/13 test_dominoes.test.can't be chained...OK\n7/13 test_dominoes.test.disconnected - simple...OK\n8/13 test_dominoes.test.disconnected - double loop...OK\n9/13 test_dominoes.test.disconnected - single isolated...OK\n10/13 test_dominoes.test.need backtrack...OK\n11/13 test_dominoes.test.separate loops...OK\n12/13 test_dominoes.test.nine elements...OK\n13/13 test_dominoes.test.separate three-domino loops...OK\nAll 13 tests passed.\n","passed":13,"returnCode":0,"skipped":0,"status":"pass","total":13},
+  "testedAt": "2026-09-17T17:49:47Z",
+  "zigVersion": "0.16.0"
+}

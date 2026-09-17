@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-16-174222Z-r02-circular-buffer",
-  "currentDifficulty": 6,
+  "attemptId": "2026-09-17-174249Z-r03-dominoes",
+  "currentDifficulty": 7,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 7,
+  "nextDifficulty": 8,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T17:46:09Z"
+  "updatedAt": "2026-09-17T17:49:47Z"
 }

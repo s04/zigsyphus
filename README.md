@@ -94,6 +94,10 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | pass/compiled | 13/13 | 100 | [174249Z-r03-dominoes](data/silver/attempts/2026/09/17/174249Z-r03-dominoes/solution.zig) |
+| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r02-dominoes](data/silver/attempts/2026/09/17/174249Z-r02-dominoes/solution.zig) |
+| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r01-dominoes](data/silver/attempts/2026/09/17/174249Z-r01-dominoes/solution.zig) |
+| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r00-dominoes](data/silver/attempts/2026/09/17/174249Z-r00-dominoes/solution.zig) |
 | 2026-09-16 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | pass/compiled | 14/14 | 100 | [174222Z-r02-circular-buffer](data/silver/attempts/2026/09/16/174222Z-r02-circular-buffer/solution.zig) |
 | 2026-09-16 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [174222Z-r01-circular-buffer](data/silver/attempts/2026/09/16/174222Z-r01-circular-buffer/solution.zig) |
 | 2026-09-16 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [174222Z-r00-circular-buffer](data/silver/attempts/2026/09/16/174222Z-r00-circular-buffer/solution.zig) |
@@ -110,9 +114,5 @@ Required GitHub secret:
 | 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [184945Z-r00-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r00-rail-fence-cipher/solution.zig) |
 | 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r07-book-store](data/silver/attempts/2026/09/13/170204Z-r07-book-store/solution.zig) |
 | 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r06-book-store](data/silver/attempts/2026/09/13/170204Z-r06-book-store/solution.zig) |
-| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [170204Z-r05-book-store](data/silver/attempts/2026/09/13/170204Z-r05-book-store/solution.zig) |
-| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [170204Z-r04-book-store](data/silver/attempts/2026/09/13/170204Z-r04-book-store/solution.zig) |
-| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r03-book-store](data/silver/attempts/2026/09/13/170204Z-r03-book-store/solution.zig) |
-| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r02-book-store](data/silver/attempts/2026/09/13/170204Z-r02-book-store/solution.zig) |
 
 <!-- zigsyphus-results:end -->
