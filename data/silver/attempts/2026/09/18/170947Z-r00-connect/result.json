@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-18-170947Z-r00-connect",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"connect","status":"pass"}},
+  "date": "2026-09-18",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Connect","slug":"connect","tags":[],"uuid":"a6f839d1-2702-4bb9-87f5-c8a6b43c0ebc"},
+  "resultPath": "data/silver/attempts/2026/09/18/170947Z-r00-connect/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/18/170947Z-r00-connect/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":12,"outputExcerpt":"\ntest_connect.zig:5:23: error: root source file struct 'connect' has no member named 'winner'\nconst winner = connect.winner;\n               ~~~~~~~^~~~~~~\nconnect.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.an empty board has no winner: test_connect.zig:15:34\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":12},
+  "testedAt": "2026-09-18T17:11:46Z",
+  "zigVersion": "0.16.0"
+}

@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [170947Z-r07-connect](data/silver/attempts/2026/09/18/170947Z-r07-connect/solution.zig) |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r06-connect](data/silver/attempts/2026/09/18/170947Z-r06-connect/solution.zig) |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r05-connect](data/silver/attempts/2026/09/18/170947Z-r05-connect/solution.zig) |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r04-connect](data/silver/attempts/2026/09/18/170947Z-r04-connect/solution.zig) |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r03-connect](data/silver/attempts/2026/09/18/170947Z-r03-connect/solution.zig) |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [170947Z-r02-connect](data/silver/attempts/2026/09/18/170947Z-r02-connect/solution.zig) |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r01-connect](data/silver/attempts/2026/09/18/170947Z-r01-connect/solution.zig) |
+| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r00-connect](data/silver/attempts/2026/09/18/170947Z-r00-connect/solution.zig) |
 | 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | pass/compiled | 13/13 | 100 | [174249Z-r03-dominoes](data/silver/attempts/2026/09/17/174249Z-r03-dominoes/solution.zig) |
 | 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r02-dominoes](data/silver/attempts/2026/09/17/174249Z-r02-dominoes/solution.zig) |
 | 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r01-dominoes](data/silver/attempts/2026/09/17/174249Z-r01-dominoes/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-09-15 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [174430Z-r00-food-chain](data/silver/attempts/2026/09/15/174430Z-r00-food-chain/solution.zig) |
 | 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [184945Z-r07-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/solution.zig) |
 | 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [184945Z-r06-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r06-rail-fence-cipher/solution.zig) |
-| 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [184945Z-r05-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r05-rail-fence-cipher/solution.zig) |
-| 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [184945Z-r04-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r04-rail-fence-cipher/solution.zig) |
-| 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [184945Z-r03-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r03-rail-fence-cipher/solution.zig) |
-| 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [184945Z-r02-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r02-rail-fence-cipher/solution.zig) |
-| 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [184945Z-r01-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r01-rail-fence-cipher/solution.zig) |
-| 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [184945Z-r00-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r00-rail-fence-cipher/solution.zig) |
-| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r07-book-store](data/silver/attempts/2026/09/13/170204Z-r07-book-store/solution.zig) |
-| 2026-09-13 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [170204Z-r06-book-store](data/silver/attempts/2026/09/13/170204Z-r06-book-store/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-17-174249Z-r03-dominoes",
-  "currentDifficulty": 7,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 8,
+  "attemptId": "2026-09-18-170947Z-r07-connect",
+  "currentDifficulty": 8,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 7,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T17:49:47Z"
+  "updatedAt": "2026-09-18T17:24:09Z"
 }

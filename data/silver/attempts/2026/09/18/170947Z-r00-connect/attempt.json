@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-18-170947Z-r00-connect",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-18T17:09:47Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Connect","slug":"connect","tags":[],"uuid":"a6f839d1-2702-4bb9-87f5-c8a6b43c0ebc"},
+  "promptHash": "b516995640b50372",
+  "repairFrom": null,
+  "roundIndex": 0,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/18/170947Z-r00-connect/solution.zig",
+  "writer": {
+    "extracted": false,
+    "responseId": "gen-1789751387-AZ9Kcc8TJ3cD8u8QS07i",
+    "routedModel": "dots-studio/dots-3-note-preview:free",
+    "usage": {
+  "prompt_tokens": 2213,
+  "completion_tokens": 12000,
+  "total_tokens": 14213,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 7718,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
