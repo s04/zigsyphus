@@ -1,18 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-09-18-170947Z-r07-connect",
-    "currentDifficulty": 8,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 7,
+    "attemptId": "2026-09-19-164328Z-r00-rectangles",
+    "currentDifficulty": 7,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 8,
     "schemaVersion": 1,
-    "updatedAt": "2026-09-18T17:24:09Z"
+    "updatedAt": "2026-09-19T16:43:59Z"
   },
-  "generatedAt": "2026-09-18T17:24:09Z",
-  "latest": {"attemptId":"2026-09-18-170947Z-r07-connect","compileStatus":"compile_error","date":"2026-09-18","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/09/18/170947Z-r07-connect/result.json","runAt":"2026-09-18T17:24:09Z","score":"10","slug":"connect","solutionPath":"data/silver/attempts/2026/09/18/170947Z-r07-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
-  "nextDifficulty": 7,
+  "generatedAt": "2026-09-19T16:43:59Z",
+  "latest": {"attemptId":"2026-09-19-164328Z-r00-rectangles","compileStatus":"compiled","date":"2026-09-19","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"15","resultPath":"data/silver/attempts/2026/09/19/164328Z-r00-rectangles/result.json","runAt":"2026-09-19T16:43:59Z","score":"100","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/19/164328Z-r00-rectangles/solution.zig","status":"pass","total":"15","zigVersion":"0.16.0"},
+  "nextDifficulty": 8,
   "recentRuns": [
-    {"attemptId":"2026-09-14-184945Z-r06-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r06-rail-fence-cipher/result.json","runAt":"2026-09-14T19:04:06Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r06-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-14-184945Z-r07-rail-fence-cipher","compileStatus":"compile_error","date":"2026-09-14","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/result.json","runAt":"2026-09-14T19:05:18Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-15-174430Z-r00-food-chain","compileStatus":"compile_error","date":"2026-09-15","difficulty":"5","mode":"live","model":"openrouter/free","name":"Food Chain","passed":"0","resultPath":"data/silver/attempts/2026/09/15/174430Z-r00-food-chain/result.json","runAt":"2026-09-15T17:47:17Z","score":"0","slug":"food-chain","solutionPath":"data/silver/attempts/2026/09/15/174430Z-r00-food-chain/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-15-174430Z-r01-food-chain","compileStatus":"compiled","date":"2026-09-15","difficulty":"5","mode":"live","model":"openrouter/free","name":"Food Chain","passed":"7","resultPath":"data/silver/attempts/2026/09/15/174430Z-r01-food-chain/result.json","runAt":"2026-09-15T17:48:41Z","score":"82","slug":"food-chain","solutionPath":"data/silver/attempts/2026/09/15/174430Z-r01-food-chain/solution.zig","status":"fail","total":"10","zigVersion":"0.16.0"},
@@ -31,12 +30,12 @@
     {"attemptId":"2026-09-18-170947Z-r04-connect","compileStatus":"compile_error","date":"2026-09-18","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/09/18/170947Z-r04-connect/result.json","runAt":"2026-09-18T17:15:00Z","score":"0","slug":"connect","solutionPath":"data/silver/attempts/2026/09/18/170947Z-r04-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-18-170947Z-r05-connect","compileStatus":"compile_error","date":"2026-09-18","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/09/18/170947Z-r05-connect/result.json","runAt":"2026-09-18T17:16:27Z","score":"0","slug":"connect","solutionPath":"data/silver/attempts/2026/09/18/170947Z-r05-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-18-170947Z-r06-connect","compileStatus":"compile_error","date":"2026-09-18","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/09/18/170947Z-r06-connect/result.json","runAt":"2026-09-18T17:20:17Z","score":"0","slug":"connect","solutionPath":"data/silver/attempts/2026/09/18/170947Z-r06-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-18-170947Z-r07-connect","compileStatus":"compile_error","date":"2026-09-18","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/09/18/170947Z-r07-connect/result.json","runAt":"2026-09-18T17:24:09Z","score":"10","slug":"connect","solutionPath":"data/silver/attempts/2026/09/18/170947Z-r07-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"}
+    {"attemptId":"2026-09-18-170947Z-r07-connect","compileStatus":"compile_error","date":"2026-09-18","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/09/18/170947Z-r07-connect/result.json","runAt":"2026-09-18T17:24:09Z","score":"10","slug":"connect","solutionPath":"data/silver/attempts/2026/09/18/170947Z-r07-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-19-164328Z-r00-rectangles","compileStatus":"compiled","date":"2026-09-19","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"15","resultPath":"data/silver/attempts/2026/09/19/164328Z-r00-rectangles/result.json","runAt":"2026-09-19T16:43:59Z","score":"100","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/19/164328Z-r00-rectangles/solution.zig","status":"pass","total":"15","zigVersion":"0.16.0"}
   ],
-  "runCount": 304,
+  "runCount": 305,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-09-05-161207Z-r05-split-second-stopwatch", "date": "2026-09-05", "score": 10, "slug": "split-second-stopwatch"},
     {"attemptId": "2026-09-05-161207Z-r06-split-second-stopwatch", "date": "2026-09-05", "score": 10, "slug": "split-second-stopwatch"},
     {"attemptId": "2026-09-05-161207Z-r07-split-second-stopwatch", "date": "2026-09-05", "score": 0, "slug": "split-second-stopwatch"},
     {"attemptId": "2026-09-06-162409Z-r00-meetup", "date": "2026-09-06", "score": 10, "slug": "meetup"},
@@ -95,6 +94,7 @@
     {"attemptId": "2026-09-18-170947Z-r04-connect", "date": "2026-09-18", "score": 0, "slug": "connect"},
     {"attemptId": "2026-09-18-170947Z-r05-connect", "date": "2026-09-18", "score": 0, "slug": "connect"},
     {"attemptId": "2026-09-18-170947Z-r06-connect", "date": "2026-09-18", "score": 0, "slug": "connect"},
-    {"attemptId": "2026-09-18-170947Z-r07-connect", "date": "2026-09-18", "score": 10, "slug": "connect"}
+    {"attemptId": "2026-09-18-170947Z-r07-connect", "date": "2026-09-18", "score": 10, "slug": "connect"},
+    {"attemptId": "2026-09-19-164328Z-r00-rectangles", "date": "2026-09-19", "score": 100, "slug": "rectangles"}
   ]
 }
