@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-20-165640Z-r01-word-count",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"word-count","status":"pass"}},
+  "date": "2026-09-20",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Word Count","slug":"word-count","tags":["allocators","hashmaps"],"uuid":"809cf06c-442b-4214-83ee-de7cf7e1a6fb"},
+  "resultPath": "data/silver/attempts/2026/09/20/165640Z-r01-word-count/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/20/165640Z-r01-word-count/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nword_count.zig:44:10: error: expected ';' after statement\n        }\n         ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-09-20T16:58:30Z",
+  "zigVersion": "0.16.0"
+}

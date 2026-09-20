@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-20-165640Z-r02-word-count",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"word-count","status":"pass"}},
+  "date": "2026-09-20",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Word Count","slug":"word-count","tags":["allocators","hashmaps"],"uuid":"809cf06c-442b-4214-83ee-de7cf7e1a6fb"},
+  "resultPath": "data/silver/attempts/2026/09/20/165640Z-r02-word-count/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/20/165640Z-r02-word-count/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\ntest_word_count.zig:4:45: error: root source file struct 'word_count' has no member named 'countWords'\nconst countWords = @import(\"word_count.zig\").countWords;\n                   ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\nword_count.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.count one word: test_word_count.zig:32:19\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-09-20T17:00:28Z",
+  "zigVersion": "0.16.0"
+}

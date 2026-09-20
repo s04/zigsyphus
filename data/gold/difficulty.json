@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-19-164328Z-r00-rectangles",
-  "currentDifficulty": 7,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 8,
+  "attemptId": "2026-09-20-165640Z-r07-word-count",
+  "currentDifficulty": 8,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 7,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T16:43:59Z"
+  "updatedAt": "2026-09-20T17:08:49Z"
 }

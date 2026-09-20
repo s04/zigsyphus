@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-20-165640Z-r06-word-count",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"word-count","status":"pass"}},
+  "date": "2026-09-20",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Word Count","slug":"word-count","tags":["allocators","hashmaps"],"uuid":"809cf06c-442b-4214-83ee-de7cf7e1a6fb"},
+  "resultPath": "data/silver/attempts/2026/09/20/165640Z-r06-word-count/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/20/165640Z-r06-word-count/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nword_count.zig:47:9: error: local variable is never mutated\n    var entry = try map.getOrPut(trimmed);\n        ^~~~~\nword_count.zig:47:9: note: consider using 'const'\nword_count.zig:10:41: error: struct 'array_list.Aligned(u8,null)' has no member named 'init'\n    var current_word = std.ArrayList(u8).init(allocator);\n                       ~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/e1ffdc1c-7482-42d8-abc8-dab3062f4c97/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.count one word: test_word_count.zig:32:29\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-09-20T17:08:03Z",
+  "zigVersion": "0.16.0"
+}

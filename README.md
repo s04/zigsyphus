@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r07-word-count](data/silver/attempts/2026/09/20/165640Z-r07-word-count/solution.zig) |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [165640Z-r06-word-count](data/silver/attempts/2026/09/20/165640Z-r06-word-count/solution.zig) |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r05-word-count](data/silver/attempts/2026/09/20/165640Z-r05-word-count/solution.zig) |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [165640Z-r04-word-count](data/silver/attempts/2026/09/20/165640Z-r04-word-count/solution.zig) |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r03-word-count](data/silver/attempts/2026/09/20/165640Z-r03-word-count/solution.zig) |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r02-word-count](data/silver/attempts/2026/09/20/165640Z-r02-word-count/solution.zig) |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [165640Z-r01-word-count](data/silver/attempts/2026/09/20/165640Z-r01-word-count/solution.zig) |
+| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r00-word-count](data/silver/attempts/2026/09/20/165640Z-r00-word-count/solution.zig) |
 | 2026-09-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | pass/compiled | 15/15 | 100 | [164328Z-r00-rectangles](data/silver/attempts/2026/09/19/164328Z-r00-rectangles/solution.zig) |
 | 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [170947Z-r07-connect](data/silver/attempts/2026/09/18/170947Z-r07-connect/solution.zig) |
 | 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r06-connect](data/silver/attempts/2026/09/18/170947Z-r06-connect/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | pass/compiled | 13/13 | 100 | [174249Z-r03-dominoes](data/silver/attempts/2026/09/17/174249Z-r03-dominoes/solution.zig) |
 | 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r02-dominoes](data/silver/attempts/2026/09/17/174249Z-r02-dominoes/solution.zig) |
 | 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r01-dominoes](data/silver/attempts/2026/09/17/174249Z-r01-dominoes/solution.zig) |
-| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r00-dominoes](data/silver/attempts/2026/09/17/174249Z-r00-dominoes/solution.zig) |
-| 2026-09-16 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | pass/compiled | 14/14 | 100 | [174222Z-r02-circular-buffer](data/silver/attempts/2026/09/16/174222Z-r02-circular-buffer/solution.zig) |
-| 2026-09-16 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [174222Z-r01-circular-buffer](data/silver/attempts/2026/09/16/174222Z-r01-circular-buffer/solution.zig) |
-| 2026-09-16 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [174222Z-r00-circular-buffer](data/silver/attempts/2026/09/16/174222Z-r00-circular-buffer/solution.zig) |
-| 2026-09-15 | Food Chain (`food-chain`) | 5 | `openrouter/free` | pass/compiled | 10/10 | 100 | [174430Z-r02-food-chain](data/silver/attempts/2026/09/15/174430Z-r02-food-chain/solution.zig) |
-| 2026-09-15 | Food Chain (`food-chain`) | 5 | `openrouter/free` | fail/compiled | 7/10 | 82 | [174430Z-r01-food-chain](data/silver/attempts/2026/09/15/174430Z-r01-food-chain/solution.zig) |
-| 2026-09-15 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [174430Z-r00-food-chain](data/silver/attempts/2026/09/15/174430Z-r00-food-chain/solution.zig) |
-| 2026-09-14 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [184945Z-r07-rail-fence-cipher](data/silver/attempts/2026/09/14/184945Z-r07-rail-fence-cipher/solution.zig) |
 
 <!-- zigsyphus-results:end -->
