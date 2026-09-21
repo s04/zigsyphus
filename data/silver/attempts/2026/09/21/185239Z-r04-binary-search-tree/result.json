@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-21-185239Z-r04-binary-search-tree",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"binary-search-tree","status":"pass"}},
+  "date": "2026-09-21",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Binary Search Tree","slug":"binary-search-tree","tags":[],"uuid":"44295913-ef1a-4a84-a3fd-1043b4e9d0f8"},
+  "resultPath": "data/silver/attempts/2026/09/21/185239Z-r04-binary-search-tree/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/09/21/185239Z-r04-binary-search-tree/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/12 test_binary_search_tree.test.data is retained...OK\n2/12 test_binary_search_tree.test.insert data at proper node-smaller number at left node...OK\n3/12 test_binary_search_tree.test.insert data at proper node-same number at left node...OK\n4/12 test_binary_search_tree.test.insert data at proper node-greater number at right node...OK\n5/12 test_binary_search_tree.test.can create complex tree...OK\n6/12 test_binary_search_tree.test.can sort data-can sort single number...OK\n7/12 test_binary_search_tree.test.can sort data-can sort if second number is smaller than first...OK\n8/12 test_binary_search_tree.test.can sort data-can sort if second number is same as first...OK\n9/12 test_binary_search_tree.test.can sort data-can sort if second number is greater than first...OK\n10/12 test_binary_search_tree.test.can sort data-can sort complex tree...OK\n11/12 test_binary_search_tree.test.empty tree has null root...OK\n12/12 test_binary_search_tree.test.can sort data-can sort empty tree...OK\nAll 12 tests passed.\n","passed":12,"returnCode":0,"skipped":0,"status":"pass","total":12},
+  "testedAt": "2026-09-21T19:01:07Z",
+  "zigVersion": "0.16.0"
+}

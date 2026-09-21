@@ -94,6 +94,11 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | pass/compiled | 12/12 | 100 | [185239Z-r04-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r04-binary-search-tree/solution.zig) |
+| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [185239Z-r03-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/solution.zig) |
+| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [185239Z-r02-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r02-binary-search-tree/solution.zig) |
+| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [185239Z-r01-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r01-binary-search-tree/solution.zig) |
+| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [185239Z-r00-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r00-binary-search-tree/solution.zig) |
 | 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r07-word-count](data/silver/attempts/2026/09/20/165640Z-r07-word-count/solution.zig) |
 | 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [165640Z-r06-word-count](data/silver/attempts/2026/09/20/165640Z-r06-word-count/solution.zig) |
 | 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r05-word-count](data/silver/attempts/2026/09/20/165640Z-r05-word-count/solution.zig) |
@@ -109,10 +114,5 @@ Required GitHub secret:
 | 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r04-connect](data/silver/attempts/2026/09/18/170947Z-r04-connect/solution.zig) |
 | 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r03-connect](data/silver/attempts/2026/09/18/170947Z-r03-connect/solution.zig) |
 | 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [170947Z-r02-connect](data/silver/attempts/2026/09/18/170947Z-r02-connect/solution.zig) |
-| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r01-connect](data/silver/attempts/2026/09/18/170947Z-r01-connect/solution.zig) |
-| 2026-09-18 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [170947Z-r00-connect](data/silver/attempts/2026/09/18/170947Z-r00-connect/solution.zig) |
-| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | pass/compiled | 13/13 | 100 | [174249Z-r03-dominoes](data/silver/attempts/2026/09/17/174249Z-r03-dominoes/solution.zig) |
-| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r02-dominoes](data/silver/attempts/2026/09/17/174249Z-r02-dominoes/solution.zig) |
-| 2026-09-17 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [174249Z-r01-dominoes](data/silver/attempts/2026/09/17/174249Z-r01-dominoes/solution.zig) |
 
 <!-- zigsyphus-results:end -->

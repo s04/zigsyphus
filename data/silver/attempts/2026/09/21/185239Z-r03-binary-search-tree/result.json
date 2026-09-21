@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-21-185239Z-r03-binary-search-tree",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"binary-search-tree","status":"pass"}},
+  "date": "2026-09-21",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Binary Search Tree","slug":"binary-search-tree","tags":[],"uuid":"44295913-ef1a-4a84-a3fd-1043b4e9d0f8"},
+  "resultPath": "data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":12,"outputExcerpt":"\nbinary_search_tree.zig:59:40: error: struct 'array_list.Aligned(i32,null)' has no member named 'init'\n        var result = std.ArrayList(i32).init(allocator);\n                     ~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/c3b0d239-651e-4d38-8825-4eb8c21e5124/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    sortedDataTest: test_binary_search_tree.zig:14:39\n    checkAllAllocationFailures__anon_43281: /home/runner/work/_temp/c3b0d239-651e-4d38-8825-4eb8c21e5124/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":12},
+  "testedAt": "2026-09-21T19:00:07Z",
+  "zigVersion": "0.16.0"
+}

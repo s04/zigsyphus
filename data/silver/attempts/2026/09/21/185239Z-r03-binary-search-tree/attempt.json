@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-21-185239Z-r03-binary-search-tree",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-21T18:52:39Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Binary Search Tree","slug":"binary-search-tree","tags":[],"uuid":"44295913-ef1a-4a84-a3fd-1043b4e9d0f8"},
+  "promptHash": "a47ec6e88b1d9e4d",
+  "repairFrom": "data/silver/attempts/2026/09/21/185239Z-r02-binary-search-tree/result.json",
+  "roundIndex": 3,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1790017189-wwfh36oewgsUzWJqC7lP",
+    "routedModel": "inclusionai/ling-3.0-flash-sante:free",
+    "usage": {
+  "prompt_tokens": 4056,
+  "completion_tokens": 4572,
+  "total_tokens": 8628,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 3904,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 3496,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
