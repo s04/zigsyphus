@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-21-185239Z-r04-binary-search-tree",
-  "currentDifficulty": 7,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 8,
+  "attemptId": "2026-09-22-174347Z-r03-palindrome-products",
+  "currentDifficulty": 8,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 7,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T19:01:07Z"
+  "updatedAt": "2026-09-22T17:46:47Z"
 }
