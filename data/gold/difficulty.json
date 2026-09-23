@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-22-174347Z-r03-palindrome-products",
-  "currentDifficulty": 8,
-  "lastScore": 0,
+  "attemptId": "2026-09-23-175537Z-r07-wordy",
+  "currentDifficulty": 7,
+  "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 7,
+  "nextDifficulty": 6,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T17:46:47Z"
+  "updatedAt": "2026-09-23T18:09:29Z"
 }

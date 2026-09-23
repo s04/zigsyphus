@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-23-175537Z-r07-wordy",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"wordy","status":"pass"}},
+  "date": "2026-09-23",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Wordy","slug":"wordy","tags":[],"uuid":"5b48be8f-3aff-4d67-a774-51c3a5aa1d66"},
+  "resultPath": "data/silver/attempts/2026/09/23/175537Z-r07-wordy/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/23/175537Z-r07-wordy/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":28,"outputExcerpt":"\nwordy.zig:28:54: error: comparison operators cannot be chained\n    if (content.len == 0 || content[content.len - 1] != '?') {\n                                                     ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":28},
+  "testedAt": "2026-09-23T18:09:29Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-23-175537Z-r00-wordy",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"wordy","status":"pass"}},
+  "date": "2026-09-23",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Wordy","slug":"wordy","tags":[],"uuid":"5b48be8f-3aff-4d67-a774-51c3a5aa1d66"},
+  "resultPath": "data/silver/attempts/2026/09/23/175537Z-r00-wordy/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/23/175537Z-r00-wordy/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":28,"outputExcerpt":"\ntest_wordy.zig:5:21: error: root source file struct 'wordy' has no member named 'answer'\nconst answer = wordy.answer;\n               ~~~~~^~~~~~~\nwordy.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.just a number: test_wordy.zig:9:32\ntest_wordy.zig:6:28: error: root source file struct 'wordy' has no member named 'ArgumentError'\nconst ArgumentError = wordy.ArgumentError;\n                      ~~~~~^~~~~~~~~~~~~~\nwordy.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":28},
+  "testedAt": "2026-09-23T18:00:30Z",
+  "zigVersion": "0.16.0"
+}
