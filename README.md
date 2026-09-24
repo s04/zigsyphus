@@ -94,6 +94,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-24 | Say (`say`) | 6 | `openrouter/free` | pass/compiled | 23/23 | 100 | [175521Z-r01-say](data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig) |
+| 2026-09-24 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [175521Z-r00-say](data/silver/attempts/2026/09/24/175521Z-r00-say/solution.zig) |
 | 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r07-wordy](data/silver/attempts/2026/09/23/175537Z-r07-wordy/solution.zig) |
 | 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r06-wordy](data/silver/attempts/2026/09/23/175537Z-r06-wordy/solution.zig) |
 | 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | fail/compiled | 27/28 | 98 | [175537Z-r05-wordy](data/silver/attempts/2026/09/23/175537Z-r05-wordy/solution.zig) |
@@ -112,7 +114,5 @@ Required GitHub secret:
 | 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [185239Z-r01-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r01-binary-search-tree/solution.zig) |
 | 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [185239Z-r00-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r00-binary-search-tree/solution.zig) |
 | 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r07-word-count](data/silver/attempts/2026/09/20/165640Z-r07-word-count/solution.zig) |
-| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [165640Z-r06-word-count](data/silver/attempts/2026/09/20/165640Z-r06-word-count/solution.zig) |
-| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r05-word-count](data/silver/attempts/2026/09/20/165640Z-r05-word-count/solution.zig) |
 
 <!-- zigsyphus-results:end -->

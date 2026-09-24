@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-24-175521Z-r00-say",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"say","status":"pass"}},
+  "date": "2026-09-24",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Say","slug":"say","tags":[],"uuid":"0dc72cfc-44ff-4ce2-9e72-954726f48304"},
+  "resultPath": "data/silver/attempts/2026/09/24/175521Z-r00-say/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/24/175521Z-r00-say/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":23,"outputExcerpt":"\ntest_say.zig:6:21: error: root source file struct 'say' has no member named 'SayError'\nconst SayError = say.SayError;\n                 ~~~^~~~~~~~~\nsay.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.numbers below zero are out of range: test_say.zig:151:29\ntest_say.zig:9:27: error: root source file struct 'say' has no member named 'say'\n    const actual = try say.say(allocator, number);\n                       ~~~^~~~\nsay.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":23},
+  "testedAt": "2026-09-24T17:56:14Z",
+  "zigVersion": "0.16.0"
+}

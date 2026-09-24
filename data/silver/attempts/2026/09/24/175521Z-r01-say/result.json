@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-24-175521Z-r01-say",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"say","status":"pass"}},
+  "date": "2026-09-24",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Say","slug":"say","tags":[],"uuid":"0dc72cfc-44ff-4ce2-9e72-954726f48304"},
+  "resultPath": "data/silver/attempts/2026/09/24/175521Z-r01-say/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/23 test_say.test.zero...OK\n2/23 test_say.test.one...OK\n3/23 test_say.test.fourteen...OK\n4/23 test_say.test.twenty...OK\n5/23 test_say.test.twenty-two...OK\n6/23 test_say.test.thirty...OK\n7/23 test_say.test.ninety-nine...OK\n8/23 test_say.test.one hundred...OK\n9/23 test_say.test.one hundred twenty-three...OK\n10/23 test_say.test.two hundred...OK\n11/23 test_say.test.nine hundred ninety-nine...OK\n12/23 test_say.test.one thousand...OK\n13/23 test_say.test.one thousand two hundred thirty-four...OK\n14/23 test_say.test.one million...OK\n15/23 test_say.test.one million two thousand three hundred forty-five...OK\n16/23 test_say.test.one billion...OK\n17/23 test_say.test.a big number...OK\n18/23 test_say.test.numbers below zero are out of range...OK\n19/23 test_say.test.numbers above 999,999,999,999 are out of range...OK\n20/23 test_say.test.additional big number...OK\n21/23 test_say.test.different big number...OK\n22/23 test_say.test.alternative big number...OK\n23/23 test_say.test.twelve sevens...OK\nAll 23 tests passed.\n","passed":23,"returnCode":0,"skipped":0,"status":"pass","total":23},
+  "testedAt": "2026-09-24T17:57:02Z",
+  "zigVersion": "0.16.0"
+}
