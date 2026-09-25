@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-25-180221Z-r02-rectangles",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rectangles","status":"pass"}},
+  "date": "2026-09-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Rectangles","slug":"rectangles","tags":[],"uuid":"df159306-25e8-41d0-9d2e-8f0bf11ee3b1"},
+  "resultPath": "data/silver/attempts/2026/09/25/180221Z-r02-rectangles/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/25/180221Z-r02-rectangles/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":15,"outputExcerpt":"\nrectangles.zig:24:35: error: ambiguous use of '&&'; use 'and' for logical AND, or change whitespace to ' & &' for bitwise AND\n                    if (ch != '-' && ch != '+') {\n                                  ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":15},
+  "testedAt": "2026-09-25T18:07:37Z",
+  "zigVersion": "0.16.0"
+}

@@ -94,6 +94,10 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | pass/compiled | 15/15 | 100 | [180221Z-r03-rectangles](data/silver/attempts/2026/09/25/180221Z-r03-rectangles/solution.zig) |
+| 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [180221Z-r02-rectangles](data/silver/attempts/2026/09/25/180221Z-r02-rectangles/solution.zig) |
+| 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [180221Z-r01-rectangles](data/silver/attempts/2026/09/25/180221Z-r01-rectangles/solution.zig) |
+| 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [180221Z-r00-rectangles](data/silver/attempts/2026/09/25/180221Z-r00-rectangles/solution.zig) |
 | 2026-09-24 | Say (`say`) | 6 | `openrouter/free` | pass/compiled | 23/23 | 100 | [175521Z-r01-say](data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig) |
 | 2026-09-24 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [175521Z-r00-say](data/silver/attempts/2026/09/24/175521Z-r00-say/solution.zig) |
 | 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r07-wordy](data/silver/attempts/2026/09/23/175537Z-r07-wordy/solution.zig) |
@@ -110,9 +114,5 @@ Required GitHub secret:
 | 2026-09-22 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [174347Z-r00-palindrome-products](data/silver/attempts/2026/09/22/174347Z-r00-palindrome-products/solution.zig) |
 | 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | pass/compiled | 12/12 | 100 | [185239Z-r04-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r04-binary-search-tree/solution.zig) |
 | 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [185239Z-r03-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/solution.zig) |
-| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [185239Z-r02-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r02-binary-search-tree/solution.zig) |
-| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [185239Z-r01-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r01-binary-search-tree/solution.zig) |
-| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [185239Z-r00-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r00-binary-search-tree/solution.zig) |
-| 2026-09-20 | Word Count (`word-count`) | 8 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [165640Z-r07-word-count](data/silver/attempts/2026/09/20/165640Z-r07-word-count/solution.zig) |
 
 <!-- zigsyphus-results:end -->

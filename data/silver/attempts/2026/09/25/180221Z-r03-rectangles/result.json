@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-25-180221Z-r03-rectangles",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rectangles","status":"pass"}},
+  "date": "2026-09-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Rectangles","slug":"rectangles","tags":[],"uuid":"df159306-25e8-41d0-9d2e-8f0bf11ee3b1"},
+  "resultPath": "data/silver/attempts/2026/09/25/180221Z-r03-rectangles/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/09/25/180221Z-r03-rectangles/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/15 test_rectangles.test.no rows...OK\n2/15 test_rectangles.test.no columns...OK\n3/15 test_rectangles.test.no rectangles...OK\n4/15 test_rectangles.test.one rectangle...OK\n5/15 test_rectangles.test.two rectangles without shared parts...OK\n6/15 test_rectangles.test.five rectangles with shared parts...OK\n7/15 test_rectangles.test.rectangle of height 1 is counted...OK\n8/15 test_rectangles.test.rectangle of width 1 is counted...OK\n9/15 test_rectangles.test.1x1 square is counted...OK\n10/15 test_rectangles.test.only complete rectangles are counted...OK\n11/15 test_rectangles.test.rectangles can be of different sizes...OK\n12/15 test_rectangles.test.corner is required for a rectangle to be complete...OK\n13/15 test_rectangles.test.large input with many rectangles...OK\n14/15 test_rectangles.test.rectangles must have four sides...OK\n15/15 test_rectangles.test.very large input...OK\nAll 15 tests passed.\n","passed":15,"returnCode":0,"skipped":0,"status":"pass","total":15},
+  "testedAt": "2026-09-25T18:09:56Z",
+  "zigVersion": "0.16.0"
+}

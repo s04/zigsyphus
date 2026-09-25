@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-25-180221Z-r03-rectangles",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-25T18:02:21Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Rectangles","slug":"rectangles","tags":[],"uuid":"df159306-25e8-41d0-9d2e-8f0bf11ee3b1"},
+  "promptHash": "689747e9f91a0056",
+  "repairFrom": "data/silver/attempts/2026/09/25/180221Z-r02-rectangles/result.json",
+  "roundIndex": 3,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/25/180221Z-r03-rectangles/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1790359777-SkoR2KnabKeLVGIgUYT4",
+    "routedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "usage": {
+  "prompt_tokens": 3261,
+  "completion_tokens": 863,
+  "total_tokens": 4124,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 343,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

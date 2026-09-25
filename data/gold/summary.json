@@ -1,21 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-09-24-175521Z-r01-say",
-    "currentDifficulty": 6,
+    "attemptId": "2026-09-25-180221Z-r03-rectangles",
+    "currentDifficulty": 7,
     "lastScore": 100,
     "lastStatus": "pass",
-    "nextDifficulty": 7,
+    "nextDifficulty": 8,
     "schemaVersion": 1,
-    "updatedAt": "2026-09-24T17:57:02Z"
+    "updatedAt": "2026-09-25T18:09:56Z"
   },
-  "generatedAt": "2026-09-24T17:57:02Z",
-  "latest": {"attemptId":"2026-09-24-175521Z-r01-say","compileStatus":"compiled","date":"2026-09-24","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"23","resultPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/result.json","runAt":"2026-09-24T17:57:02Z","score":"100","slug":"say","solutionPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig","status":"pass","total":"23","zigVersion":"0.16.0"},
-  "nextDifficulty": 7,
+  "generatedAt": "2026-09-25T18:09:56Z",
+  "latest": {"attemptId":"2026-09-25-180221Z-r03-rectangles","compileStatus":"compiled","date":"2026-09-25","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"15","resultPath":"data/silver/attempts/2026/09/25/180221Z-r03-rectangles/result.json","runAt":"2026-09-25T18:09:56Z","score":"100","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/25/180221Z-r03-rectangles/solution.zig","status":"pass","total":"15","zigVersion":"0.16.0"},
+  "nextDifficulty": 8,
   "recentRuns": [
-    {"attemptId":"2026-09-20-165640Z-r07-word-count","compileStatus":"compile_error","date":"2026-09-20","difficulty":"8","mode":"live","model":"openrouter/free","name":"Word Count","passed":"0","resultPath":"data/silver/attempts/2026/09/20/165640Z-r07-word-count/result.json","runAt":"2026-09-20T17:08:49Z","score":"0","slug":"word-count","solutionPath":"data/silver/attempts/2026/09/20/165640Z-r07-word-count/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-21-185239Z-r00-binary-search-tree","compileStatus":"compile_error","date":"2026-09-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Binary Search Tree","passed":"0","resultPath":"data/silver/attempts/2026/09/21/185239Z-r00-binary-search-tree/result.json","runAt":"2026-09-21T18:53:25Z","score":"0","slug":"binary-search-tree","solutionPath":"data/silver/attempts/2026/09/21/185239Z-r00-binary-search-tree/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-21-185239Z-r01-binary-search-tree","compileStatus":"compile_error","date":"2026-09-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Binary Search Tree","passed":"0","resultPath":"data/silver/attempts/2026/09/21/185239Z-r01-binary-search-tree/result.json","runAt":"2026-09-21T18:58:13Z","score":"10","slug":"binary-search-tree","solutionPath":"data/silver/attempts/2026/09/21/185239Z-r01-binary-search-tree/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-21-185239Z-r02-binary-search-tree","compileStatus":"compile_error","date":"2026-09-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Binary Search Tree","passed":"0","resultPath":"data/silver/attempts/2026/09/21/185239Z-r02-binary-search-tree/result.json","runAt":"2026-09-21T18:59:49Z","score":"0","slug":"binary-search-tree","solutionPath":"data/silver/attempts/2026/09/21/185239Z-r02-binary-search-tree/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-21-185239Z-r03-binary-search-tree","compileStatus":"compile_error","date":"2026-09-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Binary Search Tree","passed":"0","resultPath":"data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/result.json","runAt":"2026-09-21T19:00:07Z","score":"10","slug":"binary-search-tree","solutionPath":"data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-21-185239Z-r04-binary-search-tree","compileStatus":"compiled","date":"2026-09-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Binary Search Tree","passed":"12","resultPath":"data/silver/attempts/2026/09/21/185239Z-r04-binary-search-tree/result.json","runAt":"2026-09-21T19:01:07Z","score":"100","slug":"binary-search-tree","solutionPath":"data/silver/attempts/2026/09/21/185239Z-r04-binary-search-tree/solution.zig","status":"pass","total":"12","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-22-174347Z-r00-palindrome-products","compileStatus":"compile_error","date":"2026-09-22","difficulty":"8","mode":"live","model":"openrouter/free","name":"Palindrome Products","passed":"0","resultPath":"data/silver/attempts/2026/09/22/174347Z-r00-palindrome-products/result.json","runAt":"2026-09-22T17:44:13Z","score":"0","slug":"palindrome-products","solutionPath":"data/silver/attempts/2026/09/22/174347Z-r00-palindrome-products/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
@@ -31,15 +27,15 @@
     {"attemptId":"2026-09-23-175537Z-r06-wordy","compileStatus":"compile_error","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"0","resultPath":"data/silver/attempts/2026/09/23/175537Z-r06-wordy/result.json","runAt":"2026-09-23T18:09:08Z","score":"10","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r06-wordy/solution.zig","status":"compile_error","total":"28","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-23-175537Z-r07-wordy","compileStatus":"compile_error","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"0","resultPath":"data/silver/attempts/2026/09/23/175537Z-r07-wordy/result.json","runAt":"2026-09-23T18:09:29Z","score":"10","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r07-wordy/solution.zig","status":"compile_error","total":"28","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-24-175521Z-r00-say","compileStatus":"compile_error","date":"2026-09-24","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"0","resultPath":"data/silver/attempts/2026/09/24/175521Z-r00-say/result.json","runAt":"2026-09-24T17:56:14Z","score":"0","slug":"say","solutionPath":"data/silver/attempts/2026/09/24/175521Z-r00-say/solution.zig","status":"compile_error","total":"23","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-24-175521Z-r01-say","compileStatus":"compiled","date":"2026-09-24","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"23","resultPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/result.json","runAt":"2026-09-24T17:57:02Z","score":"100","slug":"say","solutionPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig","status":"pass","total":"23","zigVersion":"0.16.0"}
+    {"attemptId":"2026-09-24-175521Z-r01-say","compileStatus":"compiled","date":"2026-09-24","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"23","resultPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/result.json","runAt":"2026-09-24T17:57:02Z","score":"100","slug":"say","solutionPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig","status":"pass","total":"23","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-25-180221Z-r00-rectangles","compileStatus":"compile_error","date":"2026-09-25","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"0","resultPath":"data/silver/attempts/2026/09/25/180221Z-r00-rectangles/result.json","runAt":"2026-09-25T18:03:09Z","score":"0","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/25/180221Z-r00-rectangles/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-25-180221Z-r01-rectangles","compileStatus":"compile_error","date":"2026-09-25","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"0","resultPath":"data/silver/attempts/2026/09/25/180221Z-r01-rectangles/result.json","runAt":"2026-09-25T18:04:57Z","score":"0","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/25/180221Z-r01-rectangles/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-25-180221Z-r02-rectangles","compileStatus":"compile_error","date":"2026-09-25","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"0","resultPath":"data/silver/attempts/2026/09/25/180221Z-r02-rectangles/result.json","runAt":"2026-09-25T18:07:37Z","score":"10","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/25/180221Z-r02-rectangles/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-25-180221Z-r03-rectangles","compileStatus":"compiled","date":"2026-09-25","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"15","resultPath":"data/silver/attempts/2026/09/25/180221Z-r03-rectangles/result.json","runAt":"2026-09-25T18:09:56Z","score":"100","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/25/180221Z-r03-rectangles/solution.zig","status":"pass","total":"15","zigVersion":"0.16.0"}
   ],
-  "runCount": 332,
+  "runCount": 336,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-09-13-170204Z-r02-book-store", "date": "2026-09-13", "score": 10, "slug": "book-store"},
-    {"attemptId": "2026-09-13-170204Z-r03-book-store", "date": "2026-09-13", "score": 10, "slug": "book-store"},
-    {"attemptId": "2026-09-13-170204Z-r04-book-store", "date": "2026-09-13", "score": 0, "slug": "book-store"},
-    {"attemptId": "2026-09-13-170204Z-r05-book-store", "date": "2026-09-13", "score": 0, "slug": "book-store"},
     {"attemptId": "2026-09-13-170204Z-r06-book-store", "date": "2026-09-13", "score": 10, "slug": "book-store"},
     {"attemptId": "2026-09-13-170204Z-r07-book-store", "date": "2026-09-13", "score": 10, "slug": "book-store"},
     {"attemptId": "2026-09-14-184945Z-r00-rail-fence-cipher", "date": "2026-09-14", "score": 0, "slug": "rail-fence-cipher"},
@@ -95,6 +91,10 @@
     {"attemptId": "2026-09-23-175537Z-r06-wordy", "date": "2026-09-23", "score": 10, "slug": "wordy"},
     {"attemptId": "2026-09-23-175537Z-r07-wordy", "date": "2026-09-23", "score": 10, "slug": "wordy"},
     {"attemptId": "2026-09-24-175521Z-r00-say", "date": "2026-09-24", "score": 0, "slug": "say"},
-    {"attemptId": "2026-09-24-175521Z-r01-say", "date": "2026-09-24", "score": 100, "slug": "say"}
+    {"attemptId": "2026-09-24-175521Z-r01-say", "date": "2026-09-24", "score": 100, "slug": "say"},
+    {"attemptId": "2026-09-25-180221Z-r00-rectangles", "date": "2026-09-25", "score": 0, "slug": "rectangles"},
+    {"attemptId": "2026-09-25-180221Z-r01-rectangles", "date": "2026-09-25", "score": 0, "slug": "rectangles"},
+    {"attemptId": "2026-09-25-180221Z-r02-rectangles", "date": "2026-09-25", "score": 10, "slug": "rectangles"},
+    {"attemptId": "2026-09-25-180221Z-r03-rectangles", "date": "2026-09-25", "score": 100, "slug": "rectangles"}
   ]
 }
