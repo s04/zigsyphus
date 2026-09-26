@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-26-172136Z-r02-intergalactic-transmission",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"intergalactic-transmission","status":"pass"}},
+  "date": "2026-09-26",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Intergalactic Transmission","slug":"intergalactic-transmission","tags":[],"uuid":"241c4ac4-9fbc-488d-a7a6-ad4fccc72acf"},
+  "resultPath": "data/silver/attempts/2026/09/26/172136Z-r02-intergalactic-transmission/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/09/26/172136Z-r02-intergalactic-transmission/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":26,"outputExcerpt":"\ntest_intergalactic_transmission.zig:5:52: error: root source file struct 'intergalactic_transmission' has no member named 'transmitSequence'\nconst transmitSequence = intergalactic_transmission.transmitSequence;\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\nintergalactic_transmission.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.calculate transmit sequences-empty message: test_intergalactic_transmission.zig:12:24\ntest_intergalactic_transmission.zig:6:49: error: root source file struct 'intergalactic_transmission' has no member named 'decodeMessage'\nconst decodeMessage = intergalactic_transmission.decodeMessage;\n                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\nintergalactic_transmission.zig:1:1: note: struct declared here\n\n^\ntest_intergalactic_transmission.zig:7:53: error: root source file struct 'intergalactic_transmission' has no member named 'TransmissionError'\nconst TransmissionError = intergalactic_transmission.TransmissionError;\n                          ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\nintergalactic_transmission.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":26},
+  "testedAt": "2026-09-26T17:28:11Z",
+  "zigVersion": "0.16.0"
+}

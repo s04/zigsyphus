@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r07-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/solution.zig) |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r06-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r06-intergalactic-transmission/solution.zig) |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 0 | [172136Z-r05-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r05-intergalactic-transmission/solution.zig) |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r04-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r04-intergalactic-transmission/solution.zig) |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r03-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r03-intergalactic-transmission/solution.zig) |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 0 | [172136Z-r02-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r02-intergalactic-transmission/solution.zig) |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r01-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r01-intergalactic-transmission/solution.zig) |
+| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r00-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r00-intergalactic-transmission/solution.zig) |
 | 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | pass/compiled | 15/15 | 100 | [180221Z-r03-rectangles](data/silver/attempts/2026/09/25/180221Z-r03-rectangles/solution.zig) |
 | 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [180221Z-r02-rectangles](data/silver/attempts/2026/09/25/180221Z-r02-rectangles/solution.zig) |
 | 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [180221Z-r01-rectangles](data/silver/attempts/2026/09/25/180221Z-r01-rectangles/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r04-wordy](data/silver/attempts/2026/09/23/175537Z-r04-wordy/solution.zig) |
 | 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r03-wordy](data/silver/attempts/2026/09/23/175537Z-r03-wordy/solution.zig) |
 | 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r02-wordy](data/silver/attempts/2026/09/23/175537Z-r02-wordy/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 0 | [175537Z-r01-wordy](data/silver/attempts/2026/09/23/175537Z-r01-wordy/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 0 | [175537Z-r00-wordy](data/silver/attempts/2026/09/23/175537Z-r00-wordy/solution.zig) |
-| 2026-09-22 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [174347Z-r03-palindrome-products](data/silver/attempts/2026/09/22/174347Z-r03-palindrome-products/solution.zig) |
-| 2026-09-22 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [174347Z-r02-palindrome-products](data/silver/attempts/2026/09/22/174347Z-r02-palindrome-products/solution.zig) |
-| 2026-09-22 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [174347Z-r01-palindrome-products](data/silver/attempts/2026/09/22/174347Z-r01-palindrome-products/solution.zig) |
-| 2026-09-22 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [174347Z-r00-palindrome-products](data/silver/attempts/2026/09/22/174347Z-r00-palindrome-products/solution.zig) |
-| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | pass/compiled | 12/12 | 100 | [185239Z-r04-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r04-binary-search-tree/solution.zig) |
-| 2026-09-21 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [185239Z-r03-binary-search-tree](data/silver/attempts/2026/09/21/185239Z-r03-binary-search-tree/solution.zig) |
 
 <!-- zigsyphus-results:end -->

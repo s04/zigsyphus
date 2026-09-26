@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-26-172136Z-r00-intergalactic-transmission",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"intergalactic-transmission","status":"pass"}},
+  "date": "2026-09-26",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Intergalactic Transmission","slug":"intergalactic-transmission","tags":[],"uuid":"241c4ac4-9fbc-488d-a7a6-ad4fccc72acf"},
+  "resultPath": "data/silver/attempts/2026/09/26/172136Z-r00-intergalactic-transmission/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/26/172136Z-r00-intergalactic-transmission/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":26,"outputExcerpt":"\nintergalactic_transmission.zig:61:13: error: local variable is never mutated\n        var data: u8 = b >> 1; // extract the 7 data bits (MSB is bit6)\n            ^~~~\nintergalactic_transmission.zig:61:13: note: consider using 'const'\nintergalactic_transmission.zig:10:21: error: type '[]u8' does not support array initialization syntax\n        return &[]u8{};\n                ~~~~^~\nintergalactic_transmission.zig:10:21: note: inferred array length is specified with an underscore: '[_]u8'\nreferenced by:\n    test.calculate transmit sequences-empty message: test_intergalactic_transmission.zig:12:40\nintergalactic_transmission.zig:43:21: error: type '[]u8' does not support array initialization syntax\n        return &[]u8{};\n                ~~~~^~\nintergalactic_transmission.zig:43:21: note: inferred array length is specified with an underscore: '[_]u8'\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":26},
+  "testedAt": "2026-09-26T17:26:50Z",
+  "zigVersion": "0.16.0"
+}

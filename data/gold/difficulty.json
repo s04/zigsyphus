@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-25-180221Z-r03-rectangles",
-  "currentDifficulty": 7,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 8,
+  "attemptId": "2026-09-26-172136Z-r07-intergalactic-transmission",
+  "currentDifficulty": 8,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 7,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T18:09:56Z"
+  "updatedAt": "2026-09-26T17:41:58Z"
 }

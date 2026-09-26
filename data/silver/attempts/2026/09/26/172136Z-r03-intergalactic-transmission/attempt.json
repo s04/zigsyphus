@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-26-172136Z-r03-intergalactic-transmission",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-26T17:21:36Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Intergalactic Transmission","slug":"intergalactic-transmission","tags":[],"uuid":"241c4ac4-9fbc-488d-a7a6-ad4fccc72acf"},
+  "promptHash": "ce1a27c0d1aa2579",
+  "repairFrom": "data/silver/attempts/2026/09/26/172136Z-r02-intergalactic-transmission/result.json",
+  "roundIndex": 3,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/26/172136Z-r03-intergalactic-transmission/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1790443691-PPkOr09iISsfn7SO4Gqe",
+    "routedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+    "usage": {
+  "prompt_tokens": 5673,
+  "completion_tokens": 12000,
+  "total_tokens": 17673,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 9365,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
