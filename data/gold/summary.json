@@ -1,24 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-09-26-172136Z-r07-intergalactic-transmission",
-    "currentDifficulty": 8,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 7,
+    "attemptId": "2026-09-27-175423Z-r06-dominoes",
+    "currentDifficulty": 7,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 8,
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26T17:41:58Z"
+    "updatedAt": "2026-09-27T18:03:09Z"
   },
-  "generatedAt": "2026-09-26T17:41:58Z",
-  "latest": {"attemptId":"2026-09-26-172136Z-r07-intergalactic-transmission","compileStatus":"compile_error","date":"2026-09-26","difficulty":"8","mode":"live","model":"openrouter/free","name":"Intergalactic Transmission","passed":"0","resultPath":"data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/result.json","runAt":"2026-09-26T17:41:58Z","score":"10","slug":"intergalactic-transmission","solutionPath":"data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/solution.zig","status":"compile_error","total":"26","zigVersion":"0.16.0"},
-  "nextDifficulty": 7,
+  "generatedAt": "2026-09-27T18:03:09Z",
+  "latest": {"attemptId":"2026-09-27-175423Z-r06-dominoes","compileStatus":"compiled","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"13","resultPath":"data/silver/attempts/2026/09/27/175423Z-r06-dominoes/result.json","runAt":"2026-09-27T18:03:09Z","score":"100","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r06-dominoes/solution.zig","status":"pass","total":"13","zigVersion":"0.16.0"},
+  "nextDifficulty": 8,
   "recentRuns": [
-    {"attemptId":"2026-09-23-175537Z-r02-wordy","compileStatus":"compile_error","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"0","resultPath":"data/silver/attempts/2026/09/23/175537Z-r02-wordy/result.json","runAt":"2026-09-23T18:06:23Z","score":"10","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r02-wordy/solution.zig","status":"compile_error","total":"28","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-23-175537Z-r03-wordy","compileStatus":"compile_error","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"0","resultPath":"data/silver/attempts/2026/09/23/175537Z-r03-wordy/result.json","runAt":"2026-09-23T18:06:55Z","score":"10","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r03-wordy/solution.zig","status":"compile_error","total":"28","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-23-175537Z-r04-wordy","compileStatus":"compile_error","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"0","resultPath":"data/silver/attempts/2026/09/23/175537Z-r04-wordy/result.json","runAt":"2026-09-23T18:07:40Z","score":"10","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r04-wordy/solution.zig","status":"compile_error","total":"28","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-23-175537Z-r05-wordy","compileStatus":"compiled","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"27","resultPath":"data/silver/attempts/2026/09/23/175537Z-r05-wordy/result.json","runAt":"2026-09-23T18:08:40Z","score":"98","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r05-wordy/solution.zig","status":"fail","total":"28","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-23-175537Z-r06-wordy","compileStatus":"compile_error","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"0","resultPath":"data/silver/attempts/2026/09/23/175537Z-r06-wordy/result.json","runAt":"2026-09-23T18:09:08Z","score":"10","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r06-wordy/solution.zig","status":"compile_error","total":"28","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-23-175537Z-r07-wordy","compileStatus":"compile_error","date":"2026-09-23","difficulty":"7","mode":"live","model":"openrouter/free","name":"Wordy","passed":"0","resultPath":"data/silver/attempts/2026/09/23/175537Z-r07-wordy/result.json","runAt":"2026-09-23T18:09:29Z","score":"10","slug":"wordy","solutionPath":"data/silver/attempts/2026/09/23/175537Z-r07-wordy/solution.zig","status":"compile_error","total":"28","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-24-175521Z-r00-say","compileStatus":"compile_error","date":"2026-09-24","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"0","resultPath":"data/silver/attempts/2026/09/24/175521Z-r00-say/result.json","runAt":"2026-09-24T17:56:14Z","score":"0","slug":"say","solutionPath":"data/silver/attempts/2026/09/24/175521Z-r00-say/solution.zig","status":"compile_error","total":"23","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-24-175521Z-r01-say","compileStatus":"compiled","date":"2026-09-24","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"23","resultPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/result.json","runAt":"2026-09-24T17:57:02Z","score":"100","slug":"say","solutionPath":"data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig","status":"pass","total":"23","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-25-180221Z-r00-rectangles","compileStatus":"compile_error","date":"2026-09-25","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"0","resultPath":"data/silver/attempts/2026/09/25/180221Z-r00-rectangles/result.json","runAt":"2026-09-25T18:03:09Z","score":"0","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/25/180221Z-r00-rectangles/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-25-180221Z-r01-rectangles","compileStatus":"compile_error","date":"2026-09-25","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"0","resultPath":"data/silver/attempts/2026/09/25/180221Z-r01-rectangles/result.json","runAt":"2026-09-25T18:04:57Z","score":"0","slug":"rectangles","solutionPath":"data/silver/attempts/2026/09/25/180221Z-r01-rectangles/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
@@ -31,18 +24,18 @@
     {"attemptId":"2026-09-26-172136Z-r04-intergalactic-transmission","compileStatus":"compile_error","date":"2026-09-26","difficulty":"8","mode":"live","model":"openrouter/free","name":"Intergalactic Transmission","passed":"0","resultPath":"data/silver/attempts/2026/09/26/172136Z-r04-intergalactic-transmission/result.json","runAt":"2026-09-26T17:34:10Z","score":"10","slug":"intergalactic-transmission","solutionPath":"data/silver/attempts/2026/09/26/172136Z-r04-intergalactic-transmission/solution.zig","status":"compile_error","total":"26","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-26-172136Z-r05-intergalactic-transmission","compileStatus":"compile_error","date":"2026-09-26","difficulty":"8","mode":"live","model":"openrouter/free","name":"Intergalactic Transmission","passed":"0","resultPath":"data/silver/attempts/2026/09/26/172136Z-r05-intergalactic-transmission/result.json","runAt":"2026-09-26T17:38:20Z","score":"0","slug":"intergalactic-transmission","solutionPath":"data/silver/attempts/2026/09/26/172136Z-r05-intergalactic-transmission/solution.zig","status":"compile_error","total":"26","zigVersion":"0.16.0"},
     {"attemptId":"2026-09-26-172136Z-r06-intergalactic-transmission","compileStatus":"compile_error","date":"2026-09-26","difficulty":"8","mode":"live","model":"openrouter/free","name":"Intergalactic Transmission","passed":"0","resultPath":"data/silver/attempts/2026/09/26/172136Z-r06-intergalactic-transmission/result.json","runAt":"2026-09-26T17:41:47Z","score":"10","slug":"intergalactic-transmission","solutionPath":"data/silver/attempts/2026/09/26/172136Z-r06-intergalactic-transmission/solution.zig","status":"compile_error","total":"26","zigVersion":"0.16.0"},
-    {"attemptId":"2026-09-26-172136Z-r07-intergalactic-transmission","compileStatus":"compile_error","date":"2026-09-26","difficulty":"8","mode":"live","model":"openrouter/free","name":"Intergalactic Transmission","passed":"0","resultPath":"data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/result.json","runAt":"2026-09-26T17:41:58Z","score":"10","slug":"intergalactic-transmission","solutionPath":"data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/solution.zig","status":"compile_error","total":"26","zigVersion":"0.16.0"}
+    {"attemptId":"2026-09-26-172136Z-r07-intergalactic-transmission","compileStatus":"compile_error","date":"2026-09-26","difficulty":"8","mode":"live","model":"openrouter/free","name":"Intergalactic Transmission","passed":"0","resultPath":"data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/result.json","runAt":"2026-09-26T17:41:58Z","score":"10","slug":"intergalactic-transmission","solutionPath":"data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/solution.zig","status":"compile_error","total":"26","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-27-175423Z-r00-dominoes","compileStatus":"compile_error","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"0","resultPath":"data/silver/attempts/2026/09/27/175423Z-r00-dominoes/result.json","runAt":"2026-09-27T17:55:27Z","score":"10","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r00-dominoes/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-27-175423Z-r01-dominoes","compileStatus":"compile_error","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"0","resultPath":"data/silver/attempts/2026/09/27/175423Z-r01-dominoes/result.json","runAt":"2026-09-27T17:56:06Z","score":"10","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r01-dominoes/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-27-175423Z-r02-dominoes","compileStatus":"compile_error","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"0","resultPath":"data/silver/attempts/2026/09/27/175423Z-r02-dominoes/result.json","runAt":"2026-09-27T18:00:02Z","score":"10","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r02-dominoes/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-27-175423Z-r03-dominoes","compileStatus":"compile_error","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"0","resultPath":"data/silver/attempts/2026/09/27/175423Z-r03-dominoes/result.json","runAt":"2026-09-27T18:01:46Z","score":"0","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r03-dominoes/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-27-175423Z-r04-dominoes","compileStatus":"compile_error","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"0","resultPath":"data/silver/attempts/2026/09/27/175423Z-r04-dominoes/result.json","runAt":"2026-09-27T18:02:44Z","score":"10","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r04-dominoes/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-27-175423Z-r05-dominoes","compileStatus":"compile_error","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"0","resultPath":"data/silver/attempts/2026/09/27/175423Z-r05-dominoes/result.json","runAt":"2026-09-27T18:02:47Z","score":"10","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r05-dominoes/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
+    {"attemptId":"2026-09-27-175423Z-r06-dominoes","compileStatus":"compiled","date":"2026-09-27","difficulty":"7","mode":"live","model":"openrouter/free","name":"Dominoes","passed":"13","resultPath":"data/silver/attempts/2026/09/27/175423Z-r06-dominoes/result.json","runAt":"2026-09-27T18:03:09Z","score":"100","slug":"dominoes","solutionPath":"data/silver/attempts/2026/09/27/175423Z-r06-dominoes/solution.zig","status":"pass","total":"13","zigVersion":"0.16.0"}
   ],
-  "runCount": 344,
+  "runCount": 351,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-09-14-184945Z-r06-rail-fence-cipher", "date": "2026-09-14", "score": 10, "slug": "rail-fence-cipher"},
-    {"attemptId": "2026-09-14-184945Z-r07-rail-fence-cipher", "date": "2026-09-14", "score": 10, "slug": "rail-fence-cipher"},
-    {"attemptId": "2026-09-15-174430Z-r00-food-chain", "date": "2026-09-15", "score": 0, "slug": "food-chain"},
-    {"attemptId": "2026-09-15-174430Z-r01-food-chain", "date": "2026-09-15", "score": 82, "slug": "food-chain"},
-    {"attemptId": "2026-09-15-174430Z-r02-food-chain", "date": "2026-09-15", "score": 100, "slug": "food-chain"},
-    {"attemptId": "2026-09-16-174222Z-r00-circular-buffer", "date": "2026-09-16", "score": 10, "slug": "circular-buffer"},
-    {"attemptId": "2026-09-16-174222Z-r01-circular-buffer", "date": "2026-09-16", "score": 10, "slug": "circular-buffer"},
     {"attemptId": "2026-09-16-174222Z-r02-circular-buffer", "date": "2026-09-16", "score": 100, "slug": "circular-buffer"},
     {"attemptId": "2026-09-17-174249Z-r00-dominoes", "date": "2026-09-17", "score": 10, "slug": "dominoes"},
     {"attemptId": "2026-09-17-174249Z-r01-dominoes", "date": "2026-09-17", "score": 10, "slug": "dominoes"},
@@ -95,6 +88,13 @@
     {"attemptId": "2026-09-26-172136Z-r04-intergalactic-transmission", "date": "2026-09-26", "score": 10, "slug": "intergalactic-transmission"},
     {"attemptId": "2026-09-26-172136Z-r05-intergalactic-transmission", "date": "2026-09-26", "score": 0, "slug": "intergalactic-transmission"},
     {"attemptId": "2026-09-26-172136Z-r06-intergalactic-transmission", "date": "2026-09-26", "score": 10, "slug": "intergalactic-transmission"},
-    {"attemptId": "2026-09-26-172136Z-r07-intergalactic-transmission", "date": "2026-09-26", "score": 10, "slug": "intergalactic-transmission"}
+    {"attemptId": "2026-09-26-172136Z-r07-intergalactic-transmission", "date": "2026-09-26", "score": 10, "slug": "intergalactic-transmission"},
+    {"attemptId": "2026-09-27-175423Z-r00-dominoes", "date": "2026-09-27", "score": 10, "slug": "dominoes"},
+    {"attemptId": "2026-09-27-175423Z-r01-dominoes", "date": "2026-09-27", "score": 10, "slug": "dominoes"},
+    {"attemptId": "2026-09-27-175423Z-r02-dominoes", "date": "2026-09-27", "score": 10, "slug": "dominoes"},
+    {"attemptId": "2026-09-27-175423Z-r03-dominoes", "date": "2026-09-27", "score": 0, "slug": "dominoes"},
+    {"attemptId": "2026-09-27-175423Z-r04-dominoes", "date": "2026-09-27", "score": 10, "slug": "dominoes"},
+    {"attemptId": "2026-09-27-175423Z-r05-dominoes", "date": "2026-09-27", "score": 10, "slug": "dominoes"},
+    {"attemptId": "2026-09-27-175423Z-r06-dominoes", "date": "2026-09-27", "score": 100, "slug": "dominoes"}
   ]
 }

@@ -94,6 +94,13 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | pass/compiled | 13/13 | 100 | [175423Z-r06-dominoes](data/silver/attempts/2026/09/27/175423Z-r06-dominoes/solution.zig) |
+| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r05-dominoes](data/silver/attempts/2026/09/27/175423Z-r05-dominoes/solution.zig) |
+| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r04-dominoes](data/silver/attempts/2026/09/27/175423Z-r04-dominoes/solution.zig) |
+| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [175423Z-r03-dominoes](data/silver/attempts/2026/09/27/175423Z-r03-dominoes/solution.zig) |
+| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r02-dominoes](data/silver/attempts/2026/09/27/175423Z-r02-dominoes/solution.zig) |
+| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r01-dominoes](data/silver/attempts/2026/09/27/175423Z-r01-dominoes/solution.zig) |
+| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r00-dominoes](data/silver/attempts/2026/09/27/175423Z-r00-dominoes/solution.zig) |
 | 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r07-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/solution.zig) |
 | 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r06-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r06-intergalactic-transmission/solution.zig) |
 | 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 0 | [172136Z-r05-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r05-intergalactic-transmission/solution.zig) |
@@ -107,12 +114,5 @@ Required GitHub secret:
 | 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [180221Z-r01-rectangles](data/silver/attempts/2026/09/25/180221Z-r01-rectangles/solution.zig) |
 | 2026-09-25 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [180221Z-r00-rectangles](data/silver/attempts/2026/09/25/180221Z-r00-rectangles/solution.zig) |
 | 2026-09-24 | Say (`say`) | 6 | `openrouter/free` | pass/compiled | 23/23 | 100 | [175521Z-r01-say](data/silver/attempts/2026/09/24/175521Z-r01-say/solution.zig) |
-| 2026-09-24 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [175521Z-r00-say](data/silver/attempts/2026/09/24/175521Z-r00-say/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r07-wordy](data/silver/attempts/2026/09/23/175537Z-r07-wordy/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r06-wordy](data/silver/attempts/2026/09/23/175537Z-r06-wordy/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | fail/compiled | 27/28 | 98 | [175537Z-r05-wordy](data/silver/attempts/2026/09/23/175537Z-r05-wordy/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r04-wordy](data/silver/attempts/2026/09/23/175537Z-r04-wordy/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r03-wordy](data/silver/attempts/2026/09/23/175537Z-r03-wordy/solution.zig) |
-| 2026-09-23 | Wordy (`wordy`) | 7 | `openrouter/free` | compile_error/compile_error | 0/28 | 10 | [175537Z-r02-wordy](data/silver/attempts/2026/09/23/175537Z-r02-wordy/solution.zig) |
 
 <!-- zigsyphus-results:end -->
