@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-28-201218Z-r01-palindrome-products",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"palindrome-products","status":"pass"}},
+  "date": "2026-09-28",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":8,"name":"Palindrome Products","slug":"palindrome-products","tags":[],"uuid":"4f4d859e-18c2-4a80-ad95-5f2427dafc9d"},
+  "resultPath": "data/silver/attempts/2026/09/28/201218Z-r01-palindrome-products/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/28/201218Z-r01-palindrome-products/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":15,"outputExcerpt":"\npalindrome_products.zig:76:19: error: @intCast must have a known result type\n    var v: u128 = @intCast(min) * @intCast(min);\n                  ^~~~~~~~~~~~~\npalindrome_products.zig:76:19: note: use @as to provide explicit result type\npalindrome_products.zig:94:19: error: @intCast must have a known result type\n    var v: u128 = @intCast(max) * @intCast(max);\n                  ^~~~~~~~~~~~~\npalindrome_products.zig:94:19: note: use @as to provide explicit result type\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":15},
+  "testedAt": "2026-09-28T20:14:05Z",
+  "zigVersion": "0.16.0"
+}
