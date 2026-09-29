@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-29-184913Z-r05-binary-search-tree",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"binary-search-tree","status":"pass"}},
+  "date": "2026-09-29",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Binary Search Tree","slug":"binary-search-tree","tags":[],"uuid":"44295913-ef1a-4a84-a3fd-1043b4e9d0f8"},
+  "resultPath": "data/silver/attempts/2026/09/29/184913Z-r05-binary-search-tree/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/29/184913Z-r05-binary-search-tree/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":12,"outputExcerpt":"\nbinary_search_tree.zig:69:22: error: expected type '[]i32', found '*const []i32'\n        self.collect(&result, &index);\n                     ^~~~~~~\nbinary_search_tree.zig:69:22: note: cast discards const qualifier\nbinary_search_tree.zig:85:43: note: parameter type declared here\n    fn collect(self: *const Tree, result: []i32, index: *usize) void {\n                                          ^~~~~\nreferenced by:\n    sortedDataTest: test_binary_search_tree.zig:14:39\n    checkAllAllocationFailures__anon_43153: /home/runner/work/_temp/07d3c2e9-f2a7-4d48-a284-7debb02380fd/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":12},
+  "testedAt": "2026-09-29T19:02:06Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-29-184913Z-r04-binary-search-tree",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"binary-search-tree","status":"pass"}},
+  "date": "2026-09-29",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Binary Search Tree","slug":"binary-search-tree","tags":[],"uuid":"44295913-ef1a-4a84-a3fd-1043b4e9d0f8"},
+  "resultPath": "data/silver/attempts/2026/09/29/184913Z-r04-binary-search-tree/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/29/184913Z-r04-binary-search-tree/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":12,"outputExcerpt":"\nbinary_search_tree.zig:66:15: error: local constant shadows declaration of 'count'\n        const count = self.count();\n              ^~~~~\nbinary_search_tree.zig:73:5: note: declared here\n    fn count(self: *const Tree) usize {\n    ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":12},
+  "testedAt": "2026-09-29T18:59:41Z",
+  "zigVersion": "0.16.0"
+}
