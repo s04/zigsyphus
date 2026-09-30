@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-09-30-183148Z-r01-two-bucket",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-09-30T18:31:48Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Two Bucket","slug":"two-bucket","tags":[],"uuid":"76a612c1-2cff-44f6-903e-9bc7457916f8"},
+  "promptHash": "59414a4dba9acd0f",
+  "repairFrom": "data/silver/attempts/2026/09/30/183148Z-r00-two-bucket/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/09/30/183148Z-r01-two-bucket/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1790793192-OjriXl6pLIr1DUFuaSbE",
+    "routedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "usage": {
+  "prompt_tokens": 2688,
+  "completion_tokens": 2380,
+  "total_tokens": 5068,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 1220,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

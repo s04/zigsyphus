@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r07-two-bucket](data/silver/attempts/2026/09/30/183148Z-r07-two-bucket/solution.zig) |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r06-two-bucket](data/silver/attempts/2026/09/30/183148Z-r06-two-bucket/solution.zig) |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r05-two-bucket](data/silver/attempts/2026/09/30/183148Z-r05-two-bucket/solution.zig) |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r04-two-bucket](data/silver/attempts/2026/09/30/183148Z-r04-two-bucket/solution.zig) |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r03-two-bucket](data/silver/attempts/2026/09/30/183148Z-r03-two-bucket/solution.zig) |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 0 | [183148Z-r02-two-bucket](data/silver/attempts/2026/09/30/183148Z-r02-two-bucket/solution.zig) |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r01-two-bucket](data/silver/attempts/2026/09/30/183148Z-r01-two-bucket/solution.zig) |
+| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 0 | [183148Z-r00-two-bucket](data/silver/attempts/2026/09/30/183148Z-r00-two-bucket/solution.zig) |
 | 2026-09-29 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [184913Z-r07-binary-search-tree](data/silver/attempts/2026/09/29/184913Z-r07-binary-search-tree/solution.zig) |
 | 2026-09-29 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [184913Z-r06-binary-search-tree](data/silver/attempts/2026/09/29/184913Z-r06-binary-search-tree/solution.zig) |
 | 2026-09-29 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [184913Z-r05-binary-search-tree](data/silver/attempts/2026/09/29/184913Z-r05-binary-search-tree/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-09-28 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [201218Z-r02-palindrome-products](data/silver/attempts/2026/09/28/201218Z-r02-palindrome-products/solution.zig) |
 | 2026-09-28 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [201218Z-r01-palindrome-products](data/silver/attempts/2026/09/28/201218Z-r01-palindrome-products/solution.zig) |
 | 2026-09-28 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [201218Z-r00-palindrome-products](data/silver/attempts/2026/09/28/201218Z-r00-palindrome-products/solution.zig) |
-| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | pass/compiled | 13/13 | 100 | [175423Z-r06-dominoes](data/silver/attempts/2026/09/27/175423Z-r06-dominoes/solution.zig) |
-| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r05-dominoes](data/silver/attempts/2026/09/27/175423Z-r05-dominoes/solution.zig) |
-| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r04-dominoes](data/silver/attempts/2026/09/27/175423Z-r04-dominoes/solution.zig) |
-| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [175423Z-r03-dominoes](data/silver/attempts/2026/09/27/175423Z-r03-dominoes/solution.zig) |
-| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r02-dominoes](data/silver/attempts/2026/09/27/175423Z-r02-dominoes/solution.zig) |
-| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r01-dominoes](data/silver/attempts/2026/09/27/175423Z-r01-dominoes/solution.zig) |
-| 2026-09-27 | Dominoes (`dominoes`) | 7 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [175423Z-r00-dominoes](data/silver/attempts/2026/09/27/175423Z-r00-dominoes/solution.zig) |
-| 2026-09-26 | Intergalactic Transmission (`intergalactic-transmission`) | 8 | `openrouter/free` | compile_error/compile_error | 0/26 | 10 | [172136Z-r07-intergalactic-transmission](data/silver/attempts/2026/09/26/172136Z-r07-intergalactic-transmission/solution.zig) |
 
 <!-- zigsyphus-results:end -->

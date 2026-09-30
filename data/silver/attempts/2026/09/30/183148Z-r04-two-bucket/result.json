@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-30-183148Z-r04-two-bucket",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"two-bucket","status":"pass"}},
+  "date": "2026-09-30",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Two Bucket","slug":"two-bucket","tags":[],"uuid":"76a612c1-2cff-44f6-903e-9bc7457916f8"},
+  "resultPath": "data/silver/attempts/2026/09/30/183148Z-r04-two-bucket/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/30/183148Z-r04-two-bucket/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":11,"outputExcerpt":"\ntwo_bucket.zig:25:19: error: use of undeclared identifier 'std'\n    var visited = std.AutoHashMap([2]u64, void).init(std.heap.page_allocator);\n                  ^~~\ntwo_bucket.zig:116:73: error: unused function parameter\nfn generateNextStates(current: State, bucket_one: u64, bucket_two: u64, start_bucket: BucketId) []State {\n                                                                        ^~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":11},
+  "testedAt": "2026-09-30T18:40:18Z",
+  "zigVersion": "0.16.0"
+}

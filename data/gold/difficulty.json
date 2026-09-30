@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-09-29-184913Z-r07-binary-search-tree",
-  "currentDifficulty": 7,
+  "attemptId": "2026-09-30-183148Z-r07-two-bucket",
+  "currentDifficulty": 6,
   "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 6,
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T19:05:50Z"
+  "updatedAt": "2026-09-30T18:41:59Z"
 }

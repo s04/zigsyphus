@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-09-30-183148Z-r05-two-bucket",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"two-bucket","status":"pass"}},
+  "date": "2026-09-30",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Two Bucket","slug":"two-bucket","tags":[],"uuid":"76a612c1-2cff-44f6-903e-9bc7457916f8"},
+  "resultPath": "data/silver/attempts/2026/09/30/183148Z-r05-two-bucket/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/09/30/183148Z-r05-two-bucket/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":11,"outputExcerpt":"\ntwo_bucket.zig:30:37: error: struct 'array_list.Aligned(two_bucket.State,null)' has no member named 'init'\n    var queue = std.ArrayList(State).init(std.heap.page_allocator);\n                ~~~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/86418e11-3b85-4430-a3b5-83cbf0e2d9d8/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.Measure using bucket one of size 3 and bucket two of size 5 - start with bucket one: test_two_bucket.zig:8:16\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":11},
+  "testedAt": "2026-09-30T18:40:30Z",
+  "zigVersion": "0.16.0"
+}
