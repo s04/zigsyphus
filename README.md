@@ -94,6 +94,11 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | pass/compiled | 6/6 | 100 | [185925Z-r04-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r04-spiral-matrix/solution.zig) |
+| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r03-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r03-spiral-matrix/solution.zig) |
+| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r02-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r02-spiral-matrix/solution.zig) |
+| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r01-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r01-spiral-matrix/solution.zig) |
+| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r00-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r00-spiral-matrix/solution.zig) |
 | 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r07-two-bucket](data/silver/attempts/2026/09/30/183148Z-r07-two-bucket/solution.zig) |
 | 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r06-two-bucket](data/silver/attempts/2026/09/30/183148Z-r06-two-bucket/solution.zig) |
 | 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r05-two-bucket](data/silver/attempts/2026/09/30/183148Z-r05-two-bucket/solution.zig) |
@@ -109,10 +114,5 @@ Required GitHub secret:
 | 2026-09-29 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [184913Z-r03-binary-search-tree](data/silver/attempts/2026/09/29/184913Z-r03-binary-search-tree/solution.zig) |
 | 2026-09-29 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [184913Z-r02-binary-search-tree](data/silver/attempts/2026/09/29/184913Z-r02-binary-search-tree/solution.zig) |
 | 2026-09-29 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [184913Z-r01-binary-search-tree](data/silver/attempts/2026/09/29/184913Z-r01-binary-search-tree/solution.zig) |
-| 2026-09-29 | Binary Search Tree (`binary-search-tree`) | 7 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [184913Z-r00-binary-search-tree](data/silver/attempts/2026/09/29/184913Z-r00-binary-search-tree/solution.zig) |
-| 2026-09-28 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [201218Z-r03-palindrome-products](data/silver/attempts/2026/09/28/201218Z-r03-palindrome-products/solution.zig) |
-| 2026-09-28 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [201218Z-r02-palindrome-products](data/silver/attempts/2026/09/28/201218Z-r02-palindrome-products/solution.zig) |
-| 2026-09-28 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [201218Z-r01-palindrome-products](data/silver/attempts/2026/09/28/201218Z-r01-palindrome-products/solution.zig) |
-| 2026-09-28 | Palindrome Products (`palindrome-products`) | 8 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [201218Z-r00-palindrome-products](data/silver/attempts/2026/09/28/201218Z-r00-palindrome-products/solution.zig) |
 
 <!-- zigsyphus-results:end -->

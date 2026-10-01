@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-01-185925Z-r01-spiral-matrix",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"spiral-matrix","status":"pass"}},
+  "date": "2026-10-01",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Spiral Matrix","slug":"spiral-matrix","tags":[],"uuid":"9d64ac83-82a9-44eb-a9c5-214c034e3ce4"},
+  "resultPath": "data/silver/attempts/2026/10/01/185925Z-r01-spiral-matrix/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/10/01/185925Z-r01-spiral-matrix/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":6,"outputExcerpt":"\ntest_spiral_matrix.zig:5:29: error: root source file struct 'spiral_matrix' has no member named 'spiral'\nconst spiral = spiral_matrix.spiral;\n               ~~~~~~~~~~~~~^~~~~~~\nspiral_matrix.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    spiralTest: test_spiral_matrix.zig:15:24\n    checkAllAllocationFailures__anon_43312: /home/runner/work/_temp/8b7c5249-bbf5-4664-8321-08c475083278/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":6},
+  "testedAt": "2026-10-01T19:03:20Z",
+  "zigVersion": "0.16.0"
+}
