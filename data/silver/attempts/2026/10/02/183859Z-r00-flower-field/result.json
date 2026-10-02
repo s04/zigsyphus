@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-02-183859Z-r00-flower-field",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"flower-field","status":"pass"}},
+  "date": "2026-10-02",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Flower Field","slug":"flower-field","tags":[],"uuid":"afd931dd-33dd-4961-bd2b-251c62fb9311"},
+  "resultPath": "data/silver/attempts/2026/10/02/183859Z-r00-flower-field/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/02/183859Z-r00-flower-field/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\nflower_field.zig:32:32: error: expected 1 argument, found 2\n                    const nr = @intCast(isize, r) + @intCast(isize, dr);\n                               ^~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-10-02T18:40:17Z",
+  "zigVersion": "0.16.0"
+}

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-02-183859Z-r01-flower-field",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"flower-field","status":"pass"}},
+  "date": "2026-10-02",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Flower Field","slug":"flower-field","tags":[],"uuid":"afd931dd-33dd-4961-bd2b-251c62fb9311"},
+  "resultPath": "data/silver/attempts/2026/10/02/183859Z-r01-flower-field/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/10/02/183859Z-r01-flower-field/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\ntest_flower_field.zig:4:45: error: root source file struct 'flower_field' has no member named 'annotate'\nconst annotate = @import(\"flower_field.zig\").annotate;\n                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\nflower_field.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    annotateTest: test_flower_field.zig:14:24\n    checkAllAllocationFailures__anon_43161: /home/runner/work/_temp/e5cd16e1-82aa-4746-b414-68ab5f50f892/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-10-02T18:41:18Z",
+  "zigVersion": "0.16.0"
+}
