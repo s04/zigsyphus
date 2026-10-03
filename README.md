@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r07-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r07-killer-sudoku-helper/solution.zig) |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r06-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r06-killer-sudoku-helper/solution.zig) |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [173255Z-r05-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r05-killer-sudoku-helper/solution.zig) |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r04-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r04-killer-sudoku-helper/solution.zig) |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [173255Z-r03-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r03-killer-sudoku-helper/solution.zig) |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r02-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r02-killer-sudoku-helper/solution.zig) |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [173255Z-r01-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r01-killer-sudoku-helper/solution.zig) |
+| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r00-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r00-killer-sudoku-helper/solution.zig) |
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r07-flower-field](data/silver/attempts/2026/10/02/183859Z-r07-flower-field/solution.zig) |
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r06-flower-field](data/silver/attempts/2026/10/02/183859Z-r06-flower-field/solution.zig) |
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r05-flower-field](data/silver/attempts/2026/10/02/183859Z-r05-flower-field/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r03-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r03-spiral-matrix/solution.zig) |
 | 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r02-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r02-spiral-matrix/solution.zig) |
 | 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r01-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r01-spiral-matrix/solution.zig) |
-| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r00-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r00-spiral-matrix/solution.zig) |
-| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r07-two-bucket](data/silver/attempts/2026/09/30/183148Z-r07-two-bucket/solution.zig) |
-| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r06-two-bucket](data/silver/attempts/2026/09/30/183148Z-r06-two-bucket/solution.zig) |
-| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r05-two-bucket](data/silver/attempts/2026/09/30/183148Z-r05-two-bucket/solution.zig) |
-| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r04-two-bucket](data/silver/attempts/2026/09/30/183148Z-r04-two-bucket/solution.zig) |
-| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r03-two-bucket](data/silver/attempts/2026/09/30/183148Z-r03-two-bucket/solution.zig) |
-| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 0 | [183148Z-r02-two-bucket](data/silver/attempts/2026/09/30/183148Z-r02-two-bucket/solution.zig) |
-| 2026-09-30 | Two Bucket (`two-bucket`) | 6 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [183148Z-r01-two-bucket](data/silver/attempts/2026/09/30/183148Z-r01-two-bucket/solution.zig) |
 
 <!-- zigsyphus-results:end -->

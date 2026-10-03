@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-03-173255Z-r04-killer-sudoku-helper",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"killer-sudoku-helper","status":"pass"}},
+  "date": "2026-10-03",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Killer Sudoku Helper","slug":"killer-sudoku-helper","tags":[],"uuid":"7867fffe-c136-455c-bf3c-2cf071282839"},
+  "resultPath": "data/silver/attempts/2026/10/03/173255Z-r04-killer-sudoku-helper/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/03/173255Z-r04-killer-sudoku-helper/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\nkiller_sudoku_helper.zig:13:10: error: expected ',' after initializer\n        }\n         ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-10-03T17:42:01Z",
+  "zigVersion": "0.16.0"
+}

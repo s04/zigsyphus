@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-03-173255Z-r06-killer-sudoku-helper",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"killer-sudoku-helper","status":"pass"}},
+  "date": "2026-10-03",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Killer Sudoku Helper","slug":"killer-sudoku-helper","tags":[],"uuid":"7867fffe-c136-455c-bf3c-2cf071282839"},
+  "resultPath": "data/silver/attempts/2026/10/03/173255Z-r06-killer-sudoku-helper/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/03/173255Z-r06-killer-sudoku-helper/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\nkiller_sudoku_helper.zig:42:13: error: local variable is never mutated\n        var frame = stack[stack_top];\n            ^~~~~\nkiller_sudoku_helper.zig:42:13: note: consider using 'const'\nkiller_sudoku_helper.zig:79:25: error: unused function parameter\n        pub fn lessThan(context: void, a: u9, b: u9) bool {\n                        ^~~~~~~\nkiller_sudoku_helper.zig:4:9: error: unused local variable\n    var count: usize = 0;\n        ^~~~~\nkiller_sudoku_helper.zig:56:54: error: expected type 'u4', found 'u9'\n                if ((exclude & (@as(u9, 1) << (digit - 1))) == 0) {\n                                               ~~~~~~^~~\nkiller_sudoku_helper.zig:56:54: note: unsigned 4-bit int cannot represent all possible unsigned 9-bit values\nreferenced by:\n    test.Trivial 1-digit cages-1: test_killer_sudoku_helper.zig:10:53\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-10-03T17:44:01Z",
+  "zigVersion": "0.16.0"
+}

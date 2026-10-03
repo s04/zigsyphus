@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-03-173255Z-r07-killer-sudoku-helper",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"killer-sudoku-helper","status":"pass"}},
+  "date": "2026-10-03",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Killer Sudoku Helper","slug":"killer-sudoku-helper","tags":[],"uuid":"7867fffe-c136-455c-bf3c-2cf071282839"},
+  "resultPath": "data/silver/attempts/2026/10/03/173255Z-r07-killer-sudoku-helper/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/03/173255Z-r07-killer-sudoku-helper/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\nkiller_sudoku_helper.zig:81:13: error: root source file struct 'sort' has no member named 'sort'\n    std.sort.sort(u9, state.buffer[0..state.count], {}, Comparator.lessThan);\n    ~~~~~~~~^~~~~\n/home/runner/work/_temp/5205087a-722b-43d6-ab54-cd8f591a48f0/zig-x86_64-linux-0.16.0/lib/std/sort.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nreferenced by:\n    test.Trivial 1-digit cages-1: test_killer_sudoku_helper.zig:10:53\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-10-03T17:44:15Z",
+  "zigVersion": "0.16.0"
+}

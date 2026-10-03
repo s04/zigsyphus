@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-02-183859Z-r07-flower-field",
-  "currentDifficulty": 6,
+  "attemptId": "2026-10-03-173255Z-r07-killer-sudoku-helper",
+  "currentDifficulty": 5,
   "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 5,
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T18:44:37Z"
+  "updatedAt": "2026-10-03T17:44:15Z"
 }

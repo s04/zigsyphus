@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-03-173255Z-r02-killer-sudoku-helper",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"killer-sudoku-helper","status":"pass"}},
+  "date": "2026-10-03",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Killer Sudoku Helper","slug":"killer-sudoku-helper","tags":[],"uuid":"7867fffe-c136-455c-bf3c-2cf071282839"},
+  "resultPath": "data/silver/attempts/2026/10/03/173255Z-r02-killer-sudoku-helper/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/03/173255Z-r02-killer-sudoku-helper/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":13,"outputExcerpt":"\n1/13 test_killer_sudoku_helper.test.Trivial 1-digit cages-1...thread 2491 panic: integer overflow\n/tmp/zigsyphus-killer-sudoku-helper-588539f29db8e3e4/killer_sudoku_helper.zig:6:32: 0x123523e in combinations (test_killer_sudoku_helper.zig)\n    while (mask < 512) : (mask += 1) {\n                               ^\n/tmp/zigsyphus-killer-sudoku-helper-588539f29db8e3e4/test_killer_sudoku_helper.zig:10:53: 0x1238c55 in test.Trivial 1-digit cages-1 (test_killer_sudoku_helper.zig)\n    const actual = killer_sudoku_helper.combinations(&buffer, 1, 1, 0b0);\n                                                    ^\n/home/runner/work/_temp/5205087a-722b-43d6-ab54-cd8f591a48f0/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:291:25: 0x11eec36 in mainTerminal (test_runner.zig)\n        if (test_fn.func()) |_| {\n                        ^\n/home/runner/work/_temp/5205087a-722b-43d6-ab54-cd8f591a48f0/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:73:28: 0x11ee452 in main (test_runner.zig)\n        return mainTerminal(init);\n                           ^\n/home/runner/work/_temp/5205087a-722b-43d6-ab54-cd8f591a48f0/zig-x86_64-linux-0.16.0/lib/std/start.zig:699:88: 0x11eac65 in callMain (std.zig)\n    if (fn_info.params[0].type.? == std.process.Init.Minimal) return wrapMain(root.main(.{\n                                                                                       ^\n/home/runner/work/_temp/5205087a-722b-43d6-ab54-cd8f591a48f0/zig-x86_64-linux-0.16.0/lib/std/start.zig:190:5: 0x11ea641 in _start (std.zig)\n    asm volatile (switch (native_arch) {\n    ^\nerror: the following test command terminated with signal ABRT:\n.zig-cache/o/2e479a4e0685ae0d7d5aff17a12abe20/test --seed=0xd68b7172\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":13},
+  "testedAt": "2026-10-03T17:36:39Z",
+  "zigVersion": "0.16.0"
+}
