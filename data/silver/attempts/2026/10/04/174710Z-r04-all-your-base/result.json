@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-04-174710Z-r04-all-your-base",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"all-your-base","status":"pass"}},
+  "date": "2026-10-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"All Your Base","slug":"all-your-base","tags":["allocators","error-sets","integers","math"],"uuid":"52281bbe-e1f6-4423-8092-6a8940a50ced"},
+  "resultPath": "data/silver/attempts/2026/10/04/174710Z-r04-all-your-base/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/04/174710Z-r04-all-your-base/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\nall_your_base.zig:49:15: error: expected '(', found 'an identifier'\n        while quot.items.len > 0 && quot.items[0] == 0 {\n              ^~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-10-04T17:50:37Z",
+  "zigVersion": "0.16.0"
+}

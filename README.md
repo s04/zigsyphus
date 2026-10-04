@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r07-all-your-base](data/silver/attempts/2026/10/04/174710Z-r07-all-your-base/solution.zig) |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r06-all-your-base](data/silver/attempts/2026/10/04/174710Z-r06-all-your-base/solution.zig) |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r05-all-your-base](data/silver/attempts/2026/10/04/174710Z-r05-all-your-base/solution.zig) |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r04-all-your-base](data/silver/attempts/2026/10/04/174710Z-r04-all-your-base/solution.zig) |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r03-all-your-base](data/silver/attempts/2026/10/04/174710Z-r03-all-your-base/solution.zig) |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [174710Z-r02-all-your-base](data/silver/attempts/2026/10/04/174710Z-r02-all-your-base/solution.zig) |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r01-all-your-base](data/silver/attempts/2026/10/04/174710Z-r01-all-your-base/solution.zig) |
+| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r00-all-your-base](data/silver/attempts/2026/10/04/174710Z-r00-all-your-base/solution.zig) |
 | 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r07-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r07-killer-sudoku-helper/solution.zig) |
 | 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r06-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r06-killer-sudoku-helper/solution.zig) |
 | 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [173255Z-r05-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r05-killer-sudoku-helper/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r06-flower-field](data/silver/attempts/2026/10/02/183859Z-r06-flower-field/solution.zig) |
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r05-flower-field](data/silver/attempts/2026/10/02/183859Z-r05-flower-field/solution.zig) |
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r04-flower-field](data/silver/attempts/2026/10/02/183859Z-r04-flower-field/solution.zig) |
-| 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r03-flower-field](data/silver/attempts/2026/10/02/183859Z-r03-flower-field/solution.zig) |
-| 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [183859Z-r02-flower-field](data/silver/attempts/2026/10/02/183859Z-r02-flower-field/solution.zig) |
-| 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [183859Z-r01-flower-field](data/silver/attempts/2026/10/02/183859Z-r01-flower-field/solution.zig) |
-| 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r00-flower-field](data/silver/attempts/2026/10/02/183859Z-r00-flower-field/solution.zig) |
-| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | pass/compiled | 6/6 | 100 | [185925Z-r04-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r04-spiral-matrix/solution.zig) |
-| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r03-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r03-spiral-matrix/solution.zig) |
-| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r02-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r02-spiral-matrix/solution.zig) |
-| 2026-10-01 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [185925Z-r01-spiral-matrix](data/silver/attempts/2026/10/01/185925Z-r01-spiral-matrix/solution.zig) |
 
 <!-- zigsyphus-results:end -->

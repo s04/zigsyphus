@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-03-173255Z-r07-killer-sudoku-helper",
-  "currentDifficulty": 5,
+  "attemptId": "2026-10-04-174710Z-r07-all-your-base",
+  "currentDifficulty": 4,
   "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 4,
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T17:44:15Z"
+  "updatedAt": "2026-10-04T17:51:40Z"
 }

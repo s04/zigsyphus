@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-04-174710Z-r07-all-your-base",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"all-your-base","status":"pass"}},
+  "date": "2026-10-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"All Your Base","slug":"all-your-base","tags":["allocators","error-sets","integers","math"],"uuid":"52281bbe-e1f6-4423-8092-6a8940a50ced"},
+  "resultPath": "data/silver/attempts/2026/10/04/174710Z-r07-all-your-base/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/04/174710Z-r07-all-your-base/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\nall_your_base.zig:37:34: error: struct 'array_list.Aligned(u32,null)' has no member named 'init'\n    var list = std.ArrayList(u32).init(allocator);\n               ~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/ed0c1e9c-8c82-4c50-a1cc-5944d93c530b/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.single bit one to decimal: test_all_your_base.zig:13:31\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-10-04T17:51:40Z",
+  "zigVersion": "0.16.0"
+}

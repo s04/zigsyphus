@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-04-174710Z-r02-all-your-base",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"all-your-base","status":"pass"}},
+  "date": "2026-10-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"All Your Base","slug":"all-your-base","tags":["allocators","error-sets","integers","math"],"uuid":"52281bbe-e1f6-4423-8092-6a8940a50ced"},
+  "resultPath": "data/silver/attempts/2026/10/04/174710Z-r02-all-your-base/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/10/04/174710Z-r02-all-your-base/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":18,"outputExcerpt":"\ntest_all_your_base.zig:5:30: error: root source file struct 'all_your_base' has no member named 'convert'\nconst convert = all_your_base.convert;\n                ~~~~~~~~~~~~~^~~~~~~~\nall_your_base.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.single bit one to decimal: test_all_your_base.zig:13:24\ntest_all_your_base.zig:6:38: error: root source file struct 'all_your_base' has no member named 'ConversionError'\nconst ConversionError = all_your_base.ConversionError;\n                        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\nall_your_base.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":18},
+  "testedAt": "2026-10-04T17:49:12Z",
+  "zigVersion": "0.16.0"
+}
