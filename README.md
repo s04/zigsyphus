@@ -94,6 +94,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-06 | Pascal's Triangle (`pascals-triangle`) | 4 | `openrouter/free` | pass/compiled | 9/9 | 100 | [190019Z-r00-pascals-triangle](data/silver/attempts/2026/10/06/190019Z-r00-pascals-triangle/solution.zig) |
 | 2026-10-05 | Sublist (`sublist`) | 3 | `openrouter/free` | pass/compiled | 18/18 | 100 | [211244Z-r00-sublist](data/silver/attempts/2026/10/05/211244Z-r00-sublist/solution.zig) |
 | 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r07-all-your-base](data/silver/attempts/2026/10/04/174710Z-r07-all-your-base/solution.zig) |
 | 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r06-all-your-base](data/silver/attempts/2026/10/04/174710Z-r06-all-your-base/solution.zig) |
@@ -113,6 +114,5 @@ Required GitHub secret:
 | 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r00-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r00-killer-sudoku-helper/solution.zig) |
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r07-flower-field](data/silver/attempts/2026/10/02/183859Z-r07-flower-field/solution.zig) |
 | 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r06-flower-field](data/silver/attempts/2026/10/02/183859Z-r06-flower-field/solution.zig) |
-| 2026-10-02 | Flower Field (`flower-field`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [183859Z-r05-flower-field](data/silver/attempts/2026/10/02/183859Z-r05-flower-field/solution.zig) |
 
 <!-- zigsyphus-results:end -->

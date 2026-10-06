@@ -1,18 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-10-05-211244Z-r00-sublist",
-    "currentDifficulty": 3,
+    "attemptId": "2026-10-06-190019Z-r00-pascals-triangle",
+    "currentDifficulty": 4,
     "lastScore": 100,
     "lastStatus": "pass",
-    "nextDifficulty": 4,
+    "nextDifficulty": 5,
     "schemaVersion": 1,
-    "updatedAt": "2026-10-05T21:13:17Z"
+    "updatedAt": "2026-10-06T19:00:25Z"
   },
-  "generatedAt": "2026-10-05T21:13:17Z",
-  "latest": {"attemptId":"2026-10-05-211244Z-r00-sublist","compileStatus":"compiled","date":"2026-10-05","difficulty":"3","mode":"live","model":"openrouter/free","name":"Sublist","passed":"18","resultPath":"data/silver/attempts/2026/10/05/211244Z-r00-sublist/result.json","runAt":"2026-10-05T21:13:17Z","score":"100","slug":"sublist","solutionPath":"data/silver/attempts/2026/10/05/211244Z-r00-sublist/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"},
-  "nextDifficulty": 4,
+  "generatedAt": "2026-10-06T19:00:25Z",
+  "latest": {"attemptId":"2026-10-06-190019Z-r00-pascals-triangle","compileStatus":"compiled","date":"2026-10-06","difficulty":"4","mode":"live","model":"openrouter/free","name":"Pascal's Triangle","passed":"9","resultPath":"data/silver/attempts/2026/10/06/190019Z-r00-pascals-triangle/result.json","runAt":"2026-10-06T19:00:25Z","score":"100","slug":"pascals-triangle","solutionPath":"data/silver/attempts/2026/10/06/190019Z-r00-pascals-triangle/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"},
+  "nextDifficulty": 5,
   "recentRuns": [
-    {"attemptId":"2026-10-02-183859Z-r05-flower-field","compileStatus":"compile_error","date":"2026-10-02","difficulty":"6","mode":"live","model":"openrouter/free","name":"Flower Field","passed":"0","resultPath":"data/silver/attempts/2026/10/02/183859Z-r05-flower-field/result.json","runAt":"2026-10-02T18:43:34Z","score":"10","slug":"flower-field","solutionPath":"data/silver/attempts/2026/10/02/183859Z-r05-flower-field/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-02-183859Z-r06-flower-field","compileStatus":"compile_error","date":"2026-10-02","difficulty":"6","mode":"live","model":"openrouter/free","name":"Flower Field","passed":"0","resultPath":"data/silver/attempts/2026/10/02/183859Z-r06-flower-field/result.json","runAt":"2026-10-02T18:43:54Z","score":"10","slug":"flower-field","solutionPath":"data/silver/attempts/2026/10/02/183859Z-r06-flower-field/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-02-183859Z-r07-flower-field","compileStatus":"compile_error","date":"2026-10-02","difficulty":"6","mode":"live","model":"openrouter/free","name":"Flower Field","passed":"0","resultPath":"data/silver/attempts/2026/10/02/183859Z-r07-flower-field/result.json","runAt":"2026-10-02T18:44:37Z","score":"10","slug":"flower-field","solutionPath":"data/silver/attempts/2026/10/02/183859Z-r07-flower-field/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-03-173255Z-r00-killer-sudoku-helper","compileStatus":"compile_error","date":"2026-10-03","difficulty":"5","mode":"live","model":"openrouter/free","name":"Killer Sudoku Helper","passed":"0","resultPath":"data/silver/attempts/2026/10/03/173255Z-r00-killer-sudoku-helper/result.json","runAt":"2026-10-03T17:33:37Z","score":"10","slug":"killer-sudoku-helper","solutionPath":"data/silver/attempts/2026/10/03/173255Z-r00-killer-sudoku-helper/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
@@ -31,12 +30,12 @@
     {"attemptId":"2026-10-04-174710Z-r05-all-your-base","compileStatus":"compile_error","date":"2026-10-04","difficulty":"4","mode":"live","model":"openrouter/free","name":"All Your Base","passed":"0","resultPath":"data/silver/attempts/2026/10/04/174710Z-r05-all-your-base/result.json","runAt":"2026-10-04T17:51:32Z","score":"10","slug":"all-your-base","solutionPath":"data/silver/attempts/2026/10/04/174710Z-r05-all-your-base/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-04-174710Z-r06-all-your-base","compileStatus":"compile_error","date":"2026-10-04","difficulty":"4","mode":"live","model":"openrouter/free","name":"All Your Base","passed":"0","resultPath":"data/silver/attempts/2026/10/04/174710Z-r06-all-your-base/result.json","runAt":"2026-10-04T17:51:36Z","score":"10","slug":"all-your-base","solutionPath":"data/silver/attempts/2026/10/04/174710Z-r06-all-your-base/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-04-174710Z-r07-all-your-base","compileStatus":"compile_error","date":"2026-10-04","difficulty":"4","mode":"live","model":"openrouter/free","name":"All Your Base","passed":"0","resultPath":"data/silver/attempts/2026/10/04/174710Z-r07-all-your-base/result.json","runAt":"2026-10-04T17:51:40Z","score":"10","slug":"all-your-base","solutionPath":"data/silver/attempts/2026/10/04/174710Z-r07-all-your-base/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-05-211244Z-r00-sublist","compileStatus":"compiled","date":"2026-10-05","difficulty":"3","mode":"live","model":"openrouter/free","name":"Sublist","passed":"18","resultPath":"data/silver/attempts/2026/10/05/211244Z-r00-sublist/result.json","runAt":"2026-10-05T21:13:17Z","score":"100","slug":"sublist","solutionPath":"data/silver/attempts/2026/10/05/211244Z-r00-sublist/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"}
+    {"attemptId":"2026-10-05-211244Z-r00-sublist","compileStatus":"compiled","date":"2026-10-05","difficulty":"3","mode":"live","model":"openrouter/free","name":"Sublist","passed":"18","resultPath":"data/silver/attempts/2026/10/05/211244Z-r00-sublist/result.json","runAt":"2026-10-05T21:13:17Z","score":"100","slug":"sublist","solutionPath":"data/silver/attempts/2026/10/05/211244Z-r00-sublist/solution.zig","status":"pass","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-06-190019Z-r00-pascals-triangle","compileStatus":"compiled","date":"2026-10-06","difficulty":"4","mode":"live","model":"openrouter/free","name":"Pascal's Triangle","passed":"9","resultPath":"data/silver/attempts/2026/10/06/190019Z-r00-pascals-triangle/result.json","runAt":"2026-10-06T19:00:25Z","score":"100","slug":"pascals-triangle","solutionPath":"data/silver/attempts/2026/10/06/190019Z-r00-pascals-triangle/solution.zig","status":"pass","total":"9","zigVersion":"0.16.0"}
   ],
-  "runCount": 401,
+  "runCount": 402,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-09-26-172136Z-r05-intergalactic-transmission", "date": "2026-09-26", "score": 0, "slug": "intergalactic-transmission"},
     {"attemptId": "2026-09-26-172136Z-r06-intergalactic-transmission", "date": "2026-09-26", "score": 10, "slug": "intergalactic-transmission"},
     {"attemptId": "2026-09-26-172136Z-r07-intergalactic-transmission", "date": "2026-09-26", "score": 10, "slug": "intergalactic-transmission"},
     {"attemptId": "2026-09-27-175423Z-r00-dominoes", "date": "2026-09-27", "score": 10, "slug": "dominoes"},
@@ -95,6 +94,7 @@
     {"attemptId": "2026-10-04-174710Z-r05-all-your-base", "date": "2026-10-04", "score": 10, "slug": "all-your-base"},
     {"attemptId": "2026-10-04-174710Z-r06-all-your-base", "date": "2026-10-04", "score": 10, "slug": "all-your-base"},
     {"attemptId": "2026-10-04-174710Z-r07-all-your-base", "date": "2026-10-04", "score": 10, "slug": "all-your-base"},
-    {"attemptId": "2026-10-05-211244Z-r00-sublist", "date": "2026-10-05", "score": 100, "slug": "sublist"}
+    {"attemptId": "2026-10-05-211244Z-r00-sublist", "date": "2026-10-05", "score": 100, "slug": "sublist"},
+    {"attemptId": "2026-10-06-190019Z-r00-pascals-triangle", "date": "2026-10-06", "score": 100, "slug": "pascals-triangle"}
   ]
 }

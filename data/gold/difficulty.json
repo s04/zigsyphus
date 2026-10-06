@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-05-211244Z-r00-sublist",
-  "currentDifficulty": 3,
+  "attemptId": "2026-10-06-190019Z-r00-pascals-triangle",
+  "currentDifficulty": 4,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 4,
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T21:13:17Z"
+  "updatedAt": "2026-10-06T19:00:25Z"
 }
