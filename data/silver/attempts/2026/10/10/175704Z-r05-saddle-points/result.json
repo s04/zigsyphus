@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-10-175704Z-r05-saddle-points",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"saddle-points","status":"pass"}},
+  "date": "2026-10-10",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Saddle Points","slug":"saddle-points","tags":[],"uuid":"f4028015-f47c-4826-9f19-814f452a27ce"},
+  "resultPath": "data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":9,"outputExcerpt":"\nsaddle_points.zig:15:36: error: struct 'array_list.Aligned(saddle_points.Point,null)' has no member named 'init'\n    var list = std.ArrayList(Point).init(allocator);\n               ~~~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/47a514b2-206c-41d1-a811-6ce0e11b49c1/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.Can identify that saddle points in a single row matrix are those with the maximum value: test_saddle_points.zig:128:36\nsaddle_points.zig:15:36: error: struct 'array_list.Aligned(saddle_points.Point,null)' has no member named 'init'\n    var list = std.ArrayList(Point).init(allocator);\n               ~~~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/47a514b2-206c-41d1-a811-6ce0e11b49c1/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nsaddle_points.zig:15:36: error: struct 'array_list.Aligned(saddle_points.Point,null)' has no member named 'init'\n    var list = std.ArrayList(Point).init(allocator);\n               ~~~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/47a514b2-206c-41d1-a811-6ce0e11b49c1/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nsaddle_points.zig:15:36: error: struct 'array_list.Aligned(saddle_points.Point,null)' has no member named 'init'\n    var list = std.ArrayList(Point).init(allocator);\n               ~~~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/47a514b2-206c-41d1-a811-6ce0e11b49c1/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":9},
+  "testedAt": "2026-10-10T18:05:35Z",
+  "zigVersion": "0.16.0"
+}
