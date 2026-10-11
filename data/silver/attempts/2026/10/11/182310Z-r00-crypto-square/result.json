@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-11-182310Z-r00-crypto-square",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"crypto-square","status":"pass"}},
+  "date": "2026-10-11",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Crypto Square","slug":"crypto-square","tags":[],"uuid":"4742d7da-79df-4f09-9ce7-bc567f84a6ee"},
+  "resultPath": "data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\ncrypto_square.zig:7:39: error: struct 'array_list.Aligned(u8,null)' has no member named 'init'\n    var normalized = std.ArrayList(u8).init(allocator);\n                     ~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/3dbeec26-81a8-460e-8dd2-8cd77c6540a0/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.empty plaintext results in an empty ciphertext: test_crypto_square.zig:8:48\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-10-11T18:23:39Z",
+  "zigVersion": "0.16.0"
+}

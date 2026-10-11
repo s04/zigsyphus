@@ -94,6 +94,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-11 | Crypto Square (`crypto-square`) | 4 | `openrouter/free` | pass/compiled | 8/8 | 100 | [182310Z-r01-crypto-square](data/silver/attempts/2026/10/11/182310Z-r01-crypto-square/solution.zig) |
+| 2026-10-11 | Crypto Square (`crypto-square`) | 4 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [182310Z-r00-crypto-square](data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/solution.zig) |
 | 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r07-saddle-points](data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/solution.zig) |
 | 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r06-saddle-points](data/silver/attempts/2026/10/10/175704Z-r06-saddle-points/solution.zig) |
 | 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r05-saddle-points](data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/solution.zig) |
@@ -112,7 +114,5 @@ Required GitHub secret:
 | 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [174710Z-r02-all-your-base](data/silver/attempts/2026/10/04/174710Z-r02-all-your-base/solution.zig) |
 | 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r01-all-your-base](data/silver/attempts/2026/10/04/174710Z-r01-all-your-base/solution.zig) |
 | 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r00-all-your-base](data/silver/attempts/2026/10/04/174710Z-r00-all-your-base/solution.zig) |
-| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r07-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r07-killer-sudoku-helper/solution.zig) |
-| 2026-10-03 | Killer Sudoku Helper (`killer-sudoku-helper`) | 5 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [173255Z-r06-killer-sudoku-helper](data/silver/attempts/2026/10/03/173255Z-r06-killer-sudoku-helper/solution.zig) |
 
 <!-- zigsyphus-results:end -->

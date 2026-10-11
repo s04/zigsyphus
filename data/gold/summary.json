@@ -1,19 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-10-10-175704Z-r07-saddle-points",
-    "currentDifficulty": 5,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 4,
+    "attemptId": "2026-10-11-182310Z-r01-crypto-square",
+    "currentDifficulty": 4,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 5,
     "schemaVersion": 1,
-    "updatedAt": "2026-10-10T18:05:45Z"
+    "updatedAt": "2026-10-11T18:26:20Z"
   },
-  "generatedAt": "2026-10-10T18:05:45Z",
-  "latest": {"attemptId":"2026-10-10-175704Z-r07-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/result.json","runAt":"2026-10-10T18:05:45Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
-  "nextDifficulty": 4,
+  "generatedAt": "2026-10-11T18:26:20Z",
+  "latest": {"attemptId":"2026-10-11-182310Z-r01-crypto-square","compileStatus":"compiled","date":"2026-10-11","difficulty":"4","mode":"live","model":"openrouter/free","name":"Crypto Square","passed":"8","resultPath":"data/silver/attempts/2026/10/11/182310Z-r01-crypto-square/result.json","runAt":"2026-10-11T18:26:20Z","score":"100","slug":"crypto-square","solutionPath":"data/silver/attempts/2026/10/11/182310Z-r01-crypto-square/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"},
+  "nextDifficulty": 5,
   "recentRuns": [
-    {"attemptId":"2026-10-03-173255Z-r06-killer-sudoku-helper","compileStatus":"compile_error","date":"2026-10-03","difficulty":"5","mode":"live","model":"openrouter/free","name":"Killer Sudoku Helper","passed":"0","resultPath":"data/silver/attempts/2026/10/03/173255Z-r06-killer-sudoku-helper/result.json","runAt":"2026-10-03T17:44:01Z","score":"10","slug":"killer-sudoku-helper","solutionPath":"data/silver/attempts/2026/10/03/173255Z-r06-killer-sudoku-helper/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-03-173255Z-r07-killer-sudoku-helper","compileStatus":"compile_error","date":"2026-10-03","difficulty":"5","mode":"live","model":"openrouter/free","name":"Killer Sudoku Helper","passed":"0","resultPath":"data/silver/attempts/2026/10/03/173255Z-r07-killer-sudoku-helper/result.json","runAt":"2026-10-03T17:44:15Z","score":"10","slug":"killer-sudoku-helper","solutionPath":"data/silver/attempts/2026/10/03/173255Z-r07-killer-sudoku-helper/solution.zig","status":"compile_error","total":"13","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-04-174710Z-r00-all-your-base","compileStatus":"compile_error","date":"2026-10-04","difficulty":"4","mode":"live","model":"openrouter/free","name":"All Your Base","passed":"0","resultPath":"data/silver/attempts/2026/10/04/174710Z-r00-all-your-base/result.json","runAt":"2026-10-04T17:47:34Z","score":"10","slug":"all-your-base","solutionPath":"data/silver/attempts/2026/10/04/174710Z-r00-all-your-base/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-04-174710Z-r01-all-your-base","compileStatus":"compile_error","date":"2026-10-04","difficulty":"4","mode":"live","model":"openrouter/free","name":"All Your Base","passed":"0","resultPath":"data/silver/attempts/2026/10/04/174710Z-r01-all-your-base/result.json","runAt":"2026-10-04T17:47:37Z","score":"10","slug":"all-your-base","solutionPath":"data/silver/attempts/2026/10/04/174710Z-r01-all-your-base/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-04-174710Z-r02-all-your-base","compileStatus":"compile_error","date":"2026-10-04","difficulty":"4","mode":"live","model":"openrouter/free","name":"All Your Base","passed":"0","resultPath":"data/silver/attempts/2026/10/04/174710Z-r02-all-your-base/result.json","runAt":"2026-10-04T17:49:12Z","score":"0","slug":"all-your-base","solutionPath":"data/silver/attempts/2026/10/04/174710Z-r02-all-your-base/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
@@ -31,13 +29,13 @@
     {"attemptId":"2026-10-10-175704Z-r04-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r04-saddle-points/result.json","runAt":"2026-10-10T18:05:26Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r04-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-10-175704Z-r05-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/result.json","runAt":"2026-10-10T18:05:35Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-10-175704Z-r06-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r06-saddle-points/result.json","runAt":"2026-10-10T18:05:40Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r06-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-10-175704Z-r07-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/result.json","runAt":"2026-10-10T18:05:45Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"}
+    {"attemptId":"2026-10-10-175704Z-r07-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/result.json","runAt":"2026-10-10T18:05:45Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-11-182310Z-r00-crypto-square","compileStatus":"compile_error","date":"2026-10-11","difficulty":"4","mode":"live","model":"openrouter/free","name":"Crypto Square","passed":"0","resultPath":"data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/result.json","runAt":"2026-10-11T18:23:39Z","score":"10","slug":"crypto-square","solutionPath":"data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-11-182310Z-r01-crypto-square","compileStatus":"compiled","date":"2026-10-11","difficulty":"4","mode":"live","model":"openrouter/free","name":"Crypto Square","passed":"8","resultPath":"data/silver/attempts/2026/10/11/182310Z-r01-crypto-square/result.json","runAt":"2026-10-11T18:26:20Z","score":"100","slug":"crypto-square","solutionPath":"data/silver/attempts/2026/10/11/182310Z-r01-crypto-square/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"}
   ],
-  "runCount": 410,
+  "runCount": 412,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-09-27-175423Z-r06-dominoes", "date": "2026-09-27", "score": 100, "slug": "dominoes"},
-    {"attemptId": "2026-09-28-201218Z-r00-palindrome-products", "date": "2026-09-28", "score": 10, "slug": "palindrome-products"},
     {"attemptId": "2026-09-28-201218Z-r01-palindrome-products", "date": "2026-09-28", "score": 10, "slug": "palindrome-products"},
     {"attemptId": "2026-09-28-201218Z-r02-palindrome-products", "date": "2026-09-28", "score": 0, "slug": "palindrome-products"},
     {"attemptId": "2026-09-28-201218Z-r03-palindrome-products", "date": "2026-09-28", "score": 0, "slug": "palindrome-products"},
@@ -95,6 +93,8 @@
     {"attemptId": "2026-10-10-175704Z-r04-saddle-points", "date": "2026-10-10", "score": 10, "slug": "saddle-points"},
     {"attemptId": "2026-10-10-175704Z-r05-saddle-points", "date": "2026-10-10", "score": 10, "slug": "saddle-points"},
     {"attemptId": "2026-10-10-175704Z-r06-saddle-points", "date": "2026-10-10", "score": 10, "slug": "saddle-points"},
-    {"attemptId": "2026-10-10-175704Z-r07-saddle-points", "date": "2026-10-10", "score": 10, "slug": "saddle-points"}
+    {"attemptId": "2026-10-10-175704Z-r07-saddle-points", "date": "2026-10-10", "score": 10, "slug": "saddle-points"},
+    {"attemptId": "2026-10-11-182310Z-r00-crypto-square", "date": "2026-10-11", "score": 10, "slug": "crypto-square"},
+    {"attemptId": "2026-10-11-182310Z-r01-crypto-square", "date": "2026-10-11", "score": 100, "slug": "crypto-square"}
   ]
 }
