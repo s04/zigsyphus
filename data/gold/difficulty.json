@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-11-182310Z-r01-crypto-square",
-  "currentDifficulty": 4,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 5,
+  "attemptId": "2026-10-12-214940Z-r07-transpose",
+  "currentDifficulty": 5,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T18:26:20Z"
+  "updatedAt": "2026-10-12T22:03:30Z"
 }

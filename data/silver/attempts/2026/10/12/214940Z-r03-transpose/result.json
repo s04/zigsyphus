@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-12-214940Z-r03-transpose",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"transpose","status":"pass"}},
+  "date": "2026-10-12",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Transpose","slug":"transpose","tags":[],"uuid":"3cad82e8-b201-4f4c-81eb-8239521be255"},
+  "resultPath": "data/silver/attempts/2026/10/12/214940Z-r03-transpose/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/10/12/214940Z-r03-transpose/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":12,"outputExcerpt":"\ntest_transpose.zig:4:43: error: root source file struct 'transpose' has no member named 'transpose'\nconst transpose = @import(\"transpose.zig\").transpose;\n                  ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\ntranspose.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    testTranspose: test_transpose.zig:14:24\n    checkAllAllocationFailures__anon_43345: /home/runner/work/_temp/22657816-2a45-414a-a06a-4ee7b0c2840d/zig-x86_64-linux-0.16.0/lib/std/testing.zig:1124:13\n    1 reference(s) hidden; use '-freference-trace=3' to see all references\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":12},
+  "testedAt": "2026-10-12T21:58:08Z",
+  "zigVersion": "0.16.0"
+}

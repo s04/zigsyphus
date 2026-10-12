@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-12-214940Z-r05-transpose",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"transpose","status":"pass"}},
+  "date": "2026-10-12",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Transpose","slug":"transpose","tags":[],"uuid":"3cad82e8-b201-4f4c-81eb-8239521be255"},
+  "resultPath": "data/silver/attempts/2026/10/12/214940Z-r05-transpose/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/12/214940Z-r05-transpose/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":12,"outputExcerpt":"\ntranspose.zig:17:20: error: use of undeclared identifier 'i'\n        while (k < i) : (k += 1) {\n                   ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":12},
+  "testedAt": "2026-10-12T21:59:51Z",
+  "zigVersion": "0.16.0"
+}

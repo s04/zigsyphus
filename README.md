@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r07-transpose](data/silver/attempts/2026/10/12/214940Z-r07-transpose/solution.zig) |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r06-transpose](data/silver/attempts/2026/10/12/214940Z-r06-transpose/solution.zig) |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [214940Z-r05-transpose](data/silver/attempts/2026/10/12/214940Z-r05-transpose/solution.zig) |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r04-transpose](data/silver/attempts/2026/10/12/214940Z-r04-transpose/solution.zig) |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r03-transpose](data/silver/attempts/2026/10/12/214940Z-r03-transpose/solution.zig) |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r02-transpose](data/silver/attempts/2026/10/12/214940Z-r02-transpose/solution.zig) |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r01-transpose](data/silver/attempts/2026/10/12/214940Z-r01-transpose/solution.zig) |
+| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r00-transpose](data/silver/attempts/2026/10/12/214940Z-r00-transpose/solution.zig) |
 | 2026-10-11 | Crypto Square (`crypto-square`) | 4 | `openrouter/free` | pass/compiled | 8/8 | 100 | [182310Z-r01-crypto-square](data/silver/attempts/2026/10/11/182310Z-r01-crypto-square/solution.zig) |
 | 2026-10-11 | Crypto Square (`crypto-square`) | 4 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [182310Z-r00-crypto-square](data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/solution.zig) |
 | 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r07-saddle-points](data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 0 | [175704Z-r00-saddle-points](data/silver/attempts/2026/10/10/175704Z-r00-saddle-points/solution.zig) |
 | 2026-10-06 | Pascal's Triangle (`pascals-triangle`) | 4 | `openrouter/free` | pass/compiled | 9/9 | 100 | [190019Z-r00-pascals-triangle](data/silver/attempts/2026/10/06/190019Z-r00-pascals-triangle/solution.zig) |
 | 2026-10-05 | Sublist (`sublist`) | 3 | `openrouter/free` | pass/compiled | 18/18 | 100 | [211244Z-r00-sublist](data/silver/attempts/2026/10/05/211244Z-r00-sublist/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r07-all-your-base](data/silver/attempts/2026/10/04/174710Z-r07-all-your-base/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r06-all-your-base](data/silver/attempts/2026/10/04/174710Z-r06-all-your-base/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r05-all-your-base](data/silver/attempts/2026/10/04/174710Z-r05-all-your-base/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r04-all-your-base](data/silver/attempts/2026/10/04/174710Z-r04-all-your-base/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r03-all-your-base](data/silver/attempts/2026/10/04/174710Z-r03-all-your-base/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [174710Z-r02-all-your-base](data/silver/attempts/2026/10/04/174710Z-r02-all-your-base/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r01-all-your-base](data/silver/attempts/2026/10/04/174710Z-r01-all-your-base/solution.zig) |
-| 2026-10-04 | All Your Base (`all-your-base`) | 4 | `openrouter/free` | compile_error/compile_error | 0/18 | 10 | [174710Z-r00-all-your-base](data/silver/attempts/2026/10/04/174710Z-r00-all-your-base/solution.zig) |
 
 <!-- zigsyphus-results:end -->
