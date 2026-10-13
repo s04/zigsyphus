@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-10-13-195607Z-r02-yacht",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-10-13T19:56:07Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Yacht","slug":"yacht","tags":["arrays","enums","games"],"uuid":"f73c7be1-ee3a-4fff-93f2-a8f5ab793ca1"},
+  "promptHash": "11b30b88e91f7581",
+  "repairFrom": "data/silver/attempts/2026/10/13/195607Z-r01-yacht/result.json",
+  "roundIndex": 2,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/10/13/195607Z-r02-yacht/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1791921716-kWt78UZ7e2p0xBKdHlqx",
+    "routedModel": "nvidia/nemotron-3.5-lightning:free",
+    "usage": {
+  "prompt_tokens": 4513,
+  "completion_tokens": 6088,
+  "total_tokens": 10601,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 5456,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

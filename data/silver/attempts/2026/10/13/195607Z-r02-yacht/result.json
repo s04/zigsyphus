@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-13-195607Z-r02-yacht",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"yacht","status":"pass"}},
+  "date": "2026-10-13",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Yacht","slug":"yacht","tags":["arrays","enums","games"],"uuid":"f73c7be1-ee3a-4fff-93f2-a8f5ab793ca1"},
+  "resultPath": "data/silver/attempts/2026/10/13/195607Z-r02-yacht/result.json",
+  "schemaVersion": 1,
+  "score": 51,
+  "solutionPath": "data/silver/attempts/2026/10/13/195607Z-r02-yacht/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":26,"outputExcerpt":"\n1/32 test_yacht.test.yacht...OK\n2/32 test_yacht.test.not yacht...OK\n3/32 test_yacht.test.ones...OK\n4/32 test_yacht.test.ones, out of order...OK\n5/32 test_yacht.test.no ones...OK\n6/32 test_yacht.test.twos...OK\n7/32 test_yacht.test.fours...thread 2324 panic: integer overflow\n/tmp/zigsyphus-yacht-749565c425dd07b/yacht.zig:26:34: 0x1233759 in score (test_yacht.zig)\n        .fours => return freq[3] * 4,\n                                 ^\n/tmp/zigsyphus-yacht-749565c425dd07b/test_yacht.zig:44:25: 0x1236236 in test.fours (test_yacht.zig)\n    const actual = score([_]u3{ 1, 4, 1, 4, 1 }, .fours);\n                        ^\n/home/runner/work/_temp/fcc24d30-0d64-45f2-985a-71d13ac7dd18/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:291:25: 0x11eec36 in mainTerminal (test_runner.zig)\n        if (test_fn.func()) |_| {\n                        ^\n/home/runner/work/_temp/fcc24d30-0d64-45f2-985a-71d13ac7dd18/zig-x86_64-linux-0.16.0/lib/compiler/test_runner.zig:73:28: 0x11ee452 in main (test_runner.zig)\n        return mainTerminal(init);\n                           ^\n/home/runner/work/_temp/fcc24d30-0d64-45f2-985a-71d13ac7dd18/zig-x86_64-linux-0.16.0/lib/std/start.zig:699:88: 0x11eac65 in callMain (std.zig)\n    if (fn_info.params[0].type.? == std.process.Init.Minimal) return wrapMain(root.main(.{\n                                                                                       ^\n/home/runner/work/_temp/fcc24d30-0d64-45f2-985a-71d13ac7dd18/zig-x86_64-linux-0.16.0/lib/std/start.zig:190:5: 0x11ea641 in _start (std.zig)\n    asm volatile (switch (native_arch) {\n    ^\nerror: the following test command terminated with signal ABRT:\n.zig-cache/o/c2555be762ff605713a7ec803bd35226/test --seed=0xfb82f89a\n","passed":6,"returnCode":1,"skipped":0,"status":"fail","total":32},
+  "testedAt": "2026-10-13T20:03:05Z",
+  "zigVersion": "0.16.0"
+}

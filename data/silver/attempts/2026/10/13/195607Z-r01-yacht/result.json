@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-13-195607Z-r01-yacht",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"yacht","status":"pass"}},
+  "date": "2026-10-13",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Yacht","slug":"yacht","tags":["arrays","enums","games"],"uuid":"f73c7be1-ee3a-4fff-93f2-a8f5ab793ca1"},
+  "resultPath": "data/silver/attempts/2026/10/13/195607Z-r01-yacht/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/13/195607Z-r01-yacht/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":32,"outputExcerpt":"\nyacht.zig:17:24: error: expected 6 array elements; found 1\n    var freq: [6]u3 = .{0};\n                      ~^~~\nreferenced by:\n    test.yacht: test_yacht.zig:8:25\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":32},
+  "testedAt": "2026-10-13T20:01:56Z",
+  "zigVersion": "0.16.0"
+}

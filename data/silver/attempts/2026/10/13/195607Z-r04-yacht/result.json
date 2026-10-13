@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-13-195607Z-r04-yacht",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"yacht","status":"pass"}},
+  "date": "2026-10-13",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Yacht","slug":"yacht","tags":["arrays","enums","games"],"uuid":"f73c7be1-ee3a-4fff-93f2-a8f5ab793ca1"},
+  "resultPath": "data/silver/attempts/2026/10/13/195607Z-r04-yacht/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/10/13/195607Z-r04-yacht/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/32 test_yacht.test.yacht...OK\n2/32 test_yacht.test.not yacht...OK\n3/32 test_yacht.test.ones...OK\n4/32 test_yacht.test.ones, out of order...OK\n5/32 test_yacht.test.no ones...OK\n6/32 test_yacht.test.twos...OK\n7/32 test_yacht.test.fours...OK\n8/32 test_yacht.test.yacht counted as threes...OK\n9/32 test_yacht.test.yacht of 3s counted as fives...OK\n10/32 test_yacht.test.fives...OK\n11/32 test_yacht.test.sixes...OK\n12/32 test_yacht.test.full house two small, three big...OK\n13/32 test_yacht.test.full house two small, three big, alternative order...OK\n14/32 test_yacht.test.full house three small, two big...OK\n15/32 test_yacht.test.full house three small, two big, alternative order...OK\n16/32 test_yacht.test.two pair is not a full house...OK\n17/32 test_yacht.test.four of a kind is not a full house...OK\n18/32 test_yacht.test.yacht is not a full house...OK\n19/32 test_yacht.test.four of a kind...OK\n20/32 test_yacht.test.four of a kind alternative order...OK\n21/32 test_yacht.test.yacht can be scored as four of a kind...OK\n22/32 test_yacht.test.full house is not four of a kind...OK\n23/32 test_yacht.test.little straight...OK\n24/32 test_yacht.test.little straight as big straight...OK\n25/32 test_yacht.test.four in order but not a little straight...OK\n26/32 test_yacht.test.no pairs but not a little straight...OK\n27/32 test_yacht.test.minimum is 1, maximum is 5, but not a little straight...OK\n28/32 test_yacht.test.big straight...OK\n29/32 test_yacht.test.big straight as little straight...OK\n30/32 test_yacht.test.no pairs but not a big straight...OK\n31/32 test_yacht.test.choice...OK\n32/32 test_yacht.test.yacht as choice...OK\nAll 32 tests passed.\n","passed":32,"returnCode":0,"skipped":0,"status":"pass","total":32},
+  "testedAt": "2026-10-13T20:05:34Z",
+  "zigVersion": "0.16.0"
+}
