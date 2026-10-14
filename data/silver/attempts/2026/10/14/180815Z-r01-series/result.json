@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-14-180815Z-r01-series",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"series","status":"pass"}},
+  "date": "2026-10-14",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Series","slug":"series","tags":[],"uuid":"fc7d90fa-0bb6-4560-8dee-ddf82adf412c"},
+  "resultPath": "data/silver/attempts/2026/10/14/180815Z-r01-series/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/14/180815Z-r01-series/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\nseries.zig:18:9: error: expected 2 arguments, found 3\n        @memcpy(&result[i][0], series[i .. i + slice_length].ptr, slice_length);\n        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-10-14T18:13:52Z",
+  "zigVersion": "0.16.0"
+}

@@ -94,6 +94,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-14 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [180815Z-r02-series](data/silver/attempts/2026/10/14/180815Z-r02-series/solution.zig) |
+| 2026-10-14 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [180815Z-r01-series](data/silver/attempts/2026/10/14/180815Z-r01-series/solution.zig) |
+| 2026-10-14 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [180815Z-r00-series](data/silver/attempts/2026/10/14/180815Z-r00-series/solution.zig) |
 | 2026-10-13 | Yacht (`yacht`) | 4 | `openrouter/free` | pass/compiled | 32/32 | 100 | [195607Z-r04-yacht](data/silver/attempts/2026/10/13/195607Z-r04-yacht/solution.zig) |
 | 2026-10-13 | Yacht (`yacht`) | 4 | `openrouter/free` | compile_error/compile_error | 0/32 | 10 | [195607Z-r03-yacht](data/silver/attempts/2026/10/13/195607Z-r03-yacht/solution.zig) |
 | 2026-10-13 | Yacht (`yacht`) | 4 | `openrouter/free` | fail/compiled | 6/32 | 51 | [195607Z-r02-yacht](data/silver/attempts/2026/10/13/195607Z-r02-yacht/solution.zig) |
@@ -111,8 +114,5 @@ Required GitHub secret:
 | 2026-10-11 | Crypto Square (`crypto-square`) | 4 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [182310Z-r00-crypto-square](data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/solution.zig) |
 | 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r07-saddle-points](data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/solution.zig) |
 | 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r06-saddle-points](data/silver/attempts/2026/10/10/175704Z-r06-saddle-points/solution.zig) |
-| 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r05-saddle-points](data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/solution.zig) |
-| 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r04-saddle-points](data/silver/attempts/2026/10/10/175704Z-r04-saddle-points/solution.zig) |
-| 2026-10-10 | Saddle Points (`saddle-points`) | 5 | `openrouter/free` | compile_error/compile_error | 0/9 | 10 | [175704Z-r03-saddle-points](data/silver/attempts/2026/10/10/175704Z-r03-saddle-points/solution.zig) |
 
 <!-- zigsyphus-results:end -->

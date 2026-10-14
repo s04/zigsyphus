@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-14-180815Z-r00-series",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"series","status":"pass"}},
+  "date": "2026-10-14",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Series","slug":"series","tags":[],"uuid":"fc7d90fa-0bb6-4560-8dee-ddf82adf412c"},
+  "resultPath": "data/silver/attempts/2026/10/14/180815Z-r00-series/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/14/180815Z-r00-series/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\nseries.zig:12:17: error: expected array of '[1]u8', found 'void'\n        return &{};\n                ^~\nreferenced by:\n    test.slices of one from one: test_series.zig:11:30\nseries.zig:12:17: error: expected array of '[2]u8', found 'void'\n        return &{};\n                ^~\nseries.zig:12:17: error: expected array of '[3]u8', found 'void'\n        return &{};\n                ^~\nseries.zig:12:17: error: expected array of '[42]u8', found 'void'\n        return &{};\n                ^~\nseries.zig:12:17: error: expected array of '[5]u8', found 'void'\n        return &{};\n                ^~\nseries.zig:12:17: error: expected array of '[6]u8', found 'void'\n        return &{};\n                ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-10-14T18:08:23Z",
+  "zigVersion": "0.16.0"
+}

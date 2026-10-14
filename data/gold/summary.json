@@ -1,20 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-10-13-195607Z-r04-yacht",
-    "currentDifficulty": 4,
+    "attemptId": "2026-10-14-180815Z-r02-series",
+    "currentDifficulty": 5,
     "lastScore": 100,
     "lastStatus": "pass",
-    "nextDifficulty": 5,
+    "nextDifficulty": 6,
     "schemaVersion": 1,
-    "updatedAt": "2026-10-13T20:05:34Z"
+    "updatedAt": "2026-10-14T18:15:19Z"
   },
-  "generatedAt": "2026-10-13T20:05:34Z",
-  "latest": {"attemptId":"2026-10-13-195607Z-r04-yacht","compileStatus":"compiled","date":"2026-10-13","difficulty":"4","mode":"live","model":"openrouter/free","name":"Yacht","passed":"32","resultPath":"data/silver/attempts/2026/10/13/195607Z-r04-yacht/result.json","runAt":"2026-10-13T20:05:34Z","score":"100","slug":"yacht","solutionPath":"data/silver/attempts/2026/10/13/195607Z-r04-yacht/solution.zig","status":"pass","total":"32","zigVersion":"0.16.0"},
-  "nextDifficulty": 5,
+  "generatedAt": "2026-10-14T18:15:19Z",
+  "latest": {"attemptId":"2026-10-14-180815Z-r02-series","compileStatus":"compiled","date":"2026-10-14","difficulty":"5","mode":"live","model":"openrouter/free","name":"Series","passed":"8","resultPath":"data/silver/attempts/2026/10/14/180815Z-r02-series/result.json","runAt":"2026-10-14T18:15:19Z","score":"100","slug":"series","solutionPath":"data/silver/attempts/2026/10/14/180815Z-r02-series/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"},
+  "nextDifficulty": 6,
   "recentRuns": [
-    {"attemptId":"2026-10-10-175704Z-r03-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r03-saddle-points/result.json","runAt":"2026-10-10T18:05:24Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r03-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-10-175704Z-r04-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r04-saddle-points/result.json","runAt":"2026-10-10T18:05:26Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r04-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-10-175704Z-r05-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/result.json","runAt":"2026-10-10T18:05:35Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r05-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-10-175704Z-r06-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r06-saddle-points/result.json","runAt":"2026-10-10T18:05:40Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r06-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-10-175704Z-r07-saddle-points","compileStatus":"compile_error","date":"2026-10-10","difficulty":"5","mode":"live","model":"openrouter/free","name":"Saddle Points","passed":"0","resultPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/result.json","runAt":"2026-10-10T18:05:45Z","score":"10","slug":"saddle-points","solutionPath":"data/silver/attempts/2026/10/10/175704Z-r07-saddle-points/solution.zig","status":"compile_error","total":"9","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-11-182310Z-r00-crypto-square","compileStatus":"compile_error","date":"2026-10-11","difficulty":"4","mode":"live","model":"openrouter/free","name":"Crypto Square","passed":"0","resultPath":"data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/result.json","runAt":"2026-10-11T18:23:39Z","score":"10","slug":"crypto-square","solutionPath":"data/silver/attempts/2026/10/11/182310Z-r00-crypto-square/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
@@ -31,14 +28,14 @@
     {"attemptId":"2026-10-13-195607Z-r01-yacht","compileStatus":"compile_error","date":"2026-10-13","difficulty":"4","mode":"live","model":"openrouter/free","name":"Yacht","passed":"0","resultPath":"data/silver/attempts/2026/10/13/195607Z-r01-yacht/result.json","runAt":"2026-10-13T20:01:56Z","score":"10","slug":"yacht","solutionPath":"data/silver/attempts/2026/10/13/195607Z-r01-yacht/solution.zig","status":"compile_error","total":"32","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-13-195607Z-r02-yacht","compileStatus":"compiled","date":"2026-10-13","difficulty":"4","mode":"live","model":"openrouter/free","name":"Yacht","passed":"6","resultPath":"data/silver/attempts/2026/10/13/195607Z-r02-yacht/result.json","runAt":"2026-10-13T20:03:05Z","score":"51","slug":"yacht","solutionPath":"data/silver/attempts/2026/10/13/195607Z-r02-yacht/solution.zig","status":"fail","total":"32","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-13-195607Z-r03-yacht","compileStatus":"compile_error","date":"2026-10-13","difficulty":"4","mode":"live","model":"openrouter/free","name":"Yacht","passed":"0","resultPath":"data/silver/attempts/2026/10/13/195607Z-r03-yacht/result.json","runAt":"2026-10-13T20:05:15Z","score":"10","slug":"yacht","solutionPath":"data/silver/attempts/2026/10/13/195607Z-r03-yacht/solution.zig","status":"compile_error","total":"32","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-13-195607Z-r04-yacht","compileStatus":"compiled","date":"2026-10-13","difficulty":"4","mode":"live","model":"openrouter/free","name":"Yacht","passed":"32","resultPath":"data/silver/attempts/2026/10/13/195607Z-r04-yacht/result.json","runAt":"2026-10-13T20:05:34Z","score":"100","slug":"yacht","solutionPath":"data/silver/attempts/2026/10/13/195607Z-r04-yacht/solution.zig","status":"pass","total":"32","zigVersion":"0.16.0"}
+    {"attemptId":"2026-10-13-195607Z-r04-yacht","compileStatus":"compiled","date":"2026-10-13","difficulty":"4","mode":"live","model":"openrouter/free","name":"Yacht","passed":"32","resultPath":"data/silver/attempts/2026/10/13/195607Z-r04-yacht/result.json","runAt":"2026-10-13T20:05:34Z","score":"100","slug":"yacht","solutionPath":"data/silver/attempts/2026/10/13/195607Z-r04-yacht/solution.zig","status":"pass","total":"32","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-14-180815Z-r00-series","compileStatus":"compile_error","date":"2026-10-14","difficulty":"5","mode":"live","model":"openrouter/free","name":"Series","passed":"0","resultPath":"data/silver/attempts/2026/10/14/180815Z-r00-series/result.json","runAt":"2026-10-14T18:08:23Z","score":"10","slug":"series","solutionPath":"data/silver/attempts/2026/10/14/180815Z-r00-series/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-14-180815Z-r01-series","compileStatus":"compile_error","date":"2026-10-14","difficulty":"5","mode":"live","model":"openrouter/free","name":"Series","passed":"0","resultPath":"data/silver/attempts/2026/10/14/180815Z-r01-series/result.json","runAt":"2026-10-14T18:13:52Z","score":"10","slug":"series","solutionPath":"data/silver/attempts/2026/10/14/180815Z-r01-series/solution.zig","status":"compile_error","total":"8","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-14-180815Z-r02-series","compileStatus":"compiled","date":"2026-10-14","difficulty":"5","mode":"live","model":"openrouter/free","name":"Series","passed":"8","resultPath":"data/silver/attempts/2026/10/14/180815Z-r02-series/result.json","runAt":"2026-10-14T18:15:19Z","score":"100","slug":"series","solutionPath":"data/silver/attempts/2026/10/14/180815Z-r02-series/solution.zig","status":"pass","total":"8","zigVersion":"0.16.0"}
   ],
-  "runCount": 425,
+  "runCount": 428,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-09-30-183148Z-r02-two-bucket", "date": "2026-09-30", "score": 0, "slug": "two-bucket"},
-    {"attemptId": "2026-09-30-183148Z-r03-two-bucket", "date": "2026-09-30", "score": 10, "slug": "two-bucket"},
-    {"attemptId": "2026-09-30-183148Z-r04-two-bucket", "date": "2026-09-30", "score": 10, "slug": "two-bucket"},
     {"attemptId": "2026-09-30-183148Z-r05-two-bucket", "date": "2026-09-30", "score": 10, "slug": "two-bucket"},
     {"attemptId": "2026-09-30-183148Z-r06-two-bucket", "date": "2026-09-30", "score": 10, "slug": "two-bucket"},
     {"attemptId": "2026-09-30-183148Z-r07-two-bucket", "date": "2026-09-30", "score": 10, "slug": "two-bucket"},
@@ -95,6 +92,9 @@
     {"attemptId": "2026-10-13-195607Z-r01-yacht", "date": "2026-10-13", "score": 10, "slug": "yacht"},
     {"attemptId": "2026-10-13-195607Z-r02-yacht", "date": "2026-10-13", "score": 51, "slug": "yacht"},
     {"attemptId": "2026-10-13-195607Z-r03-yacht", "date": "2026-10-13", "score": 10, "slug": "yacht"},
-    {"attemptId": "2026-10-13-195607Z-r04-yacht", "date": "2026-10-13", "score": 100, "slug": "yacht"}
+    {"attemptId": "2026-10-13-195607Z-r04-yacht", "date": "2026-10-13", "score": 100, "slug": "yacht"},
+    {"attemptId": "2026-10-14-180815Z-r00-series", "date": "2026-10-14", "score": 10, "slug": "series"},
+    {"attemptId": "2026-10-14-180815Z-r01-series", "date": "2026-10-14", "score": 10, "slug": "series"},
+    {"attemptId": "2026-10-14-180815Z-r02-series", "date": "2026-10-14", "score": 100, "slug": "series"}
   ]
 }
