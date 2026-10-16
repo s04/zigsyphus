@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-14-180815Z-r02-series",
-  "currentDifficulty": 5,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 6,
+  "attemptId": "2026-10-16-173847Z-r07-say",
+  "currentDifficulty": 6,
+  "lastScore": 10,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T18:15:19Z"
+  "updatedAt": "2026-10-16T17:52:45Z"
 }
