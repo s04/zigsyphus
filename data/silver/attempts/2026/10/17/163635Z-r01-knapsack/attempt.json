@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-10-17-163635Z-r01-knapsack",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-10-17T16:36:35Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Knapsack","slug":"knapsack","tags":[],"uuid":"ffa03fc8-0503-4524-ae40-9f3202349003"},
+  "promptHash": "51d8014f5f4686f5",
+  "repairFrom": "data/silver/attempts/2026/10/17/163635Z-r00-knapsack/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/10/17/163635Z-r01-knapsack/solution.zig",
+  "writer": {
+    "extracted": true,
+    "responseId": "gen-1792255024-Ypyxr74WjdKD6j9PHBLA",
+    "routedModel": "dots-studio/dots-3-note-preview:free",
+    "usage": {
+  "prompt_tokens": 2531,
+  "completion_tokens": 701,
+  "total_tokens": 3232,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 396,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}

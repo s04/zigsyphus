@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-17-163635Z-r00-knapsack",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"knapsack","status":"pass"}},
+  "date": "2026-10-17",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Knapsack","slug":"knapsack","tags":[],"uuid":"ffa03fc8-0503-4524-ae40-9f3202349003"},
+  "resultPath": "data/silver/attempts/2026/10/17/163635Z-r00-knapsack/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/17/163635Z-r00-knapsack/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":7,"outputExcerpt":"\nknapsack.zig:14:41: error: comparison operators cannot be chained\n    if (maximumWeight == 0 || items.len == 0) {\n                                        ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":7},
+  "testedAt": "2026-10-17T16:37:04Z",
+  "zigVersion": "0.16.0"
+}

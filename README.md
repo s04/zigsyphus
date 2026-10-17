@@ -94,6 +94,8 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-17 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [163635Z-r01-knapsack](data/silver/attempts/2026/10/17/163635Z-r01-knapsack/solution.zig) |
+| 2026-10-17 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [163635Z-r00-knapsack](data/silver/attempts/2026/10/17/163635Z-r00-knapsack/solution.zig) |
 | 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r07-say](data/silver/attempts/2026/10/16/173847Z-r07-say/solution.zig) |
 | 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [173847Z-r06-say](data/silver/attempts/2026/10/16/173847Z-r06-say/solution.zig) |
 | 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [173847Z-r05-say](data/silver/attempts/2026/10/16/173847Z-r05-say/solution.zig) |
@@ -112,7 +114,5 @@ Required GitHub secret:
 | 2026-10-13 | Yacht (`yacht`) | 4 | `openrouter/free` | compile_error/compile_error | 0/32 | 0 | [195607Z-r00-yacht](data/silver/attempts/2026/10/13/195607Z-r00-yacht/solution.zig) |
 | 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r07-transpose](data/silver/attempts/2026/10/12/214940Z-r07-transpose/solution.zig) |
 | 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r06-transpose](data/silver/attempts/2026/10/12/214940Z-r06-transpose/solution.zig) |
-| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [214940Z-r05-transpose](data/silver/attempts/2026/10/12/214940Z-r05-transpose/solution.zig) |
-| 2026-10-12 | Transpose (`transpose`) | 5 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [214940Z-r04-transpose](data/silver/attempts/2026/10/12/214940Z-r04-transpose/solution.zig) |
 
 <!-- zigsyphus-results:end -->
