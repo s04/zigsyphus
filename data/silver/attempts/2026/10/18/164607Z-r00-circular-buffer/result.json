@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-18-164607Z-r00-circular-buffer",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"circular-buffer","status":"pass"}},
+  "date": "2026-10-18",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":6,"name":"Circular Buffer","slug":"circular-buffer","tags":[],"uuid":"29e1dff8-b3bc-4b8a-b50b-bd05f9a9a42f"},
+  "resultPath": "data/silver/attempts/2026/10/18/164607Z-r00-circular-buffer/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/18/164607Z-r00-circular-buffer/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\ncircular_buffer.zig:30:28: error: ambiguous use of '&&'; use 'and' for logical AND, or change whitespace to ' & &' for bitwise AND\n            if (!self.full && self.head == self.tail) {\n                           ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-10-18T16:47:03Z",
+  "zigVersion": "0.16.0"
+}
