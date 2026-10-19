@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-18-164607Z-r05-circular-buffer",
-  "currentDifficulty": 6,
+  "attemptId": "2026-10-19-192555Z-r05-rectangles",
+  "currentDifficulty": 7,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 7,
+  "nextDifficulty": 8,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T16:50:06Z"
+  "updatedAt": "2026-10-19T19:33:09Z"
 }

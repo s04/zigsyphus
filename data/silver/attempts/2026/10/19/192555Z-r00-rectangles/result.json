@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-19-192555Z-r00-rectangles",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"rectangles","status":"pass"}},
+  "date": "2026-10-19",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":7,"name":"Rectangles","slug":"rectangles","tags":[],"uuid":"df159306-25e8-41d0-9d2e-8f0bf11ee3b1"},
+  "resultPath": "data/silver/attempts/2026/10/19/192555Z-r00-rectangles/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/19/192555Z-r00-rectangles/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":15,"outputExcerpt":"\nrectangles.zig:12:67: error: comparison operators cannot be chained\n                    if (strings[r1][c1] != '+' || strings[r1][c2] != '+' ||\n                                                                  ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":15},
+  "testedAt": "2026-10-19T19:26:50Z",
+  "zigVersion": "0.16.0"
+}

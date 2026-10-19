@@ -94,6 +94,12 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | pass/compiled | 15/15 | 100 | [192555Z-r05-rectangles](data/silver/attempts/2026/10/19/192555Z-r05-rectangles/solution.zig) |
+| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [192555Z-r04-rectangles](data/silver/attempts/2026/10/19/192555Z-r04-rectangles/solution.zig) |
+| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [192555Z-r03-rectangles](data/silver/attempts/2026/10/19/192555Z-r03-rectangles/solution.zig) |
+| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [192555Z-r02-rectangles](data/silver/attempts/2026/10/19/192555Z-r02-rectangles/solution.zig) |
+| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [192555Z-r01-rectangles](data/silver/attempts/2026/10/19/192555Z-r01-rectangles/solution.zig) |
+| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [192555Z-r00-rectangles](data/silver/attempts/2026/10/19/192555Z-r00-rectangles/solution.zig) |
 | 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | pass/compiled | 14/14 | 100 | [164607Z-r05-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r05-circular-buffer/solution.zig) |
 | 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | fail/compiled | 13/14 | 96 | [164607Z-r04-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r04-circular-buffer/solution.zig) |
 | 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164607Z-r03-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r03-circular-buffer/solution.zig) |
@@ -108,11 +114,5 @@ Required GitHub secret:
 | 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r04-say](data/silver/attempts/2026/10/16/173847Z-r04-say/solution.zig) |
 | 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r03-say](data/silver/attempts/2026/10/16/173847Z-r03-say/solution.zig) |
 | 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [173847Z-r02-say](data/silver/attempts/2026/10/16/173847Z-r02-say/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r01-say](data/silver/attempts/2026/10/16/173847Z-r01-say/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r00-say](data/silver/attempts/2026/10/16/173847Z-r00-say/solution.zig) |
-| 2026-10-14 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [180815Z-r02-series](data/silver/attempts/2026/10/14/180815Z-r02-series/solution.zig) |
-| 2026-10-14 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [180815Z-r01-series](data/silver/attempts/2026/10/14/180815Z-r01-series/solution.zig) |
-| 2026-10-14 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [180815Z-r00-series](data/silver/attempts/2026/10/14/180815Z-r00-series/solution.zig) |
-| 2026-10-13 | Yacht (`yacht`) | 4 | `openrouter/free` | pass/compiled | 32/32 | 100 | [195607Z-r04-yacht](data/silver/attempts/2026/10/13/195607Z-r04-yacht/solution.zig) |
 
 <!-- zigsyphus-results:end -->
