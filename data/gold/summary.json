@@ -1,19 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-10-20-180455Z-r00-connect",
-    "currentDifficulty": 8,
+    "attemptId": "2026-10-21-181246Z-r01-book-store",
+    "currentDifficulty": 7,
     "lastScore": 0,
     "lastStatus": "compile_error",
-    "nextDifficulty": 7,
+    "nextDifficulty": 6,
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T18:08:42Z"
+    "updatedAt": "2026-10-21T18:16:17Z"
   },
-  "generatedAt": "2026-10-20T18:08:42Z",
-  "latest": {"attemptId":"2026-10-20-180455Z-r00-connect","compileStatus":"compile_error","date":"2026-10-20","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/10/20/180455Z-r00-connect/result.json","runAt":"2026-10-20T18:08:42Z","score":"0","slug":"connect","solutionPath":"data/silver/attempts/2026/10/20/180455Z-r00-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
-  "nextDifficulty": 7,
+  "generatedAt": "2026-10-21T18:16:17Z",
+  "latest": {"attemptId":"2026-10-21-181246Z-r01-book-store","compileStatus":"compile_error","date":"2026-10-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Book Store","passed":"0","resultPath":"data/silver/attempts/2026/10/21/181246Z-r01-book-store/result.json","runAt":"2026-10-21T18:16:17Z","score":"0","slug":"book-store","solutionPath":"data/silver/attempts/2026/10/21/181246Z-r01-book-store/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+  "nextDifficulty": 6,
   "recentRuns": [
-    {"attemptId":"2026-10-16-173847Z-r03-say","compileStatus":"compile_error","date":"2026-10-16","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"0","resultPath":"data/silver/attempts/2026/10/16/173847Z-r03-say/result.json","runAt":"2026-10-16T17:47:33Z","score":"10","slug":"say","solutionPath":"data/silver/attempts/2026/10/16/173847Z-r03-say/solution.zig","status":"compile_error","total":"23","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-16-173847Z-r04-say","compileStatus":"compile_error","date":"2026-10-16","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"0","resultPath":"data/silver/attempts/2026/10/16/173847Z-r04-say/result.json","runAt":"2026-10-16T17:49:21Z","score":"10","slug":"say","solutionPath":"data/silver/attempts/2026/10/16/173847Z-r04-say/solution.zig","status":"compile_error","total":"23","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-16-173847Z-r05-say","compileStatus":"compile_error","date":"2026-10-16","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"0","resultPath":"data/silver/attempts/2026/10/16/173847Z-r05-say/result.json","runAt":"2026-10-16T17:51:03Z","score":"0","slug":"say","solutionPath":"data/silver/attempts/2026/10/16/173847Z-r05-say/solution.zig","status":"compile_error","total":"23","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-16-173847Z-r06-say","compileStatus":"compile_error","date":"2026-10-16","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"0","resultPath":"data/silver/attempts/2026/10/16/173847Z-r06-say/result.json","runAt":"2026-10-16T17:52:26Z","score":"0","slug":"say","solutionPath":"data/silver/attempts/2026/10/16/173847Z-r06-say/solution.zig","status":"compile_error","total":"23","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-16-173847Z-r07-say","compileStatus":"compile_error","date":"2026-10-16","difficulty":"6","mode":"live","model":"openrouter/free","name":"Say","passed":"0","resultPath":"data/silver/attempts/2026/10/16/173847Z-r07-say/result.json","runAt":"2026-10-16T17:52:45Z","score":"10","slug":"say","solutionPath":"data/silver/attempts/2026/10/16/173847Z-r07-say/solution.zig","status":"compile_error","total":"23","zigVersion":"0.16.0"},
@@ -31,13 +29,13 @@
     {"attemptId":"2026-10-19-192555Z-r03-rectangles","compileStatus":"compile_error","date":"2026-10-19","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"0","resultPath":"data/silver/attempts/2026/10/19/192555Z-r03-rectangles/result.json","runAt":"2026-10-19T19:32:47Z","score":"0","slug":"rectangles","solutionPath":"data/silver/attempts/2026/10/19/192555Z-r03-rectangles/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-19-192555Z-r04-rectangles","compileStatus":"compile_error","date":"2026-10-19","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"0","resultPath":"data/silver/attempts/2026/10/19/192555Z-r04-rectangles/result.json","runAt":"2026-10-19T19:33:03Z","score":"10","slug":"rectangles","solutionPath":"data/silver/attempts/2026/10/19/192555Z-r04-rectangles/solution.zig","status":"compile_error","total":"15","zigVersion":"0.16.0"},
     {"attemptId":"2026-10-19-192555Z-r05-rectangles","compileStatus":"compiled","date":"2026-10-19","difficulty":"7","mode":"live","model":"openrouter/free","name":"Rectangles","passed":"15","resultPath":"data/silver/attempts/2026/10/19/192555Z-r05-rectangles/result.json","runAt":"2026-10-19T19:33:09Z","score":"100","slug":"rectangles","solutionPath":"data/silver/attempts/2026/10/19/192555Z-r05-rectangles/solution.zig","status":"pass","total":"15","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-20-180455Z-r00-connect","compileStatus":"compile_error","date":"2026-10-20","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/10/20/180455Z-r00-connect/result.json","runAt":"2026-10-20T18:08:42Z","score":"0","slug":"connect","solutionPath":"data/silver/attempts/2026/10/20/180455Z-r00-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"}
+    {"attemptId":"2026-10-20-180455Z-r00-connect","compileStatus":"compile_error","date":"2026-10-20","difficulty":"8","mode":"live","model":"openrouter/free","name":"Connect","passed":"0","resultPath":"data/silver/attempts/2026/10/20/180455Z-r00-connect/result.json","runAt":"2026-10-20T18:08:42Z","score":"0","slug":"connect","solutionPath":"data/silver/attempts/2026/10/20/180455Z-r00-connect/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-21-181246Z-r00-book-store","compileStatus":"compile_error","date":"2026-10-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Book Store","passed":"0","resultPath":"data/silver/attempts/2026/10/21/181246Z-r00-book-store/result.json","runAt":"2026-10-21T18:14:23Z","score":"0","slug":"book-store","solutionPath":"data/silver/attempts/2026/10/21/181246Z-r00-book-store/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"},
+    {"attemptId":"2026-10-21-181246Z-r01-book-store","compileStatus":"compile_error","date":"2026-10-21","difficulty":"7","mode":"live","model":"openrouter/free","name":"Book Store","passed":"0","resultPath":"data/silver/attempts/2026/10/21/181246Z-r01-book-store/result.json","runAt":"2026-10-21T18:16:17Z","score":"0","slug":"book-store","solutionPath":"data/silver/attempts/2026/10/21/181246Z-r01-book-store/solution.zig","status":"compile_error","total":"18","zigVersion":"0.16.0"}
   ],
-  "runCount": 451,
+  "runCount": 453,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-10-03-173255Z-r07-killer-sudoku-helper", "date": "2026-10-03", "score": 10, "slug": "killer-sudoku-helper"},
-    {"attemptId": "2026-10-04-174710Z-r00-all-your-base", "date": "2026-10-04", "score": 10, "slug": "all-your-base"},
     {"attemptId": "2026-10-04-174710Z-r01-all-your-base", "date": "2026-10-04", "score": 10, "slug": "all-your-base"},
     {"attemptId": "2026-10-04-174710Z-r02-all-your-base", "date": "2026-10-04", "score": 0, "slug": "all-your-base"},
     {"attemptId": "2026-10-04-174710Z-r03-all-your-base", "date": "2026-10-04", "score": 10, "slug": "all-your-base"},
@@ -95,6 +93,8 @@
     {"attemptId": "2026-10-19-192555Z-r03-rectangles", "date": "2026-10-19", "score": 0, "slug": "rectangles"},
     {"attemptId": "2026-10-19-192555Z-r04-rectangles", "date": "2026-10-19", "score": 10, "slug": "rectangles"},
     {"attemptId": "2026-10-19-192555Z-r05-rectangles", "date": "2026-10-19", "score": 100, "slug": "rectangles"},
-    {"attemptId": "2026-10-20-180455Z-r00-connect", "date": "2026-10-20", "score": 0, "slug": "connect"}
+    {"attemptId": "2026-10-20-180455Z-r00-connect", "date": "2026-10-20", "score": 0, "slug": "connect"},
+    {"attemptId": "2026-10-21-181246Z-r00-book-store", "date": "2026-10-21", "score": 0, "slug": "book-store"},
+    {"attemptId": "2026-10-21-181246Z-r01-book-store", "date": "2026-10-21", "score": 0, "slug": "book-store"}
   ]
 }

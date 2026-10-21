@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-20-180455Z-r00-connect",
-  "currentDifficulty": 8,
+  "attemptId": "2026-10-21-181246Z-r01-book-store",
+  "currentDifficulty": 7,
   "lastScore": 0,
   "lastStatus": "compile_error",
-  "nextDifficulty": 7,
+  "nextDifficulty": 6,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T18:08:42Z"
+  "updatedAt": "2026-10-21T18:16:17Z"
 }
