@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-21-181246Z-r01-book-store",
-  "currentDifficulty": 7,
-  "lastScore": 0,
+  "attemptId": "2026-10-22-180723Z-r05-split-second-stopwatch",
+  "currentDifficulty": 6,
+  "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 6,
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T18:16:17Z"
+  "updatedAt": "2026-10-22T18:25:20Z"
 }
