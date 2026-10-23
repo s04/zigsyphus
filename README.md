@@ -94,25 +94,25 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | pass/compiled | 97/97 | 100 | [175640Z-r07-meetup](data/silver/attempts/2026/10/23/175640Z-r07-meetup/solution.zig) |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 0 | [175640Z-r06-meetup](data/silver/attempts/2026/10/23/175640Z-r06-meetup/solution.zig) |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 0 | [175640Z-r05-meetup](data/silver/attempts/2026/10/23/175640Z-r05-meetup/solution.zig) |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r04-meetup](data/silver/attempts/2026/10/23/175640Z-r04-meetup/solution.zig) |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r03-meetup](data/silver/attempts/2026/10/23/175640Z-r03-meetup/solution.zig) |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r02-meetup](data/silver/attempts/2026/10/23/175640Z-r02-meetup/solution.zig) |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 0 | [175640Z-r01-meetup](data/silver/attempts/2026/10/23/175640Z-r01-meetup/solution.zig) |
+| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r00-meetup](data/silver/attempts/2026/10/23/175640Z-r00-meetup/solution.zig) |
+| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [180723Z-r05-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r05-split-second-stopwatch/solution.zig) |
+| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [180723Z-r04-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r04-split-second-stopwatch/solution.zig) |
+| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [180723Z-r03-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r03-split-second-stopwatch/solution.zig) |
+| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [180723Z-r02-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r02-split-second-stopwatch/solution.zig) |
+| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [180723Z-r01-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r01-split-second-stopwatch/solution.zig) |
+| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [180723Z-r00-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r00-split-second-stopwatch/solution.zig) |
+| 2026-10-21 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [181246Z-r01-book-store](data/silver/attempts/2026/10/21/181246Z-r01-book-store/solution.zig) |
+| 2026-10-21 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [181246Z-r00-book-store](data/silver/attempts/2026/10/21/181246Z-r00-book-store/solution.zig) |
+| 2026-10-20 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [180455Z-r00-connect](data/silver/attempts/2026/10/20/180455Z-r00-connect/solution.zig) |
 | 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | pass/compiled | 15/15 | 100 | [192555Z-r05-rectangles](data/silver/attempts/2026/10/19/192555Z-r05-rectangles/solution.zig) |
 | 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [192555Z-r04-rectangles](data/silver/attempts/2026/10/19/192555Z-r04-rectangles/solution.zig) |
 | 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [192555Z-r03-rectangles](data/silver/attempts/2026/10/19/192555Z-r03-rectangles/solution.zig) |
-| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [192555Z-r02-rectangles](data/silver/attempts/2026/10/19/192555Z-r02-rectangles/solution.zig) |
-| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [192555Z-r01-rectangles](data/silver/attempts/2026/10/19/192555Z-r01-rectangles/solution.zig) |
-| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [192555Z-r00-rectangles](data/silver/attempts/2026/10/19/192555Z-r00-rectangles/solution.zig) |
-| 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | pass/compiled | 14/14 | 100 | [164607Z-r05-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r05-circular-buffer/solution.zig) |
-| 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | fail/compiled | 13/14 | 96 | [164607Z-r04-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r04-circular-buffer/solution.zig) |
-| 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164607Z-r03-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r03-circular-buffer/solution.zig) |
-| 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164607Z-r02-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r02-circular-buffer/solution.zig) |
-| 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164607Z-r01-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r01-circular-buffer/solution.zig) |
-| 2026-10-18 | Circular Buffer (`circular-buffer`) | 6 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [164607Z-r00-circular-buffer](data/silver/attempts/2026/10/18/164607Z-r00-circular-buffer/solution.zig) |
-| 2026-10-17 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [163635Z-r01-knapsack](data/silver/attempts/2026/10/17/163635Z-r01-knapsack/solution.zig) |
-| 2026-10-17 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [163635Z-r00-knapsack](data/silver/attempts/2026/10/17/163635Z-r00-knapsack/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r07-say](data/silver/attempts/2026/10/16/173847Z-r07-say/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [173847Z-r06-say](data/silver/attempts/2026/10/16/173847Z-r06-say/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [173847Z-r05-say](data/silver/attempts/2026/10/16/173847Z-r05-say/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r04-say](data/silver/attempts/2026/10/16/173847Z-r04-say/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [173847Z-r03-say](data/silver/attempts/2026/10/16/173847Z-r03-say/solution.zig) |
-| 2026-10-16 | Say (`say`) | 6 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [173847Z-r02-say](data/silver/attempts/2026/10/16/173847Z-r02-say/solution.zig) |
 
 <!-- zigsyphus-results:end -->

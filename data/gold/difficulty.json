@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-22-180723Z-r05-split-second-stopwatch",
-  "currentDifficulty": 6,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 5,
+  "attemptId": "2026-10-23-175640Z-r07-meetup",
+  "currentDifficulty": 5,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 6,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T18:25:20Z"
+  "updatedAt": "2026-10-23T18:11:19Z"
 }
