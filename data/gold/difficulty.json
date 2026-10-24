@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-23-175640Z-r07-meetup",
-  "currentDifficulty": 5,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 6,
+  "attemptId": "2026-10-24-165149Z-r05-change",
+  "currentDifficulty": 6,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T18:11:19Z"
+  "updatedAt": "2026-10-24T17:00:38Z"
 }
