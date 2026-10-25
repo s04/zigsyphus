@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-25-171102Z-r06-ocr-numbers",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"ocr-numbers","status":"pass"}},
+  "date": "2026-10-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"OCR Numbers","slug":"ocr-numbers","tags":[],"uuid":"8500f97b-c8b4-4845-a72c-99859d882ff1"},
+  "resultPath": "data/silver/attempts/2026/10/25/171102Z-r06-ocr-numbers/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/25/171102Z-r06-ocr-numbers/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\nocr_numbers.zig:1:4: error: expected ',' after field\nWe need to fix compile error: std.io.fixedBufferStream not available. In Zig 0.16, std.io.fixedBufferStream is in std.io, but maybe need to import std.io. Actually std.io is already imported via std. But the error says root source file struct 'std' has no member named 'io'. That suggests that std is a module, not a struct. In Zig, std is a module, you can call std.io.fixedBufferStream. The error indicates that the compiler cannot find std.io. Maybe need to import std.io explicitly: const std_io = @import(\"std\").io; but std.io is a submodule. In Zig 0.16, std.io is a submodule, you need to import it: const std = @import(\"std\"); then std.io.fixedBufferStream... Should be fine. But maybe the code uses std.io.fixedBufferStream which is defined in std.io, but the import of std does not automatically bring submodules? In Zig, you need to import submodule with const std_io = @import(\"std\").io; Or use std.io.fixedBufferStream directly; I think you need to import std.io: const std = @import(\"std\"); then std.io.fixedBufferStream... But the error says root source file struct 'std' has no member named 'io', meaning std is not a struct but a module; maybe you need to use std.io.fixedBufferStream without extra import? Actually std.io is a submodule, you can refer to it as std.io.fixedBufferStream. The error suggests that the compiler doesn't see std.io because maybe std is not imported? But we have const std = @import(\"std\"); That should import the whole std library. However maybe need to import std.io explicitly: const std = @import(\"std\"); const std_io = @import(\"std\").io; then use std_io.fixedBufferStream. Let's adjust.\n   ^~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-10-25T17:18:21Z",
+  "zigVersion": "0.16.0"
+}

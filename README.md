@@ -94,25 +94,25 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r07-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r07-ocr-numbers/solution.zig) |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r06-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r06-ocr-numbers/solution.zig) |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r05-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r05-ocr-numbers/solution.zig) |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r04-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r04-ocr-numbers/solution.zig) |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r03-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r03-ocr-numbers/solution.zig) |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r02-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r02-ocr-numbers/solution.zig) |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r01-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r01-ocr-numbers/solution.zig) |
+| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r00-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r00-ocr-numbers/solution.zig) |
+| 2026-10-24 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [165149Z-r05-change](data/silver/attempts/2026/10/24/165149Z-r05-change/solution.zig) |
+| 2026-10-24 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [165149Z-r04-change](data/silver/attempts/2026/10/24/165149Z-r04-change/solution.zig) |
+| 2026-10-24 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [165149Z-r03-change](data/silver/attempts/2026/10/24/165149Z-r03-change/solution.zig) |
+| 2026-10-24 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [165149Z-r02-change](data/silver/attempts/2026/10/24/165149Z-r02-change/solution.zig) |
+| 2026-10-24 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 10 | [165149Z-r01-change](data/silver/attempts/2026/10/24/165149Z-r01-change/solution.zig) |
+| 2026-10-24 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [165149Z-r00-change](data/silver/attempts/2026/10/24/165149Z-r00-change/solution.zig) |
 | 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | pass/compiled | 97/97 | 100 | [175640Z-r07-meetup](data/silver/attempts/2026/10/23/175640Z-r07-meetup/solution.zig) |
 | 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 0 | [175640Z-r06-meetup](data/silver/attempts/2026/10/23/175640Z-r06-meetup/solution.zig) |
 | 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 0 | [175640Z-r05-meetup](data/silver/attempts/2026/10/23/175640Z-r05-meetup/solution.zig) |
 | 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r04-meetup](data/silver/attempts/2026/10/23/175640Z-r04-meetup/solution.zig) |
 | 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r03-meetup](data/silver/attempts/2026/10/23/175640Z-r03-meetup/solution.zig) |
 | 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r02-meetup](data/silver/attempts/2026/10/23/175640Z-r02-meetup/solution.zig) |
-| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 0 | [175640Z-r01-meetup](data/silver/attempts/2026/10/23/175640Z-r01-meetup/solution.zig) |
-| 2026-10-23 | Meetup (`meetup`) | 5 | `openrouter/free` | compile_error/compile_error | 0/97 | 10 | [175640Z-r00-meetup](data/silver/attempts/2026/10/23/175640Z-r00-meetup/solution.zig) |
-| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [180723Z-r05-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r05-split-second-stopwatch/solution.zig) |
-| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [180723Z-r04-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r04-split-second-stopwatch/solution.zig) |
-| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [180723Z-r03-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r03-split-second-stopwatch/solution.zig) |
-| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [180723Z-r02-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r02-split-second-stopwatch/solution.zig) |
-| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 10 | [180723Z-r01-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r01-split-second-stopwatch/solution.zig) |
-| 2026-10-22 | Split-Second Stopwatch (`split-second-stopwatch`) | 6 | `openrouter/free` | compile_error/compile_error | 0/29 | 0 | [180723Z-r00-split-second-stopwatch](data/silver/attempts/2026/10/22/180723Z-r00-split-second-stopwatch/solution.zig) |
-| 2026-10-21 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [181246Z-r01-book-store](data/silver/attempts/2026/10/21/181246Z-r01-book-store/solution.zig) |
-| 2026-10-21 | Book Store (`book-store`) | 7 | `openrouter/free` | compile_error/compile_error | 0/18 | 0 | [181246Z-r00-book-store](data/silver/attempts/2026/10/21/181246Z-r00-book-store/solution.zig) |
-| 2026-10-20 | Connect (`connect`) | 8 | `openrouter/free` | compile_error/compile_error | 0/12 | 0 | [180455Z-r00-connect](data/silver/attempts/2026/10/20/180455Z-r00-connect/solution.zig) |
-| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | pass/compiled | 15/15 | 100 | [192555Z-r05-rectangles](data/silver/attempts/2026/10/19/192555Z-r05-rectangles/solution.zig) |
-| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [192555Z-r04-rectangles](data/silver/attempts/2026/10/19/192555Z-r04-rectangles/solution.zig) |
-| 2026-10-19 | Rectangles (`rectangles`) | 7 | `openrouter/free` | compile_error/compile_error | 0/15 | 0 | [192555Z-r03-rectangles](data/silver/attempts/2026/10/19/192555Z-r03-rectangles/solution.zig) |
 
 <!-- zigsyphus-results:end -->

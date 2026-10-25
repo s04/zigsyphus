@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-24-165149Z-r05-change",
-  "currentDifficulty": 6,
-  "lastScore": 0,
+  "attemptId": "2026-10-25-171102Z-r07-ocr-numbers",
+  "currentDifficulty": 5,
+  "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 5,
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T17:00:38Z"
+  "updatedAt": "2026-10-25T17:22:15Z"
 }

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-25-171102Z-r05-ocr-numbers",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"ocr-numbers","status":"pass"}},
+  "date": "2026-10-25",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"OCR Numbers","slug":"ocr-numbers","tags":[],"uuid":"8500f97b-c8b4-4845-a72c-99859d882ff1"},
+  "resultPath": "data/silver/attempts/2026/10/25/171102Z-r05-ocr-numbers/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/25/171102Z-r05-ocr-numbers/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":17,"outputExcerpt":"\nocr_numbers.zig:45:22: error: root source file struct 'std' has no member named 'io'\n    var writer = std.io.fixedBufferStream(&buffer).writer();\n                     ^~\n/home/runner/work/_temp/1c16df9b-e673-4028-8709-c2ca54e2b42b/zig-x86_64-linux-0.16.0/lib/std/std.zig:1:1: note: struct declared here\npub const AutoHashMap = hash_map.AutoHashMap;\n^~~\nreferenced by:\n    test.Recognizes 0: test_ocr_numbers.zig:18:52\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":17},
+  "testedAt": "2026-10-25T17:17:59Z",
+  "zigVersion": "0.16.0"
+}
