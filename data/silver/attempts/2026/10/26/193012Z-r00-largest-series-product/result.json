@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-26-193012Z-r00-largest-series-product",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"largest-series-product","status":"pass"}},
+  "date": "2026-10-26",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Largest Series Product","slug":"largest-series-product","tags":[],"uuid":"1bc27002-2daa-4e09-b4a6-65053291c1dd"},
+  "resultPath": "data/silver/attempts/2026/10/26/193012Z-r00-largest-series-product/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/26/193012Z-r00-largest-series-product/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":15,"outputExcerpt":"\nlargest_series_product.zig:12:17: error: invalid digit 'u' for decimal base\n        return 1u64;\n                ^~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":15},
+  "testedAt": "2026-10-26T19:31:15Z",
+  "zigVersion": "0.16.0"
+}

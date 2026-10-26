@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-25-171102Z-r07-ocr-numbers",
-  "currentDifficulty": 5,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 4,
+  "attemptId": "2026-10-26-193012Z-r02-largest-series-product",
+  "currentDifficulty": 4,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:22:15Z"
+  "updatedAt": "2026-10-26T19:32:53Z"
 }

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-26-193012Z-r02-largest-series-product",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"largest-series-product","status":"pass"}},
+  "date": "2026-10-26",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Largest Series Product","slug":"largest-series-product","tags":[],"uuid":"1bc27002-2daa-4e09-b4a6-65053291c1dd"},
+  "resultPath": "data/silver/attempts/2026/10/26/193012Z-r02-largest-series-product/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/10/26/193012Z-r02-largest-series-product/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/15 test_largest_series_product.test.finds the largest product if span equals length...OK\n2/15 test_largest_series_product.test.can find the largest product of 2 with numbers in order...OK\n3/15 test_largest_series_product.test.can find the largest product of 2...OK\n4/15 test_largest_series_product.test.can find the largest product of 3 with numbers in order...OK\n5/15 test_largest_series_product.test.can find the largest product of 3...OK\n6/15 test_largest_series_product.test.can find the largest product of 5 with numbers in order...OK\n7/15 test_largest_series_product.test.can get the largest product of a big number...OK\n8/15 test_largest_series_product.test.reports zero if the only digits are zero...OK\n9/15 test_largest_series_product.test.reports zero if all spans include zero...OK\n10/15 test_largest_series_product.test.rejects span longer than string length...OK\n11/15 test_largest_series_product.test.reports 1 for empty string and empty product (0 span)...OK\n12/15 test_largest_series_product.test.reports 1 for nonempty string and empty product (0 span)...OK\n13/15 test_largest_series_product.test.rejects empty string and nonzero span...OK\n14/15 test_largest_series_product.test.rejects invalid character in digits...OK\n15/15 test_largest_series_product.test.rejects negative span...OK\nAll 15 tests passed.\n","passed":15,"returnCode":0,"skipped":0,"status":"pass","total":15},
+  "testedAt": "2026-10-26T19:32:53Z",
+  "zigVersion": "0.16.0"
+}
