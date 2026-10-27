@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-27-185224Z-r04-food-chain",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"food-chain","status":"pass"}},
+  "date": "2026-10-27",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Food Chain","slug":"food-chain","tags":[],"uuid":"fe7bad93-d829-4308-9eed-68ad6e5d522f"},
+  "resultPath": "data/silver/attempts/2026/10/27/185224Z-r04-food-chain/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/27/185224Z-r04-food-chain/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":10,"outputExcerpt":"\nfood_chain.zig:31:23: error: expected ',' after for operand\n    for (start_verse..=end_verse) |verse_num| {\n                      ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":10},
+  "testedAt": "2026-10-27T19:07:16Z",
+  "zigVersion": "0.16.0"
+}
