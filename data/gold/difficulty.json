@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-27-185224Z-r07-food-chain",
-  "currentDifficulty": 5,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 4,
+  "attemptId": "2026-10-28-190146Z-r03-flatten-array",
+  "currentDifficulty": 4,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T19:12:14Z"
+  "updatedAt": "2026-10-28T19:07:14Z"
 }

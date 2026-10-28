@@ -94,6 +94,10 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | pass/compiled | 11/11 | 100 | [190146Z-r03-flatten-array](data/silver/attempts/2026/10/28/190146Z-r03-flatten-array/solution.zig) |
+| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r02-flatten-array](data/silver/attempts/2026/10/28/190146Z-r02-flatten-array/solution.zig) |
+| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r01-flatten-array](data/silver/attempts/2026/10/28/190146Z-r01-flatten-array/solution.zig) |
+| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r00-flatten-array](data/silver/attempts/2026/10/28/190146Z-r00-flatten-array/solution.zig) |
 | 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r07-food-chain](data/silver/attempts/2026/10/27/185224Z-r07-food-chain/solution.zig) |
 | 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r06-food-chain](data/silver/attempts/2026/10/27/185224Z-r06-food-chain/solution.zig) |
 | 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r05-food-chain](data/silver/attempts/2026/10/27/185224Z-r05-food-chain/solution.zig) |
@@ -110,9 +114,5 @@ Required GitHub secret:
 | 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r05-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r05-ocr-numbers/solution.zig) |
 | 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r04-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r04-ocr-numbers/solution.zig) |
 | 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r03-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r03-ocr-numbers/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r02-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r02-ocr-numbers/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r01-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r01-ocr-numbers/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r00-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r00-ocr-numbers/solution.zig) |
-| 2026-10-24 | Change (`change`) | 6 | `openrouter/free` | compile_error/compile_error | 0/13 | 0 | [165149Z-r05-change](data/silver/attempts/2026/10/24/165149Z-r05-change/solution.zig) |
 
 <!-- zigsyphus-results:end -->

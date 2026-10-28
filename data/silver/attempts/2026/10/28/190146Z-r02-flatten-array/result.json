@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-28-190146Z-r02-flatten-array",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"flatten-array","status":"pass"}},
+  "date": "2026-10-28",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Flatten Array","slug":"flatten-array","tags":[],"uuid":"21272433-70b7-490a-9451-5701d4a9c54c"},
+  "resultPath": "data/silver/attempts/2026/10/28/190146Z-r02-flatten-array/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/28/190146Z-r02-flatten-array/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":11,"outputExcerpt":"\nflatten_array.zig:23:10: error: expected ',' after initializer\n        };\n         ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":11},
+  "testedAt": "2026-10-28T19:03:57Z",
+  "zigVersion": "0.16.0"
+}
