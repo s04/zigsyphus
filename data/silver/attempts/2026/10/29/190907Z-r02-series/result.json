@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-29-190907Z-r02-series",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"series","status":"pass"}},
+  "date": "2026-10-29",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Series","slug":"series","tags":[],"uuid":"fc7d90fa-0bb6-4560-8dee-ddf82adf412c"},
+  "resultPath": "data/silver/attempts/2026/10/29/190907Z-r02-series/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/29/190907Z-r02-series/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\nseries.zig:13:12: error: root source file struct 'mem' has no member named 'copy'\n        mem.copy(u8, slice[0..slice_length], series[i..i + slice_length]);\n        ~~~^~~~~\n/home/runner/work/_temp/271cab1d-6c57-45ac-90bf-6e3b2eb80ed0/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nreferenced by:\n    test.slice length is way too large: test_series.zig:111:30\nseries.zig:13:12: error: root source file struct 'mem' has no member named 'copy'\n        mem.copy(u8, slice[0..slice_length], series[i..i + slice_length]);\n        ~~~^~~~~\n/home/runner/work/_temp/271cab1d-6c57-45ac-90bf-6e3b2eb80ed0/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nseries.zig:13:12: error: root source file struct 'mem' has no member named 'copy'\n        mem.copy(u8, slice[0..slice_length], series[i..i + slice_length]);\n        ~~~^~~~~\n/home/runner/work/_temp/271cab1d-6c57-45ac-90bf-6e3b2eb80ed0/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nseries.zig:13:12: error: root source file struct 'mem' has no member named 'copy'\n        mem.copy(u8, slice[0..slice_length], series[i..i + slice_length]);\n        ~~~^~~~~\n/home/runner/work/_temp/271cab1d-6c57-45ac-90bf-6e3b2eb80ed0/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nseries.zig:13:12: error: root source file struct 'mem' has no member named 'copy'\n        mem.copy(u8, slice[0..slice_length], series[i..i + slice_length]);\n        ~~~^~~~~\n/home/runner/work/_temp/271cab1d-6c57-45ac-90bf-6e3b2eb80ed0/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nseries.zig:13:12: error: root source file struct 'mem' has no member named 'copy'\n        mem.copy(u8, slice[0..slice_length], series[i..i + slice_length]);\n        ~~~^~~~~\n/home/runner/work/_temp/271cab1d-6c57-45ac-90bf-6e3b2eb80ed0/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-10-29T19:12:20Z",
+  "zigVersion": "0.16.0"
+}

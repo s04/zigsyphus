@@ -94,6 +94,11 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [190907Z-r04-series](data/silver/attempts/2026/10/29/190907Z-r04-series/solution.zig) |
+| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [190907Z-r03-series](data/silver/attempts/2026/10/29/190907Z-r03-series/solution.zig) |
+| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [190907Z-r02-series](data/silver/attempts/2026/10/29/190907Z-r02-series/solution.zig) |
+| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [190907Z-r01-series](data/silver/attempts/2026/10/29/190907Z-r01-series/solution.zig) |
+| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [190907Z-r00-series](data/silver/attempts/2026/10/29/190907Z-r00-series/solution.zig) |
 | 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | pass/compiled | 11/11 | 100 | [190146Z-r03-flatten-array](data/silver/attempts/2026/10/28/190146Z-r03-flatten-array/solution.zig) |
 | 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r02-flatten-array](data/silver/attempts/2026/10/28/190146Z-r02-flatten-array/solution.zig) |
 | 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r01-flatten-array](data/silver/attempts/2026/10/28/190146Z-r01-flatten-array/solution.zig) |
@@ -109,10 +114,5 @@ Required GitHub secret:
 | 2026-10-26 | Largest Series Product (`largest-series-product`) | 4 | `openrouter/free` | pass/compiled | 15/15 | 100 | [193012Z-r02-largest-series-product](data/silver/attempts/2026/10/26/193012Z-r02-largest-series-product/solution.zig) |
 | 2026-10-26 | Largest Series Product (`largest-series-product`) | 4 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [193012Z-r01-largest-series-product](data/silver/attempts/2026/10/26/193012Z-r01-largest-series-product/solution.zig) |
 | 2026-10-26 | Largest Series Product (`largest-series-product`) | 4 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [193012Z-r00-largest-series-product](data/silver/attempts/2026/10/26/193012Z-r00-largest-series-product/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r07-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r07-ocr-numbers/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r06-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r06-ocr-numbers/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 10 | [171102Z-r05-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r05-ocr-numbers/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r04-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r04-ocr-numbers/solution.zig) |
-| 2026-10-25 | OCR Numbers (`ocr-numbers`) | 5 | `openrouter/free` | compile_error/compile_error | 0/17 | 0 | [171102Z-r03-ocr-numbers](data/silver/attempts/2026/10/25/171102Z-r03-ocr-numbers/solution.zig) |
 
 <!-- zigsyphus-results:end -->

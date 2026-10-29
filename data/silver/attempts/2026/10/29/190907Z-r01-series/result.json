@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-29-190907Z-r01-series",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"series","status":"pass"}},
+  "date": "2026-10-29",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Series","slug":"series","tags":[],"uuid":"fc7d90fa-0bb6-4560-8dee-ddf82adf412c"},
+  "resultPath": "data/silver/attempts/2026/10/29/190907Z-r01-series/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/10/29/190907Z-r01-series/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":8,"outputExcerpt":"\ntest_series.zig:4:37: error: root source file struct 'series' has no member named 'slices'\nconst slices = @import(\"series.zig\").slices;\n               ~~~~~~~~~~~~~~~~~~~~~^~~~~~~\nseries.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.slices of one from one: test_series.zig:11:24\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":8},
+  "testedAt": "2026-10-29T19:11:42Z",
+  "zigVersion": "0.16.0"
+}
