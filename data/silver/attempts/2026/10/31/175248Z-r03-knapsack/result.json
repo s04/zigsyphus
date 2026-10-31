@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-10-31-175248Z-r03-knapsack",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"knapsack","status":"pass"}},
+  "date": "2026-10-31",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Knapsack","slug":"knapsack","tags":[],"uuid":"ffa03fc8-0503-4524-ae40-9f3202349003"},
+  "resultPath": "data/silver/attempts/2026/10/31/175248Z-r03-knapsack/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/10/31/175248Z-r03-knapsack/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":7,"outputExcerpt":"\nknapsack.zig:16:8: error: root source file struct 'mem' has no member named 'zeroFill'\n    mem.zeroFill(usize, dp, dp.len);\n    ~~~^~~~~~~~~\n/home/runner/work/_temp/2914de21-ba4f-4718-968a-1ab23844ef3e/zig-x86_64-linux-0.16.0/lib/std/mem.zig:1:1: note: struct declared here\nconst std = @import(\"std.zig\");\n^~~~~\nreferenced by:\n    test.no items: test_knapsack.zig:10:45\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":7},
+  "testedAt": "2026-10-31T17:55:25Z",
+  "zigVersion": "0.16.0"
+}

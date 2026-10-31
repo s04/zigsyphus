@@ -94,6 +94,15 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [175248Z-r05-knapsack](data/silver/attempts/2026/10/31/175248Z-r05-knapsack/solution.zig) |
+| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r04-knapsack](data/silver/attempts/2026/10/31/175248Z-r04-knapsack/solution.zig) |
+| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r03-knapsack](data/silver/attempts/2026/10/31/175248Z-r03-knapsack/solution.zig) |
+| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r02-knapsack](data/silver/attempts/2026/10/31/175248Z-r02-knapsack/solution.zig) |
+| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r01-knapsack](data/silver/attempts/2026/10/31/175248Z-r01-knapsack/solution.zig) |
+| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r00-knapsack](data/silver/attempts/2026/10/31/175248Z-r00-knapsack/solution.zig) |
+| 2026-10-30 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [184701Z-r02-piecing-it-together](data/silver/attempts/2026/10/30/184701Z-r02-piecing-it-together/solution.zig) |
+| 2026-10-30 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [184701Z-r01-piecing-it-together](data/silver/attempts/2026/10/30/184701Z-r01-piecing-it-together/solution.zig) |
+| 2026-10-30 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [184701Z-r00-piecing-it-together](data/silver/attempts/2026/10/30/184701Z-r00-piecing-it-together/solution.zig) |
 | 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [190907Z-r04-series](data/silver/attempts/2026/10/29/190907Z-r04-series/solution.zig) |
 | 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [190907Z-r03-series](data/silver/attempts/2026/10/29/190907Z-r03-series/solution.zig) |
 | 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [190907Z-r02-series](data/silver/attempts/2026/10/29/190907Z-r02-series/solution.zig) |
@@ -105,14 +114,5 @@ Required GitHub secret:
 | 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r00-flatten-array](data/silver/attempts/2026/10/28/190146Z-r00-flatten-array/solution.zig) |
 | 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r07-food-chain](data/silver/attempts/2026/10/27/185224Z-r07-food-chain/solution.zig) |
 | 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r06-food-chain](data/silver/attempts/2026/10/27/185224Z-r06-food-chain/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r05-food-chain](data/silver/attempts/2026/10/27/185224Z-r05-food-chain/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r04-food-chain](data/silver/attempts/2026/10/27/185224Z-r04-food-chain/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [185224Z-r03-food-chain](data/silver/attempts/2026/10/27/185224Z-r03-food-chain/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r02-food-chain](data/silver/attempts/2026/10/27/185224Z-r02-food-chain/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r01-food-chain](data/silver/attempts/2026/10/27/185224Z-r01-food-chain/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r00-food-chain](data/silver/attempts/2026/10/27/185224Z-r00-food-chain/solution.zig) |
-| 2026-10-26 | Largest Series Product (`largest-series-product`) | 4 | `openrouter/free` | pass/compiled | 15/15 | 100 | [193012Z-r02-largest-series-product](data/silver/attempts/2026/10/26/193012Z-r02-largest-series-product/solution.zig) |
-| 2026-10-26 | Largest Series Product (`largest-series-product`) | 4 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [193012Z-r01-largest-series-product](data/silver/attempts/2026/10/26/193012Z-r01-largest-series-product/solution.zig) |
-| 2026-10-26 | Largest Series Product (`largest-series-product`) | 4 | `openrouter/free` | compile_error/compile_error | 0/15 | 10 | [193012Z-r00-largest-series-product](data/silver/attempts/2026/10/26/193012Z-r00-largest-series-product/solution.zig) |
 
 <!-- zigsyphus-results:end -->
