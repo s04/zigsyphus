@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-10-31-175248Z-r05-knapsack",
-  "currentDifficulty": 5,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 6,
+  "attemptId": "2026-11-01-183004Z-r07-rail-fence-cipher",
+  "currentDifficulty": 6,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 5,
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T17:57:12Z"
+  "updatedAt": "2026-11-01T18:37:37Z"
 }

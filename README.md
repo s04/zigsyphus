@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [183004Z-r07-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r07-rail-fence-cipher/solution.zig) |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r06-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r06-rail-fence-cipher/solution.zig) |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r05-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r05-rail-fence-cipher/solution.zig) |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r04-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r04-rail-fence-cipher/solution.zig) |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r03-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r03-rail-fence-cipher/solution.zig) |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r02-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r02-rail-fence-cipher/solution.zig) |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r01-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r01-rail-fence-cipher/solution.zig) |
+| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r00-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r00-rail-fence-cipher/solution.zig) |
 | 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [175248Z-r05-knapsack](data/silver/attempts/2026/10/31/175248Z-r05-knapsack/solution.zig) |
 | 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r04-knapsack](data/silver/attempts/2026/10/31/175248Z-r04-knapsack/solution.zig) |
 | 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r03-knapsack](data/silver/attempts/2026/10/31/175248Z-r03-knapsack/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [190907Z-r04-series](data/silver/attempts/2026/10/29/190907Z-r04-series/solution.zig) |
 | 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [190907Z-r03-series](data/silver/attempts/2026/10/29/190907Z-r03-series/solution.zig) |
 | 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [190907Z-r02-series](data/silver/attempts/2026/10/29/190907Z-r02-series/solution.zig) |
-| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [190907Z-r01-series](data/silver/attempts/2026/10/29/190907Z-r01-series/solution.zig) |
-| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [190907Z-r00-series](data/silver/attempts/2026/10/29/190907Z-r00-series/solution.zig) |
-| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | pass/compiled | 11/11 | 100 | [190146Z-r03-flatten-array](data/silver/attempts/2026/10/28/190146Z-r03-flatten-array/solution.zig) |
-| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r02-flatten-array](data/silver/attempts/2026/10/28/190146Z-r02-flatten-array/solution.zig) |
-| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r01-flatten-array](data/silver/attempts/2026/10/28/190146Z-r01-flatten-array/solution.zig) |
-| 2026-10-28 | Flatten Array (`flatten-array`) | 4 | `openrouter/free` | compile_error/compile_error | 0/11 | 10 | [190146Z-r00-flatten-array](data/silver/attempts/2026/10/28/190146Z-r00-flatten-array/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r07-food-chain](data/silver/attempts/2026/10/27/185224Z-r07-food-chain/solution.zig) |
-| 2026-10-27 | Food Chain (`food-chain`) | 5 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [185224Z-r06-food-chain](data/silver/attempts/2026/10/27/185224Z-r06-food-chain/solution.zig) |
 
 <!-- zigsyphus-results:end -->
