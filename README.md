@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r07-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/solution.zig) |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r06-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r06-spiral-matrix/solution.zig) |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r05-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r05-spiral-matrix/solution.zig) |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r04-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r04-spiral-matrix/solution.zig) |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r03-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r03-spiral-matrix/solution.zig) |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r02-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r02-spiral-matrix/solution.zig) |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | fail/compiled | 1/6 | 50 | [222648Z-r01-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r01-spiral-matrix/solution.zig) |
+| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r00-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r00-spiral-matrix/solution.zig) |
 | 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [183004Z-r07-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r07-rail-fence-cipher/solution.zig) |
 | 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r06-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r06-rail-fence-cipher/solution.zig) |
 | 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r05-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r05-rail-fence-cipher/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r04-knapsack](data/silver/attempts/2026/10/31/175248Z-r04-knapsack/solution.zig) |
 | 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r03-knapsack](data/silver/attempts/2026/10/31/175248Z-r03-knapsack/solution.zig) |
 | 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r02-knapsack](data/silver/attempts/2026/10/31/175248Z-r02-knapsack/solution.zig) |
-| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r01-knapsack](data/silver/attempts/2026/10/31/175248Z-r01-knapsack/solution.zig) |
-| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r00-knapsack](data/silver/attempts/2026/10/31/175248Z-r00-knapsack/solution.zig) |
-| 2026-10-30 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [184701Z-r02-piecing-it-together](data/silver/attempts/2026/10/30/184701Z-r02-piecing-it-together/solution.zig) |
-| 2026-10-30 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [184701Z-r01-piecing-it-together](data/silver/attempts/2026/10/30/184701Z-r01-piecing-it-together/solution.zig) |
-| 2026-10-30 | Piecing It Together (`piecing-it-together`) | 6 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [184701Z-r00-piecing-it-together](data/silver/attempts/2026/10/30/184701Z-r00-piecing-it-together/solution.zig) |
-| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | pass/compiled | 8/8 | 100 | [190907Z-r04-series](data/silver/attempts/2026/10/29/190907Z-r04-series/solution.zig) |
-| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 0 | [190907Z-r03-series](data/silver/attempts/2026/10/29/190907Z-r03-series/solution.zig) |
-| 2026-10-29 | Series (`series`) | 5 | `openrouter/free` | compile_error/compile_error | 0/8 | 10 | [190907Z-r02-series](data/silver/attempts/2026/10/29/190907Z-r02-series/solution.zig) |
 
 <!-- zigsyphus-results:end -->
