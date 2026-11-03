@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-03-201415Z-r02-atbash-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"atbash-cipher","status":"pass"}},
+  "date": "2026-11-03",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Atbash Cipher","slug":"atbash-cipher","tags":["allocators","strings"],"uuid":"0e524507-7144-400e-a0c4-da150a4a2604"},
+  "resultPath": "data/silver/attempts/2026/11/03/201415Z-r02-atbash-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/11/03/201415Z-r02-atbash-cipher/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\natbash_cipher.zig:6:37: error: struct 'array_list.Aligned(u8,null)' has no member named 'init'\n    var filtered = std.ArrayList(u8).init(allocator);\n                   ~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/281a7f22-5ad3-4a8f-9031-a5ecbe4319c2/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.encode yes: test_atbash_cipher.zig:11:30\natbash_cipher.zig:37:35: error: struct 'array_list.Aligned(u8,null)' has no member named 'init'\n    var result = std.ArrayList(u8).init(allocator);\n                 ~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/281a7f22-5ad3-4a8f-9031-a5ecbe4319c2/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-11-03T20:17:21Z",
+  "zigVersion": "0.16.0"
+}

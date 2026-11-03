@@ -1,24 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-11-02-222648Z-r07-spiral-matrix",
-    "currentDifficulty": 5,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 4,
+    "attemptId": "2026-11-03-201415Z-r06-atbash-cipher",
+    "currentDifficulty": 4,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 5,
     "schemaVersion": 1,
-    "updatedAt": "2026-11-02T22:40:20Z"
+    "updatedAt": "2026-11-03T20:22:16Z"
   },
-  "generatedAt": "2026-11-02T22:40:20Z",
-  "latest": {"attemptId":"2026-11-02-222648Z-r07-spiral-matrix","compileStatus":"compile_error","date":"2026-11-02","difficulty":"5","mode":"live","model":"openrouter/free","name":"Spiral Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/result.json","runAt":"2026-11-02T22:40:20Z","score":"10","slug":"spiral-matrix","solutionPath":"data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
-  "nextDifficulty": 4,
+  "generatedAt": "2026-11-03T20:22:16Z",
+  "latest": {"attemptId":"2026-11-03-201415Z-r06-atbash-cipher","compileStatus":"compiled","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"14","resultPath":"data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/result.json","runAt":"2026-11-03T20:22:16Z","score":"100","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/solution.zig","status":"pass","total":"14","zigVersion":"0.16.0"},
+  "nextDifficulty": 5,
   "recentRuns": [
-    {"attemptId":"2026-10-31-175248Z-r02-knapsack","compileStatus":"compile_error","date":"2026-10-31","difficulty":"5","mode":"live","model":"openrouter/free","name":"Knapsack","passed":"0","resultPath":"data/silver/attempts/2026/10/31/175248Z-r02-knapsack/result.json","runAt":"2026-10-31T17:55:04Z","score":"10","slug":"knapsack","solutionPath":"data/silver/attempts/2026/10/31/175248Z-r02-knapsack/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-31-175248Z-r03-knapsack","compileStatus":"compile_error","date":"2026-10-31","difficulty":"5","mode":"live","model":"openrouter/free","name":"Knapsack","passed":"0","resultPath":"data/silver/attempts/2026/10/31/175248Z-r03-knapsack/result.json","runAt":"2026-10-31T17:55:25Z","score":"10","slug":"knapsack","solutionPath":"data/silver/attempts/2026/10/31/175248Z-r03-knapsack/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-31-175248Z-r04-knapsack","compileStatus":"compile_error","date":"2026-10-31","difficulty":"5","mode":"live","model":"openrouter/free","name":"Knapsack","passed":"0","resultPath":"data/silver/attempts/2026/10/31/175248Z-r04-knapsack/result.json","runAt":"2026-10-31T17:56:32Z","score":"10","slug":"knapsack","solutionPath":"data/silver/attempts/2026/10/31/175248Z-r04-knapsack/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
-    {"attemptId":"2026-10-31-175248Z-r05-knapsack","compileStatus":"compiled","date":"2026-10-31","difficulty":"5","mode":"live","model":"openrouter/free","name":"Knapsack","passed":"7","resultPath":"data/silver/attempts/2026/10/31/175248Z-r05-knapsack/result.json","runAt":"2026-10-31T17:57:12Z","score":"100","slug":"knapsack","solutionPath":"data/silver/attempts/2026/10/31/175248Z-r05-knapsack/solution.zig","status":"pass","total":"7","zigVersion":"0.16.0"},
-    {"attemptId":"2026-11-01-183004Z-r00-rail-fence-cipher","compileStatus":"compile_error","date":"2026-11-01","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/01/183004Z-r00-rail-fence-cipher/result.json","runAt":"2026-11-01T18:31:47Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/11/01/183004Z-r00-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
-    {"attemptId":"2026-11-01-183004Z-r01-rail-fence-cipher","compileStatus":"compile_error","date":"2026-11-01","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/01/183004Z-r01-rail-fence-cipher/result.json","runAt":"2026-11-01T18:32:33Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/11/01/183004Z-r01-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
-    {"attemptId":"2026-11-01-183004Z-r02-rail-fence-cipher","compileStatus":"compile_error","date":"2026-11-01","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/01/183004Z-r02-rail-fence-cipher/result.json","runAt":"2026-11-01T18:33:50Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/11/01/183004Z-r02-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-01-183004Z-r03-rail-fence-cipher","compileStatus":"compile_error","date":"2026-11-01","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/01/183004Z-r03-rail-fence-cipher/result.json","runAt":"2026-11-01T18:34:16Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/11/01/183004Z-r03-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-01-183004Z-r04-rail-fence-cipher","compileStatus":"compile_error","date":"2026-11-01","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/01/183004Z-r04-rail-fence-cipher/result.json","runAt":"2026-11-01T18:34:48Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/11/01/183004Z-r04-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-01-183004Z-r05-rail-fence-cipher","compileStatus":"compile_error","date":"2026-11-01","difficulty":"6","mode":"live","model":"openrouter/free","name":"Rail Fence Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/01/183004Z-r05-rail-fence-cipher/result.json","runAt":"2026-11-01T18:35:34Z","score":"10","slug":"rail-fence-cipher","solutionPath":"data/silver/attempts/2026/11/01/183004Z-r05-rail-fence-cipher/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
@@ -31,18 +24,18 @@
     {"attemptId":"2026-11-02-222648Z-r04-spiral-matrix","compileStatus":"compile_error","date":"2026-11-02","difficulty":"5","mode":"live","model":"openrouter/free","name":"Spiral Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/02/222648Z-r04-spiral-matrix/result.json","runAt":"2026-11-02T22:35:32Z","score":"10","slug":"spiral-matrix","solutionPath":"data/silver/attempts/2026/11/02/222648Z-r04-spiral-matrix/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-02-222648Z-r05-spiral-matrix","compileStatus":"compile_error","date":"2026-11-02","difficulty":"5","mode":"live","model":"openrouter/free","name":"Spiral Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/02/222648Z-r05-spiral-matrix/result.json","runAt":"2026-11-02T22:37:40Z","score":"10","slug":"spiral-matrix","solutionPath":"data/silver/attempts/2026/11/02/222648Z-r05-spiral-matrix/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-02-222648Z-r06-spiral-matrix","compileStatus":"compile_error","date":"2026-11-02","difficulty":"5","mode":"live","model":"openrouter/free","name":"Spiral Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/02/222648Z-r06-spiral-matrix/result.json","runAt":"2026-11-02T22:39:05Z","score":"0","slug":"spiral-matrix","solutionPath":"data/silver/attempts/2026/11/02/222648Z-r06-spiral-matrix/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
-    {"attemptId":"2026-11-02-222648Z-r07-spiral-matrix","compileStatus":"compile_error","date":"2026-11-02","difficulty":"5","mode":"live","model":"openrouter/free","name":"Spiral Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/result.json","runAt":"2026-11-02T22:40:20Z","score":"10","slug":"spiral-matrix","solutionPath":"data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"}
+    {"attemptId":"2026-11-02-222648Z-r07-spiral-matrix","compileStatus":"compile_error","date":"2026-11-02","difficulty":"5","mode":"live","model":"openrouter/free","name":"Spiral Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/result.json","runAt":"2026-11-02T22:40:20Z","score":"10","slug":"spiral-matrix","solutionPath":"data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/solution.zig","status":"compile_error","total":"6","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-03-201415Z-r00-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r00-atbash-cipher/result.json","runAt":"2026-11-03T20:15:57Z","score":"0","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r00-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-03-201415Z-r01-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r01-atbash-cipher/result.json","runAt":"2026-11-03T20:16:05Z","score":"10","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r01-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-03-201415Z-r02-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r02-atbash-cipher/result.json","runAt":"2026-11-03T20:17:21Z","score":"10","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r02-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-03-201415Z-r03-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r03-atbash-cipher/result.json","runAt":"2026-11-03T20:18:41Z","score":"10","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r03-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-03-201415Z-r04-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/result.json","runAt":"2026-11-03T20:20:31Z","score":"0","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-03-201415Z-r05-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/result.json","runAt":"2026-11-03T20:22:06Z","score":"0","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-03-201415Z-r06-atbash-cipher","compileStatus":"compiled","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"14","resultPath":"data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/result.json","runAt":"2026-11-03T20:22:16Z","score":"100","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/solution.zig","status":"pass","total":"14","zigVersion":"0.16.0"}
   ],
-  "runCount": 526,
+  "runCount": 533,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-10-23-175640Z-r07-meetup", "date": "2026-10-23", "score": 100, "slug": "meetup"},
-    {"attemptId": "2026-10-24-165149Z-r00-change", "date": "2026-10-24", "score": 0, "slug": "change"},
-    {"attemptId": "2026-10-24-165149Z-r01-change", "date": "2026-10-24", "score": 10, "slug": "change"},
-    {"attemptId": "2026-10-24-165149Z-r02-change", "date": "2026-10-24", "score": 10, "slug": "change"},
-    {"attemptId": "2026-10-24-165149Z-r03-change", "date": "2026-10-24", "score": 10, "slug": "change"},
-    {"attemptId": "2026-10-24-165149Z-r04-change", "date": "2026-10-24", "score": 10, "slug": "change"},
-    {"attemptId": "2026-10-24-165149Z-r05-change", "date": "2026-10-24", "score": 0, "slug": "change"},
     {"attemptId": "2026-10-25-171102Z-r00-ocr-numbers", "date": "2026-10-25", "score": 10, "slug": "ocr-numbers"},
     {"attemptId": "2026-10-25-171102Z-r01-ocr-numbers", "date": "2026-10-25", "score": 0, "slug": "ocr-numbers"},
     {"attemptId": "2026-10-25-171102Z-r02-ocr-numbers", "date": "2026-10-25", "score": 10, "slug": "ocr-numbers"},
@@ -95,6 +88,13 @@
     {"attemptId": "2026-11-02-222648Z-r04-spiral-matrix", "date": "2026-11-02", "score": 10, "slug": "spiral-matrix"},
     {"attemptId": "2026-11-02-222648Z-r05-spiral-matrix", "date": "2026-11-02", "score": 10, "slug": "spiral-matrix"},
     {"attemptId": "2026-11-02-222648Z-r06-spiral-matrix", "date": "2026-11-02", "score": 0, "slug": "spiral-matrix"},
-    {"attemptId": "2026-11-02-222648Z-r07-spiral-matrix", "date": "2026-11-02", "score": 10, "slug": "spiral-matrix"}
+    {"attemptId": "2026-11-02-222648Z-r07-spiral-matrix", "date": "2026-11-02", "score": 10, "slug": "spiral-matrix"},
+    {"attemptId": "2026-11-03-201415Z-r00-atbash-cipher", "date": "2026-11-03", "score": 0, "slug": "atbash-cipher"},
+    {"attemptId": "2026-11-03-201415Z-r01-atbash-cipher", "date": "2026-11-03", "score": 10, "slug": "atbash-cipher"},
+    {"attemptId": "2026-11-03-201415Z-r02-atbash-cipher", "date": "2026-11-03", "score": 10, "slug": "atbash-cipher"},
+    {"attemptId": "2026-11-03-201415Z-r03-atbash-cipher", "date": "2026-11-03", "score": 10, "slug": "atbash-cipher"},
+    {"attemptId": "2026-11-03-201415Z-r04-atbash-cipher", "date": "2026-11-03", "score": 0, "slug": "atbash-cipher"},
+    {"attemptId": "2026-11-03-201415Z-r05-atbash-cipher", "date": "2026-11-03", "score": 0, "slug": "atbash-cipher"},
+    {"attemptId": "2026-11-03-201415Z-r06-atbash-cipher", "date": "2026-11-03", "score": 100, "slug": "atbash-cipher"}
   ]
 }

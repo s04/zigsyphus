@@ -94,6 +94,13 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | pass/compiled | 14/14 | 100 | [201415Z-r06-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/solution.zig) |
+| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r05-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/solution.zig) |
+| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r04-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/solution.zig) |
+| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [201415Z-r03-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r03-atbash-cipher/solution.zig) |
+| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [201415Z-r02-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r02-atbash-cipher/solution.zig) |
+| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [201415Z-r01-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r01-atbash-cipher/solution.zig) |
+| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r00-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r00-atbash-cipher/solution.zig) |
 | 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r07-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/solution.zig) |
 | 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r06-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r06-spiral-matrix/solution.zig) |
 | 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r05-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r05-spiral-matrix/solution.zig) |
@@ -107,12 +114,5 @@ Required GitHub secret:
 | 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r05-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r05-rail-fence-cipher/solution.zig) |
 | 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r04-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r04-rail-fence-cipher/solution.zig) |
 | 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r03-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r03-rail-fence-cipher/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r02-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r02-rail-fence-cipher/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r01-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r01-rail-fence-cipher/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r00-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r00-rail-fence-cipher/solution.zig) |
-| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | pass/compiled | 7/7 | 100 | [175248Z-r05-knapsack](data/silver/attempts/2026/10/31/175248Z-r05-knapsack/solution.zig) |
-| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r04-knapsack](data/silver/attempts/2026/10/31/175248Z-r04-knapsack/solution.zig) |
-| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r03-knapsack](data/silver/attempts/2026/10/31/175248Z-r03-knapsack/solution.zig) |
-| 2026-10-31 | Knapsack (`knapsack`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [175248Z-r02-knapsack](data/silver/attempts/2026/10/31/175248Z-r02-knapsack/solution.zig) |
 
 <!-- zigsyphus-results:end -->

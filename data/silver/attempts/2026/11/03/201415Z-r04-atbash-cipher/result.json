@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-03-201415Z-r04-atbash-cipher",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"atbash-cipher","status":"pass"}},
+  "date": "2026-11-03",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Atbash Cipher","slug":"atbash-cipher","tags":["allocators","strings"],"uuid":"0e524507-7144-400e-a0c4-da150a4a2604"},
+  "resultPath": "data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\ntest_atbash_cipher.zig:5:29: error: root source file struct 'atbash_cipher' has no member named 'encode'\nconst encode = atbash_cipher.encode;\n               ~~~~~~~~~~~~~^~~~~~~\natbash_cipher.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.encode yes: test_atbash_cipher.zig:11:24\ntest_atbash_cipher.zig:6:29: error: root source file struct 'atbash_cipher' has no member named 'decode'\nconst decode = atbash_cipher.decode;\n               ~~~~~~~~~~~~~^~~~~~~\natbash_cipher.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-11-03T20:20:31Z",
+  "zigVersion": "0.16.0"
+}
