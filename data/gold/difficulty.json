@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-11-03-201415Z-r06-atbash-cipher",
-  "currentDifficulty": 4,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 5,
+  "attemptId": "2026-11-04-203044Z-r07-pythagorean-triplet",
+  "currentDifficulty": 5,
+  "lastScore": 83,
+  "lastStatus": "fail",
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T20:22:16Z"
+  "updatedAt": "2026-11-04T20:41:19Z"
 }

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-04-203044Z-r04-pythagorean-triplet",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"pythagorean-triplet","status":"pass"}},
+  "date": "2026-11-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Pythagorean Triplet","slug":"pythagorean-triplet","tags":[],"uuid":"393d316c-f20a-4d86-859b-8bf0e920fb55"},
+  "resultPath": "data/silver/attempts/2026/11/04/203044Z-r04-pythagorean-triplet/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/11/04/203044Z-r04-pythagorean-triplet/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":7,"outputExcerpt":"\ntest_pythagorean_triplet.zig:5:36: error: root source file struct 'pythagorean_triplet' has no member named 'Triplet'\nconst Triplet = pythagorean_triplet.Triplet;\n                ~~~~~~~~~~~~~~~~~~~^~~~~~~~\npythagorean_triplet.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.triplets whose sum is 12: test_pythagorean_triplet.zig:9:24\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":7},
+  "testedAt": "2026-11-04T20:37:54Z",
+  "zigVersion": "0.16.0"
+}

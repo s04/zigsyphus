@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | fail/compiled | 5/7 | 83 | [203044Z-r07-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r07-pythagorean-triplet/solution.zig) |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r06-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r06-pythagorean-triplet/solution.zig) |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r05-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r05-pythagorean-triplet/solution.zig) |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 0 | [203044Z-r04-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r04-pythagorean-triplet/solution.zig) |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 0 | [203044Z-r03-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r03-pythagorean-triplet/solution.zig) |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r02-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r02-pythagorean-triplet/solution.zig) |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r01-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r01-pythagorean-triplet/solution.zig) |
+| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r00-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r00-pythagorean-triplet/solution.zig) |
 | 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | pass/compiled | 14/14 | 100 | [201415Z-r06-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/solution.zig) |
 | 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r05-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/solution.zig) |
 | 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r04-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r05-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r05-spiral-matrix/solution.zig) |
 | 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r04-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r04-spiral-matrix/solution.zig) |
 | 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r03-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r03-spiral-matrix/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r02-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r02-spiral-matrix/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | fail/compiled | 1/6 | 50 | [222648Z-r01-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r01-spiral-matrix/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r00-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r00-spiral-matrix/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [183004Z-r07-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r07-rail-fence-cipher/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r06-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r06-rail-fence-cipher/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r05-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r05-rail-fence-cipher/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r04-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r04-rail-fence-cipher/solution.zig) |
-| 2026-11-01 | Rail Fence Cipher (`rail-fence-cipher`) | 6 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [183004Z-r03-rail-fence-cipher](data/silver/attempts/2026/11/01/183004Z-r03-rail-fence-cipher/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-04-203044Z-r00-pythagorean-triplet",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"pythagorean-triplet","status":"pass"}},
+  "date": "2026-11-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Pythagorean Triplet","slug":"pythagorean-triplet","tags":[],"uuid":"393d316c-f20a-4d86-859b-8bf0e920fb55"},
+  "resultPath": "data/silver/attempts/2026/11/04/203044Z-r00-pythagorean-triplet/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/11/04/203044Z-r00-pythagorean-triplet/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":7,"outputExcerpt":"\npythagorean_triplet.zig:7:13: error: expected ',' after field\n    c: usize;\n            ^\npythagorean_triplet.zig:7:5: note: use 'var' or 'const' to declare variable\n    c: usize;\n    ^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":7},
+  "testedAt": "2026-11-04T20:33:33Z",
+  "zigVersion": "0.16.0"
+}

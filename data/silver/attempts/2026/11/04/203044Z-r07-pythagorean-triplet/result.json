@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-04-203044Z-r07-pythagorean-triplet",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"pythagorean-triplet","status":"pass"}},
+  "date": "2026-11-04",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":5,"name":"Pythagorean Triplet","slug":"pythagorean-triplet","tags":[],"uuid":"393d316c-f20a-4d86-859b-8bf0e920fb55"},
+  "resultPath": "data/silver/attempts/2026/11/04/203044Z-r07-pythagorean-triplet/result.json",
+  "schemaVersion": 1,
+  "score": 83,
+  "solutionPath": "data/silver/attempts/2026/11/04/203044Z-r07-pythagorean-triplet/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":2,"outputExcerpt":"\n1/7 test_pythagorean_triplet.test.triplets whose sum is 12...slices differ. first difference occurs at index 0 (0x0)\n\n============ expected this output: =============  len: 1 (0x1)\n\n[0]: .{ .a = 3, .b = 4, .c = 5 }\n\n============= instead found this: ==============  len: 0 (0x0)\n\n\n================================================\n\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ccaa300c-733d-484f-9a0b-8622a4b308b1/zig-x86_64-linux-0.16.0/lib/std/testing.zig:379:5: 0x1234dde in expectEqualSlices__anon_43062 (std.zig)\n    return error.TestExpectedEqual;\n    ^\n/tmp/zigsyphus-pythagorean-triplet-a02a3ba986ed2aad/test_pythagorean_triplet.zig:14:5: 0x123a59f in test.triplets whose sum is 12 (test_pythagorean_triplet.zig)\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n    ^\n2/7 test_pythagorean_triplet.test.triplets whose sum is 108...OK\n3/7 test_pythagorean_triplet.test.triplets whose sum is 1000...OK\n4/7 test_pythagorean_triplet.test.no matching triplets for 1001...OK\n5/7 test_pythagorean_triplet.test.returns all matching triplets...slices differ. first difference occurs at index 0 (0x0)\n\n============ expected this output: =============  len: 2 (0x2)\n\n[0]: .{ .a = 9, .b = 40, .c = 41 }\n[1]: .{ .a = 15, .b = 36, .c = 39 }\n\n============= instead found this: ==============  len: 1 (0x1)\n\n[0]: .{ .a = 15, .b = 36, .c = 39 }\n\n================================================\n\nFAIL (TestExpectedEqual)\n/home/runner/work/_temp/ccaa300c-733d-484f-9a0b-8622a4b308b1/zig-x86_64-linux-0.16.0/lib/std/testing.zig:379:5: 0x1234dde in expectEqualSlices__anon_43062 (std.zig)\n    return error.TestExpectedEqual;\n    ^\n/tmp/zigsyphus-pythagorean-triplet-a02a3ba986ed2aad/test_pythagorean_triplet.zig:49:5: 0x1239cb2 in test.returns all matching triplets (test_pythagorean_triplet.zig)\n    try testing.expectEqualSlices(Triplet, &expected, actual);\n    ^\n6/7 test_pythagorean_triplet.test.several matching triplets...OK\n7/7 test_pythagorean_triplet.test.triplets for large number...OK\n5 passed; 0 skipped; 2 failed.\nerror: the following test command failed with exit code 1:\n.zig-cache/o/dbed53c214fb9e40bbd5d85f44c2840e/test --seed=0x7293f421\n","passed":5,"returnCode":1,"skipped":0,"status":"fail","total":7},
+  "testedAt": "2026-11-04T20:41:19Z",
+  "zigVersion": "0.16.0"
+}
