@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-05-204708Z-r04-matrix",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"matrix","status":"pass"}},
+  "date": "2026-11-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Matrix","slug":"matrix","tags":[],"uuid":"fc517d08-fb7f-49ed-a474-ce78d3c5ac7d"},
+  "resultPath": "data/silver/attempts/2026/11/05/204708Z-r04-matrix/result.json",
+  "schemaVersion": 1,
+  "score": 0,
+  "solutionPath": "data/silver/attempts/2026/11/05/204708Z-r04-matrix/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":10,"outputExcerpt":"\ntest_matrix.zig:5:19: error: root source file struct 'matrix' has no member named 'row'\nconst row = matrix.row;\n            ~~~~~~^~~~\nmatrix.zig:1:1: note: struct declared here\n\n^\nreferenced by:\n    test.extract row from one number matrix: test_matrix.zig:11:24\ntest_matrix.zig:6:22: error: root source file struct 'matrix' has no member named 'column'\nconst column = matrix.column;\n               ~~~~~~^~~~~~~\nmatrix.zig:1:1: note: struct declared here\n\n^\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":10},
+  "testedAt": "2026-11-05T20:55:31Z",
+  "zigVersion": "0.16.0"
+}

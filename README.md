@@ -94,6 +94,14 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [204708Z-r07-matrix](data/silver/attempts/2026/11/05/204708Z-r07-matrix/solution.zig) |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r06-matrix](data/silver/attempts/2026/11/05/204708Z-r06-matrix/solution.zig) |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [204708Z-r05-matrix](data/silver/attempts/2026/11/05/204708Z-r05-matrix/solution.zig) |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r04-matrix](data/silver/attempts/2026/11/05/204708Z-r04-matrix/solution.zig) |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r03-matrix](data/silver/attempts/2026/11/05/204708Z-r03-matrix/solution.zig) |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r02-matrix](data/silver/attempts/2026/11/05/204708Z-r02-matrix/solution.zig) |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r01-matrix](data/silver/attempts/2026/11/05/204708Z-r01-matrix/solution.zig) |
+| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r00-matrix](data/silver/attempts/2026/11/05/204708Z-r00-matrix/solution.zig) |
 | 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | fail/compiled | 5/7 | 83 | [203044Z-r07-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r07-pythagorean-triplet/solution.zig) |
 | 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r06-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r06-pythagorean-triplet/solution.zig) |
 | 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r05-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r05-pythagorean-triplet/solution.zig) |
@@ -106,13 +114,5 @@ Required GitHub secret:
 | 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r05-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/solution.zig) |
 | 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r04-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/solution.zig) |
 | 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [201415Z-r03-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r03-atbash-cipher/solution.zig) |
-| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [201415Z-r02-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r02-atbash-cipher/solution.zig) |
-| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [201415Z-r01-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r01-atbash-cipher/solution.zig) |
-| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r00-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r00-atbash-cipher/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r07-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r07-spiral-matrix/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r06-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r06-spiral-matrix/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r05-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r05-spiral-matrix/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 10 | [222648Z-r04-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r04-spiral-matrix/solution.zig) |
-| 2026-11-02 | Spiral Matrix (`spiral-matrix`) | 5 | `openrouter/free` | compile_error/compile_error | 0/6 | 0 | [222648Z-r03-spiral-matrix](data/silver/attempts/2026/11/02/222648Z-r03-spiral-matrix/solution.zig) |
 
 <!-- zigsyphus-results:end -->

@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-05-204708Z-r07-matrix",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"matrix","status":"pass"}},
+  "date": "2026-11-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Matrix","slug":"matrix","tags":[],"uuid":"fc517d08-fb7f-49ed-a474-ce78d3c5ac7d"},
+  "resultPath": "data/silver/attempts/2026/11/05/204708Z-r07-matrix/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/11/05/204708Z-r07-matrix/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":10,"outputExcerpt":"\nmatrix.zig:20:34: error: struct 'array_list.Aligned(i16,null)' has no member named 'init'\n    var list = std.ArrayList(i16).init(allocator);\n               ~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/37794909-6d2a-4529-9380-225c0a195c9e/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\nreferenced by:\n    test.extract column from one number matrix: test_matrix.zig:43:30\nmatrix.zig:43:34: error: struct 'array_list.Aligned(i16,null)' has no member named 'init'\n    var list = std.ArrayList(i16).init(allocator);\n               ~~~~~~~~~~~~~~~~~~^~~~~\n/home/runner/work/_temp/37794909-6d2a-4529-9380-225c0a195c9e/zig-x86_64-linux-0.16.0/lib/std/array_list.zig:576:12: note: struct declared here\n    return struct {\n           ^~~~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":10},
+  "testedAt": "2026-11-05T20:59:37Z",
+  "zigVersion": "0.16.0"
+}

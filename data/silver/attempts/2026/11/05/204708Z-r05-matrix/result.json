@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-05-204708Z-r05-matrix",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"matrix","status":"pass"}},
+  "date": "2026-11-05",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Matrix","slug":"matrix","tags":[],"uuid":"fc517d08-fb7f-49ed-a474-ce78d3c5ac7d"},
+  "resultPath": "data/silver/attempts/2026/11/05/204708Z-r05-matrix/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/11/05/204708Z-r05-matrix/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":10,"outputExcerpt":"\nmatrix.zig:35:17: error: invalid left-hand side to assignment\n    for (s) |c| if (c == '\\n') row_count += 1;\n                ^~~~~~~~~~~~~~~~~~~~~~~~\nmatrix.zig:93:17: error: local variable is never mutated\n            var start = i;\n                ^~~~~\nmatrix.zig:93:17: note: consider using 'const'\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":10},
+  "testedAt": "2026-11-05T20:57:07Z",
+  "zigVersion": "0.16.0"
+}
