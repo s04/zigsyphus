@@ -1,20 +1,17 @@
 {
   "difficulty": {
-    "attemptId": "2026-11-05-204708Z-r07-matrix",
-    "currentDifficulty": 4,
-    "lastScore": 10,
-    "lastStatus": "compile_error",
-    "nextDifficulty": 3,
+    "attemptId": "2026-11-06-200220Z-r02-perfect-numbers",
+    "currentDifficulty": 3,
+    "lastScore": 100,
+    "lastStatus": "pass",
+    "nextDifficulty": 4,
     "schemaVersion": 1,
-    "updatedAt": "2026-11-05T20:59:37Z"
+    "updatedAt": "2026-11-06T20:03:18Z"
   },
-  "generatedAt": "2026-11-05T20:59:37Z",
-  "latest": {"attemptId":"2026-11-05-204708Z-r07-matrix","compileStatus":"compile_error","date":"2026-11-05","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/05/204708Z-r07-matrix/result.json","runAt":"2026-11-05T20:59:37Z","score":"10","slug":"matrix","solutionPath":"data/silver/attempts/2026/11/05/204708Z-r07-matrix/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
-  "nextDifficulty": 3,
+  "generatedAt": "2026-11-06T20:03:18Z",
+  "latest": {"attemptId":"2026-11-06-200220Z-r02-perfect-numbers","compileStatus":"compiled","date":"2026-11-06","difficulty":"3","mode":"live","model":"openrouter/free","name":"Perfect Numbers","passed":"12","resultPath":"data/silver/attempts/2026/11/06/200220Z-r02-perfect-numbers/result.json","runAt":"2026-11-06T20:03:18Z","score":"100","slug":"perfect-numbers","solutionPath":"data/silver/attempts/2026/11/06/200220Z-r02-perfect-numbers/solution.zig","status":"pass","total":"12","zigVersion":"0.16.0"},
+  "nextDifficulty": 4,
   "recentRuns": [
-    {"attemptId":"2026-11-03-201415Z-r03-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r03-atbash-cipher/result.json","runAt":"2026-11-03T20:18:41Z","score":"10","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r03-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-11-03-201415Z-r04-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/result.json","runAt":"2026-11-03T20:20:31Z","score":"0","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
-    {"attemptId":"2026-11-03-201415Z-r05-atbash-cipher","compileStatus":"compile_error","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"0","resultPath":"data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/result.json","runAt":"2026-11-03T20:22:06Z","score":"0","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/solution.zig","status":"compile_error","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-03-201415Z-r06-atbash-cipher","compileStatus":"compiled","date":"2026-11-03","difficulty":"4","mode":"live","model":"openrouter/free","name":"Atbash Cipher","passed":"14","resultPath":"data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/result.json","runAt":"2026-11-03T20:22:16Z","score":"100","slug":"atbash-cipher","solutionPath":"data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/solution.zig","status":"pass","total":"14","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-04-203044Z-r00-pythagorean-triplet","compileStatus":"compile_error","date":"2026-11-04","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/11/04/203044Z-r00-pythagorean-triplet/result.json","runAt":"2026-11-04T20:33:33Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/11/04/203044Z-r00-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-04-203044Z-r01-pythagorean-triplet","compileStatus":"compile_error","date":"2026-11-04","difficulty":"5","mode":"live","model":"openrouter/free","name":"Pythagorean Triplet","passed":"0","resultPath":"data/silver/attempts/2026/11/04/203044Z-r01-pythagorean-triplet/result.json","runAt":"2026-11-04T20:34:51Z","score":"10","slug":"pythagorean-triplet","solutionPath":"data/silver/attempts/2026/11/04/203044Z-r01-pythagorean-triplet/solution.zig","status":"compile_error","total":"7","zigVersion":"0.16.0"},
@@ -31,14 +28,14 @@
     {"attemptId":"2026-11-05-204708Z-r04-matrix","compileStatus":"compile_error","date":"2026-11-05","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/05/204708Z-r04-matrix/result.json","runAt":"2026-11-05T20:55:31Z","score":"0","slug":"matrix","solutionPath":"data/silver/attempts/2026/11/05/204708Z-r04-matrix/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-05-204708Z-r05-matrix","compileStatus":"compile_error","date":"2026-11-05","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/05/204708Z-r05-matrix/result.json","runAt":"2026-11-05T20:57:07Z","score":"10","slug":"matrix","solutionPath":"data/silver/attempts/2026/11/05/204708Z-r05-matrix/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
     {"attemptId":"2026-11-05-204708Z-r06-matrix","compileStatus":"compile_error","date":"2026-11-05","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/05/204708Z-r06-matrix/result.json","runAt":"2026-11-05T20:58:27Z","score":"0","slug":"matrix","solutionPath":"data/silver/attempts/2026/11/05/204708Z-r06-matrix/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
-    {"attemptId":"2026-11-05-204708Z-r07-matrix","compileStatus":"compile_error","date":"2026-11-05","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/05/204708Z-r07-matrix/result.json","runAt":"2026-11-05T20:59:37Z","score":"10","slug":"matrix","solutionPath":"data/silver/attempts/2026/11/05/204708Z-r07-matrix/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"}
+    {"attemptId":"2026-11-05-204708Z-r07-matrix","compileStatus":"compile_error","date":"2026-11-05","difficulty":"4","mode":"live","model":"openrouter/free","name":"Matrix","passed":"0","resultPath":"data/silver/attempts/2026/11/05/204708Z-r07-matrix/result.json","runAt":"2026-11-05T20:59:37Z","score":"10","slug":"matrix","solutionPath":"data/silver/attempts/2026/11/05/204708Z-r07-matrix/solution.zig","status":"compile_error","total":"10","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-06-200220Z-r00-perfect-numbers","compileStatus":"compile_error","date":"2026-11-06","difficulty":"3","mode":"live","model":"openrouter/free","name":"Perfect Numbers","passed":"0","resultPath":"data/silver/attempts/2026/11/06/200220Z-r00-perfect-numbers/result.json","runAt":"2026-11-06T20:02:47Z","score":"10","slug":"perfect-numbers","solutionPath":"data/silver/attempts/2026/11/06/200220Z-r00-perfect-numbers/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-06-200220Z-r01-perfect-numbers","compileStatus":"compile_error","date":"2026-11-06","difficulty":"3","mode":"live","model":"openrouter/free","name":"Perfect Numbers","passed":"0","resultPath":"data/silver/attempts/2026/11/06/200220Z-r01-perfect-numbers/result.json","runAt":"2026-11-06T20:03:02Z","score":"10","slug":"perfect-numbers","solutionPath":"data/silver/attempts/2026/11/06/200220Z-r01-perfect-numbers/solution.zig","status":"compile_error","total":"12","zigVersion":"0.16.0"},
+    {"attemptId":"2026-11-06-200220Z-r02-perfect-numbers","compileStatus":"compiled","date":"2026-11-06","difficulty":"3","mode":"live","model":"openrouter/free","name":"Perfect Numbers","passed":"12","resultPath":"data/silver/attempts/2026/11/06/200220Z-r02-perfect-numbers/result.json","runAt":"2026-11-06T20:03:18Z","score":"100","slug":"perfect-numbers","solutionPath":"data/silver/attempts/2026/11/06/200220Z-r02-perfect-numbers/solution.zig","status":"pass","total":"12","zigVersion":"0.16.0"}
   ],
-  "runCount": 549,
+  "runCount": 552,
   "schemaVersion": 1,
   "scores": [
-    {"attemptId": "2026-10-27-185224Z-r05-food-chain", "date": "2026-10-27", "score": 10, "slug": "food-chain"},
-    {"attemptId": "2026-10-27-185224Z-r06-food-chain", "date": "2026-10-27", "score": 10, "slug": "food-chain"},
-    {"attemptId": "2026-10-27-185224Z-r07-food-chain", "date": "2026-10-27", "score": 10, "slug": "food-chain"},
     {"attemptId": "2026-10-28-190146Z-r00-flatten-array", "date": "2026-10-28", "score": 10, "slug": "flatten-array"},
     {"attemptId": "2026-10-28-190146Z-r01-flatten-array", "date": "2026-10-28", "score": 10, "slug": "flatten-array"},
     {"attemptId": "2026-10-28-190146Z-r02-flatten-array", "date": "2026-10-28", "score": 10, "slug": "flatten-array"},
@@ -95,6 +92,9 @@
     {"attemptId": "2026-11-05-204708Z-r04-matrix", "date": "2026-11-05", "score": 0, "slug": "matrix"},
     {"attemptId": "2026-11-05-204708Z-r05-matrix", "date": "2026-11-05", "score": 10, "slug": "matrix"},
     {"attemptId": "2026-11-05-204708Z-r06-matrix", "date": "2026-11-05", "score": 0, "slug": "matrix"},
-    {"attemptId": "2026-11-05-204708Z-r07-matrix", "date": "2026-11-05", "score": 10, "slug": "matrix"}
+    {"attemptId": "2026-11-05-204708Z-r07-matrix", "date": "2026-11-05", "score": 10, "slug": "matrix"},
+    {"attemptId": "2026-11-06-200220Z-r00-perfect-numbers", "date": "2026-11-06", "score": 10, "slug": "perfect-numbers"},
+    {"attemptId": "2026-11-06-200220Z-r01-perfect-numbers", "date": "2026-11-06", "score": 10, "slug": "perfect-numbers"},
+    {"attemptId": "2026-11-06-200220Z-r02-perfect-numbers", "date": "2026-11-06", "score": 100, "slug": "perfect-numbers"}
   ]
 }

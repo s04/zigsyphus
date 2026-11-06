@@ -94,6 +94,9 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-06 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | pass/compiled | 12/12 | 100 | [200220Z-r02-perfect-numbers](data/silver/attempts/2026/11/06/200220Z-r02-perfect-numbers/solution.zig) |
+| 2026-11-06 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [200220Z-r01-perfect-numbers](data/silver/attempts/2026/11/06/200220Z-r01-perfect-numbers/solution.zig) |
+| 2026-11-06 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [200220Z-r00-perfect-numbers](data/silver/attempts/2026/11/06/200220Z-r00-perfect-numbers/solution.zig) |
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [204708Z-r07-matrix](data/silver/attempts/2026/11/05/204708Z-r07-matrix/solution.zig) |
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r06-matrix](data/silver/attempts/2026/11/05/204708Z-r06-matrix/solution.zig) |
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [204708Z-r05-matrix](data/silver/attempts/2026/11/05/204708Z-r05-matrix/solution.zig) |
@@ -111,8 +114,5 @@ Required GitHub secret:
 | 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r01-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r01-pythagorean-triplet/solution.zig) |
 | 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r00-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r00-pythagorean-triplet/solution.zig) |
 | 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | pass/compiled | 14/14 | 100 | [201415Z-r06-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/solution.zig) |
-| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r05-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r05-atbash-cipher/solution.zig) |
-| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 0 | [201415Z-r04-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r04-atbash-cipher/solution.zig) |
-| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [201415Z-r03-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r03-atbash-cipher/solution.zig) |
 
 <!-- zigsyphus-results:end -->

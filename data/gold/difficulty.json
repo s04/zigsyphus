@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-11-05-204708Z-r07-matrix",
-  "currentDifficulty": 4,
-  "lastScore": 10,
-  "lastStatus": "compile_error",
-  "nextDifficulty": 3,
+  "attemptId": "2026-11-06-200220Z-r02-perfect-numbers",
+  "currentDifficulty": 3,
+  "lastScore": 100,
+  "lastStatus": "pass",
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T20:59:37Z"
+  "updatedAt": "2026-11-06T20:03:18Z"
 }
