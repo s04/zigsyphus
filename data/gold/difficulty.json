@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-11-06-200220Z-r02-perfect-numbers",
-  "currentDifficulty": 3,
-  "lastScore": 100,
-  "lastStatus": "pass",
-  "nextDifficulty": 4,
+  "attemptId": "2026-11-07-181313Z-r06-pig-latin",
+  "currentDifficulty": 4,
+  "lastScore": 0,
+  "lastStatus": "compile_error",
+  "nextDifficulty": 3,
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T20:03:18Z"
+  "updatedAt": "2026-11-07T18:23:39Z"
 }

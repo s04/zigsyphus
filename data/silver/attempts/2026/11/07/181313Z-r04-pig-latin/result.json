@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-07-181313Z-r04-pig-latin",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"pig-latin","status":"pass"}},
+  "date": "2026-11-07",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Pig Latin","slug":"pig-latin","tags":[],"uuid":"52ff9f9b-0cf2-4c1d-ac92-f858dd846ce1"},
+  "resultPath": "data/silver/attempts/2026/11/07/181313Z-r04-pig-latin/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/11/07/181313Z-r04-pig-latin/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":23,"outputExcerpt":"\npig_latin.zig:10:8: error: expected '(', found 'an identifier'\n    if word.len > 0 and isVowel(word[0]) {\n       ^~~~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":23},
+  "testedAt": "2026-11-07T18:22:08Z",
+  "zigVersion": "0.16.0"
+}

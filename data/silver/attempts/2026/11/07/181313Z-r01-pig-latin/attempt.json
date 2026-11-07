@@ -1,0 +1,47 @@
+{
+  "attemptId": "2026-11-07-181313Z-r01-pig-latin",
+  "bank": {
+    "license": "MIT",
+    "name": "Exercism Zig",
+    "path": "arena/bank/exercism-zig",
+    "upstreamCommit": "8458a4f0b6d7073d4ee99af53a1883ea3c62aa98",
+    "upstreamUrl": "https://github.com/exercism/zig"
+  },
+  "generatedAt": "2026-11-07T18:13:13Z",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":4,"name":"Pig Latin","slug":"pig-latin","tags":[],"uuid":"52ff9f9b-0cf2-4c1d-ac92-f858dd846ce1"},
+  "promptHash": "63cc608af679f188",
+  "repairFrom": "data/silver/attempts/2026/11/07/181313Z-r00-pig-latin/result.json",
+  "roundIndex": 1,
+  "schemaVersion": 1,
+  "solutionPath": "data/silver/attempts/2026/11/07/181313Z-r01-pig-latin/solution.zig",
+  "writer": {
+    "extracted": false,
+    "responseId": "gen-1794075298-Y0Vq2WiHmjQDhxq19p2y",
+    "routedModel": "recursive/flint-v1.0:free",
+    "usage": {
+  "prompt_tokens": 4540,
+  "completion_tokens": 12000,
+  "total_tokens": 16540,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+  },
+  "cost_details": {
+    "upstream_inference_cost": 0,
+    "upstream_inference_prompt_cost": 0,
+    "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+    "reasoning_tokens": 11016,
+    "image_tokens": 0,
+    "audio_tokens": 0
+  }
+}
+  }
+}
