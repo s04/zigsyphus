@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-11-07-181313Z-r06-pig-latin",
-  "currentDifficulty": 4,
-  "lastScore": 0,
+  "attemptId": "2026-11-09-230643Z-r02-queen-attack",
+  "currentDifficulty": 3,
+  "lastScore": 10,
   "lastStatus": "compile_error",
-  "nextDifficulty": 3,
+  "nextDifficulty": 2,
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:23:39Z"
+  "updatedAt": "2026-11-09T23:08:59Z"
 }

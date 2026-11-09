@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-09-230643Z-r02-queen-attack",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"queen-attack","status":"pass"}},
+  "date": "2026-11-09",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":3,"name":"Queen Attack","slug":"queen-attack","tags":["control-flow","error-sets","importing","methods","structs"],"uuid":"6eb542c3-c14f-430a-81ce-ba9f2c0551c2"},
+  "resultPath": "data/silver/attempts/2026/11/09/230643Z-r02-queen-attack/result.json",
+  "schemaVersion": 1,
+  "score": 10,
+  "solutionPath": "data/silver/attempts/2026/11/09/230643Z-r02-queen-attack/solution.zig",
+  "test": {"compileStatus":"compile_error","durationSeconds":0.000,"failed":14,"outputExcerpt":"\nqueen_attack.zig:20:36: error: expected block or assignment, found 'or'\n        if (self.row == other.row) or (self.col == other.col) or (@abs(self.row - other.row) == @abs(self.col - other.col)) {\n                                   ^~\n","passed":0,"returnCode":1,"skipped":0,"status":"compile_error","total":14},
+  "testedAt": "2026-11-09T23:08:59Z",
+  "zigVersion": "0.16.0"
+}
