@@ -94,6 +94,17 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-12 | High Scores (`high-scores`) | 2 | `openrouter/free` | pass/compiled | 8/8 | 100 | [210128Z-r00-high-scores](data/silver/attempts/2026/11/12/210128Z-r00-high-scores/solution.zig) |
+| 2026-11-09 | Queen Attack (`queen-attack`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [230643Z-r02-queen-attack](data/silver/attempts/2026/11/09/230643Z-r02-queen-attack/solution.zig) |
+| 2026-11-09 | Queen Attack (`queen-attack`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [230643Z-r01-queen-attack](data/silver/attempts/2026/11/09/230643Z-r01-queen-attack/solution.zig) |
+| 2026-11-09 | Queen Attack (`queen-attack`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [230643Z-r00-queen-attack](data/silver/attempts/2026/11/09/230643Z-r00-queen-attack/solution.zig) |
+| 2026-11-07 | Pig Latin (`pig-latin`) | 4 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [181313Z-r06-pig-latin](data/silver/attempts/2026/11/07/181313Z-r06-pig-latin/solution.zig) |
+| 2026-11-07 | Pig Latin (`pig-latin`) | 4 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [181313Z-r05-pig-latin](data/silver/attempts/2026/11/07/181313Z-r05-pig-latin/solution.zig) |
+| 2026-11-07 | Pig Latin (`pig-latin`) | 4 | `openrouter/free` | compile_error/compile_error | 0/23 | 10 | [181313Z-r04-pig-latin](data/silver/attempts/2026/11/07/181313Z-r04-pig-latin/solution.zig) |
+| 2026-11-07 | Pig Latin (`pig-latin`) | 4 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [181313Z-r03-pig-latin](data/silver/attempts/2026/11/07/181313Z-r03-pig-latin/solution.zig) |
+| 2026-11-07 | Pig Latin (`pig-latin`) | 4 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [181313Z-r02-pig-latin](data/silver/attempts/2026/11/07/181313Z-r02-pig-latin/solution.zig) |
+| 2026-11-07 | Pig Latin (`pig-latin`) | 4 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [181313Z-r01-pig-latin](data/silver/attempts/2026/11/07/181313Z-r01-pig-latin/solution.zig) |
+| 2026-11-07 | Pig Latin (`pig-latin`) | 4 | `openrouter/free` | compile_error/compile_error | 0/23 | 0 | [181313Z-r00-pig-latin](data/silver/attempts/2026/11/07/181313Z-r00-pig-latin/solution.zig) |
 | 2026-11-06 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | pass/compiled | 12/12 | 100 | [200220Z-r02-perfect-numbers](data/silver/attempts/2026/11/06/200220Z-r02-perfect-numbers/solution.zig) |
 | 2026-11-06 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [200220Z-r01-perfect-numbers](data/silver/attempts/2026/11/06/200220Z-r01-perfect-numbers/solution.zig) |
 | 2026-11-06 | Perfect Numbers (`perfect-numbers`) | 3 | `openrouter/free` | compile_error/compile_error | 0/12 | 10 | [200220Z-r00-perfect-numbers](data/silver/attempts/2026/11/06/200220Z-r00-perfect-numbers/solution.zig) |
@@ -103,16 +114,5 @@ Required GitHub secret:
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r04-matrix](data/silver/attempts/2026/11/05/204708Z-r04-matrix/solution.zig) |
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r03-matrix](data/silver/attempts/2026/11/05/204708Z-r03-matrix/solution.zig) |
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r02-matrix](data/silver/attempts/2026/11/05/204708Z-r02-matrix/solution.zig) |
-| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r01-matrix](data/silver/attempts/2026/11/05/204708Z-r01-matrix/solution.zig) |
-| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r00-matrix](data/silver/attempts/2026/11/05/204708Z-r00-matrix/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | fail/compiled | 5/7 | 83 | [203044Z-r07-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r07-pythagorean-triplet/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r06-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r06-pythagorean-triplet/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r05-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r05-pythagorean-triplet/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 0 | [203044Z-r04-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r04-pythagorean-triplet/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 0 | [203044Z-r03-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r03-pythagorean-triplet/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r02-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r02-pythagorean-triplet/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r01-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r01-pythagorean-triplet/solution.zig) |
-| 2026-11-04 | Pythagorean Triplet (`pythagorean-triplet`) | 5 | `openrouter/free` | compile_error/compile_error | 0/7 | 10 | [203044Z-r00-pythagorean-triplet](data/silver/attempts/2026/11/04/203044Z-r00-pythagorean-triplet/solution.zig) |
-| 2026-11-03 | Atbash Cipher (`atbash-cipher`) | 4 | `openrouter/free` | pass/compiled | 14/14 | 100 | [201415Z-r06-atbash-cipher](data/silver/attempts/2026/11/03/201415Z-r06-atbash-cipher/solution.zig) |
 
 <!-- zigsyphus-results:end -->

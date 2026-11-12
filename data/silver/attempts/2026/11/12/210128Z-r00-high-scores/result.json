@@ -1,0 +1,15 @@
+{
+  "attemptId": "2026-11-12-210128Z-r00-high-scores",
+  "controls": {"badFixture":{"expected":"fail","ok":true,"problem":"leap","status":"fail"},"goodFixture":{"expected":"pass","ok":true,"problem":"high-scores","status":"pass"}},
+  "date": "2026-11-12",
+  "mode": "live",
+  "model": "openrouter/free",
+  "problem": {"difficulty":2,"name":"High Scores","slug":"high-scores","tags":[],"uuid":"a47ba7b5-ba54-4e84-b2a1-4e50cdcfa0a3"},
+  "resultPath": "data/silver/attempts/2026/11/12/210128Z-r00-high-scores/result.json",
+  "schemaVersion": 1,
+  "score": 100,
+  "solutionPath": "data/silver/attempts/2026/11/12/210128Z-r00-high-scores/solution.zig",
+  "test": {"compileStatus":"compiled","durationSeconds":0.000,"failed":0,"outputExcerpt":"\n1/8 test_high_scores.test.Latest score...OK\n2/8 test_high_scores.test.Personal best...OK\n3/8 test_high_scores.test.Top 3 scores-Personal top three from a list of scores...OK\n4/8 test_high_scores.test.Top 3 scores-Personal top highest to lowest...OK\n5/8 test_high_scores.test.Top 3 scores-Personal top when there is a tie...OK\n6/8 test_high_scores.test.Top 3 scores-Personal top when there are less than 3...OK\n7/8 test_high_scores.test.Top 3 scores-Personal top when there is only one...OK\n8/8 test_high_scores.test.Latest score can be outside top three...OK\nAll 8 tests passed.\n","passed":8,"returnCode":0,"skipped":0,"status":"pass","total":8},
+  "testedAt": "2026-11-12T21:01:41Z",
+  "zigVersion": "0.16.0"
+}
