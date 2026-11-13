@@ -1,9 +1,9 @@
 {
-  "attemptId": "2026-11-12-210128Z-r00-high-scores",
-  "currentDifficulty": 2,
+  "attemptId": "2026-11-13-203719Z-r00-sieve",
+  "currentDifficulty": 3,
   "lastScore": 100,
   "lastStatus": "pass",
-  "nextDifficulty": 3,
+  "nextDifficulty": 4,
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T21:01:41Z"
+  "updatedAt": "2026-11-13T20:38:06Z"
 }
