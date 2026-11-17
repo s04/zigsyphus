@@ -94,6 +94,7 @@ Required GitHub secret:
 
 | Date | Exercise | Difficulty | Model | Status | Passed | Score | Attempt |
 | --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| 2026-11-17 | State of Tic-Tac-Toe (`state-of-tic-tac-toe`) | 4 | `openrouter/free` | pass/compiled | 27/27 | 100 | [215211Z-r00-state-of-tic-tac-toe](data/silver/attempts/2026/11/17/215211Z-r00-state-of-tic-tac-toe/solution.zig) |
 | 2026-11-13 | Sieve (`sieve`) | 3 | `openrouter/free` | pass/compiled | 5/5 | 100 | [203719Z-r00-sieve](data/silver/attempts/2026/11/13/203719Z-r00-sieve/solution.zig) |
 | 2026-11-12 | High Scores (`high-scores`) | 2 | `openrouter/free` | pass/compiled | 8/8 | 100 | [210128Z-r00-high-scores](data/silver/attempts/2026/11/12/210128Z-r00-high-scores/solution.zig) |
 | 2026-11-09 | Queen Attack (`queen-attack`) | 3 | `openrouter/free` | compile_error/compile_error | 0/14 | 10 | [230643Z-r02-queen-attack](data/silver/attempts/2026/11/09/230643Z-r02-queen-attack/solution.zig) |
@@ -113,6 +114,5 @@ Required GitHub secret:
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r06-matrix](data/silver/attempts/2026/11/05/204708Z-r06-matrix/solution.zig) |
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 10 | [204708Z-r05-matrix](data/silver/attempts/2026/11/05/204708Z-r05-matrix/solution.zig) |
 | 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r04-matrix](data/silver/attempts/2026/11/05/204708Z-r04-matrix/solution.zig) |
-| 2026-11-05 | Matrix (`matrix`) | 4 | `openrouter/free` | compile_error/compile_error | 0/10 | 0 | [204708Z-r03-matrix](data/silver/attempts/2026/11/05/204708Z-r03-matrix/solution.zig) |
 
 <!-- zigsyphus-results:end -->
